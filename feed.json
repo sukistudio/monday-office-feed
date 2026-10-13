@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:54:24+07:00",
+ "updatedAt": "2026-10-13T23:55:01+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "brief-7c · รับงาน",
-   "since": "2026-10-13T23:54:28+07:00"
+   "since": "2026-10-13T23:55:05+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:54:28+07:00"
+   "since": "2026-10-13T23:55:05+07:00"
   },
   {
    "id": "111-ripple",
@@ -26,13 +26,13 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:54:28+07:00"
+   "since": "2026-10-13T23:55:05+07:00"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-13T23:54:28+07:00"
+   "task": "brief-7c · ตรวจผ่าน",
+   "since": "2026-10-13T23:54:38+07:00"
   },
   {
    "id": "12-beam",
@@ -72,13 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:39:34+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-12T22:39:42+07:00",
    "kind": "done",
@@ -1501,6 +1494,13 @@
    "to": "",
    "brief": "",
    "title": "PR #7 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-13T23:54:27+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-7c"
   }
  ]
 }
