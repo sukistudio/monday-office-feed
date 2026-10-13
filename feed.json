@@ -1,21 +1,21 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:10:19+07:00",
- "pending": 10,
+ "updatedAt": "2026-10-14T02:12:05+07:00",
+ "pending": 8,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:10:12+07:00",
+   "since": "2026-10-14T02:12:10+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-12 · แจกงาน",
-   "since": "2026-10-14T02:10:19+07:00",
+   "since": "2026-10-14T02:12:10+07:00",
    "model": "fable"
   },
   {
@@ -29,14 +29,14 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-12 · รับงาน",
-   "since": "2026-10-14T02:10:24+07:00",
+   "since": "2026-10-14T02:12:09+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T02:10:24+07:00",
+   "task": "brief-10d · ตรวจผ่าน",
+   "since": "2026-10-14T02:12:09+07:00",
    "model": "sonnet"
   },
   {
@@ -62,9 +62,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "brief-9f · ส่งงาน DONE",
-   "since": "2026-10-14T01:50:40+07:00",
+   "since": "2026-10-14T02:11:10+07:00",
    "model": "fable"
   },
   {
@@ -83,16 +83,16 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T01:54:30+07:00",
+   "since": "2026-10-14T02:11:12+07:00",
    "model": "fable"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T01:35:13+07:00",
+   "since": "2026-10-14T02:11:11+07:00",
    "model": "sonnet"
   },
   {
@@ -104,21 +104,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T01:56:15+07:00",
+   "since": "2026-10-14T02:11:12+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:53:40+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #6 แดชบอร์ด · MERGED"
-  },
   {
    "ts": "2026-10-13T00:53:41+07:00",
    "kind": "done",
@@ -1541,6 +1533,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:12:02+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-10d"
   }
  ]
 }
