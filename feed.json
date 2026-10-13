@@ -1,32 +1,32 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:48:22+07:00",
+ "updatedAt": "2026-10-13T23:48:58+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "brief-7c · รับงาน",
-   "since": "2026-10-13T23:48:09+07:00"
+   "since": "2026-10-13T23:49:01+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:48:06+07:00"
+   "since": "2026-10-13T23:49:03+07:00"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-7c · ส่งงาน DONE",
-   "since": "2026-10-13T23:48:09+07:00"
+   "since": "2026-10-13T23:48:32+07:00"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:48:26+07:00"
+   "since": "2026-10-13T23:49:03+07:00"
   },
   {
    "id": "113-shore",
@@ -60,25 +60,18 @@
   },
   {
    "id": "131-ledger",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-13T23:46:27+07:00"
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
    "since": "2026-10-13T23:46:40+07:00"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:35:46+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-9"
-  },
   {
    "ts": "2026-10-12T22:36:05+07:00",
    "kind": "ack",
@@ -1500,6 +1493,14 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:48:43+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 ออฟฟิศ 3D · เปิด PR"
   }
  ]
 }
