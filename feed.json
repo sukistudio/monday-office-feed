@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:56:15+07:00",
+ "updatedAt": "2026-10-13T23:56:52+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
-   "task": "brief-7c · รับงาน",
-   "since": "2026-10-13T23:56:19+07:00"
+   "task": "ส่งงาน DONE",
+   "since": "2026-10-13T23:56:41+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:56:19+07:00"
+   "task": "brief-11 · รับงาน",
+   "since": "2026-10-13T23:56:56+07:00"
   },
   {
    "id": "111-ripple",
@@ -32,13 +32,13 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ส่ง PROGRESS",
-   "since": "2026-10-13T23:56:15+07:00"
+   "since": "2026-10-13T23:56:30+07:00"
   },
   {
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-13T23:56:19+07:00"
+   "since": "2026-10-13T23:56:56+07:00"
   },
   {
    "id": "121-glow",
@@ -72,27 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:45:51+07:00",
-   "kind": "progress",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9"
-  },
-  {
-   "ts": "2026-10-12T22:46:28+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-12T22:46:53+07:00",
-   "kind": "done",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9"
-  },
   {
    "ts": "2026-10-12T22:46:57+07:00",
    "kind": "ack",
@@ -1501,6 +1480,27 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": "brief-7c"
+  },
+  {
+   "ts": "2026-10-13T23:56:15+07:00",
+   "kind": "done",
+   "from": "10-monday",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-13T23:56:24+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:56:40+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-11"
   }
  ]
 }
