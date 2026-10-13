@@ -1,44 +1,44 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:55:38+07:00",
+ "updatedAt": "2026-10-13T23:56:15+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "brief-7c · รับงาน",
-   "since": "2026-10-13T23:55:42+07:00"
+   "since": "2026-10-13T23:56:19+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-7c · ส่งงาน DONE",
-   "since": "2026-10-13T23:55:42+07:00"
+   "task": "brief-10c · รับงาน",
+   "since": "2026-10-13T23:56:19+07:00"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-7c · ส่งงาน DONE",
-   "since": "2026-10-13T23:55:42+07:00"
+   "since": "2026-10-13T23:55:59+07:00"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:55:35+07:00"
+   "since": "2026-10-13T23:56:02+07:00"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-7c · ตรวจผ่าน",
-   "since": "2026-10-13T23:55:42+07:00"
+   "task": "brief-10c · ส่ง PROGRESS",
+   "since": "2026-10-13T23:56:15+07:00"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-13T23:43:58+07:00"
+   "since": "2026-10-13T23:56:19+07:00"
   },
   {
    "id": "121-glow",
@@ -72,27 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:41:48+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-12T22:41:52+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9"
-  },
-  {
-   "ts": "2026-10-12T22:43:43+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-12T22:45:51+07:00",
    "kind": "progress",
@@ -1500,6 +1479,27 @@
    "kind": "done",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": "brief-7c"
+  },
+  {
+   "ts": "2026-10-13T23:55:58+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:56:09+07:00",
+   "kind": "progress",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:56:11+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": "brief-7c"
   }
  ]
