@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T03:08:26+07:00",
+ "updatedAt": "2026-10-14T03:10:50+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -43,9 +43,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-14T03:07:52+07:00",
+   "since": "2026-10-14T03:09:04+07:00",
    "model": "fable"
   },
   {
@@ -57,9 +57,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T03:06:42+07:00",
+   "since": "2026-10-14T03:09:39+07:00",
    "model": "sonnet"
   },
   {
