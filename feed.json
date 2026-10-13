@@ -1,24 +1,24 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:49:35+07:00",
+ "updatedAt": "2026-10-13T23:50:47+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "brief-7c · รับงาน",
-   "since": "2026-10-13T23:49:40+07:00"
+   "since": "2026-10-13T23:50:00+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:49:26+07:00"
+   "since": "2026-10-13T23:50:51+07:00"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-7c · ส่งงาน DONE",
    "since": "2026-10-13T23:48:32+07:00"
   },
@@ -26,13 +26,13 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:49:25+07:00"
+   "since": "2026-10-13T23:50:52+07:00"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-10c · ส่ง PROGRESS",
-   "since": "2026-10-13T23:49:40+07:00"
+   "task": "brief-10c · ตรวจผ่าน",
+   "since": "2026-10-13T23:50:52+07:00"
   },
   {
    "id": "12-beam",
@@ -72,21 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:37:58+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-9"
-  },
-  {
-   "ts": "2026-10-12T22:38:19+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #3 แดชบอร์ด · MERGED"
-  },
   {
    "ts": "2026-10-12T22:39:34+07:00",
    "kind": "qa-pass",
@@ -1501,6 +1486,21 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:50:15+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:50:28+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 ออฟฟิศ 3D · MERGED"
   }
  ]
 }
