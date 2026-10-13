@@ -1,137 +1,118 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:45:34+07:00",
+ "updatedAt": "2026-10-14T02:46:27+07:00",
  "pending": 6,
+ "pendingNow": 1,
+ "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · รับงาน",
-   "since": "2026-10-14T02:44:57+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-12 · รับงาน",
-   "since": "2026-10-14T02:30:36+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-11 · ส่ง PROGRESS",
-   "since": "2026-10-14T02:32:21+07:00",
+   "task": "brief-11 · ส่งงาน DONE",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "idle",
    "task": "brief-12 · ติด รอช่วย",
-   "since": "2026-10-14T02:34:11+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-12 · ตรวจผ่าน",
-   "since": "2026-10-14T02:36:41+07:00",
+   "since": "2026-10-14T02:46:27+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:38:25+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:43:09+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:43:09+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
   {
    "id": "13-harbor",
    "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "fable"
   },
   {
    "id": "131-ledger",
    "status": "idle",
    "task": "",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
   {
    "id": "133-lantern",
    "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
   {
    "id": "14-horizon",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:43:09+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "fable"
   },
   {
    "id": "141-scout",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
   {
    "id": "142-chart",
    "status": "offline",
    "task": "",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "unknown"
   },
   {
    "id": "143-sextant",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:29:58+07:00",
+   "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:14:33+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-10"
-  },
-  {
-   "ts": "2026-10-13T01:15:49+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-13T01:17:07+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T01:17:12+07:00",
    "kind": "done",
@@ -1541,6 +1522,28 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:45:56+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #13 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-14T02:46:17+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "brief-11"
+  },
+  {
+   "ts": "2026-10-14T02:46:21+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-11"
   }
  ]
 }
