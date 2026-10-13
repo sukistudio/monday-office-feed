@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:40:27+07:00",
+ "updatedAt": "2026-10-14T01:42:49+07:00",
  "pending": 8,
  "members": [
   {
@@ -13,9 +13,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-10 · ส่งงาน DONE",
-   "since": "2026-10-14T01:28:35+07:00",
+   "since": "2026-10-14T01:40:54+07:00",
    "model": "fable"
   },
   {
@@ -34,7 +34,7 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-10c · ตรวจผ่าน",
    "since": "2026-10-14T01:37:33+07:00",
    "model": "sonnet"
@@ -83,7 +83,7 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-14T01:37:33+07:00",
    "model": "fable"
