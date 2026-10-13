@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:39:16+07:00",
+ "updatedAt": "2026-10-13T23:42:12+07:00",
  "pending": 7,
  "members": [
   {
@@ -14,7 +14,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:39:17+07:00"
+   "since": "2026-10-13T23:40:54+07:00"
   },
   {
    "id": "111-ripple",
@@ -26,13 +26,13 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:39:21+07:00"
+   "since": "2026-10-13T23:40:32+07:00"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-13T23:39:20+07:00"
+   "since": "2026-10-13T23:42:16+07:00"
   },
   {
    "id": "12-beam",
@@ -54,9 +54,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "brief-9f · ส่งงาน DONE",
-   "since": "2026-10-13T23:14:35+07:00"
+   "since": "2026-10-13T23:42:16+07:00"
   },
   {
    "id": "131-ledger",
