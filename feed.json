@@ -1,21 +1,21 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:54:38+07:00",
+ "updatedAt": "2026-10-14T01:56:24+07:00",
  "pending": 8,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T01:54:42+07:00",
+   "since": "2026-10-14T01:56:29+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-10 · ส่งงาน DONE",
-   "since": "2026-10-14T01:54:34+07:00",
+   "task": "brief-10d · แจกงาน",
+   "since": "2026-10-14T01:56:29+07:00",
    "model": "fable"
   },
   {
@@ -29,14 +29,14 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T01:53:17+07:00",
+   "since": "2026-10-14T01:56:29+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T01:53:18+07:00",
+   "since": "2026-10-14T01:56:27+07:00",
    "model": "sonnet"
   },
   {
@@ -62,7 +62,7 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
    "since": "2026-10-14T01:50:40+07:00",
    "model": "fable"
@@ -104,21 +104,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T01:30:04+07:00",
+   "since": "2026-10-14T01:56:15+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:51:37+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #6 แดชบอร์ด · เปิด PR"
-  },
   {
    "ts": "2026-10-13T00:51:40+07:00",
    "kind": "ack",
@@ -1541,6 +1533,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T01:56:16+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-10d"
   }
  ]
 }
