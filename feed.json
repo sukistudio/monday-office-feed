@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:15:52+07:00",
+ "updatedAt": "2026-10-14T02:16:30+07:00",
  "pending": 7,
  "members": [
   {
@@ -13,9 +13,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-10d · ส่ง PROGRESS",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:16:30+07:00",
    "model": "fable"
   },
   {
@@ -28,7 +28,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-12 · รับงาน",
+   "task": "brief-10d · ส่งงาน DONE",
    "since": "2026-10-14T02:13:29+07:00",
    "model": "opus"
   },
@@ -111,13 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:55:23+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-7b"
-  },
   {
    "ts": "2026-10-13T00:55:40+07:00",
    "kind": "merged",
@@ -1540,6 +1533,13 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-10d"
+  },
+  {
+   "ts": "2026-10-14T02:16:01+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": "brief-10d"
   }
  ]
