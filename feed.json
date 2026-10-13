@@ -1,23 +1,23 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:58:43+07:00",
+ "updatedAt": "2026-10-14T02:59:56+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:58:05+07:00",
+   "since": "2026-10-14T02:59:56+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่งงาน DONE",
-   "since": "2026-10-14T02:45:42+07:00",
+   "since": "2026-10-14T02:59:56+07:00",
    "model": "fable"
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่งงาน DONE",
-   "since": "2026-10-14T02:56:13+07:00",
+   "since": "2026-10-14T02:59:56+07:00",
    "model": "opus"
   },
   {
@@ -65,7 +65,7 @@
   {
    "id": "13-harbor",
    "status": "idle",
-   "task": "brief-9f · ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-14T02:56:13+07:00",
    "model": "fable"
   },
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-14T02:54:56+07:00",
    "model": "fable"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T02:25:59+07:00",
-   "kind": "done",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9f"
-  },
   {
    "ts": "2026-10-13T20:12:45+07:00",
    "kind": "ack",
@@ -1543,6 +1536,13 @@
    "to": "",
    "brief": "",
    "title": "PR #15 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-14T02:59:50+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ]
 }
