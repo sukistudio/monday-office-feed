@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:22:39+07:00",
+ "updatedAt": "2026-10-14T02:23:17+07:00",
  "pending": 6,
  "members": [
   {
@@ -84,7 +84,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-10-14T02:22:39+07:00",
    "model": "fable"
   },
@@ -111,14 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:00:24+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 แดชบอร์ด · เปิด PR"
-  },
   {
    "ts": "2026-10-13T01:00:40+07:00",
    "kind": "done",
@@ -1541,6 +1533,13 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": "brief-11"
+  },
+  {
+   "ts": "2026-10-14T02:23:10+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ]
 }
