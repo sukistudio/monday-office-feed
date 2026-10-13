@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:51:19+07:00",
+ "updatedAt": "2026-10-14T02:53:05+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · รับงาน",
-   "since": "2026-10-14T02:50:05+07:00",
+   "since": "2026-10-14T02:51:56+07:00",
    "model": "fable"
   },
   {
@@ -22,9 +22,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-11 · ส่งงาน DONE",
-   "since": "2026-10-14T02:47:38+07:00",
+   "since": "2026-10-14T02:52:31+07:00",
    "model": "opus"
   },
   {
@@ -36,16 +36,16 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · ตรวจผ่าน",
-   "since": "2026-10-14T02:48:15+07:00",
+   "since": "2026-10-14T02:51:56+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:51:19+07:00",
+   "since": "2026-10-14T02:53:05+07:00",
    "model": "fable"
   },
   {
@@ -57,9 +57,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:50:05+07:00",
+   "since": "2026-10-14T02:53:05+07:00",
    "model": "sonnet"
   },
   {
@@ -106,28 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:48:50+07:00",
+   "since": "2026-10-14T02:51:56+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:26:29+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #1 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-13T01:29:26+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-10"
-  },
   {
    "ts": "2026-10-13T01:30:18+07:00",
    "kind": "done",
@@ -1543,6 +1528,20 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:52:45+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:52:49+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
   }
  ]
 }
