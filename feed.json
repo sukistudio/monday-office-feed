@@ -1,30 +1,30 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:16:06+07:00",
+ "updatedAt": "2026-10-14T00:16:44+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T00:16:02+07:00"
+   "since": "2026-10-14T00:16:34+07:00"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-10 · ส่งงาน DONE",
-   "since": "2026-10-14T00:16:11+07:00"
+   "task": "brief-8c · รับงาน",
+   "since": "2026-10-14T00:16:49+07:00"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-11 · รับงาน",
-   "since": "2026-10-14T00:16:11+07:00"
+   "since": "2026-10-14T00:16:49+07:00"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-10c · รับงาน",
    "since": "2026-10-14T00:14:28+07:00"
   },
@@ -32,13 +32,13 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T00:16:11+07:00"
+   "since": "2026-10-14T00:16:49+07:00"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่งงาน DONE",
-   "since": "2026-10-14T00:16:11+07:00"
+   "task": "รับงาน",
+   "since": "2026-10-14T00:16:44+07:00"
   },
   {
    "id": "121-glow",
@@ -54,38 +54,24 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
    "since": "2026-10-14T00:14:34+07:00"
   },
   {
    "id": "131-ledger",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-13T23:46:27+07:00"
+   "since": "2026-10-14T00:16:27+07:00"
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-13T23:46:40+07:00"
+   "since": "2026-10-14T00:16:41+07:00"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:05:59+07:00",
-   "kind": "ack",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-9e"
-  },
-  {
-   "ts": "2026-10-13T00:06:01+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9d"
-  },
   {
    "ts": "2026-10-13T00:09:13+07:00",
    "kind": "qa-pass",
@@ -1500,6 +1486,20 @@
    "to": "",
    "brief": "",
    "title": "PR #8 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-14T00:16:24+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-8c"
+  },
+  {
+   "ts": "2026-10-14T00:16:33+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
   }
  ]
 }
