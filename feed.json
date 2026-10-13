@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:00:27+07:00",
+ "updatedAt": "2026-10-14T00:01:04+07:00",
  "pending": 7,
  "members": [
   {
@@ -18,7 +18,7 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · รับงาน",
    "since": "2026-10-13T23:58:59+07:00"
   },
@@ -38,19 +38,19 @@
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-13T23:59:38+07:00"
+   "since": "2026-10-14T00:01:09+07:00"
   },
   {
    "id": "121-glow",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T00:00:31+07:00"
+   "since": "2026-10-14T00:00:53+07:00"
   },
   {
    "id": "123-pulse",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-13T23:58:53+07:00"
+   "since": "2026-10-14T00:01:09+07:00"
   },
   {
    "id": "13-harbor",
@@ -72,20 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T23:51:10+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-9d"
-  },
-  {
-   "ts": "2026-10-12T23:51:17+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "brief-9d"
-  },
   {
    "ts": "2026-10-12T23:51:43+07:00",
    "kind": "ack",
@@ -1499,6 +1485,20 @@
    "ts": "2026-10-13T23:58:46+07:00",
    "kind": "progress",
    "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T00:00:35+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T00:00:39+07:00",
+   "kind": "progress",
+   "from": "121-glow",
    "to": "12-beam",
    "brief": ""
   }
