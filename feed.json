@@ -1,12 +1,12 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:01:04+07:00",
+ "updatedAt": "2026-10-14T00:01:42+07:00",
  "pending": 7,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-13T23:59:16+07:00"
   },
@@ -38,7 +38,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T00:01:09+07:00"
+   "since": "2026-10-14T00:01:45+07:00"
   },
   {
    "id": "121-glow",
@@ -50,7 +50,7 @@
    "id": "123-pulse",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T00:01:09+07:00"
+   "since": "2026-10-14T00:01:46+07:00"
   },
   {
    "id": "13-harbor",
