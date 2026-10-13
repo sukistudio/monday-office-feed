@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:04:13+07:00",
+ "updatedAt": "2026-10-14T00:05:24+07:00",
  "pending": 7,
  "members": [
   {
@@ -14,7 +14,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-10 · ส่งงาน DONE",
-   "since": "2026-10-14T00:04:17+07:00"
+   "since": "2026-10-14T00:04:31+07:00"
   },
   {
    "id": "111-ripple",
@@ -26,7 +26,7 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-14T00:04:17+07:00"
+   "since": "2026-10-14T00:05:28+07:00"
   },
   {
    "id": "113-shore",
@@ -38,19 +38,19 @@
    "id": "12-beam",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T00:04:17+07:00"
+   "since": "2026-10-14T00:05:28+07:00"
   },
   {
    "id": "121-glow",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T00:04:17+07:00"
+   "since": "2026-10-14T00:05:22+07:00"
   },
   {
    "id": "123-pulse",
    "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T00:04:13+07:00"
+   "since": "2026-10-14T00:05:24+07:00"
   },
   {
    "id": "13-harbor",
@@ -72,13 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:00:05+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T00:03:31+07:00",
    "kind": "ack",
@@ -1498,6 +1491,13 @@
    "kind": "ack",
    "from": "10-monday",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T00:05:13+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "121-glow",
    "brief": ""
   }
  ]
