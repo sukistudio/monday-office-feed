@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:35:06+07:00",
+ "updatedAt": "2026-10-13T23:37:27+07:00",
  "pending": 7,
  "members": [
   {
@@ -14,7 +14,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:35:04+07:00"
+   "since": "2026-10-13T23:37:31+07:00"
   },
   {
    "id": "111-ripple",
@@ -26,11 +26,11 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:35:11+07:00"
+   "since": "2026-10-13T23:37:31+07:00"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-10c · ตรวจผ่าน",
    "since": "2026-10-13T23:35:07+07:00"
   },
@@ -72,13 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:29:23+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
   {
    "ts": "2026-10-12T22:30:25+07:00",
    "kind": "progress",
@@ -1499,6 +1492,14 @@
    "to": "",
    "brief": "",
    "title": "PR #5 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-13T23:37:20+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #6 ออฟฟิศ 3D · เปิด PR"
   }
  ]
 }
