@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:56:50+07:00",
+ "updatedAt": "2026-10-14T02:57:27+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "working",
-   "task": "brief-11 · รับงาน",
+   "task": "รับงาน",
    "since": "2026-10-14T02:53:44+07:00",
    "model": "fable"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T02:14:54+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "brief-9f"
-  },
   {
    "ts": "2026-10-13T02:14:58+07:00",
    "kind": "done",
@@ -1541,6 +1534,13 @@
    "to": "",
    "brief": "",
    "title": "PR #15 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-14T02:57:25+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "12-beam",
+   "brief": ""
   }
  ]
 }
