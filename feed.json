@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:28:09+07:00",
+ "updatedAt": "2026-10-14T00:30:30+07:00",
  "pending": 7,
  "members": [
   {
@@ -15,28 +15,28 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:28:12+07:00",
+   "since": "2026-10-14T00:30:34+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:28:13+07:00",
+   "since": "2026-10-14T00:30:34+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:27:22+07:00",
+   "since": "2026-10-14T00:30:34+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-8c · ตรวจผ่าน",
-   "since": "2026-10-14T00:28:13+07:00",
+   "since": "2026-10-14T00:30:29+07:00",
    "model": "sonnet"
   },
   {
@@ -83,13 +83,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:26:01+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9e"
-  },
   {
    "ts": "2026-10-13T00:26:02+07:00",
    "kind": "ack",
@@ -1509,6 +1502,13 @@
   },
   {
    "ts": "2026-10-14T00:27:52+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-8c"
+  },
+  {
+   "ts": "2026-10-14T00:30:21+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
