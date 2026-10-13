@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:26:56+07:00",
+ "updatedAt": "2026-10-14T00:28:09+07:00",
  "pending": 7,
  "members": [
   {
@@ -15,28 +15,28 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:27:01+07:00",
+   "since": "2026-10-14T00:28:12+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:27:01+07:00",
+   "since": "2026-10-14T00:28:13+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:27:01+07:00",
+   "since": "2026-10-14T00:27:22+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-8c · ตรวจผ่าน",
-   "since": "2026-10-14T00:27:01+07:00",
+   "since": "2026-10-14T00:28:13+07:00",
    "model": "sonnet"
   },
   {
@@ -83,13 +83,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:21:05+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T00:26:01+07:00",
    "kind": "ack",
@@ -1513,6 +1506,13 @@
    "to": "",
    "brief": "",
    "title": "PR #5 ผังทีม · MERGED"
+  },
+  {
+   "ts": "2026-10-14T00:27:52+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-8c"
   }
  ]
 }
