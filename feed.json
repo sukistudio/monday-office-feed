@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:19:51+07:00",
+ "updatedAt": "2026-10-14T00:22:12+07:00",
  "pending": 7,
  "members": [
   {
@@ -15,47 +15,47 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:19:55+07:00",
+   "since": "2026-10-14T00:21:28+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:19:55+07:00",
+   "since": "2026-10-14T00:22:16+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:19:55+07:00",
+   "since": "2026-10-14T00:22:16+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T00:18:27+07:00",
+   "since": "2026-10-14T00:21:57+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
    "since": "2026-10-14T00:16:44+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-14T00:15:31+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
    "since": "2026-10-14T00:15:58+07:00",
    "model": "sonnet"
@@ -69,14 +69,14 @@
   },
   {
    "id": "131-ledger",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-14T00:16:27+07:00",
    "model": "sonnet"
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
    "since": "2026-10-14T00:16:41+07:00",
    "model": "sonnet"
