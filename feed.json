@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T06:09:35+07:00",
+ "updatedAt": "2026-10-14T06:11:56+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -92,9 +92,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T06:09:35+07:00",
+   "since": "2026-10-14T06:10:46+07:00",
    "model": "sonnet"
   },
   {
@@ -108,7 +108,7 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T06:09:35+07:00",
+   "since": "2026-10-14T06:11:56+07:00",
    "model": "sonnet"
   }
  ],
