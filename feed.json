@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:30:58+07:00",
+ "updatedAt": "2026-10-14T01:33:20+07:00",
  "pending": 8,
  "members": [
   {
@@ -27,9 +27,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T01:17:32+07:00",
+   "since": "2026-10-14T01:33:24+07:00",
    "model": "opus"
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T01:13:58+07:00",
+   "since": "2026-10-14T01:31:43+07:00",
    "model": "fable"
   },
   {
