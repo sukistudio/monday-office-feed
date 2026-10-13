@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:58:05+07:00",
+ "updatedAt": "2026-10-14T02:58:43+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -22,9 +22,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:55:34+07:00",
+   "since": "2026-10-14T02:58:43+07:00",
    "model": "opus"
   },
   {
@@ -43,9 +43,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T02:53:05+07:00",
+   "since": "2026-10-14T02:58:43+07:00",
    "model": "fable"
   },
   {
@@ -79,7 +79,7 @@
   {
    "id": "133-lantern",
    "status": "idle",
-   "task": "ตรวจผ่าน",
+   "task": "",
    "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
@@ -106,20 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:56:13+07:00",
+   "since": "2026-10-14T02:58:43+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T02:25:43+07:00",
-   "kind": "qa-pass",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T02:25:59+07:00",
    "kind": "done",
@@ -1542,6 +1535,14 @@
    "from": "111-ripple",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:58:27+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #15 ออฟฟิศ 3D · MERGED"
   }
  ]
 }
