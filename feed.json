@@ -1,21 +1,21 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:04:55+07:00",
- "pending": 8,
+ "updatedAt": "2026-10-14T02:07:52+07:00",
+ "pending": 10,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:04:59+07:00",
+   "since": "2026-10-14T02:07:57+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-10d · แจกงาน",
-   "since": "2026-10-14T02:04:59+07:00",
+   "since": "2026-10-14T02:07:36+07:00",
    "model": "fable"
   },
   {
@@ -36,7 +36,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T02:04:59+07:00",
+   "since": "2026-10-14T02:07:57+07:00",
    "model": "sonnet"
   },
   {
