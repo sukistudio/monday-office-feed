@@ -1,21 +1,21 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:12:42+07:00",
+ "updatedAt": "2026-10-14T02:13:19+07:00",
  "pending": 2,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:12:46+07:00",
+   "since": "2026-10-14T02:13:11+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-12 · แจกงาน",
-   "since": "2026-10-14T02:12:46+07:00",
+   "task": "brief-10d · ส่ง PROGRESS",
+   "since": "2026-10-14T02:13:15+07:00",
    "model": "fable"
   },
   {
@@ -29,14 +29,14 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-12 · รับงาน",
-   "since": "2026-10-14T02:12:46+07:00",
+   "since": "2026-10-14T02:13:23+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10d · ตรวจผ่าน",
-   "since": "2026-10-14T02:12:09+07:00",
+   "since": "2026-10-14T02:12:56+07:00",
    "model": "sonnet"
   },
   {
@@ -111,20 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:54:08+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-9e-2"
-  },
-  {
-   "ts": "2026-10-13T00:54:17+07:00",
-   "kind": "done",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": "brief-9e-2"
-  },
   {
    "ts": "2026-10-13T00:55:23+07:00",
    "kind": "qa-pass",
@@ -1541,6 +1527,20 @@
    "to": "",
    "brief": "",
    "title": "PR #10 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-14T02:12:55+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-10d"
+  },
+  {
+   "ts": "2026-10-14T02:13:00+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-10d"
   }
  ]
 }
