@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:55:34+07:00",
+ "updatedAt": "2026-10-14T02:56:13+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -29,16 +29,16 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-12 · ส่งงาน DONE",
-   "since": "2026-10-14T02:55:34+07:00",
+   "since": "2026-10-14T02:56:13+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ตรวจผ่าน",
-   "since": "2026-10-14T02:54:18+07:00",
+   "since": "2026-10-14T02:56:13+07:00",
    "model": "sonnet"
   },
   {
@@ -51,22 +51,22 @@
   {
    "id": "121-glow",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-14T02:45:42+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T02:53:05+07:00",
+   "since": "2026-10-14T02:56:13+07:00",
    "model": "sonnet"
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
-   "since": "2026-10-14T02:54:56+07:00",
+   "since": "2026-10-14T02:56:13+07:00",
    "model": "fable"
   },
   {
@@ -106,43 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:51:56+07:00",
+   "since": "2026-10-14T02:56:13+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T02:10:58+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 แดชบอร์ด · เปิด PR"
-  },
-  {
-   "ts": "2026-10-13T02:11:14+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-9f"
-  },
-  {
-   "ts": "2026-10-13T02:14:11+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-9f"
-  },
-  {
-   "ts": "2026-10-13T02:14:28+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 แดชบอร์ด · MERGED"
-  },
   {
    "ts": "2026-10-13T02:14:44+07:00",
    "kind": "done",
@@ -1541,6 +1511,35 @@
    "from": "123-pulse",
    "to": "121-glow",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:55:35+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:55:36+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:55:43+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:55:53+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #14 ออฟฟิศ 3D · MERGED"
   }
  ]
 }
