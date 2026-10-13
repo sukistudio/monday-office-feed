@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:20:49+07:00",
- "pending": 7,
+ "updatedAt": "2026-10-14T02:21:26+07:00",
+ "pending": 6,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T02:20:49+07:00",
+   "since": "2026-10-14T02:21:26+07:00",
    "model": "fable"
   },
   {
@@ -27,9 +27,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่ง PROGRESS",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:21:26+07:00",
    "model": "opus"
   },
   {
