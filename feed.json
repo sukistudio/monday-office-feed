@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:05:01+07:00",
+ "updatedAt": "2026-10-14T01:07:22+07:00",
  "pending": 8,
  "members": [
   {
@@ -104,7 +104,7 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-14T01:00:05+07:00",
    "model": "sonnet"
