@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:24:34+07:00",
+ "updatedAt": "2026-10-14T00:26:56+07:00",
  "pending": 7,
  "members": [
   {
@@ -15,28 +15,28 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:24:39+07:00",
+   "since": "2026-10-14T00:27:01+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:24:39+07:00",
+   "since": "2026-10-14T00:27:01+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:24:39+07:00",
+   "since": "2026-10-14T00:27:01+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T00:24:39+07:00",
+   "task": "brief-8c · ตรวจผ่าน",
+   "since": "2026-10-14T00:27:01+07:00",
    "model": "sonnet"
   },
   {
@@ -83,27 +83,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:19:27+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "brief-9e"
-  },
-  {
-   "ts": "2026-10-13T00:19:51+07:00",
-   "kind": "done",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": "brief-9e"
-  },
-  {
-   "ts": "2026-10-13T00:19:55+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "brief-9e"
-  },
   {
    "ts": "2026-10-13T00:21:05+07:00",
    "kind": "qa-pass",
@@ -1511,6 +1490,29 @@
    "to": "",
    "brief": "",
    "title": "PR #5 ผังทีม · เปิด PR"
+  },
+  {
+   "ts": "2026-10-14T00:26:45+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-8c"
+  },
+  {
+   "ts": "2026-10-14T00:26:55+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-14T00:26:58+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #5 ผังทีม · MERGED"
   }
  ]
 }
