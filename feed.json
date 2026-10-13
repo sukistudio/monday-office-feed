@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:44:01+07:00",
+ "updatedAt": "2026-10-13T23:44:38+07:00",
  "pending": 7,
  "members": [
   {
@@ -14,7 +14,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:44:05+07:00"
+   "since": "2026-10-13T23:44:42+07:00"
   },
   {
    "id": "111-ripple",
@@ -24,15 +24,15 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:40:32+07:00"
+   "since": "2026-10-13T23:44:42+07:00"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ส่ง PROGRESS",
-   "since": "2026-10-13T23:44:05+07:00"
+   "since": "2026-10-13T23:44:35+07:00"
   },
   {
    "id": "12-beam",
@@ -56,7 +56,7 @@
    "id": "13-harbor",
    "status": "working",
    "task": "brief-9f · ส่งงาน DONE",
-   "since": "2026-10-13T23:43:41+07:00"
+   "since": "2026-10-13T23:44:34+07:00"
   },
   {
    "id": "131-ledger",
@@ -72,28 +72,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-12T22:33:58+07:00",
-   "kind": "done",
-   "from": "131-ledger",
-   "to": "13-harbor",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-12T22:35:30+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #3 แดชบอร์ด · เปิด PR"
-  },
-  {
-   "ts": "2026-10-12T22:35:42+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": "brief-9"
-  },
   {
    "ts": "2026-10-12T22:35:46+07:00",
    "kind": "done",
@@ -1499,6 +1477,27 @@
    "ts": "2026-10-13T23:43:27+07:00",
    "kind": "progress",
    "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:44:23+07:00",
+   "kind": "stuck",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:44:27+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-13T23:44:31+07:00",
+   "kind": "ack",
+   "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-10c"
   }
