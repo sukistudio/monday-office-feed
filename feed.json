@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:19:10+07:00",
+ "updatedAt": "2026-10-14T01:21:32+07:00",
  "pending": 8,
  "members": [
   {
@@ -20,7 +20,7 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · ส่งงาน DONE",
    "since": "2026-10-14T01:14:48+07:00",
    "model": "opus"
@@ -34,7 +34,7 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-10c · ตรวจผ่าน",
    "since": "2026-10-14T01:15:17+07:00",
    "model": "sonnet"
@@ -50,26 +50,26 @@
    "id": "121-glow",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T01:15:31+07:00",
+   "since": "2026-10-14T01:20:46+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
    "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T01:15:58+07:00",
+   "since": "2026-10-14T01:20:24+07:00",
    "model": "sonnet"
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
    "since": "2026-10-14T01:14:34+07:00",
    "model": "fable"
   },
   {
    "id": "131-ledger",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-10-14T01:16:26+07:00",
    "model": "sonnet"
