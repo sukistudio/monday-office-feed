@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:32:00+07:00",
+ "updatedAt": "2026-10-13T23:32:38+07:00",
  "pending": 7,
  "members": [
   {
@@ -26,11 +26,11 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:32:05+07:00"
+   "since": "2026-10-13T23:32:43+07:00"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-10c · ตรวจผ่าน",
    "since": "2026-10-13T23:30:32+07:00"
   },
