@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:48:50+07:00",
+ "updatedAt": "2026-10-14T02:49:27+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่ง PROGRESS",
-   "since": "2026-10-14T02:48:15+07:00",
+   "since": "2026-10-14T02:49:27+07:00",
    "model": "opus"
   },
   {
@@ -58,7 +58,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-14T02:45:42+07:00",
    "model": "sonnet"
   },
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:18:40+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #1 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-13T01:18:55+07:00",
    "kind": "done",
@@ -1544,6 +1536,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:49:13+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
   }
  ]
 }
