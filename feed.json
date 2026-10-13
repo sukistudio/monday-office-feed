@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-13T23:45:14+07:00",
+ "updatedAt": "2026-10-13T23:45:51+07:00",
  "pending": 7,
  "members": [
   {
@@ -26,7 +26,7 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10c · รับงาน",
-   "since": "2026-10-13T23:45:19+07:00"
+   "since": "2026-10-13T23:45:56+07:00"
   },
   {
    "id": "113-shore",
@@ -42,9 +42,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-13T23:17:11+07:00"
+   "since": "2026-10-13T23:45:30+07:00"
   },
   {
    "id": "123-pulse",
