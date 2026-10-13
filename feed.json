@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:27:34+07:00",
+ "updatedAt": "2026-10-14T02:28:12+07:00",
  "pending": 6,
  "members": [
   {
@@ -27,9 +27,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่ง PROGRESS",
-   "since": "2026-10-14T02:26:19+07:00",
+   "since": "2026-10-14T02:28:12+07:00",
    "model": "opus"
   },
   {
@@ -70,7 +70,7 @@
   {
    "id": "131-ledger",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-14T02:13:29+07:00",
    "model": "sonnet"
   },
@@ -111,13 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:05:56+07:00",
-   "kind": "done",
-   "from": "131-ledger",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T01:06:44+07:00",
    "kind": "ack",
@@ -1539,6 +1532,13 @@
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
+   "brief": "brief-10e"
+  },
+  {
+   "ts": "2026-10-14T02:27:42+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": "brief-10e"
   }
  ]
