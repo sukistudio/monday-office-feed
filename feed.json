@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:31:45+07:00",
+ "updatedAt": "2026-10-14T00:32:56+07:00",
  "pending": 7,
  "members": [
   {
@@ -15,7 +15,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:31:49+07:00",
+   "since": "2026-10-14T00:33:00+07:00",
    "model": "fable"
   },
   {
@@ -36,7 +36,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-8c · ตรวจผ่าน",
-   "since": "2026-10-14T00:31:49+07:00",
+   "since": "2026-10-14T00:33:00+07:00",
    "model": "sonnet"
   },
   {
@@ -83,20 +83,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:28:15+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-13T00:28:57+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-13T00:29:05+07:00",
    "kind": "ack",
@@ -1513,6 +1499,21 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-11"
+  },
+  {
+   "ts": "2026-10-14T00:32:44+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-8c"
+  },
+  {
+   "ts": "2026-10-14T00:32:59+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 ออฟฟิศ 3D · MERGED"
   }
  ]
 }
