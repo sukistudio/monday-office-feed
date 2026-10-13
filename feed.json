@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:26:57+07:00",
+ "updatedAt": "2026-10-14T02:27:34+07:00",
  "pending": 6,
  "members": [
   {
@@ -21,7 +21,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-10e · ส่ง PROGRESS",
+   "task": "brief-10e · ส่งงาน DONE",
    "since": "2026-10-14T02:20:49+07:00",
    "model": "opus"
   },
@@ -34,9 +34,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-12 · ตรวจผ่าน",
-   "since": "2026-10-14T02:26:19+07:00",
+   "since": "2026-10-14T02:27:34+07:00",
    "model": "sonnet"
   },
   {
@@ -104,35 +104,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:13:29+07:00",
+   "since": "2026-10-14T02:27:34+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:05:10+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #19 คลิปแผนที่ · เปิด PR"
-  },
-  {
-   "ts": "2026-10-13T01:05:20+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": "brief-7b"
-  },
-  {
-   "ts": "2026-10-13T01:05:24+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-7b"
-  },
   {
    "ts": "2026-10-13T01:05:56+07:00",
    "kind": "done",
@@ -1540,6 +1518,28 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:26:59+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:27:23+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #12 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-14T02:27:33+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "brief-10e"
   }
  ]
 }
