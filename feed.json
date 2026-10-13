@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T02:54:56+07:00",
+ "updatedAt": "2026-10-14T02:55:34+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -22,22 +22,22 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-11 · ส่งงาน DONE",
-   "since": "2026-10-14T02:54:56+07:00",
+   "since": "2026-10-14T02:55:34+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-12 · ส่งงาน DONE",
-   "since": "2026-10-14T02:54:18+07:00",
+   "since": "2026-10-14T02:55:34+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-11 · ตรวจผ่าน",
+   "task": "brief-12 · ตรวจผ่าน",
    "since": "2026-10-14T02:54:18+07:00",
    "model": "sonnet"
   },
@@ -113,27 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T02:04:06+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-10"
-  },
-  {
-   "ts": "2026-10-13T02:04:26+07:00",
-   "kind": "ack",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-9f"
-  },
-  {
-   "ts": "2026-10-13T02:04:35+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "brief-10"
-  },
   {
    "ts": "2026-10-13T02:10:58+07:00",
    "kind": "pr-open",
@@ -1537,6 +1516,27 @@
   },
   {
    "ts": "2026-10-14T02:54:52+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:54:56+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:55:12+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:55:30+07:00",
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "121-glow",
