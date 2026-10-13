@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:38:25+07:00",
+ "updatedAt": "2026-10-14T02:40:47+07:00",
  "pending": 6,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "brief-11 · รับงาน",
-   "since": "2026-10-14T02:37:15+07:00",
+   "since": "2026-10-14T02:40:12+07:00",
    "model": "fable"
   },
   {
@@ -111,14 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:09:17+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #19 คลิปแผนที่ · MERGED"
-  },
   {
    "ts": "2026-10-13T01:09:50+07:00",
    "kind": "done",
@@ -1542,6 +1534,13 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:40:17+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-11"
   }
  ]
 }
