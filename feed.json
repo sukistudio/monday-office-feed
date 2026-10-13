@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:44:57+07:00",
+ "updatedAt": "2026-10-14T02:45:34+07:00",
  "pending": 6,
  "members": [
   {
@@ -42,7 +42,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-14T02:38:25+07:00",
    "model": "fable"
   },
@@ -111,13 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:14:13+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-10"
-  },
   {
    "ts": "2026-10-13T01:14:33+07:00",
    "kind": "progress",
@@ -1540,6 +1533,13 @@
    "kind": "progress",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T02:45:16+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
    "brief": ""
   }
  ]
