@@ -1,26 +1,26 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:57:02+07:00",
+ "updatedAt": "2026-10-14T01:59:24+07:00",
  "pending": 8,
  "members": [
   {
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T01:57:07+07:00",
+   "since": "2026-10-14T01:57:54+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-10d · แจกงาน",
-   "since": "2026-10-14T01:57:07+07:00",
+   "since": "2026-10-14T01:59:39+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-11 · ส่งงาน DONE",
    "since": "2026-10-14T01:53:09+07:00",
    "model": "opus"
@@ -29,14 +29,14 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-10d · รับงาน",
-   "since": "2026-10-14T01:57:07+07:00",
+   "since": "2026-10-14T01:59:25+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-10c · ตรวจผ่าน",
-   "since": "2026-10-14T01:56:52+07:00",
+   "since": "2026-10-14T01:59:39+07:00",
    "model": "sonnet"
   },
   {
@@ -112,6 +112,34 @@
  ],
  "events": [
   {
+   "ts": "2026-10-13T00:50:56+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-9e-2"
+  },
+  {
+   "ts": "2026-10-13T00:51:00+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-9e-2"
+  },
+  {
+   "ts": "2026-10-13T00:51:04+07:00",
+   "kind": "ack",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-9e-2"
+  },
+  {
+   "ts": "2026-10-13T00:51:40+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-7b"
+  },
+  {
    "ts": "2026-10-13T00:51:43+07:00",
    "kind": "ack",
    "from": "111-ripple",
@@ -131,14 +159,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-9e-2"
-  },
-  {
-   "ts": "2026-10-13T00:53:40+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #6 แดชบอร์ด · MERGED"
   },
   {
    "ts": "2026-10-13T00:53:41+07:00",
@@ -240,14 +260,6 @@
    "brief": "brief-7b"
   },
   {
-   "ts": "2026-10-13T01:00:24+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 แดชบอร์ด · เปิด PR"
-  },
-  {
    "ts": "2026-10-13T01:00:40+07:00",
    "kind": "done",
    "from": "112-swell",
@@ -260,14 +272,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-9e-3"
-  },
-  {
-   "ts": "2026-10-13T01:02:18+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 แดชบอร์ด · MERGED"
   },
   {
    "ts": "2026-10-13T01:02:47+07:00",
@@ -563,14 +567,6 @@
    "brief": "brief-10"
   },
   {
-   "ts": "2026-10-13T02:10:58+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 แดชบอร์ด · เปิด PR"
-  },
-  {
    "ts": "2026-10-13T02:11:14+07:00",
    "kind": "done",
    "from": "112-swell",
@@ -583,14 +579,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-9f"
-  },
-  {
-   "ts": "2026-10-13T02:14:28+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 แดชบอร์ด · MERGED"
   },
   {
    "ts": "2026-10-13T02:14:44+07:00",
@@ -1540,6 +1528,14 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-10d"
+  },
+  {
+   "ts": "2026-10-14T01:58:59+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #10 ออฟฟิศ 3D · เปิด PR"
   }
  ]
 }
