@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T03:04:47+07:00",
+ "updatedAt": "2026-10-14T03:05:24+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -44,7 +44,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "รับงาน",
    "since": "2026-10-14T03:03:35+07:00",
    "model": "fable"
   },
@@ -106,20 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T02:58:43+07:00",
+   "since": "2026-10-14T03:05:24+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T20:22:54+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-10c"
-  },
   {
    "ts": "2026-10-13T20:36:12+07:00",
    "kind": "progress",
@@ -1543,6 +1536,13 @@
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T03:05:13+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ]
