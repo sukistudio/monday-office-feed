@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T02:26:19+07:00",
+ "updatedAt": "2026-10-14T02:26:57+07:00",
  "pending": 6,
  "members": [
   {
@@ -14,7 +14,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-10e · รับงาน",
+   "task": "brief-12 · รับงาน",
    "since": "2026-10-14T02:25:05+07:00",
    "model": "fable"
   },
@@ -111,20 +111,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T01:02:47+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-9e-3"
-  },
-  {
-   "ts": "2026-10-13T01:02:57+07:00",
-   "kind": "done",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": "brief-9e-3"
-  },
   {
    "ts": "2026-10-13T01:05:10+07:00",
    "kind": "pr-open",
@@ -1540,6 +1526,20 @@
    "to": "",
    "brief": "",
    "title": "PR #11 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-14T02:26:25+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-12"
+  },
+  {
+   "ts": "2026-10-14T02:26:29+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-12"
   }
  ]
 }
