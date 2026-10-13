@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T00:19:14+07:00",
+ "updatedAt": "2026-10-14T00:19:51+07:00",
  "pending": 7,
  "members": [
   {
@@ -14,22 +14,22 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-10c · รับงาน",
-   "since": "2026-10-14T00:18:32+07:00",
+   "task": "brief-8c · รับงาน",
+   "since": "2026-10-14T00:19:55+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:19:19+07:00",
+   "since": "2026-10-14T00:19:55+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
    "task": "brief-8c · รับงาน",
-   "since": "2026-10-14T00:19:19+07:00",
+   "since": "2026-10-14T00:19:55+07:00",
    "model": "opus"
   },
   {
@@ -62,7 +62,7 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9f · ส่งงาน DONE",
    "since": "2026-10-14T00:14:34+07:00",
    "model": "fable"
@@ -83,14 +83,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T00:17:59+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #5 แดชบอร์ด · MERGED"
-  },
   {
    "ts": "2026-10-13T00:19:19+07:00",
    "kind": "done",
@@ -1511,6 +1503,13 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": "brief-10c"
+  },
+  {
+   "ts": "2026-10-14T00:19:50+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-8c"
   }
  ]
 }
