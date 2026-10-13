@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "source": "live",
- "updatedAt": "2026-10-14T01:11:30+07:00",
+ "updatedAt": "2026-10-14T01:14:27+07:00",
  "pending": 8,
  "members": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-14T00:43:58+07:00",
+   "since": "2026-10-14T01:13:58+07:00",
    "model": "fable"
   },
   {
