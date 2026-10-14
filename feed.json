@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T14:49:10+07:00",
+ "updatedAt": "2026-10-14T14:51:34+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-10-14T14:37:57+07:00",
    "model": "fable"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:55:58+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-10c"
-  },
   {
    "ts": "2026-10-13T23:56:09+07:00",
    "kind": "progress",
@@ -1533,6 +1526,13 @@
    "kind": "progress",
    "from": "141-scout",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T14:51:03+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "141-scout",
    "brief": ""
   }
  ]
