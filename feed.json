@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T14:59:30+07:00",
+ "updatedAt": "2026-10-14T15:01:50+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -52,7 +52,7 @@
    "id": "121-glow",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T14:57:10+07:00",
+   "since": "2026-10-14T15:01:16+07:00",
    "model": "opus"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:57:46+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-11"
-  },
   {
    "ts": "2026-10-13T23:57:52+07:00",
    "kind": "ack",
@@ -1534,6 +1527,14 @@
    "from": "12-beam",
    "to": "123-pulse",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T15:01:42+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 แกลเลอรี · เปิด PR"
   }
  ]
 }
