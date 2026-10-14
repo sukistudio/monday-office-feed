@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:59:41+07:00",
+ "updatedAt": "2026-10-14T16:02:06+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-14 · รับงาน",
-   "since": "2026-10-14T15:59:41+07:00",
+   "since": "2026-10-14T16:01:30+07:00",
    "model": "fable"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T15:09:05+07:00",
+   "since": "2026-10-14T16:00:55+07:00",
    "model": "fable"
   },
   {
