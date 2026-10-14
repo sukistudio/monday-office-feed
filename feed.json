@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T06:03:05+07:00",
+ "updatedAt": "2026-10-15T06:05:26+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -87,14 +87,14 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T22:04:46+07:00",
+   "since": "2026-10-15T06:05:26+07:00",
    "model": "fable"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-15T06:03:05+07:00",
+   "since": "2026-10-15T06:04:51+07:00",
    "model": "sonnet"
   },
   {
@@ -106,9 +106,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T16:13:57+07:00",
+   "since": "2026-10-15T06:03:42+07:00",
    "model": "sonnet"
   }
  ],
