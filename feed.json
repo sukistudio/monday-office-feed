@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:54:23+07:00",
+ "updatedAt": "2026-10-14T15:57:20+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "idle",
    "task": "brief-14 · รับงาน",
-   "since": "2026-10-14T15:53:49+07:00",
+   "since": "2026-10-14T15:56:10+07:00",
    "model": "fable"
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-14 · ส่งงาน DONE",
-   "since": "2026-10-14T15:54:23+07:00",
+   "since": "2026-10-14T15:57:20+07:00",
    "model": "opus"
   },
   {
