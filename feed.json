@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:02:28+07:00",
+ "updatedAt": "2026-10-14T15:03:05+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-14 · ส่งงาน DONE",
-   "since": "2026-10-14T14:54:39+07:00",
+   "since": "2026-10-14T15:03:05+07:00",
    "model": "opus"
   },
   {
@@ -106,20 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T11:30:56+07:00",
+   "since": "2026-10-14T15:03:05+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:58:46+07:00",
-   "kind": "progress",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:00:35+07:00",
    "kind": "done",
@@ -1535,6 +1528,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-14"
+  },
+  {
+   "ts": "2026-10-14T15:02:52+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ]
 }
