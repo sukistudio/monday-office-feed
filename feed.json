@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T10:00:04+07:00",
+ "updatedAt": "2026-10-14T10:02:25+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -29,16 +29,16 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-13 · ส่ง PROGRESS",
-   "since": "2026-10-14T10:00:04+07:00",
+   "since": "2026-10-14T10:01:16+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-13 · ตรวจผ่าน",
-   "since": "2026-10-14T10:00:04+07:00",
+   "since": "2026-10-14T10:01:16+07:00",
    "model": "sonnet"
   },
   {
