@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T09:20:43+07:00",
+ "updatedAt": "2026-10-14T09:21:20+07:00",
  "pending": 8,
  "pendingNow": 3,
  "pendingLater": 5,
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T22:50:16+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-7c"
-  },
   {
    "ts": "2026-10-13T22:51:13+07:00",
    "kind": "brief",
@@ -1541,6 +1534,13 @@
    "kind": "done",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T09:20:47+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ]
