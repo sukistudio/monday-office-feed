@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T09:33:14+07:00",
+ "updatedAt": "2026-10-14T09:33:51+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
-   "task": "รับงาน",
-   "since": "2026-10-14T09:30:51+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-14T09:33:51+07:00",
    "model": "fable"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T09:27:53+07:00",
+   "since": "2026-10-14T09:33:51+07:00",
    "model": "sonnet"
   },
   {
@@ -113,21 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T22:54:21+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #20 คลิปแผนที่ · เปิด PR"
-  },
-  {
-   "ts": "2026-10-13T22:56:54+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-7c"
-  },
   {
    "ts": "2026-10-13T22:57:19+07:00",
    "kind": "merged",
@@ -1543,6 +1528,20 @@
    "kind": "stuck",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T09:33:15+07:00",
+   "kind": "stuck",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T09:33:48+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   }
  ]
