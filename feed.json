@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T11:09:47+07:00",
+ "updatedAt": "2026-10-14T11:12:43+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -106,21 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T10:52:42+07:00",
+   "since": "2026-10-14T11:12:43+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:50:28+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-13T23:54:27+07:00",
    "kind": "qa-pass",
@@ -1531,6 +1523,13 @@
   },
   {
    "ts": "2026-10-14T10:48:18+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T11:12:36+07:00",
    "kind": "progress",
    "from": "14-horizon",
    "to": "10-monday",
