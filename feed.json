@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:10:51+07:00",
+ "updatedAt": "2026-10-14T15:12:38+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-14 · แจกงาน",
-   "since": "2026-10-14T15:09:42+07:00",
+   "since": "2026-10-14T15:12:38+07:00",
    "model": "fable"
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-14 · ส่งงาน DONE",
-   "since": "2026-10-14T15:08:28+07:00",
+   "since": "2026-10-14T15:11:29+07:00",
    "model": "opus"
   },
   {
@@ -113,20 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:05:13+07:00",
-   "kind": "qa-pass",
-   "from": "123-pulse",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T00:05:48+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:05:55+07:00",
    "kind": "done",
@@ -1535,6 +1521,21 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-14"
+  },
+  {
+   "ts": "2026-10-14T15:12:12+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-14"
+  },
+  {
+   "ts": "2026-10-14T15:12:25+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 แกลเลอรี · MERGED"
   }
  ]
 }
