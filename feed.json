@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T09:51:09+07:00",
+ "updatedAt": "2026-10-14T09:52:55+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T09:49:24+07:00",
+   "since": "2026-10-14T09:52:55+07:00",
    "model": "fable"
   },
   {
@@ -29,16 +29,16 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-13 · ส่ง PROGRESS",
-   "since": "2026-10-14T09:40:59+07:00",
+   "since": "2026-10-14T09:52:21+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T09:47:36+07:00",
+   "since": "2026-10-14T09:52:21+07:00",
    "model": "sonnet"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:38:42+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-10c"
-  },
   {
    "ts": "2026-10-13T23:38:55+07:00",
    "kind": "merged",
@@ -1537,6 +1530,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T09:52:23+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-13"
   }
  ]
 }
