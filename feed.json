@@ -1,23 +1,23 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:06:41+07:00",
+ "updatedAt": "2026-10-14T15:07:18+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-14 · รับงาน",
-   "since": "2026-10-14T14:56:35+07:00",
+   "since": "2026-10-14T15:07:18+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-14 · ส่ง PROGRESS",
-   "since": "2026-10-14T15:04:19+07:00",
+   "since": "2026-10-14T15:07:18+07:00",
    "model": "fable"
   },
   {
@@ -37,14 +37,14 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-13 · ตรวจผ่าน",
+   "task": "brief-14 · ตรวจผ่าน",
    "since": "2026-10-14T15:02:28+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-14T15:06:41+07:00",
    "model": "fable"
   },
@@ -57,9 +57,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-14T15:04:54+07:00",
+   "since": "2026-10-14T15:07:18+07:00",
    "model": "sonnet"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-14T15:04:19+07:00",
+   "since": "2026-10-14T15:07:18+07:00",
    "model": "fable"
   },
   {
@@ -113,20 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:03:31+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-10"
-  },
-  {
-   "ts": "2026-10-14T00:03:45+07:00",
-   "kind": "done",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:03:50+07:00",
    "kind": "ack",
@@ -1535,6 +1521,20 @@
    "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-14T15:06:49+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T15:06:54+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-14"
   }
  ]
 }
