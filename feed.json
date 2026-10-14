@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T06:07:48+07:00",
+ "updatedAt": "2026-10-15T06:10:09+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-15T06:07:14+07:00",
+   "since": "2026-10-15T06:08:25+07:00",
    "model": "fable"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-15T06:06:39+07:00",
+   "since": "2026-10-15T06:08:59+07:00",
    "model": "fable"
   },
   {
