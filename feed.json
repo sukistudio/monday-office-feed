@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T10:35:05+07:00",
+ "updatedAt": "2026-10-14T10:35:42+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -30,7 +30,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-13 · ส่ง PROGRESS",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-14T10:34:30+07:00",
    "model": "opus"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:49:19+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-10c"
-  },
   {
    "ts": "2026-10-13T23:50:15+07:00",
    "kind": "qa-pass",
@@ -1535,6 +1528,13 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": "brief-13"
+  },
+  {
+   "ts": "2026-10-14T10:35:21+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
   }
  ]
 }
