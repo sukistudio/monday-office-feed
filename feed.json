@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T14:46:12+07:00",
+ "updatedAt": "2026-10-14T14:49:10+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -93,7 +93,7 @@
   {
    "id": "141-scout",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-14T14:40:18+07:00",
    "model": "sonnet"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-13T23:55:38+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-7c"
-  },
   {
    "ts": "2026-10-13T23:55:58+07:00",
    "kind": "ack",
@@ -1532,6 +1525,13 @@
    "ts": "2026-10-14T11:30:58+07:00",
    "kind": "ack",
    "from": "10-monday",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T14:48:48+07:00",
+   "kind": "progress",
+   "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
   }
