@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-14T15:07:18+07:00",
+ "updatedAt": "2026-10-14T15:08:28+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-14 · ส่ง PROGRESS",
+   "task": "brief-14 · แจกงาน",
    "since": "2026-10-14T15:07:18+07:00",
    "model": "fable"
   },
@@ -29,30 +29,30 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-14 · ส่งงาน DONE",
-   "since": "2026-10-14T15:03:05+07:00",
+   "since": "2026-10-14T15:08:28+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-14 · ตรวจผ่าน",
-   "since": "2026-10-14T15:02:28+07:00",
+   "since": "2026-10-14T15:07:54+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T15:06:41+07:00",
+   "since": "2026-10-14T15:07:54+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T15:06:06+07:00",
+   "since": "2026-10-14T15:07:54+07:00",
    "model": "opus"
   },
   {
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-14T15:07:18+07:00",
    "model": "fable"
   },
@@ -106,27 +106,13 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T15:03:05+07:00",
+   "since": "2026-10-14T15:08:28+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:03:50+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T00:03:58+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:04:05+07:00",
    "kind": "ack",
@@ -1534,6 +1520,20 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": "brief-14"
+  },
+  {
+   "ts": "2026-10-14T15:08:01+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-14T15:08:16+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": "brief-14"
   }
  ]
