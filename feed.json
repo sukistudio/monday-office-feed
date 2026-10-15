@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T02:34:41+07:00",
+ "updatedAt": "2026-10-16T02:35:19+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T02:34:57+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #12 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-14T02:35:54+07:00",
    "kind": "qa-pass",
