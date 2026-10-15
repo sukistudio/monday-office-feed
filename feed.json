@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:30:33+07:00",
+ "updatedAt": "2026-10-15T10:31:09+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-10-15T10:24:06+07:00",
    "model": "fable"
   },
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:17:59+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-14T00:18:23+07:00",
    "kind": "progress",
@@ -1534,6 +1526,13 @@
    "kind": "progress",
    "from": "112-swell",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-15T10:30:51+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ]
