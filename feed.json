@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:40:34+07:00",
+ "updatedAt": "2026-10-15T10:42:54+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -29,9 +29,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-15T10:29:58+07:00",
+   "since": "2026-10-15T10:41:10+07:00",
    "model": "opus"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:20:08+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:21:53+07:00",
    "kind": "done",
@@ -1533,6 +1526,13 @@
    "kind": "done",
    "from": "112-swell",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-15T10:42:54+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": ""
   }
  ]
