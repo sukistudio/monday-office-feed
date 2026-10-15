@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T02:18:17+07:00",
+ "updatedAt": "2026-10-16T02:18:54+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -113,21 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T02:18:27+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-10d"
-  },
-  {
-   "ts": "2026-10-14T02:18:48+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #11 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-14T02:18:56+07:00",
    "kind": "ack",
