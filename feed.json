@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T11:14:16+07:00",
+ "updatedAt": "2026-10-15T11:14:53+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:38:24+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-10"
-  },
   {
    "ts": "2026-10-14T00:38:29+07:00",
    "kind": "done",
@@ -1529,6 +1522,13 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-16"
+  },
+  {
+   "ts": "2026-10-15T11:14:16+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": "brief-16"
   }
  ]
