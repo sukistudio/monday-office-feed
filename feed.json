@@ -1,9 +1,9 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T21:59:28+07:00",
- "pending": 7,
- "pendingNow": 2,
+ "updatedAt": "2026-10-15T22:01:16+07:00",
+ "pending": 6,
+ "pendingNow": 1,
  "pendingLater": 5,
  "members": [
   {
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17 · รับงาน",
-   "since": "2026-10-15T21:58:49+07:00",
+   "since": "2026-10-15T22:00:06+07:00",
    "model": "fable"
   },
   {
@@ -43,9 +43,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-15T21:59:28+07:00",
+   "since": "2026-10-15T22:00:41+07:00",
    "model": "fable"
   },
   {
