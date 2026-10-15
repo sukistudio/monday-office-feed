@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:59:18+07:00",
+ "updatedAt": "2026-10-15T10:59:55+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -23,22 +23,22 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-15 · ส่งงาน DONE",
    "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-15 · ส่งงาน DONE",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-15T10:44:06+07:00",
+   "since": "2026-10-15T10:59:55+07:00",
    "model": "sonnet"
   },
   {
@@ -107,26 +107,12 @@
   {
    "id": "143-sextant",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-15T06:07:14+07:00",
    "model": "sonnet"
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:25:15+07:00",
-   "kind": "done",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T00:25:53+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:26:45+07:00",
    "kind": "qa-pass",
@@ -1531,6 +1517,20 @@
    "ts": "2026-10-15T10:58:47+07:00",
    "kind": "done",
    "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-15"
+  },
+  {
+   "ts": "2026-10-15T10:59:32+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-15T10:59:43+07:00",
+   "kind": "done",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-15"
   }
