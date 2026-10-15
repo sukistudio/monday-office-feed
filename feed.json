@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T02:44:50+07:00",
+ "updatedAt": "2026-10-16T02:45:27+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T02:45:16+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T02:45:56+07:00",
    "kind": "merged",
