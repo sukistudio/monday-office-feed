@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T06:28:35+07:00",
+ "updatedAt": "2026-10-16T06:30:56+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T06:07:55+07:00",
+   "since": "2026-10-16T06:29:46+07:00",
    "model": "fable"
   },
   {
@@ -106,9 +106,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-16T06:28:35+07:00",
+   "since": "2026-10-16T06:30:21+07:00",
    "model": "sonnet"
   }
  ],
