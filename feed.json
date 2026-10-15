@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T21:15:44+07:00",
+ "updatedAt": "2026-10-15T21:18:08+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-16 · ส่งงาน DONE",
-   "since": "2026-10-15T11:47:32+07:00",
+   "since": "2026-10-15T21:17:33+07:00",
    "model": "fable"
   },
   {
