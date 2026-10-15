@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:22:17+07:00",
+ "updatedAt": "2026-10-15T10:23:29+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-15T06:08:25+07:00",
+   "since": "2026-10-15T10:23:29+07:00",
    "model": "fable"
   },
   {
