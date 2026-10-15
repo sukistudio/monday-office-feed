@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T11:01:44+07:00",
+ "updatedAt": "2026-10-15T11:04:04+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-15T11:00:33+07:00",
+   "since": "2026-10-15T11:04:04+07:00",
    "model": "fable"
   },
   {
@@ -64,9 +64,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-15T10:58:44+07:00",
+   "since": "2026-10-15T11:03:29+07:00",
    "model": "fable"
   },
   {
