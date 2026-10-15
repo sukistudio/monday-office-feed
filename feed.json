@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T11:04:04+07:00",
+ "updatedAt": "2026-10-15T11:04:41+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
@@ -30,7 +30,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-16 · ส่ง PROGRESS",
+   "task": "brief-16 · ส่งงาน DONE",
    "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:26:58+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #5 ผังทีม · MERGED"
-  },
   {
    "ts": "2026-10-14T00:27:52+07:00",
    "kind": "qa-pass",
@@ -1529,6 +1521,13 @@
   {
    "ts": "2026-10-15T11:01:33+07:00",
    "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-16"
+  },
+  {
+   "ts": "2026-10-15T11:04:08+07:00",
+   "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-16"
