@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T02:17:04+07:00",
+ "updatedAt": "2026-10-16T02:18:17+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T02:17:52+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-12"
-  },
   {
    "ts": "2026-10-14T02:18:27+07:00",
    "kind": "done",
