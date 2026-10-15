@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T03:00:08+07:00",
+ "updatedAt": "2026-10-16T03:01:23+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -113,21 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T03:00:49+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T03:01:03+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #16 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-14T03:02:08+07:00",
    "kind": "done",
