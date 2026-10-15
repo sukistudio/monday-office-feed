@@ -1,23 +1,23 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:57:33+07:00",
+ "updatedAt": "2026-10-15T10:59:18+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-15T10:54:04+07:00",
+   "since": "2026-10-15T10:59:18+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · แจกงาน",
-   "since": "2026-10-15T10:57:33+07:00",
+   "since": "2026-10-15T10:58:44+07:00",
    "model": "fable"
   },
   {
@@ -30,7 +30,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-15 · ส่งงาน DONE",
    "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
@@ -64,9 +64,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-14T02:56:13+07:00",
+   "since": "2026-10-15T10:58:44+07:00",
    "model": "fable"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:24:23+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T00:25:15+07:00",
    "kind": "done",
@@ -1532,6 +1525,13 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "112-swell",
+   "brief": "brief-15"
+  },
+  {
+   "ts": "2026-10-15T10:58:47+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": "brief-15"
   }
  ]
