@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:59:55+07:00",
+ "updatedAt": "2026-10-15T11:01:07+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-15T10:59:18+07:00",
+   "since": "2026-10-15T11:00:33+07:00",
    "model": "fable"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:26:45+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-8c"
-  },
   {
    "ts": "2026-10-14T00:26:55+07:00",
    "kind": "pr-open",
@@ -1533,6 +1526,13 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-15"
+  },
+  {
+   "ts": "2026-10-15T11:00:34+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
   }
  ]
 }
