@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T02:25:36+07:00",
+ "updatedAt": "2026-10-16T02:26:14+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17b · ส่ง PROGRESS",
-   "since": "2026-10-16T02:24:59+07:00",
+   "since": "2026-10-16T02:26:14+07:00",
    "model": "fable"
   },
   {
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T02:26:14+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #11 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-14T02:26:25+07:00",
    "kind": "progress",
