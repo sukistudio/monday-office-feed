@@ -1,37 +1,37 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-15T10:52:53+07:00",
+ "updatedAt": "2026-10-15T10:54:38+07:00",
  "pending": 7,
  "pendingNow": 2,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-15T10:52:53+07:00",
+   "since": "2026-10-15T10:54:04+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-15 · แจกงาน",
    "since": "2026-10-15T10:52:19+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-14T10:03:02+07:00",
+   "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-15T10:41:10+07:00",
+   "since": "2026-10-15T10:54:38+07:00",
    "model": "opus"
   },
   {
@@ -113,21 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T00:21:58+07:00",
-   "kind": "done",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T00:24:21+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #5 ผังทีม · เปิด PR"
-  },
   {
    "ts": "2026-10-14T00:24:23+07:00",
    "kind": "ack",
@@ -1534,6 +1519,20 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-15T10:54:10+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-15"
+  },
+  {
+   "ts": "2026-10-15T10:54:14+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-15"
   }
  ]
 }
