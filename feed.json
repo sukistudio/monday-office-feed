@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:33:08+07:00",
+ "updatedAt": "2026-10-16T09:33:45+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T09:32:31+07:00",
+   "since": "2026-10-16T09:33:45+07:00",
    "model": "fable"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:33:15+07:00",
-   "kind": "stuck",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T09:33:48+07:00",
    "kind": "done",
