@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:50:26+07:00",
+ "updatedAt": "2026-10-17T01:51:03+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -46,16 +46,16 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24-voice · ตรวจผ่าน",
-   "since": "2026-10-17T01:49:12+07:00",
+   "since": "2026-10-17T01:51:03+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-17T01:47:23+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -162,22 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:09:36+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "111-ripple",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
-  {
-   "ts": "2026-10-16T10:10:47+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T10:11:02+07:00",
    "kind": "done",
@@ -1673,6 +1657,20 @@
    "kind": "ack",
    "from": "12-beam",
    "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:50:28+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:50:41+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "124-halo-omx",
    "brief": ""
   }
  ],
