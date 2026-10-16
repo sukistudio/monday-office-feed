@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:38:46+07:00",
+ "updatedAt": "2026-10-17T00:41:08+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-17T00:38:46+07:00",
+   "since": "2026-10-17T00:41:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T00:38:46+07:00",
+   "since": "2026-10-17T00:39:57+07:00",
    "model": "fable",
    "brief": "brief-23",
    "project": "office-3d",
@@ -160,13 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T10:40:20+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-10-15T10:42:54+07:00",
    "kind": "qa-pass",
@@ -1643,6 +1636,14 @@
    "to": "10-monday",
    "brief": "brief-20b",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:40:49+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #20 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
