@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:06:41+07:00",
+ "updatedAt": "2026-10-17T00:09:04+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -15,12 +15,12 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-21 · ส่ง PROGRESS",
-   "since": "2026-10-16T23:53:07+07:00",
+   "since": "2026-10-17T00:07:19+07:00",
    "model": "fable",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
+   "brief": "brief-22",
+   "project": "team-chart"
   },
   {
    "id": "111-ripple",
@@ -36,7 +36,9 @@
    "status": "idle",
    "task": "brief-19 · ส่งงาน DONE",
    "since": "2026-10-16T12:14:34+07:00",
-   "model": "opus"
+   "model": "opus",
+   "brief": "brief-22",
+   "project": "team-chart"
   },
   {
    "id": "113-shore",
@@ -1230,6 +1232,19 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-22",
+   "title": "Team chart: เพิ่ม Chart + OMX 3 ตัว",
+   "project": "team-chart",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T00:07:40+07:00",
+   "updatedAt": "2026-10-17T00:07:40+07:00"
+  },
   {
    "id": "brief-21",
    "title": "brief-21",
