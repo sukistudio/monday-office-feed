@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:13:48+07:00",
+ "updatedAt": "2026-10-17T02:15:00+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -46,7 +46,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-24-voice · ตรวจผ่าน",
+   "task": "brief-27 · ตรวจผ่าน",
    "since": "2026-10-17T02:13:12+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -161,13 +161,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:24:22+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "112-swell",
-   "brief": "brief-19"
-  },
   {
    "ts": "2026-10-16T10:24:29+07:00",
    "kind": "progress",
@@ -1679,6 +1672,13 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T02:14:37+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-27"
   }
  ],
  "projects": [
