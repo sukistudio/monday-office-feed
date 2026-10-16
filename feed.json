@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:43:08+07:00",
+ "updatedAt": "2026-10-17T01:43:46+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -80,9 +80,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:42:30+07:00",
+   "since": "2026-10-17T01:43:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -104,9 +104,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:42:30+07:00",
+   "since": "2026-10-17T01:43:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T09:47:32+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T09:48:09+07:00",
    "kind": "progress",
@@ -1672,6 +1664,13 @@
    "ts": "2026-10-17T01:42:55+07:00",
    "kind": "ack",
    "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:43:13+07:00",
+   "kind": "ack",
+   "from": "12-beam",
    "to": "10-monday",
    "brief": ""
   }
