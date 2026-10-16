@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:24:40+07:00",
+ "updatedAt": "2026-10-16T10:25:17+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -106,9 +106,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T10:23:29+07:00",
+   "since": "2026-10-16T10:25:17+07:00",
    "model": "sonnet"
   }
  ],
@@ -925,6 +925,20 @@
    "kind": "progress",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:24:42+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:25:05+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
    "brief": ""
   }
  ]
