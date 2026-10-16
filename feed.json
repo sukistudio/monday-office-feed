@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:49:49+07:00",
+ "updatedAt": "2026-10-17T01:50:26+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T01:48:38+07:00",
+   "since": "2026-10-17T01:50:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -47,7 +47,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-21 · ตรวจผ่าน",
+   "task": "brief-24-voice · ตรวจผ่าน",
    "since": "2026-10-17T01:49:12+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -72,9 +72,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T01:46:49+07:00",
+   "since": "2026-10-17T01:50:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,21 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:03:02+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T10:09:32+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T10:09:36+07:00",
    "kind": "qa-pass",
@@ -1673,6 +1658,21 @@
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:50:06+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-24-voice",
+   "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:50:24+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
