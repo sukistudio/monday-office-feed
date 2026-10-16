@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:17:35+07:00",
+ "updatedAt": "2026-10-17T00:18:12+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -1179,6 +1179,30 @@
    "to": "11-tide",
    "brief": "brief-21",
    "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T00:17:36+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "111-ripple",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T00:17:41+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #21 คลิปแผนที่ · MERGED"
+  },
+  {
+   "ts": "2026-10-17T00:17:49+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #8 แกลเลอรี · MERGED"
   }
  ],
  "projects": [
