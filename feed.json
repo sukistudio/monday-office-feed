@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:28:23+07:00",
+ "updatedAt": "2026-10-17T02:29:01+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T02:23:40+07:00",
+   "since": "2026-10-17T02:29:01+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:33:28+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-18"
-  },
   {
    "ts": "2026-10-16T10:34:01+07:00",
    "kind": "progress",
@@ -1694,6 +1687,14 @@
    "to": "",
    "brief": "",
    "title": "PR #23 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T02:28:38+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "brief-24",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1854,6 +1855,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-24",
+   "title": "ละครสั้นไทย ตอนนำร่อง",
+   "project": "short-drama-pilot",
+   "lead": "12-beam",
+   "assignees": [
+    "11-tide"
+   ],
+   "qa": null,
+   "status": "progress",
+   "since": "2026-10-17T01:29:02+07:00",
+   "updatedAt": "2026-10-17T02:28:38+07:00"
+  },
+  {
    "id": "brief-27",
    "title": "Monday ร่างแชท: Discord + Telegram",
    "project": "monday-chat",
@@ -1865,19 +1879,6 @@
    "status": "done",
    "since": "2026-10-17T02:03:49+07:00",
    "updatedAt": "2026-10-17T02:20:12+07:00"
-  },
-  {
-   "id": "brief-24",
-   "title": "ละครสั้นไทย ตอนนำร่อง",
-   "project": "short-drama-pilot",
-   "lead": "12-beam",
-   "assignees": [
-    "11-tide"
-   ],
-   "qa": null,
-   "status": "progress",
-   "since": "2026-10-17T01:29:02+07:00",
-   "updatedAt": "2026-10-17T02:17:40+07:00"
   },
   {
    "id": "brief-26",
