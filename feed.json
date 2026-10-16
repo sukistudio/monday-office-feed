@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:21:15+07:00",
+ "updatedAt": "2026-10-17T02:22:26+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "brief-27 · ส่ง PROGRESS",
+   "task": "brief-27 · รับงาน",
    "since": "2026-10-17T02:21:15+07:00",
    "model": "opus",
    "brief": "brief-23",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-17T02:21:52+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -146,9 +146,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "stuck",
-   "task": "ติด รอช่วย",
-   "since": "2026-10-17T02:21:15+07:00",
+   "status": "working",
+   "task": "ส่ง PROGRESS",
+   "since": "2026-10-17T02:22:26+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,27 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:30:50+07:00",
-   "kind": "done",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-18"
-  },
-  {
-   "ts": "2026-10-16T10:31:32+07:00",
-   "kind": "ack",
-   "from": "123-pulse",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T10:32:46+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-18"
-  },
   {
    "ts": "2026-10-16T10:32:52+07:00",
    "kind": "qa-pass",
@@ -1559,7 +1538,8 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:07:08+07:00",
@@ -1580,7 +1560,8 @@
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:09:02+07:00",
@@ -1609,7 +1590,8 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:15:48+07:00",
@@ -1653,14 +1635,16 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:20:12+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:20:22+07:00",
@@ -1674,7 +1658,8 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-27"
+   "brief": "brief-27",
+   "project": "monday-chat"
   },
   {
    "ts": "2026-10-17T02:21:01+07:00",
@@ -1683,6 +1668,29 @@
    "to": "",
    "brief": "",
    "title": "PR #22 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-17T02:21:56+07:00",
+   "kind": "progress",
+   "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:22:05+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-27",
+   "project": "monday-chat"
+  },
+  {
+   "ts": "2026-10-17T02:22:17+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-27",
+   "project": "monday-chat"
   }
  ],
  "projects": [
@@ -1833,13 +1841,19 @@
    "team": null,
    "status": "building",
    "teamRedacted": true
+  },
+  {
+   "id": "monday-chat",
+   "name": "Monday ร่างแชท (Discord + Telegram)",
+   "team": "Monday + Software",
+   "status": "building"
   }
  ],
  "briefs": [
   {
    "id": "brief-27",
    "title": "Monday ร่างแชท: Discord + Telegram",
-   "project": null,
+   "project": "monday-chat",
    "lead": "11-tide",
    "assignees": [
     "111-ripple"
@@ -2110,7 +2124,6 @@
   }
  ],
  "warnings": [
-  "project-cut:2",
-  "project-unknown:brief-27"
+  "project-cut:2"
  ]
 }
