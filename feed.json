@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:07:48+07:00",
+ "updatedAt": "2026-10-17T02:08:25+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-24-voice · ส่งงาน DONE",
+   "task": "brief-27 · ส่ง PROGRESS",
    "since": "2026-10-17T02:04:11+07:00",
    "model": "opus",
    "brief": "brief-27",
@@ -160,13 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:21:02+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:21:47+07:00",
    "kind": "stuck",
@@ -1677,6 +1670,13 @@
    "from": "12-beam",
    "to": "124-halo-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:08:14+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-27"
   }
  ],
  "projects": [
