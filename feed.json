@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:38:41+07:00",
+ "updatedAt": "2026-10-17T02:39:18+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -52,9 +52,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-17T02:38:04+07:00",
+   "since": "2026-10-17T02:39:18+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -158,13 +158,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:37:49+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:37:53+07:00",
    "kind": "done",
@@ -1697,6 +1690,14 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:39:17+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #24 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
