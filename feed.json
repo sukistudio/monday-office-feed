@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:22:18+07:00",
+ "updatedAt": "2026-10-16T09:22:55+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -36,9 +36,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17 · ตรวจไม่ผ่าน",
-   "since": "2026-10-16T09:19:21+07:00",
+   "since": "2026-10-16T09:22:55+07:00",
    "model": "sonnet"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:22:31+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T09:25:11+07:00",
    "kind": "pr-open",
