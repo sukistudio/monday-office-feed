@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:23:43+07:00",
+ "updatedAt": "2026-10-17T00:24:21+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -1275,6 +1275,14 @@
    "to": "11-tide",
    "brief": "brief-22",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-17T00:24:15+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #6 ผังทีม · MERGED"
   }
  ],
  "projects": [
