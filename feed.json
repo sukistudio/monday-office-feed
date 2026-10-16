@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:34:21+07:00",
+ "updatedAt": "2026-10-16T09:35:32+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -85,9 +85,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-16T06:51:25+07:00",
+   "since": "2026-10-16T09:35:32+07:00",
    "model": "fable"
   },
   {
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:35:17+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T09:35:45+07:00",
    "kind": "brief",
