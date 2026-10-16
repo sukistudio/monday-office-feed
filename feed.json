@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T03:55:15+07:00",
+ "updatedAt": "2026-10-17T03:57:36+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T03:54:41+07:00",
+   "since": "2026-10-17T03:56:27+07:00",
    "model": "fable",
    "engine": "claude"
   },
