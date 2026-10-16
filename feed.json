@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T04:04:13+07:00",
+ "updatedAt": "2026-10-17T04:06:01+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -10,14 +10,14 @@
    "id": "10-monday",
    "status": "working",
    "task": "",
-   "since": "2026-10-17T04:03:35+07:00",
+   "since": "2026-10-17T04:05:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23d · รับงาน",
+   "task": "brief-23d · ส่ง PROGRESS",
    "since": "2026-10-17T04:00:35+07:00",
    "model": "fable",
    "brief": "brief-23d",
@@ -45,7 +45,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-23d · ตรวจผ่าน",
-   "since": "2026-10-17T04:01:47+07:00",
+   "since": "2026-10-17T04:05:25+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T04:01:47+07:00",
+   "since": "2026-10-17T04:04:50+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:41:01+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-17d-2",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T11:45:32+07:00",
    "kind": "done",
@@ -1705,6 +1697,13 @@
    "to": "",
    "brief": "",
    "title": "PR #25 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-17T04:05:26+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-23d"
   }
  ],
  "projects": [
@@ -1871,9 +1870,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-17T03:58:06+07:00",
-   "updatedAt": "2026-10-17T04:03:44+07:00"
+   "updatedAt": "2026-10-17T04:05:26+07:00"
   },
   {
    "id": "brief-23",
