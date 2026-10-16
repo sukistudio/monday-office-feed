@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:28:33+07:00",
+ "updatedAt": "2026-10-17T00:29:10+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-10-17T00:28:33+07:00",
    "model": "fable"
   },
@@ -63,9 +63,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T00:25:33+07:00",
+   "since": "2026-10-17T00:29:10+07:00",
    "model": "sonnet"
   },
   {
@@ -1319,6 +1319,13 @@
    "kind": "done",
    "from": "121-glow",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T00:29:07+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
