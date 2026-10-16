@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:37:42+07:00",
+ "updatedAt": "2026-10-17T01:38:19+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T01:36:33+07:00",
+   "since": "2026-10-17T01:38:19+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T01:37:07+07:00",
+   "since": "2026-10-17T01:38:19+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -64,9 +64,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:37:42+07:00",
+   "since": "2026-10-17T01:38:19+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -105,7 +105,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-17T01:37:07+07:00",
    "model": "fable",
    "engine": "claude"
@@ -120,9 +120,9 @@
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:35:20+07:00",
+   "since": "2026-10-17T01:38:19+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T09:24:21+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-17"
-  },
   {
    "ts": "2026-10-16T09:32:29+07:00",
    "kind": "done",
@@ -1677,6 +1670,13 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:38:09+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
