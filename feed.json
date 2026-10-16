@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:24:40+07:00",
+ "updatedAt": "2026-10-16T09:25:17+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -36,9 +36,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17 · ตรวจผ่าน",
-   "since": "2026-10-16T09:23:31+07:00",
+   "since": "2026-10-16T09:25:17+07:00",
    "model": "sonnet"
   },
   {
@@ -113,14 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:25:11+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #17 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-14T09:25:27+07:00",
    "kind": "done",
