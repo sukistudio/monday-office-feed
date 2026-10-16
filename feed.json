@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:55:33+07:00",
+ "updatedAt": "2026-10-16T09:56:45+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -85,9 +85,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T09:51:57+07:00",
+   "since": "2026-10-16T09:56:45+07:00",
    "model": "fable"
   },
   {
@@ -99,9 +99,9 @@
   },
   {
    "id": "142-chart",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-16T09:54:56+07:00",
+   "since": "2026-10-16T09:56:10+07:00",
    "model": "opus"
   },
   {
@@ -779,6 +779,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-16T09:56:19+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-17c"
   }
  ]
 }
