@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T12:01:18+07:00",
+ "updatedAt": "2026-10-16T12:05:24+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -1171,6 +1171,14 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-20"
+  },
+  {
+   "ts": "2026-10-16T12:05:22+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #18 ออฟฟิศ 3D · เปิด PR"
   }
  ]
 }
