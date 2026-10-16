@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:51:59+07:00",
+ "updatedAt": "2026-10-17T02:53:47+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:51:24+07:00",
+   "since": "2026-10-17T02:53:47+07:00",
    "model": "fable",
    "brief": "brief-24-gallery",
    "project": "short-drama-pilot",
@@ -45,7 +45,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-23 · ตรวจผ่าน",
+   "task": "brief-24-gallery · ตรวจผ่าน",
    "since": "2026-10-17T02:33:52+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -156,13 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:22:00+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T11:22:25+07:00",
    "kind": "done",
@@ -1706,6 +1699,14 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:53:36+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-24-gallery",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
