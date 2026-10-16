@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:37:14+07:00",
+ "updatedAt": "2026-10-16T10:37:52+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -43,15 +43,15 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T10:36:01+07:00",
+   "since": "2026-10-16T10:37:52+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-16T10:36:01+07:00",
    "model": "opus"
   },
@@ -1002,6 +1002,13 @@
    "kind": "progress",
    "from": "12-beam",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:37:38+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
    "brief": ""
   }
  ]
