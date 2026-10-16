@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:18:12+07:00",
+ "updatedAt": "2026-10-17T00:19:25+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -1203,6 +1203,14 @@
    "to": "",
    "brief": "",
    "title": "PR #8 แกลเลอรี · MERGED"
+  },
+  {
+   "ts": "2026-10-17T00:19:26+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #19 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
