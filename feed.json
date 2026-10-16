@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T04:07:17+07:00",
+ "updatedAt": "2026-10-17T04:09:39+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T04:05:25+07:00",
+   "since": "2026-10-17T04:07:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23d · รับงาน",
-   "since": "2026-10-17T04:00:35+07:00",
+   "since": "2026-10-17T04:07:54+07:00",
    "model": "fable",
    "brief": "brief-23d",
    "engine": "claude"
