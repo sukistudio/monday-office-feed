@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T21:49:57+07:00",
+ "updatedAt": "2026-10-16T21:50:34+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-18a · ส่ง PROGRESS",
-   "since": "2026-10-16T19:50:55+07:00",
+   "since": "2026-10-16T21:50:34+07:00",
    "model": "fable",
    "brief": "brief-18a"
   },
