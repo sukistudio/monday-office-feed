@@ -1,9 +1,9 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:44:59+07:00",
- "pending": 10,
- "pendingNow": 5,
+ "updatedAt": "2026-10-17T01:46:11+07:00",
+ "pending": 9,
+ "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T09:53:33+07:00",
-   "kind": "ack",
-   "from": "142-chart",
-   "to": "141-scout",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T09:55:08+07:00",
    "kind": "progress",
@@ -1673,6 +1666,14 @@
    "to": "",
    "brief": "",
    "title": "PR #22 คลิปแผนที่ · MERGED"
+  },
+  {
+   "ts": "2026-10-17T01:45:59+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 แกลเลอรี · MERGED"
   }
  ],
  "projects": [
