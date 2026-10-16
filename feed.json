@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:08:11+07:00",
+ "updatedAt": "2026-10-16T09:09:23+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -938,6 +938,13 @@
   },
   {
    "ts": "2026-10-15T23:23:18+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-17b"
+  },
+  {
+   "ts": "2026-10-16T09:09:15+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
