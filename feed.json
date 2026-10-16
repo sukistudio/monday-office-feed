@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:18:00+07:00",
+ "updatedAt": "2026-10-17T02:19:12+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27 · แจกงาน",
-   "since": "2026-10-17T02:16:12+07:00",
+   "since": "2026-10-17T02:18:37+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-27 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:04:11+07:00",
+   "since": "2026-10-17T02:19:12+07:00",
    "model": "opus",
    "brief": "brief-27",
    "engine": "claude"
@@ -145,9 +145,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:17:25+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-17T02:19:12+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -161,13 +161,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:25:39+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-19"
-  },
   {
    "ts": "2026-10-16T10:25:45+07:00",
    "kind": "progress",
@@ -1681,6 +1674,13 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T02:19:07+07:00",
+   "kind": "stuck",
+   "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
