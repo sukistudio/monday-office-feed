@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:33:29+07:00",
+ "updatedAt": "2026-10-17T01:34:06+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-20b · ส่งงาน DONE",
+   "task": "brief-21 · ส่ง PROGRESS",
    "since": "2026-10-17T01:29:47+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -46,16 +46,16 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ตรวจผ่าน",
-   "since": "2026-10-17T01:32:51+07:00",
+   "since": "2026-10-17T01:34:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "รับงาน",
+   "task": "แจกงาน",
    "since": "2026-10-17T01:28:37+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -64,17 +64,17 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:34:06+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:34:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -146,9 +146,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:34:06+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,27 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T21:31:36+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": "brief-17"
-  },
-  {
-   "ts": "2026-10-15T21:34:24+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-17"
-  },
-  {
-   "ts": "2026-10-15T21:53:19+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17"
-  },
   {
    "ts": "2026-10-15T21:59:08+07:00",
    "kind": "stuck",
@@ -1670,6 +1649,28 @@
    "to": "",
    "brief": "",
    "title": "PR #22 คลิปแผนที่ · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T01:33:46+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T01:33:53+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:33:57+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
   }
  ],
  "projects": [
