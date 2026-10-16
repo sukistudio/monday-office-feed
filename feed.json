@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T15:02:33+07:00",
+ "updatedAt": "2026-10-16T15:03:10+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -114,13 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T15:02:52+07:00",
-   "kind": "progress",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T15:03:10+07:00",
    "kind": "progress",
