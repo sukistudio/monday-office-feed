@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T23:37:07+07:00",
+ "updatedAt": "2026-10-16T23:39:29+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T23:36:30+07:00",
+   "since": "2026-10-16T23:38:19+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-18a · ส่ง PROGRESS",
-   "since": "2026-10-16T23:36:30+07:00",
+   "since": "2026-10-16T23:37:45+07:00",
    "model": "fable",
    "brief": "brief-18a"
   },
