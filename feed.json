@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:19:48+07:00",
+ "updatedAt": "2026-10-17T02:20:26+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T02:19:48+07:00",
+   "since": "2026-10-17T02:20:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-27 · แจกงาน",
+   "task": "brief-27 · ส่งงาน DONE",
    "since": "2026-10-17T02:18:37+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -30,7 +30,8 @@
    "task": "brief-27 · ส่ง PROGRESS",
    "since": "2026-10-17T02:19:12+07:00",
    "model": "opus",
-   "brief": "brief-27",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -161,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:26:58+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-18"
-  },
-  {
-   "ts": "2026-10-16T10:27:38+07:00",
-   "kind": "stuck",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:30:33+07:00",
    "kind": "qa-pass",
@@ -1681,6 +1668,20 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-27"
+  },
+  {
+   "ts": "2026-10-17T02:20:12+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-27"
+  },
+  {
+   "ts": "2026-10-17T02:20:22+07:00",
+   "kind": "stuck",
+   "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1835,6 +1836,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-27",
+   "title": "Monday ร่างแชท: Discord + Telegram",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-17T02:03:49+07:00",
+   "updatedAt": "2026-10-17T02:20:12+07:00"
+  },
+  {
    "id": "brief-24",
    "title": "ละครสั้นไทย ตอนนำร่อง",
    "project": "short-drama-pilot",
@@ -1846,19 +1860,6 @@
    "status": "progress",
    "since": "2026-10-17T01:29:02+07:00",
    "updatedAt": "2026-10-17T02:17:40+07:00"
-  },
-  {
-   "id": "brief-27",
-   "title": "Monday ร่างแชท: Discord + Telegram",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T02:03:49+07:00",
-   "updatedAt": "2026-10-17T02:03:53+07:00"
   },
   {
    "id": "brief-26",
