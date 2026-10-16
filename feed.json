@@ -1,27 +1,27 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:58:48+07:00",
+ "updatedAt": "2026-10-17T02:01:09+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T01:57:33+07:00",
+   "since": "2026-10-17T01:59:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-26 · ส่งงาน DONE",
-   "since": "2026-10-17T01:42:30+07:00",
+   "since": "2026-10-17T02:00:00+07:00",
    "model": "fable",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-24",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T01:58:48+07:00",
+   "since": "2026-10-17T02:00:00+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:51:40+07:00",
+   "since": "2026-10-17T01:59:25+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -1832,6 +1832,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-24",
+   "title": "ละครสั้นไทย ตอนนำร่อง",
+   "project": "short-drama-pilot",
+   "lead": "12-beam",
+   "assignees": [
+    "11-tide"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:29:02+07:00",
+   "updatedAt": "2026-10-17T01:59:42+07:00"
+  },
+  {
    "id": "brief-26",
    "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
    "project": "story-pipeline-gallery",
@@ -1869,19 +1882,6 @@
    "status": "progress",
    "since": "2026-10-17T00:27:30+07:00",
    "updatedAt": "2026-10-17T01:57:41+07:00"
-  },
-  {
-   "id": "brief-24",
-   "title": "ละครสั้นไทย ตอนนำร่อง",
-   "project": "short-drama-pilot",
-   "lead": "12-beam",
-   "assignees": [
-    "11-tide"
-   ],
-   "qa": null,
-   "status": "progress",
-   "since": "2026-10-17T01:29:02+07:00",
-   "updatedAt": "2026-10-17T01:37:25+07:00"
   },
   {
    "id": "brief-25",
