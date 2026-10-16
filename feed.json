@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:14:36+07:00",
+ "updatedAt": "2026-10-17T00:16:58+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-20b · แจกงาน",
+   "task": "brief-20b · รับงาน",
    "since": "2026-10-17T00:13:59+07:00",
    "model": "fable",
    "brief": "brief-20b",
@@ -34,7 +34,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-19 · ส่งงาน DONE",
+   "task": "brief-20b · ส่ง PROGRESS",
    "since": "2026-10-17T00:12:09+07:00",
    "model": "opus",
    "brief": "brief-20b",
@@ -1155,6 +1155,22 @@
    "to": "",
    "brief": "",
    "title": "PR #6 ผังทีม · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T00:16:29+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-20b",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:16:51+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-20b",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1292,7 +1308,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-17T00:11:06+07:00",
-   "updatedAt": "2026-10-17T00:11:06+07:00"
+   "updatedAt": "2026-10-17T00:16:51+07:00"
   },
   {
    "id": "brief-22",
