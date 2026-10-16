@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:25:17+07:00",
+ "updatedAt": "2026-10-16T10:25:54+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-18 · ส่ง PROGRESS",
+   "task": "brief-19 · ส่งงาน DONE",
    "since": "2026-10-16T10:06:50+07:00",
    "model": "fable"
   },
@@ -43,9 +43,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T10:24:05+07:00",
+   "since": "2026-10-16T10:25:54+07:00",
    "model": "fable"
   },
   {
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-16T10:10:21+07:00",
    "model": "fable"
   },
@@ -938,6 +938,20 @@
    "ts": "2026-10-16T10:25:05+07:00",
    "kind": "progress",
    "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:25:39+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-19"
+  },
+  {
+   "ts": "2026-10-16T10:25:45+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
   }
