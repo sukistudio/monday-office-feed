@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T23:58:22+07:00",
+ "updatedAt": "2026-10-16T23:59:34+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -25,7 +25,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-20 · ส่ง PROGRESS",
+   "task": "brief-21 · ส่ง PROGRESS",
    "since": "2026-10-16T23:51:54+07:00",
    "model": "opus",
    "brief": "brief-21",
@@ -89,9 +89,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T23:58:22+07:00",
+   "since": "2026-10-16T23:59:34+07:00",
    "model": "fable"
   },
   {
@@ -1087,6 +1087,14 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-16T23:59:07+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": "brief-21",
    "project": "story-pipeline-gallery"
   }
