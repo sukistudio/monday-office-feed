@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:04:11+07:00",
+ "updatedAt": "2026-10-17T02:06:32+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T01:59:25+07:00",
+   "since": "2026-10-17T02:05:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-27 · แจกงาน",
-   "since": "2026-10-17T02:03:02+07:00",
+   "since": "2026-10-17T02:05:22+07:00",
    "model": "fable",
    "brief": "brief-27",
    "engine": "claude"
@@ -144,9 +144,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:03:36+07:00",
+   "since": "2026-10-17T02:06:32+07:00",
    "model": "codex",
    "engine": "codex"
   },
