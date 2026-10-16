@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:19:11+07:00",
+ "updatedAt": "2026-10-17T01:21:32+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-17T01:16:49+07:00",
+   "since": "2026-10-17T01:20:57+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่งงาน DONE",
-   "since": "2026-10-17T01:17:27+07:00",
+   "since": "2026-10-17T01:19:48+07:00",
    "model": "fable",
    "brief": "brief-23",
    "project": "office-3d",
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T01:18:36+07:00",
+   "since": "2026-10-17T01:19:48+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ตรวจผ่าน",
-   "since": "2026-10-17T01:18:36+07:00",
+   "since": "2026-10-17T01:19:48+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
