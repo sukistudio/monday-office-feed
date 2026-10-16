@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:42:51+07:00",
+ "updatedAt": "2026-10-16T09:43:28+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -99,9 +99,9 @@
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-16T09:42:13+07:00",
+   "since": "2026-10-16T09:43:28+07:00",
    "model": "opus"
   },
   {
@@ -113,20 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:42:55+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T09:43:25+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T09:43:50+07:00",
    "kind": "progress",
