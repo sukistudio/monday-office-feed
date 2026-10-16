@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:34:06+07:00",
+ "updatedAt": "2026-10-17T01:34:43+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -20,8 +20,8 @@
    "task": "brief-26 · แจกงาน",
    "since": "2026-10-17T01:31:39+07:00",
    "model": "fable",
-   "brief": "brief-25",
-   "project": "gemini-tts",
+   "brief": "brief-24",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -37,7 +37,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-26 · ส่ง PROGRESS",
+   "task": "brief-26 · ส่งงาน DONE",
    "since": "2026-10-17T01:29:47+07:00",
    "model": "opus",
    "brief": "brief-26",
@@ -55,7 +55,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "brief-24 · ส่ง PROGRESS",
    "since": "2026-10-17T01:28:37+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -162,27 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T21:59:08+07:00",
-   "kind": "stuck",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17"
-  },
-  {
-   "ts": "2026-10-15T21:59:12+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-17"
-  },
-  {
-   "ts": "2026-10-15T23:23:18+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17b"
-  },
   {
    "ts": "2026-10-16T09:09:15+07:00",
    "kind": "progress",
@@ -1671,6 +1650,30 @@
    "from": "12-beam",
    "to": "123-pulse",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:34:08+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "brief-24",
+   "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:34:21+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 แกลเลอรี · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T01:34:39+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery"
   }
  ],
  "projects": [
@@ -1825,6 +1828,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-24",
+   "title": "ละครสั้นไทย ตอนนำร่อง",
+   "project": "short-drama-pilot",
+   "lead": "12-beam",
+   "assignees": [
+    "11-tide"
+   ],
+   "qa": null,
+   "status": "progress",
+   "since": "2026-10-17T01:29:02+07:00",
+   "updatedAt": "2026-10-17T01:34:08+07:00"
+  },
+  {
    "id": "brief-24-voice",
    "title": "brief-24-voice",
    "project": null,
@@ -1849,19 +1865,6 @@
    "updatedAt": "2026-10-17T01:29:40+07:00"
   },
   {
-   "id": "brief-24",
-   "title": "ละครสั้นไทย ตอนนำร่อง",
-   "project": "short-drama-pilot",
-   "lead": "12-beam",
-   "assignees": [
-    "11-tide"
-   ],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-17T01:29:02+07:00",
-   "updatedAt": "2026-10-17T01:29:34+07:00"
-  },
-  {
    "id": "brief-26",
    "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
    "project": "story-pipeline-gallery",
@@ -1869,7 +1872,7 @@
    "assignees": [
     "112-swell"
    ],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-17T01:29:10+07:00",
    "updatedAt": "2026-10-17T01:29:10+07:00"
