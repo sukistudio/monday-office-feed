@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T04:00:35+07:00",
+ "updatedAt": "2026-10-17T04:01:47+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-23d · ส่ง PROGRESS",
+   "task": "brief-23d · ส่งงาน DONE",
    "since": "2026-10-17T03:58:13+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24-gallery · ตรวจผ่าน",
-   "since": "2026-10-17T02:54:24+07:00",
+   "since": "2026-10-17T04:01:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:42:20+07:00",
+   "since": "2026-10-17T04:01:47+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -155,21 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:36:02+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T11:38:37+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "brief-17d-1",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T11:38:41+07:00",
    "kind": "brief",
@@ -1705,6 +1690,20 @@
   {
    "ts": "2026-10-17T04:00:27+07:00",
    "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-23d"
+  },
+  {
+   "ts": "2026-10-17T04:01:30+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "brief-23d"
+  },
+  {
+   "ts": "2026-10-17T04:01:40+07:00",
+   "kind": "done",
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-23d"
