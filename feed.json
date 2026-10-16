@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:27:45+07:00",
+ "updatedAt": "2026-10-17T02:28:23+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27 · ส่งงาน DONE",
-   "since": "2026-10-17T02:24:14+07:00",
+   "since": "2026-10-17T02:28:23+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27 · รับงาน",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-17T02:28:23+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-17T02:28:23+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27 · ตรวจผ่าน",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-17T02:28:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:33:06+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:33:28+07:00",
    "kind": "done",
@@ -1693,6 +1686,14 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:27:54+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #23 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
