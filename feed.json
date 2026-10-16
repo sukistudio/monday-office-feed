@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:35:46+07:00",
+ "updatedAt": "2026-10-17T00:38:08+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
-   "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T00:33:22+07:00",
+   "status": "stuck",
+   "task": "brief-23 · ติด รอช่วย",
+   "since": "2026-10-17T00:38:08+07:00",
    "model": "fable",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20b · ตรวจผ่าน",
-   "since": "2026-10-17T00:35:10+07:00",
+   "since": "2026-10-17T00:36:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -135,7 +135,7 @@
   {
    "id": "114-eddy-omx",
    "status": "working",
-   "task": "brief-23 · ส่ง PROGRESS",
+   "task": "brief-23 · ติด รอช่วย",
    "since": "2026-10-17T00:33:22+07:00",
    "model": "codex",
    "brief": "brief-23",
@@ -160,27 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T10:30:51+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-15T10:32:37+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-15T10:32:59+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-15T10:40:15+07:00",
    "kind": "done",
@@ -1637,6 +1616,30 @@
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:37:42+07:00",
+   "kind": "stuck",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:38:01+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-20b",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:38:05+07:00",
+   "kind": "stuck",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
    "brief": "brief-23",
    "project": "office-3d"
   }
