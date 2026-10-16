@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:22:55+07:00",
+ "updatedAt": "2026-10-16T09:24:40+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -22,9 +22,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17 · ส่งงาน DONE",
-   "since": "2026-10-16T09:22:18+07:00",
+   "since": "2026-10-16T09:24:06+07:00",
    "model": "opus"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
-   "task": "brief-17 · ตรวจไม่ผ่าน",
-   "since": "2026-10-16T09:22:55+07:00",
+   "status": "working",
+   "task": "brief-17 · ตรวจผ่าน",
+   "since": "2026-10-16T09:23:31+07:00",
    "model": "sonnet"
   },
   {
@@ -946,6 +946,13 @@
   {
    "ts": "2026-10-16T09:21:57+07:00",
    "kind": "qa-fail",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-17"
+  },
+  {
+   "ts": "2026-10-16T09:24:21+07:00",
+   "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-17"
