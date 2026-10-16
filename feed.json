@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:40:51+07:00",
+ "updatedAt": "2026-10-16T10:43:13+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -50,9 +50,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T10:40:16+07:00",
+   "since": "2026-10-16T10:43:13+07:00",
    "model": "opus"
   },
   {
