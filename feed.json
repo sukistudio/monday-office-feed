@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:43:37+07:00",
+ "updatedAt": "2026-10-17T00:44:52+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-23 · รับงาน",
-   "since": "2026-10-17T00:41:45+07:00",
+   "since": "2026-10-17T00:44:52+07:00",
    "model": "fable",
    "brief": "brief-23",
    "project": "office-3d",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T00:43:37+07:00",
+   "since": "2026-10-17T00:44:52+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -160,13 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T10:54:10+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-15"
-  },
   {
    "ts": "2026-10-15T10:54:14+07:00",
    "kind": "brief",
@@ -1644,6 +1637,14 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:44:44+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
   }
