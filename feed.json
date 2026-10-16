@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:58:11+07:00",
+ "updatedAt": "2026-10-17T01:58:48+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23 · ส่ง PROGRESS",
+   "task": "brief-26 · ส่งงาน DONE",
    "since": "2026-10-17T01:42:30+07:00",
    "model": "fable",
    "brief": "brief-23",
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T01:48:01+07:00",
+   "since": "2026-10-17T01:58:48+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24-voice · ตรวจผ่าน",
-   "since": "2026-10-17T01:55:11+07:00",
+   "since": "2026-10-17T01:58:48+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:15:31+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T10:15:38+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:15:42+07:00",
    "kind": "brief",
@@ -1676,6 +1662,22 @@
    "to": "11-tide",
    "brief": "brief-24-voice",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:58:44+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-24-voice",
+   "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:58:48+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery"
   }
  ],
  "projects": [
@@ -1830,6 +1832,30 @@
  ],
  "briefs": [
   {
+   "id": "brief-26",
+   "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
+   "project": "story-pipeline-gallery",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-17T01:29:10+07:00",
+   "updatedAt": "2026-10-17T01:58:48+07:00"
+  },
+  {
+   "id": "brief-24-voice",
+   "title": "เสียงละครสั้นนำร่อง ตอน 1",
+   "project": "short-drama-pilot",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-17T01:31:03+07:00",
+   "updatedAt": "2026-10-17T01:58:44+07:00"
+  },
+  {
    "id": "brief-23",
    "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
    "project": "office-3d",
@@ -1843,17 +1869,6 @@
    "status": "progress",
    "since": "2026-10-17T00:27:30+07:00",
    "updatedAt": "2026-10-17T01:57:41+07:00"
-  },
-  {
-   "id": "brief-24-voice",
-   "title": "เสียงละครสั้นนำร่อง ตอน 1",
-   "project": "short-drama-pilot",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "progress",
-   "since": "2026-10-17T01:31:03+07:00",
-   "updatedAt": "2026-10-17T01:54:45+07:00"
   },
   {
    "id": "brief-24",
@@ -1880,19 +1895,6 @@
    "status": "open",
    "since": "2026-10-17T01:29:06+07:00",
    "updatedAt": "2026-10-17T01:29:40+07:00"
-  },
-  {
-   "id": "brief-26",
-   "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
-   "project": "story-pipeline-gallery",
-   "lead": "11-tide",
-   "assignees": [
-    "112-swell"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T01:29:10+07:00",
-   "updatedAt": "2026-10-17T01:29:10+07:00"
   },
   {
    "id": "brief-21",
