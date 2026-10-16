@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T11:45:47+07:00",
+ "updatedAt": "2026-10-16T11:47:37+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-17d-2 · แจกงาน",
-   "since": "2026-10-16T11:45:47+07:00",
+   "since": "2026-10-16T11:47:37+07:00",
    "model": "fable"
   },
   {
@@ -37,7 +37,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-18 · ตรวจผ่าน",
+   "task": "brief-17d-1 · ตรวจผ่าน",
    "since": "2026-10-16T11:45:11+07:00",
    "model": "sonnet"
   },
@@ -99,9 +99,9 @@
   },
   {
    "id": "142-chart",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:45:47+07:00",
+   "since": "2026-10-16T11:47:37+07:00",
    "model": "opus"
   },
   {
@@ -1115,6 +1115,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-16T11:47:21+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-17d-1"
   }
  ]
 }
