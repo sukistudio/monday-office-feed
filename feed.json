@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:53:24+07:00",
+ "updatedAt": "2026-10-17T01:55:11+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,18 +17,18 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-26 · แจกงาน",
+   "task": "brief-24-voice · ส่ง PROGRESS",
    "since": "2026-10-17T01:42:30+07:00",
    "model": "fable",
-   "brief": "brief-24",
+   "brief": "brief-24-voice",
    "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24-voice · ส่งงาน DONE",
-   "since": "2026-10-17T01:49:49+07:00",
+   "since": "2026-10-17T01:54:36+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24-voice · ตรวจผ่าน",
-   "since": "2026-10-17T01:51:03+07:00",
+   "since": "2026-10-17T01:55:11+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:11:02+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T10:13:48+07:00",
    "kind": "brief",
@@ -1672,6 +1664,14 @@
    "from": "12-beam",
    "to": "124-halo-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:54:45+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-24-voice",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1826,6 +1826,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-24-voice",
+   "title": "เสียงละครสั้นนำร่อง ตอน 1",
+   "project": "short-drama-pilot",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-10-17T01:31:03+07:00",
+   "updatedAt": "2026-10-17T01:54:45+07:00"
+  },
+  {
    "id": "brief-24",
    "title": "ละครสั้นไทย ตอนนำร่อง",
    "project": "short-drama-pilot",
@@ -1837,17 +1848,6 @@
    "status": "progress",
    "since": "2026-10-17T01:29:02+07:00",
    "updatedAt": "2026-10-17T01:37:25+07:00"
-  },
-  {
-   "id": "brief-24-voice",
-   "title": "เสียงละครสั้นนำร่อง ตอน 1",
-   "project": "short-drama-pilot",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T01:31:03+07:00",
-   "updatedAt": "2026-10-17T01:31:03+07:00"
   },
   {
    "id": "brief-25",
