@@ -12,7 +12,11 @@
 | `briefs[]` | `{ id, title, project, lead, assignees[], qa, status: open · progress · stuck · done, since, updatedAt }` · `title` = `id` เป็นค่าเริ่มต้น (`brief-20`) · หัวข้อจริง (≤ 80 ตัว) มีเฉพาะ brief ที่หัวหน้าเลือกเปิดเผย และต้องผ่าน gate — ไม่ผ่าน → `id` + `titleRedacted: true` · `lead` / `assignees` / `qa` เป็น session id รูป `NN-name` (ผู้รับงานอยู่นอก office ได้) |
 | `members[].brief` · `members[].project` | brief ที่คนนั้นเป็นหัวหน้าหรือผู้รับงานและยังไม่ done (ล่าสุด) · ไม่มี → ไม่มี field |
 | `events[].project` | โปรเจกต์ของ brief ของ event นั้น (ถ้ามี) |
-| `warnings[]` | รหัสเท่านั้น: `products-unreadable` · `brief-map-unreadable` · `project-cut:N` (N โปรเจกต์ไม่ใส่เพราะ id เปิดเผยไม่ได้) · `project-unknown:<brief id>` |
+| `warnings[]` | รหัสเท่านั้น: `products-unreadable` · `brief-map-unreadable` · `project-cut:N` (N โปรเจกต์ไม่ใส่เพราะ id เปิดเผยไม่ได้) · `project-unknown:<brief id>` · (2026-10-17) `roster-missing:N` · `roster-unreadable` |
+| `members[].engine` (2026-10-17) | `claude` = oracle ของ Claude · `codex` = coder OMX/Codex (session ลงท้าย `-omx` เช่น `114-eddy-omx`) · ทุก member มี field นี้ · ยังเป็น `schemaVersion: 3` (เพิ่ม field ไม่เปลี่ยนเลข) |
+| `members[].model` | ตระกูลเท่านั้น: `opus` · `fable` · `sonnet` · `unknown` · (2026-10-17) `codex` = coder Codex ทุกตัว (ไม่ระบุรุ่น) |
+
+**สมาชิก OMX (2026-10-17)**: `members[]` = ทีม Monday (ทีมอื่นไม่อยู่ในไฟล์นี้) รวม coder OMX/Codex ที่ทีมเพิ่มในรายชื่อแล้ว · อยู่ในรายชื่อแต่ตอนนี้ไม่ได้เปิดอยู่ → `status: "offline"` (ไม่ถูกตัดออก) · coder ที่เปิดอยู่แต่ทีมยังไม่เพิ่มในรายชื่อ → ยังไม่อยู่ใน `members` และ feed บอกแค่จำนวน `roster-missing:N` (ไม่มี id) · `roster-unreadable` = อ่านรายชื่อเพิ่มเติมไม่ได้ ใช้รายชื่อเดิมไปก่อน · สถานะ `working` ของ coder Codex = เห็นบรรทัดกำลังทำงานบนจอของ coder · อื่น ๆ = `idle` (กติกาเดียวกับ Claude)
 
 **ไม่เดา**: ทุกค่ามาจากไฟล์ brief หรือข้อความของทีมที่ตรวจย้อนได้ · หาไม่เจอ = `null` หรือ `[]` · `lead` / `assignees` / `qa` เป็น session id (เช่น `11-tide`) · `status` มาจากสัญญาณล่าสุดของหัวหน้างาน (ACK → open · PROGRESS · STUCK · DONE)
 
@@ -128,4 +132,37 @@
 
 อ่านตัวอย่าง: `brief-20` หัวหน้า `11-tide` ผู้รับงาน `111-ripple` อยู่ระหว่างทำ ในโปรเจกต์ `office-3d` (ชื่อเปิดเผยไม่ได้จึงแสดงเป็น id) · `brief-17d` มีผู้รับงาน 2 คน รวม `114-eddy-omx` ที่อยู่นอก office · `brief-17d-2` done เพราะหัวหน้าส่ง DONE ของ `brief-17d` (brief แม่) แล้ว · `brief-18a` ยังไม่ผูกโปรเจกต์ = `null` · หัวข้อทุกตัวเป็น id เพราะยังไม่มี brief ไหนใส่ `public_title`
 
-🤖 Monday Oracle 🌙🐾 (AI) จาก [เปรม] → monday-oracle
+ตัวอย่างจริงหลังเพิ่ม `engine` ณ 2026-10-17 00:22 (snapshot ในเครื่องก่อน deploy · ตัดมาเฉพาะ `members` 2 ราย):
+
+```json
+{
+ "schemaVersion": 3,
+ "updatedAt": "2026-10-17T00:22:30+07:00",
+ "members": [
+  {
+   "id": "111-ripple",
+   "status": "idle",
+   "task": "brief-20b · ส่งงาน DONE",
+   "since": "2026-10-17T00:22:30+07:00",
+   "model": "opus",
+   "brief": "brief-20b",
+   "project": "office-3d",
+   "engine": "claude"
+  },
+  {
+   "id": "114-eddy-omx",
+   "status": "idle",
+   "task": "brief-22 · ส่ง PROGRESS",
+   "since": "2026-10-17T00:22:30+07:00",
+   "model": "codex",
+   "brief": "brief-22",
+   "project": "team-chart",
+   "engine": "codex"
+  }
+ ]
+}
+```
+
+อ่านตัวอย่าง: `114-eddy-omx` เป็น coder Codex (`engine: "codex"` · `model: "codex"`) ทำ `brief-22` ในโปรเจกต์ `team-chart` · ตัวอย่างแรก (2026-10-16) มาก่อนมี `engine` จึงไม่มี field นี้
+
+🤖 Monday Oracle 🌙🐾 (AI) จาก [เปรม] → monday-oracle · ส่วน engine/OMX (2026-10-17) โดย swell จาก [เปรม] → swell-oracle
