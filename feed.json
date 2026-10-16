@@ -1,7 +1,7 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T12:14:15+07:00",
+ "updatedAt": "2026-10-16T12:14:34+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -10,105 +10,109 @@
    "id": "10-monday",
    "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T12:07:49+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
    "task": "brief-17 · ส่งงาน DONE",
-   "since": "2026-10-16T12:12:30+07:00",
-   "model": "fable"
+   "since": "2026-10-16T12:14:34+07:00",
+   "model": "fable",
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "id": "111-ripple",
    "status": "idle",
    "task": "brief-20 · ส่ง PROGRESS",
-   "since": "2026-10-16T12:13:05+07:00",
-   "model": "opus"
+   "since": "2026-10-16T12:14:34+07:00",
+   "model": "opus",
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "id": "112-swell",
    "status": "idle",
    "task": "brief-19 · ส่งงาน DONE",
-   "since": "2026-10-16T10:21:07+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "opus"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20 · ตรวจผ่าน",
-   "since": "2026-10-16T12:12:30+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:27:07+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:26:32+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
    "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-16T10:47:25+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   },
   {
    "id": "13-harbor",
    "status": "idle",
    "task": "",
-   "since": "2026-10-15T11:03:29+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "fable"
   },
   {
    "id": "131-ledger",
    "status": "idle",
    "task": "",
-   "since": "2026-10-14T02:45:42+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   },
   {
    "id": "133-lantern",
    "status": "idle",
    "task": "",
-   "since": "2026-10-14T02:45:42+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   },
   {
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:48:14+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "fable"
   },
   {
    "id": "141-scout",
    "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T11:39:49+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   },
   {
    "id": "142-chart",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:47:37+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "opus"
   },
   {
    "id": "143-sextant",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T11:45:11+07:00",
+   "since": "2026-10-16T12:14:34+07:00",
    "model": "sonnet"
   }
  ],
@@ -680,35 +684,40 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:43:57+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:44:02+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:47:32+07:00",
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:48:09+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:53:33+07:00",
@@ -729,14 +738,16 @@
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T09:57:44+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:00:52+07:00",
@@ -750,7 +761,8 @@
    "kind": "qa-fail",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:03:02+07:00",
@@ -764,28 +776,32 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:09:36+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:10:47+07:00",
    "kind": "done",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:11:02+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-17c"
+   "brief": "brief-17c",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T10:13:48+07:00",
@@ -1093,7 +1109,8 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": "brief-17d-2"
+   "brief": "brief-17d-2",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:39:50+07:00",
@@ -1107,7 +1124,8 @@
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-17d-2"
+   "brief": "brief-17d-2",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:45:32+07:00",
@@ -1121,56 +1139,64 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-17d-1"
+   "brief": "brief-17d-1",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:48:57+07:00",
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-17d-2"
+   "brief": "brief-17d-2",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:51:05+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-17d-2"
+   "brief": "brief-17d-2",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:51:09+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-17d-2"
+   "brief": "brief-17d-2",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:54:35+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T11:56:19+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-17d"
+   "brief": "brief-17d",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:57:45+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-17d"
+   "brief": "brief-17d",
+   "project": "elevenlabs-thai-tts"
   },
   {
    "ts": "2026-10-16T11:58:36+07:00",
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:05:22+07:00",
@@ -1185,21 +1211,24 @@
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:05:52+07:00",
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:06:36+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:06:40+07:00",
@@ -1213,28 +1242,32 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:09:19+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:13:35+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:13:39+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "111-ripple",
-   "brief": "brief-20"
+   "brief": "brief-20",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-16T12:13:46+07:00",
@@ -1244,5 +1277,306 @@
    "brief": "",
    "title": "PR #18 ออฟฟิศ 3D · MERGED"
   }
+ ],
+ "projects": [
+  {
+   "id": "monday-projects",
+   "name": "Monday Projects (เว็บนี้)",
+   "team": "Software",
+   "status": "active"
+  },
+  {
+   "id": "story-pipeline-gallery",
+   "name": "story-pipeline-gallery",
+   "team": "Software",
+   "status": "active",
+   "nameRedacted": true
+  },
+  {
+   "id": "w44-package",
+   "name": "W44 package 24 คลิป",
+   "team": null,
+   "status": "active",
+   "teamRedacted": true
+  },
+  {
+   "id": "office-3d",
+   "name": "office-3d",
+   "team": "Software",
+   "status": "active",
+   "nameRedacted": true
+  },
+  {
+   "id": "process-rotate-watcher",
+   "name": "Process Rotate + watcher",
+   "team": "Software",
+   "status": "active"
+  },
+  {
+   "id": "research-pipeline-digest",
+   "name": "research-pipeline-digest",
+   "team": null,
+   "status": "active",
+   "nameRedacted": true,
+   "teamRedacted": true
+  },
+  {
+   "id": "research-dashboard",
+   "name": "research-dashboard",
+   "team": null,
+   "status": "active",
+   "nameRedacted": true,
+   "teamRedacted": true
+  },
+  {
+   "id": "motion-content",
+   "name": "Motion content 2 ชิ้น",
+   "team": null,
+   "status": "active",
+   "teamRedacted": true
+  },
+  {
+   "id": "team-chart",
+   "name": "Monday Team chart",
+   "team": "Software",
+   "status": "active"
+  },
+  {
+   "id": "vercel-git-connect",
+   "name": "Vercel git connect",
+   "team": "Software",
+   "status": "active"
+  },
+  {
+   "id": "elevenlabs-thai-tts",
+   "name": "ElevenLabs ภาษาไทย test matrix",
+   "team": null,
+   "status": "active",
+   "teamRedacted": true
+  },
+  {
+   "id": "office-concept-codex",
+   "name": "Office concept ใหม่ (style จาก Codex)",
+   "team": "Software",
+   "status": "building"
+  },
+  {
+   "id": "opportunity-report-1",
+   "name": "Opportunity Report W42 (ฉบับแรก)",
+   "team": null,
+   "status": "active",
+   "teamRedacted": true
+  },
+  {
+   "id": "youtube-domain",
+   "name": "YouTube channel + โดเมน",
+   "team": null,
+   "status": "deferred",
+   "teamRedacted": true
+  },
+  {
+   "id": "w44-veto",
+   "name": "W44 veto",
+   "team": null,
+   "status": "deferred",
+   "teamRedacted": true
+  },
+  {
+   "id": "azure",
+   "name": "Azure Speech F0",
+   "team": "Software",
+   "status": "deferred"
+  },
+  {
+   "id": "character-3d-b",
+   "name": "ตัวละคร 3D แบบ B",
+   "team": "Software",
+   "status": "deferred"
+  },
+  {
+   "id": "account-1",
+   "name": "account-1 login",
+   "team": "Monday",
+   "status": "deferred"
+  }
+ ],
+ "briefs": [
+  {
+   "id": "brief-17",
+   "title": "brief-17",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-15T21:21:58+07:00",
+   "updatedAt": "2026-10-16T12:06:40+07:00"
+  },
+  {
+   "id": "brief-20",
+   "title": "brief-20",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-10-16T11:53:16+07:00",
+   "updatedAt": "2026-10-16T12:06:36+07:00"
+  },
+  {
+   "id": "brief-17d",
+   "title": "brief-17d",
+   "project": "elevenlabs-thai-tts",
+   "lead": "11-tide",
+   "assignees": [
+    "114-eddy-omx",
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T11:33:52+07:00",
+   "updatedAt": "2026-10-16T11:57:45+07:00"
+  },
+  {
+   "id": "brief-17d-2",
+   "title": "brief-17d-2",
+   "project": "elevenlabs-thai-tts",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T11:38:41+07:00",
+   "updatedAt": "2026-10-16T11:57:45+07:00"
+  },
+  {
+   "id": "brief-18a",
+   "title": "brief-18a",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-16T11:50:33+07:00",
+   "updatedAt": "2026-10-16T11:50:33+07:00"
+  },
+  {
+   "id": "brief-17d-1",
+   "title": "brief-17d-1",
+   "project": "elevenlabs-thai-tts",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T11:38:37+07:00",
+   "updatedAt": "2026-10-16T11:48:46+07:00"
+  },
+  {
+   "id": "brief-18",
+   "title": "brief-18",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T10:11:54+07:00",
+   "updatedAt": "2026-10-16T10:33:28+07:00"
+  },
+  {
+   "id": "brief-19",
+   "title": "brief-19",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T10:12:35+07:00",
+   "updatedAt": "2026-10-16T10:25:39+07:00"
+  },
+  {
+   "id": "brief-17c",
+   "title": "brief-17c",
+   "project": "elevenlabs-thai-tts",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T09:20:46+07:00",
+   "updatedAt": "2026-10-16T10:11:02+07:00"
+  },
+  {
+   "id": "brief-17b",
+   "title": "brief-17b",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-15T23:19:03+07:00",
+   "updatedAt": "2026-10-16T09:32:29+07:00"
+  },
+  {
+   "id": "brief-16",
+   "title": "brief-16",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-15T11:00:28+07:00",
+   "updatedAt": "2026-10-15T11:14:16+07:00"
+  },
+  {
+   "id": "brief-15",
+   "title": "brief-15",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-15T10:54:10+07:00",
+   "updatedAt": "2026-10-15T11:11:09+07:00"
+  },
+  {
+   "id": "brief-13",
+   "title": "brief-13",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-14T15:54:57+07:00",
+   "updatedAt": "2026-10-14T15:56:57+07:00"
+  },
+  {
+   "id": "brief-10e",
+   "title": "brief-10e",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-14T15:48:43+07:00",
+   "updatedAt": "2026-10-14T15:48:43+07:00"
+  },
+  {
+   "id": "brief-14",
+   "title": "brief-14",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-14T14:54:05+07:00",
+   "updatedAt": "2026-10-14T15:14:16+07:00"
+  }
+ ],
+ "warnings": [
+  "project-cut:2"
  ]
 }
