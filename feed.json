@@ -1,34 +1,34 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:29:01+07:00",
+ "updatedAt": "2026-10-17T02:32:03+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T02:29:01+07:00",
+   "since": "2026-10-17T02:30:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
-   "task": "brief-27 · ส่งงาน DONE",
-   "since": "2026-10-17T02:28:23+07:00",
+   "status": "idle",
+   "task": "brief-23 · รับงาน",
+   "since": "2026-10-17T02:32:03+07:00",
    "model": "fable",
-   "brief": "brief-24",
-   "project": "short-drama-pilot",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-27 · รับงาน",
-   "since": "2026-10-17T02:28:23+07:00",
+   "since": "2026-10-17T02:32:03+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:28:23+07:00",
+   "since": "2026-10-17T02:31:27+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:27:10+07:00",
+   "since": "2026-10-17T02:29:39+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -64,9 +64,9 @@
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T02:27:10+07:00",
+   "since": "2026-10-17T02:29:39+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -136,9 +136,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:23:03+07:00",
+   "since": "2026-10-17T02:29:39+07:00",
    "model": "codex",
    "brief": "brief-23",
    "project": "office-3d",
@@ -146,9 +146,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:26:36+07:00",
+   "since": "2026-10-17T02:32:03+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:34:01+07:00",
-   "kind": "progress",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:34:58+07:00",
    "kind": "ack",
@@ -1695,6 +1688,14 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T02:31:16+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-23",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1855,6 +1856,21 @@
  ],
  "briefs": [
   {
+   "id": "brief-23",
+   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "114-eddy-omx",
+    "112-swell",
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-17T00:27:30+07:00",
+   "updatedAt": "2026-10-17T02:31:16+07:00"
+  },
+  {
    "id": "brief-24",
    "title": "ละครสั้นไทย ตอนนำร่อง",
    "project": "short-drama-pilot",
@@ -1903,21 +1919,6 @@
    "status": "done",
    "since": "2026-10-17T01:31:03+07:00",
    "updatedAt": "2026-10-17T01:58:44+07:00"
-  },
-  {
-   "id": "brief-23",
-   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx",
-    "112-swell",
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "progress",
-   "since": "2026-10-17T00:27:30+07:00",
-   "updatedAt": "2026-10-17T01:57:41+07:00"
   },
   {
    "id": "brief-25",
