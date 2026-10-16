@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T14:54:54+07:00",
+ "updatedAt": "2026-10-16T14:57:15+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -114,20 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T14:56:56+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-14T14:57:00+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T15:01:42+07:00",
    "kind": "pr-open",
