@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:50:47+07:00",
+ "updatedAt": "2026-10-17T02:51:59+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:47:06+07:00",
+   "since": "2026-10-17T02:51:24+07:00",
    "model": "fable",
    "brief": "brief-24-gallery",
    "project": "short-drama-pilot",
@@ -52,9 +52,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-17T02:44:44+07:00",
+   "since": "2026-10-17T02:51:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -156,13 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:21:55+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T11:22:00+07:00",
    "kind": "brief",
@@ -1705,6 +1698,14 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T02:51:54+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1853,7 +1854,7 @@
    "id": "short-drama-pilot",
    "name": "ตอนนำร่องละครสั้นไทย (W42 #01)",
    "team": null,
-   "status": "building",
+   "status": "active",
    "teamRedacted": true
   },
   {
