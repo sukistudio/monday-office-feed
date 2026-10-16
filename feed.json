@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:23:06+07:00",
+ "updatedAt": "2026-10-17T00:23:43+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-17T00:12:44+07:00",
+   "since": "2026-10-17T00:23:43+07:00",
    "model": "fable"
   },
   {
@@ -33,9 +33,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T00:12:09+07:00",
+   "since": "2026-10-17T00:23:43+07:00",
    "model": "opus",
    "brief": "brief-20b",
    "project": "office-3d"
@@ -43,15 +43,15 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-21 · ตรวจผ่าน",
+   "task": "brief-22 · ตรวจผ่าน",
    "since": "2026-10-17T00:13:59+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-17T00:23:43+07:00",
    "model": "fable"
   },
   {
@@ -1259,6 +1259,22 @@
    "to": "10-monday",
    "brief": "brief-21",
    "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T00:23:14+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T00:23:23+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-22",
+   "project": "team-chart"
   }
  ],
  "projects": [
@@ -1395,7 +1411,7 @@
    "qa": "113-shore",
    "status": "done",
    "since": "2026-10-16T23:49:02+07:00",
-   "updatedAt": "2026-10-17T00:23:04+07:00",
+   "updatedAt": "2026-10-17T00:23:14+07:00",
    "titleRedacted": true
   },
   {
