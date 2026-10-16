@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:07:10+07:00",
+ "updatedAt": "2026-10-17T02:07:48+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -52,9 +52,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
-   "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:07:10+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-17T02:07:48+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -144,9 +144,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "stuck",
+   "status": "working",
    "task": "ติด รอช่วย",
-   "since": "2026-10-17T02:07:10+07:00",
+   "since": "2026-10-17T02:07:48+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -160,13 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:20:22+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-19"
-  },
   {
    "ts": "2026-10-16T10:21:02+07:00",
    "kind": "progress",
@@ -1676,6 +1669,13 @@
    "kind": "stuck",
    "from": "124-halo-omx",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:07:23+07:00",
+   "kind": "stuck",
+   "from": "12-beam",
+   "to": "124-halo-omx",
    "brief": ""
   }
  ],
