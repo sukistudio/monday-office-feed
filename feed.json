@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T15:10:57+07:00",
+ "updatedAt": "2026-10-16T15:12:43+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -114,21 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T15:12:12+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-14"
-  },
-  {
-   "ts": "2026-10-14T15:12:25+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 แกลเลอรี · MERGED"
-  },
   {
    "ts": "2026-10-14T15:14:16+07:00",
    "kind": "done",
@@ -1444,7 +1429,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-14T15:12:12+07:00",
+   "since": "2026-10-14T15:14:16+07:00",
    "updatedAt": "2026-10-14T15:14:16+07:00"
   }
  ],
