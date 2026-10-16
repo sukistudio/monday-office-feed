@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:46:29+07:00",
+ "updatedAt": "2026-10-17T02:47:06+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24-gallery · แจกงาน",
-   "since": "2026-10-17T02:44:44+07:00",
+   "since": "2026-10-17T02:47:06+07:00",
    "model": "fable",
    "brief": "brief-24-gallery",
    "project": "short-drama-pilot",
@@ -156,13 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:47:03+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:47:07+07:00",
    "kind": "done",
@@ -1699,6 +1692,14 @@
    "to": "112-swell",
    "brief": "brief-24-gallery",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T02:46:58+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
   }
  ],
  "projects": [
