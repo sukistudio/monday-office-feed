@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:39:18+07:00",
+ "updatedAt": "2026-10-17T02:40:32+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่งงาน DONE",
-   "since": "2026-10-17T02:35:05+07:00",
+   "since": "2026-10-17T02:39:56+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -36,16 +36,16 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:31:27+07:00",
+   "since": "2026-10-17T02:39:56+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-23 · รับงาน",
+   "task": "brief-23 · ตรวจผ่าน",
    "since": "2026-10-17T02:33:52+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -158,13 +158,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:37:53+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:37:55+07:00",
    "kind": "done",
@@ -1698,6 +1691,14 @@
    "to": "",
    "brief": "",
    "title": "PR #24 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T02:40:21+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
   }
  ],
  "projects": [
