@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T15:06:09+07:00",
+ "updatedAt": "2026-10-16T15:06:46+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -114,13 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T15:06:12+07:00",
-   "kind": "qa-pass",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T15:06:49+07:00",
    "kind": "done",
