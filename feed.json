@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T15:01:19+07:00",
+ "updatedAt": "2026-10-16T15:01:56+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -114,14 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T15:01:42+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 แกลเลอรี · เปิด PR"
-  },
   {
    "ts": "2026-10-14T15:02:04+07:00",
    "kind": "done",
