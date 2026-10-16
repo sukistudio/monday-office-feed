@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T22:04:45+07:00",
+ "updatedAt": "2026-10-16T22:07:08+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -88,14 +88,14 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T20:51:01+07:00",
+   "since": "2026-10-16T22:06:33+07:00",
    "model": "fable"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-16T22:04:45+07:00",
+   "since": "2026-10-16T22:05:58+07:00",
    "model": "sonnet"
   },
   {
