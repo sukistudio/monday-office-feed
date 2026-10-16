@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:18:08+07:00",
+ "updatedAt": "2026-10-16T10:19:19+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-19 · แจกงาน",
+   "task": "brief-18 · ส่ง PROGRESS",
    "since": "2026-10-16T10:06:50+07:00",
    "model": "fable"
   },
@@ -92,9 +92,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T10:13:52+07:00",
+   "since": "2026-10-16T10:19:19+07:00",
    "model": "sonnet"
   },
   {
@@ -877,6 +877,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-19"
+  },
+  {
+   "ts": "2026-10-16T10:19:19+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-18"
   }
  ]
 }
