@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:16:49+07:00",
+ "updatedAt": "2026-10-17T01:19:11+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,11 +16,12 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่งงาน DONE",
-   "since": "2026-10-17T01:01:02+07:00",
+   "since": "2026-10-17T01:17:27+07:00",
    "model": "fable",
-   "brief": "brief-18a",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -29,21 +30,25 @@
    "task": "brief-20b · ส่งงาน DONE",
    "since": "2026-10-17T00:46:05+07:00",
    "model": "opus",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T00:53:11+07:00",
+   "since": "2026-10-17T01:18:36+07:00",
    "model": "opus",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ตรวจผ่าน",
-   "since": "2026-10-17T01:00:23+07:00",
+   "since": "2026-10-17T01:18:36+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -129,10 +134,12 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่งงาน DONE",
-   "since": "2026-10-17T00:54:26+07:00",
+   "since": "2026-10-17T01:18:36+07:00",
    "model": "codex",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "codex"
   },
   {
@@ -1731,9 +1738,9 @@
   },
   {
    "id": "office-concept-codex",
-   "name": "Office concept ใหม่ (style จาก Codex)",
+   "name": "Office v2 (Common Room)",
    "team": "Software",
-   "status": "building"
+   "status": "active"
   },
   {
    "id": "opportunity-report-1",
@@ -1773,9 +1780,48 @@
    "name": "account-1 login",
    "team": "Monday",
    "status": "deferred"
+  },
+  {
+   "id": "omx-coders",
+   "name": "ทีม OMX (Codex) คู่ทีม Claude",
+   "team": null,
+   "status": "active",
+   "teamRedacted": true
+  },
+  {
+   "id": "rea-experiment",
+   "name": "ทดลอง REA (reverse engineer anything)",
+   "team": null,
+   "status": "building",
+   "teamRedacted": true
+  },
+  {
+   "id": "gemini-tts",
+   "name": "เทียบ Gemini TTS ภาษาไทย",
+   "team": null,
+   "status": "building",
+   "teamRedacted": true
+  },
+  {
+   "id": "short-drama-pilot",
+   "name": "ตอนนำร่องละครสั้นไทย (W42 #01)",
+   "team": null,
+   "status": "building",
+   "teamRedacted": true
   }
  ],
  "briefs": [
+  {
+   "id": "brief-23-p2a",
+   "title": "brief-23-p2a",
+   "project": null,
+   "lead": null,
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:18:34+07:00",
+   "updatedAt": "2026-10-17T01:18:34+07:00"
+  },
   {
    "id": "brief-23",
    "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
@@ -1787,9 +1833,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "done",
+   "status": "open",
    "since": "2026-10-17T00:27:30+07:00",
-   "updatedAt": "2026-10-17T00:59:46+07:00"
+   "updatedAt": "2026-10-17T01:17:09+07:00"
   },
   {
    "id": "brief-20b",
