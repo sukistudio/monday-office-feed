@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:28:00+07:00",
+ "updatedAt": "2026-10-17T01:29:47+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "working",
-   "task": "brief-15 · ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-17T01:25:39+07:00",
    "model": "fable",
    "engine": "claude"
@@ -17,31 +17,31 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23 · ส่งงาน DONE",
+   "task": "brief-26 · แจกงาน",
    "since": "2026-10-17T01:27:23+07:00",
    "model": "fable",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-25",
+   "project": "gemini-tts",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
    "status": "working",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T01:27:23+07:00",
+   "since": "2026-10-17T01:29:47+07:00",
    "model": "opus",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-25",
+   "project": "gemini-tts",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20b · ส่งงาน DONE",
-   "since": "2026-10-17T01:19:48+07:00",
+   "since": "2026-10-17T01:29:47+07:00",
    "model": "opus",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery",
    "engine": "claude"
   },
   {
@@ -54,10 +54,12 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:28:37+07:00",
    "model": "fable",
+   "brief": "brief-24",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -102,9 +104,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:28:37+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -134,9 +136,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T01:25:39+07:00",
+   "since": "2026-10-17T01:29:12+07:00",
    "model": "codex",
    "brief": "brief-23",
    "project": "office-3d",
@@ -160,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T11:11:09+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-15"
-  },
-  {
-   "ts": "2026-10-15T11:11:37+07:00",
-   "kind": "done",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "brief-15"
-  },
   {
    "ts": "2026-10-15T11:11:47+07:00",
    "kind": "done",
@@ -1660,6 +1648,22 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:29:36+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T01:29:44+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery"
   }
  ],
  "projects": [
@@ -1814,6 +1818,59 @@
  ],
  "briefs": [
   {
+   "id": "brief-25",
+   "title": "เทียบ Gemini TTS ภาษาไทย",
+   "project": "gemini-tts",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:29:06+07:00",
+   "updatedAt": "2026-10-17T01:29:40+07:00"
+  },
+  {
+   "id": "brief-24",
+   "title": "ละครสั้นไทย ตอนนำร่อง",
+   "project": "short-drama-pilot",
+   "lead": "12-beam",
+   "assignees": [
+    "11-tide"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:29:02+07:00",
+   "updatedAt": "2026-10-17T01:29:34+07:00"
+  },
+  {
+   "id": "brief-26",
+   "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
+   "project": "story-pipeline-gallery",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:29:10+07:00",
+   "updatedAt": "2026-10-17T01:29:10+07:00"
+  },
+  {
+   "id": "brief-21",
+   "title": "brief-21",
+   "project": "story-pipeline-gallery",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-16T23:49:02+07:00",
+   "updatedAt": "2026-10-17T01:28:58+07:00",
+   "titleRedacted": true
+  },
+  {
    "id": "brief-23-p2a",
    "title": "brief-23-p2a",
    "project": null,
@@ -1866,20 +1923,6 @@
    "status": "done",
    "since": "2026-10-17T00:07:40+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
-  },
-  {
-   "id": "brief-21",
-   "title": "brief-21",
-   "project": "story-pipeline-gallery",
-   "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "done",
-   "since": "2026-10-16T23:49:02+07:00",
-   "updatedAt": "2026-10-17T00:23:14+07:00",
-   "titleRedacted": true
   },
   {
    "id": "brief-18a",
