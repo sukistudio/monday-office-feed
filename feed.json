@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:37:57+07:00",
+ "updatedAt": "2026-10-16T09:39:11+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-17b · ส่งงาน DONE",
-   "since": "2026-10-16T09:37:20+07:00",
+   "since": "2026-10-16T09:39:11+07:00",
    "model": "fable"
   },
   {
@@ -113,20 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:38:41+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-13"
-  },
-  {
-   "ts": "2026-10-14T09:38:53+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "brief-13"
-  },
   {
    "ts": "2026-10-14T09:39:49+07:00",
    "kind": "progress",
