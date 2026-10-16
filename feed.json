@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:43:46+07:00",
+ "updatedAt": "2026-10-17T01:44:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-21 · ส่ง PROGRESS",
-   "since": "2026-10-17T01:39:34+07:00",
+   "since": "2026-10-17T01:44:59+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:42:30+07:00",
+   "since": "2026-10-17T01:44:23+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T09:48:09+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T09:53:33+07:00",
    "kind": "ack",
@@ -1673,6 +1665,14 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:44:56+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #22 คลิปแผนที่ · MERGED"
   }
  ],
  "projects": [
@@ -1841,9 +1841,9 @@
   },
   {
    "id": "brief-24-voice",
-   "title": "brief-24-voice",
-   "project": null,
-   "lead": null,
+   "title": "เสียงละครสั้นนำร่อง ตอน 1",
+   "project": "short-drama-pilot",
+   "lead": "11-tide",
    "assignees": [],
    "qa": null,
    "status": "open",
