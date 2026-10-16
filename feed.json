@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T03:57:36+07:00",
+ "updatedAt": "2026-10-17T03:58:13+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,18 +17,17 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-24 · ส่งงาน DONE",
+   "task": "brief-23d · แจกงาน",
    "since": "2026-10-17T03:55:15+07:00",
    "model": "fable",
-   "brief": "brief-24-gallery",
-   "project": "short-drama-pilot",
+   "brief": "brief-23d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27 · รับงาน",
-   "since": "2026-10-17T02:32:03+07:00",
+   "since": "2026-10-17T03:58:13+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -156,13 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:24:19+07:00",
-   "kind": "ack",
-   "from": "142-chart",
-   "to": "141-scout",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T11:25:39+07:00",
    "kind": "done",
@@ -1708,6 +1700,13 @@
    "to": "10-monday",
    "brief": "brief-24",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T03:58:06+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-23d"
   }
  ],
  "projects": [
@@ -1867,6 +1866,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-23d",
+   "title": "brief-23d",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T03:58:06+07:00",
+   "updatedAt": "2026-10-17T03:58:06+07:00"
+  },
   {
    "id": "brief-23",
    "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
