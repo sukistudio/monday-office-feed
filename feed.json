@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:49:12+07:00",
+ "updatedAt": "2026-10-17T01:49:49+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24-voice · ส่งงาน DONE",
-   "since": "2026-10-17T01:44:59+07:00",
+   "since": "2026-10-17T01:49:49+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:02:21+07:00",
-   "kind": "qa-fail",
-   "from": "113-shore",
-   "to": "111-ripple",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T10:03:02+07:00",
    "kind": "done",
@@ -1675,6 +1667,13 @@
    "to": "11-tide",
    "brief": "brief-24-voice",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:49:29+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
