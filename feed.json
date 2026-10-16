@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:23:29+07:00",
+ "updatedAt": "2026-10-16T10:24:40+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -37,15 +37,15 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-17c · ตรวจผ่าน",
+   "task": "brief-19 · ตรวจผ่าน",
    "since": "2026-10-16T10:20:31+07:00",
    "model": "sonnet"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-16T10:22:54+07:00",
+   "since": "2026-10-16T10:24:05+07:00",
    "model": "fable"
   },
   {
@@ -58,7 +58,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-16T10:15:42+07:00",
    "model": "sonnet"
   },
@@ -904,6 +904,27 @@
    "kind": "progress",
    "from": "12-beam",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:24:17+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-19"
+  },
+  {
+   "ts": "2026-10-16T10:24:22+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "112-swell",
+   "brief": "brief-19"
+  },
+  {
+   "ts": "2026-10-16T10:24:29+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ]
