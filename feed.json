@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:29:47+07:00",
+ "updatedAt": "2026-10-17T01:30:24+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -105,32 +105,32 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-10-17T01:28:37+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:30:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:30:24+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T01:30:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T11:11:47+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-15"
-  },
   {
    "ts": "2026-10-15T11:12:39+07:00",
    "kind": "qa-fail",
@@ -1664,6 +1657,13 @@
    "to": "112-swell",
    "brief": "brief-26",
    "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T01:30:02+07:00",
+   "kind": "brief",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
   }
  ],
  "projects": [
