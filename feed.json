@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:42:55+07:00",
+ "updatedAt": "2026-10-17T02:44:07+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,11 +17,11 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23 · ส่งงาน DONE",
+   "task": "brief-24-gallery · แจกงาน",
    "since": "2026-10-17T02:39:56+07:00",
    "model": "fable",
-   "brief": "brief-25",
-   "project": "gemini-tts",
+   "brief": "brief-24-gallery",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:42:55+07:00",
+   "since": "2026-10-17T02:44:07+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -140,9 +140,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:42:20+07:00",
+   "since": "2026-10-17T02:43:33+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -156,13 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:46:56+07:00",
-   "kind": "done",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:47:03+07:00",
    "kind": "done",
@@ -1698,6 +1691,14 @@
    "from": "12-beam",
    "to": "123-pulse",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:43:39+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-24-gallery",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1857,6 +1858,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-24-gallery",
+   "title": "ละครสั้นนำร่อง ep1 ขึ้น gallery ภายใน",
+   "project": "short-drama-pilot",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T02:43:39+07:00",
+   "updatedAt": "2026-10-17T02:43:39+07:00"
+  },
   {
    "id": "brief-24",
    "title": "ละครสั้นไทย ตอนนำร่อง",
