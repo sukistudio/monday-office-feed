@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T12:16:22+07:00",
+ "updatedAt": "2026-10-16T12:18:43+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T12:16:22+07:00",
+   "since": "2026-10-16T12:18:08+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20 · ส่งงาน DONE",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-16T12:16:59+07:00",
    "model": "fable",
    "brief": "brief-18a"
   },
@@ -88,7 +88,7 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-16T12:18:43+07:00",
    "model": "fable"
   },
   {
