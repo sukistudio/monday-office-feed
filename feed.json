@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:20:26+07:00",
+ "updatedAt": "2026-10-17T02:21:04+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -162,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:30:33+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-18"
-  },
-  {
-   "ts": "2026-10-16T10:30:39+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "114-eddy-omx",
-   "brief": "brief-18"
-  },
   {
    "ts": "2026-10-16T10:30:50+07:00",
    "kind": "done",
@@ -1682,6 +1668,21 @@
    "from": "124-halo-omx",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:20:40+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-27"
+  },
+  {
+   "ts": "2026-10-17T02:21:01+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #22 ออฟฟิศ 3D · MERGED"
   }
  ],
  "projects": [
