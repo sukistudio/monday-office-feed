@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:48:01+07:00",
+ "updatedAt": "2026-10-17T01:49:12+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T01:38:19+07:00",
+   "since": "2026-10-17T01:48:38+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-24-voice · ส่ง PROGRESS",
+   "task": "brief-24-voice · ส่งงาน DONE",
    "since": "2026-10-17T01:44:59+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-21 · ตรวจผ่าน",
-   "since": "2026-10-17T01:36:33+07:00",
+   "since": "2026-10-17T01:49:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:00:52+07:00",
-   "kind": "done",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:02:21+07:00",
    "kind": "qa-fail",
@@ -1674,6 +1667,14 @@
    "to": "11-tide",
    "brief": "brief-24-voice",
    "project": "short-drama-pilot"
+  },
+  {
+   "ts": "2026-10-17T01:48:44+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-24-voice",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1846,7 +1847,7 @@
    "project": "short-drama-pilot",
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-17T01:31:03+07:00",
    "updatedAt": "2026-10-17T01:31:03+07:00"
