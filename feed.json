@@ -1,16 +1,16 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T10:45:35+07:00",
+ "updatedAt": "2026-10-16T10:46:47+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T10:39:41+07:00",
+   "since": "2026-10-16T10:46:47+07:00",
    "model": "fable"
   },
   {
@@ -58,7 +58,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ตรวจผ่าน",
    "since": "2026-10-16T10:43:50+07:00",
    "model": "sonnet"
   },
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-16T10:45:35+07:00",
    "model": "fable"
   },
@@ -1014,6 +1014,20 @@
   {
    "ts": "2026-10-16T10:37:53+07:00",
    "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:46:21+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T10:46:29+07:00",
+   "kind": "progress",
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
