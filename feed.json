@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T12:14:34+07:00",
+ "updatedAt": "2026-10-16T12:15:45+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -24,9 +24,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20 · ส่ง PROGRESS",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-16T12:15:10+07:00",
    "model": "opus",
    "brief": "brief-20",
    "project": "office-3d"
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20 · ตรวจผ่าน",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-16T12:15:10+07:00",
    "model": "sonnet"
   },
   {
@@ -1276,6 +1276,14 @@
    "to": "",
    "brief": "",
    "title": "PR #18 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-16T12:15:42+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-20",
+   "project": "office-3d"
   }
  ],
  "projects": [
