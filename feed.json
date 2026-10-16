@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:21:04+07:00",
+ "updatedAt": "2026-10-17T02:21:15+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "working",
    "task": "",
-   "since": "2026-10-17T02:20:26+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-27 · ส่งงาน DONE",
-   "since": "2026-10-17T02:18:37+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -28,7 +28,7 @@
    "id": "111-ripple",
    "status": "idle",
    "task": "brief-27 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:19:12+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -38,7 +38,7 @@
    "id": "112-swell",
    "status": "idle",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:00:00+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "opus",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,17 +46,17 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-27 · ตรวจผ่าน",
-   "since": "2026-10-17T02:18:00+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:16:12+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -66,7 +66,7 @@
    "id": "121-glow",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T02:16:50+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -74,7 +74,7 @@
    "id": "123-pulse",
    "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T02:11:25+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -82,7 +82,7 @@
    "id": "13-harbor",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:43:46+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -90,7 +90,7 @@
    "id": "131-ledger",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,7 +98,7 @@
    "id": "133-lantern",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -106,7 +106,7 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:43:46+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -114,7 +114,7 @@
    "id": "141-scout",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T01:37:07+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -122,7 +122,7 @@
    "id": "142-chart",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:39:34+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -130,7 +130,7 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:37:07+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -138,7 +138,7 @@
    "id": "114-eddy-omx",
    "status": "stuck",
    "task": "brief-23 · ติด รอช่วย",
-   "since": "2026-10-17T01:57:33+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "codex",
    "brief": "brief-23",
    "project": "office-3d",
@@ -148,7 +148,7 @@
    "id": "124-halo-omx",
    "status": "stuck",
    "task": "ติด รอช่วย",
-   "since": "2026-10-17T02:19:12+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -156,7 +156,7 @@
    "id": "144-buoy-omx",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T02:21:15+07:00",
    "model": "codex",
    "engine": "codex"
   }
