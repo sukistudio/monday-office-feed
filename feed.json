@@ -1,22 +1,22 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T23:50:07+07:00",
+ "updatedAt": "2026-10-16T23:51:54+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-16T23:49:32+07:00",
+   "since": "2026-10-16T23:51:54+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-18a · ส่ง PROGRESS",
+   "task": "brief-21 · ส่ง PROGRESS",
    "since": "2026-10-16T23:48:57+07:00",
    "model": "fable",
    "brief": "brief-21",
@@ -24,9 +24,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-20 · ส่ง PROGRESS",
-   "since": "2026-10-16T12:16:22+07:00",
+   "since": "2026-10-16T23:51:54+07:00",
    "model": "opus",
    "brief": "brief-21",
    "project": "story-pipeline-gallery"
@@ -1073,6 +1073,22 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "brief-18a"
+  },
+  {
+   "ts": "2026-10-16T23:51:33+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-16T23:51:51+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-21",
+   "project": "story-pipeline-gallery"
   }
  ],
  "projects": [
@@ -1206,10 +1222,10 @@
    "assignees": [
     "111-ripple"
    ],
-   "qa": null,
-   "status": "open",
+   "qa": "113-shore",
+   "status": "progress",
    "since": "2026-10-16T23:49:02+07:00",
-   "updatedAt": "2026-10-16T23:49:02+07:00",
+   "updatedAt": "2026-10-16T23:51:51+07:00",
    "titleRedacted": true
   },
   {
