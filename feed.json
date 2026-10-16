@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:43:28+07:00",
+ "updatedAt": "2026-10-16T09:44:06+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -37,7 +37,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-17 · ตรวจผ่าน",
+   "task": "brief-17c · ตรวจผ่าน",
    "since": "2026-10-16T09:42:51+07:00",
    "model": "sonnet"
   },
@@ -113,13 +113,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T09:43:50+07:00",
-   "kind": "progress",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T09:44:24+07:00",
    "kind": "done",
@@ -819,6 +812,20 @@
    "ts": "2026-10-16T09:42:41+07:00",
    "kind": "ack",
    "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-17c"
+  },
+  {
+   "ts": "2026-10-16T09:43:57+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-17c"
+  },
+  {
+   "ts": "2026-10-16T09:44:02+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
    "to": "111-ripple",
    "brief": "brief-17c"
   }
