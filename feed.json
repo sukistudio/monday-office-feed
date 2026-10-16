@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:17:36+07:00",
+ "updatedAt": "2026-10-16T09:19:56+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -15,16 +15,16 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-17b · ส่ง PROGRESS",
-   "since": "2026-10-16T09:12:54+07:00",
+   "since": "2026-10-16T09:19:21+07:00",
    "model": "fable"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-17 · ส่งงาน DONE",
-   "since": "2026-10-16T09:16:59+07:00",
+   "since": "2026-10-16T09:19:56+07:00",
    "model": "opus"
   },
   {
@@ -36,9 +36,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-17 · ตรวจผ่าน",
-   "since": "2026-10-15T21:35:38+07:00",
+   "since": "2026-10-16T09:19:21+07:00",
    "model": "sonnet"
   },
   {
