@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:31:02+07:00",
+ "updatedAt": "2026-10-17T01:32:14+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T01:25:39+07:00",
+   "since": "2026-10-17T01:32:14+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · แจกงาน",
-   "since": "2026-10-17T01:31:02+07:00",
+   "since": "2026-10-17T01:31:39+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -37,7 +37,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-20b · ส่งงาน DONE",
+   "task": "brief-26 · ส่ง PROGRESS",
    "since": "2026-10-17T01:29:47+07:00",
    "model": "opus",
    "brief": "brief-26",
@@ -104,9 +104,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-17T01:28:37+07:00",
+   "since": "2026-10-17T01:31:39+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -128,16 +128,16 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:30:24+07:00",
+   "since": "2026-10-17T01:31:39+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
    "status": "idle",
-   "task": "brief-23 · ส่ง PROGRESS",
+   "task": "brief-23 · ส่งงาน DONE",
    "since": "2026-10-17T01:29:12+07:00",
    "model": "codex",
    "brief": "brief-23",
@@ -162,41 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T11:13:25+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-16"
-  },
-  {
-   "ts": "2026-10-15T11:14:12+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-16"
-  },
-  {
-   "ts": "2026-10-15T11:14:16+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-16"
-  },
-  {
-   "ts": "2026-10-15T14:05:10+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-15T21:21:58+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-17"
-  },
   {
    "ts": "2026-10-15T21:28:22+07:00",
    "kind": "progress",
@@ -1664,6 +1629,46 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:31:43+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:31:49+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "114-eddy-omx",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:31:56+07:00",
+   "kind": "done",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:31:56+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T01:31:56+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #21 ออฟฟิศ 3D · MERGED"
   }
  ],
  "projects": [
@@ -1817,6 +1822,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-24-voice",
+   "title": "brief-24-voice",
+   "project": null,
+   "lead": null,
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T01:31:03+07:00",
+   "updatedAt": "2026-10-17T01:31:03+07:00"
+  },
   {
    "id": "brief-25",
    "title": "เทียบ Gemini TTS ภาษาไทย",
