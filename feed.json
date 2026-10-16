@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:19:12+07:00",
+ "updatedAt": "2026-10-17T02:19:48+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-17T02:18:00+07:00",
+   "since": "2026-10-17T02:19:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -161,13 +161,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:25:45+07:00",
-   "kind": "progress",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:26:58+07:00",
    "kind": "progress",
@@ -1681,6 +1674,13 @@
    "from": "124-halo-omx",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:19:19+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-27"
   }
  ],
  "projects": [
