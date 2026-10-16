@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T14:47:43+07:00",
+ "updatedAt": "2026-10-16T14:48:58+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -94,7 +94,7 @@
   {
    "id": "141-scout",
    "status": "idle",
-   "task": "ส่ง PROGRESS",
+   "task": "",
    "since": "2026-10-16T14:05:41+07:00",
    "model": "sonnet"
   },
@@ -114,13 +114,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-14T14:48:48+07:00",
-   "kind": "progress",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-14T14:51:03+07:00",
    "kind": "ack",
