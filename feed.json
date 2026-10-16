@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:24:21+07:00",
+ "updatedAt": "2026-10-17T00:25:33+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -10,14 +10,14 @@
    "id": "10-monday",
    "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-17T00:23:43+07:00",
+   "since": "2026-10-17T00:25:33+07:00",
    "model": "fable"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-21 · ส่งงาน DONE",
-   "since": "2026-10-17T00:23:06+07:00",
+   "since": "2026-10-17T00:25:33+07:00",
    "model": "fable",
    "brief": "brief-20b",
    "project": "office-3d"
@@ -50,22 +50,22 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-10-17T00:23:43+07:00",
    "model": "fable"
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-17T00:25:33+07:00",
    "model": "opus"
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-16T12:14:34+07:00",
+   "since": "2026-10-17T00:25:33+07:00",
    "model": "sonnet"
   },
   {
@@ -1283,6 +1283,20 @@
    "to": "",
    "brief": "",
    "title": "PR #6 ผังทีม · MERGED"
+  },
+  {
+   "ts": "2026-10-17T00:25:04+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T00:25:08+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
   }
  ],
  "projects": [
