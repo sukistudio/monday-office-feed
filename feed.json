@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:47:06+07:00",
+ "updatedAt": "2026-10-17T02:47:44+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -156,20 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:47:07+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T10:47:18+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:55:05+07:00",
    "kind": "done",
@@ -1700,6 +1686,22 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:47:15+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #24 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-17T02:47:24+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #10 แกลเลอรี · เปิด PR"
   }
  ],
  "projects": [
@@ -1865,7 +1867,7 @@
    "project": "short-drama-pilot",
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-17T02:43:39+07:00",
    "updatedAt": "2026-10-17T02:43:39+07:00"
