@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T23:59:34+07:00",
+ "updatedAt": "2026-10-17T00:03:07+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -1097,6 +1097,14 @@
    "to": "11-tide",
    "brief": "brief-21",
    "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T00:03:03+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #21 คลิปแผนที่ · เปิด PR"
   }
  ],
  "projects": [
