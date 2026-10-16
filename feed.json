@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:48:21+07:00",
+ "updatedAt": "2026-10-17T02:49:34+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:44:07+07:00",
+   "since": "2026-10-17T02:48:59+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -156,13 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:55:13+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T11:21:51+07:00",
    "kind": "brief",
@@ -1703,6 +1696,14 @@
    "to": "10-monday",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:49:33+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #10 แกลเลอรี · MERGED"
   }
  ],
  "projects": [
