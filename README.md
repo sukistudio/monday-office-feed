@@ -7,7 +7,7 @@
 - `members[]` = สมาชิกทีม Monday เท่านั้น (ทีมอื่นไม่อยู่ในไฟล์นี้): `id` (session เช่น `11-tide`) · `status` (`working` · `idle` · `stuck` · `offline`) · `task` (`brief-<id>` + คำกริยาสั้นที่กำหนด) · `since` · `model` · `engine` · `brief` / `project` (ถ้ามี)
 - **`engine`** (เพิ่ม 2026-10-17 · ยังเป็น schemaVersion 3): `claude` = oracle ของ Claude · `codex` = coder OMX/Codex (ชื่อ session ลงท้าย `-omx` เช่น `114-eddy-omx`) · coder Codex มี `model: "codex"` เสมอ (ไม่ระบุรุ่น)
 - **`offline`** = อยู่ในรายชื่อทีมแต่ตอนนี้ไม่ได้เปิดอยู่ (ไม่ถูกตัดออกจาก `members`)
-- สมาชิกใหม่ขึ้นใน feed เมื่อทีมเพิ่มชื่อในรายชื่อของทีมแล้ว · ก่อนนั้น feed ขึ้น `warnings: ["roster-missing:<id>"]`
+- สมาชิกใหม่ขึ้นใน feed เมื่อทีมเพิ่มชื่อในรายชื่อของทีมแล้ว · ก่อนนั้น feed ขึ้นแค่จำนวน `warnings: ["roster-missing:N"]` (ไม่มี id)
 - `events[]` · `projects[]` · `briefs[]` = metadata เท่านั้น (id · ชนิด · เวลา) ไม่มีข้อความจริง · `briefs[].title` = id ของ brief (`brief-20b`) เว้นแต่ทีมตั้งชื่อ public ให้เอง
 
 ```json
