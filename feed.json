@@ -1,27 +1,27 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:32:41+07:00",
+ "updatedAt": "2026-10-17T02:33:52+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-17T02:30:15+07:00",
+   "since": "2026-10-17T02:33:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23 · รับงาน",
+   "task": "brief-23 · ส่งงาน DONE",
    "since": "2026-10-17T02:32:41+07:00",
    "model": "fable",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-24",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -30,8 +30,8 @@
    "task": "brief-27 · รับงาน",
    "since": "2026-10-17T02:32:03+07:00",
    "model": "opus",
-   "brief": "brief-23",
-   "project": "office-3d",
+   "brief": "brief-25",
+   "project": "gemini-tts",
    "engine": "claude"
   },
   {
@@ -40,15 +40,13 @@
    "task": "brief-26 · รับงาน",
    "since": "2026-10-17T02:31:27+07:00",
    "model": "opus",
-   "brief": "brief-23",
-   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "113-shore",
    "status": "working",
    "task": "brief-23 · รับงาน",
-   "since": "2026-10-17T02:28:23+07:00",
+   "since": "2026-10-17T02:33:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -136,19 +134,17 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:29:39+07:00",
+   "since": "2026-10-17T02:33:52+07:00",
    "model": "codex",
-   "brief": "brief-23",
-   "project": "office-3d",
    "engine": "codex"
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:32:03+07:00",
+   "since": "2026-10-17T02:33:52+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,13 +158,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:35:54+07:00",
-   "kind": "done",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:36:11+07:00",
    "kind": "progress",
@@ -1699,6 +1688,14 @@
    "to": "",
    "brief": "",
    "title": "PR #23 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-17T02:33:39+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-23",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1869,9 +1866,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-10-17T00:27:30+07:00",
-   "updatedAt": "2026-10-17T02:31:16+07:00"
+   "updatedAt": "2026-10-17T02:33:39+07:00"
   },
   {
    "id": "brief-24",
