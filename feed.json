@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:01:09+07:00",
+ "updatedAt": "2026-10-17T02:01:46+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -55,7 +55,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-10-17T01:59:25+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -64,9 +64,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:40:46+07:00",
+   "since": "2026-10-17T02:01:46+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -146,9 +146,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T01:48:01+07:00",
+   "since": "2026-10-17T02:01:46+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:15:42+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:17:34+07:00",
    "kind": "progress",
@@ -1678,6 +1671,13 @@
    "to": "112-swell",
    "brief": "brief-26",
    "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T02:01:39+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
   }
  ],
  "projects": [
