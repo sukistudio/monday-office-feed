@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
  "source": "live",
- "updatedAt": "2026-10-16T09:54:56+07:00",
+ "updatedAt": "2026-10-16T09:55:33+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -86,7 +86,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-16T09:51:57+07:00",
    "model": "fable"
   },
@@ -771,6 +771,13 @@
    "kind": "ack",
    "from": "142-chart",
    "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-16T09:55:08+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
+   "to": "10-monday",
    "brief": ""
   }
  ]
