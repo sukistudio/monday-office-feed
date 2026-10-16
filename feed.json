@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T03:58:13+07:00",
+ "updatedAt": "2026-10-17T04:00:35+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T03:56:27+07:00",
+   "since": "2026-10-17T04:00:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-23d · แจกงาน",
-   "since": "2026-10-17T03:55:15+07:00",
+   "since": "2026-10-17T04:00:35+07:00",
    "model": "fable",
    "brief": "brief-23d",
    "engine": "claude"
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-27 · รับงาน",
+   "task": "brief-23d · ส่ง PROGRESS",
    "since": "2026-10-17T03:58:13+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -155,20 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:25:39+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T11:27:36+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T11:36:02+07:00",
    "kind": "brief",
@@ -1707,6 +1693,21 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": "brief-23d"
+  },
+  {
+   "ts": "2026-10-17T04:00:16+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #25 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-17T04:00:27+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-23d"
   }
  ],
  "projects": [
@@ -1872,10 +1873,10 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-17T03:58:06+07:00",
-   "updatedAt": "2026-10-17T03:58:06+07:00"
+   "updatedAt": "2026-10-17T03:58:21+07:00"
   },
   {
    "id": "brief-23",
