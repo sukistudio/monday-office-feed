@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-16T13:46:57+07:00",
+ "updatedAt": "2026-10-16T13:47:33+07:00",
  "pending": 6,
  "pendingNow": 1,
  "pendingLater": 5,
@@ -16,7 +16,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-20 · ส่งงาน DONE",
+   "task": "brief-18a · ส่ง PROGRESS",
    "since": "2026-10-16T13:46:57+07:00",
    "model": "fable",
    "brief": "brief-18a"
@@ -1289,6 +1289,13 @@
    "to": "10-monday",
    "brief": "brief-20",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-16T13:47:16+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-18a"
   }
  ],
  "projects": [
@@ -1415,6 +1422,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-18a",
+   "title": "brief-18a",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "progress",
+   "since": "2026-10-16T11:50:33+07:00",
+   "updatedAt": "2026-10-16T13:47:16+07:00"
+  },
+  {
    "id": "brief-20",
    "title": "brief-20",
    "project": "office-3d",
@@ -1464,17 +1482,6 @@
    "status": "done",
    "since": "2026-10-16T11:38:41+07:00",
    "updatedAt": "2026-10-16T11:57:45+07:00"
-  },
-  {
-   "id": "brief-18a",
-   "title": "brief-18a",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-16T11:50:33+07:00",
-   "updatedAt": "2026-10-16T11:50:33+07:00"
   },
   {
    "id": "brief-17d-1",
