@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:25:24+07:00",
+ "updatedAt": "2026-10-17T02:27:45+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T02:23:03+07:00",
+   "since": "2026-10-17T02:27:10+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -64,9 +64,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-17T02:27:10+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -146,9 +146,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:24:49+07:00",
+   "since": "2026-10-17T02:26:36+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:33:03+07:00",
-   "kind": "done",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-18"
-  },
   {
    "ts": "2026-10-16T10:33:06+07:00",
    "kind": "ack",
@@ -1687,6 +1680,14 @@
   },
   {
    "ts": "2026-10-17T02:22:58+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T02:27:38+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
