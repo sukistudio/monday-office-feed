@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:38:08+07:00",
+ "updatedAt": "2026-10-17T00:38:46+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "brief-15 · ส่งงาน DONE",
-   "since": "2026-10-17T00:33:22+07:00",
+   "since": "2026-10-17T00:38:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "stuck",
-   "task": "brief-23 · ติด รอช่วย",
-   "since": "2026-10-17T00:38:08+07:00",
+   "status": "working",
+   "task": "brief-20b · ส่งงาน DONE",
+   "since": "2026-10-17T00:38:46+07:00",
    "model": "fable",
    "brief": "brief-23",
    "project": "office-3d",
@@ -46,9 +46,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20b · ตรวจผ่าน",
-   "since": "2026-10-17T00:36:23+07:00",
+   "since": "2026-10-17T00:38:46+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -160,13 +160,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-15T10:40:15+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-15T10:40:20+07:00",
    "kind": "done",
@@ -1642,6 +1635,14 @@
    "to": "114-eddy-omx",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:38:33+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-20b",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1768,6 +1769,20 @@
  ],
  "briefs": [
   {
+   "id": "brief-20b",
+   "title": "Office feed: รวมสมาชิก OMX",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell",
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-17T00:11:06+07:00",
+   "updatedAt": "2026-10-17T00:38:33+07:00"
+  },
+  {
    "id": "brief-23",
    "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
    "project": "office-3d",
@@ -1809,20 +1824,6 @@
    "since": "2026-10-16T23:49:02+07:00",
    "updatedAt": "2026-10-17T00:23:14+07:00",
    "titleRedacted": true
-  },
-  {
-   "id": "brief-20b",
-   "title": "Office feed: รวมสมาชิก OMX",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [
-    "112-swell",
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T00:11:06+07:00",
-   "updatedAt": "2026-10-17T00:16:51+07:00"
   },
   {
    "id": "brief-18a",
