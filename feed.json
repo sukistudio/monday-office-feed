@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:27:20+07:00",
+ "updatedAt": "2026-10-17T00:28:33+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -19,7 +19,7 @@
    "task": "brief-22 · ส่งงาน DONE",
    "since": "2026-10-17T00:26:45+07:00",
    "model": "fable",
-   "brief": "brief-20b",
+   "brief": "brief-23",
    "project": "office-3d"
   },
   {
@@ -28,7 +28,7 @@
    "task": "brief-20b · ส่งงาน DONE",
    "since": "2026-10-17T00:21:56+07:00",
    "model": "opus",
-   "brief": "brief-20b",
+   "brief": "brief-23",
    "project": "office-3d"
   },
   {
@@ -37,7 +37,7 @@
    "task": "brief-20b · ส่งงาน DONE",
    "since": "2026-10-17T00:23:43+07:00",
    "model": "opus",
-   "brief": "brief-20b",
+   "brief": "brief-23",
    "project": "office-3d"
   },
   {
@@ -51,7 +51,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-17T00:23:43+07:00",
+   "since": "2026-10-17T00:28:33+07:00",
    "model": "fable"
   },
   {
@@ -1313,6 +1313,13 @@
    "to": "10-monday",
    "brief": "brief-22",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-17T00:28:29+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1438,6 +1445,20 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-23",
+   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell",
+    "111-ripple"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T00:27:30+07:00",
+   "updatedAt": "2026-10-17T00:27:30+07:00"
+  },
   {
    "id": "brief-22",
    "title": "Team chart: เพิ่ม Chart + OMX 3 ตัว",
