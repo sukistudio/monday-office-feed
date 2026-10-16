@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:57:33+07:00",
+ "updatedAt": "2026-10-17T01:58:11+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,11 +17,11 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-24-voice · ส่ง PROGRESS",
+   "task": "brief-23 · ส่ง PROGRESS",
    "since": "2026-10-17T01:42:30+07:00",
    "model": "fable",
-   "brief": "brief-24-voice",
-   "project": "short-drama-pilot",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -30,8 +30,8 @@
    "task": "brief-24-voice · ส่งงาน DONE",
    "since": "2026-10-17T01:56:59+07:00",
    "model": "opus",
-   "brief": "brief-25",
-   "project": "gemini-tts",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -40,8 +40,8 @@
    "task": "brief-26 · รับงาน",
    "since": "2026-10-17T01:48:01+07:00",
    "model": "opus",
-   "brief": "brief-26",
-   "project": "story-pipeline-gallery",
+   "brief": "brief-23",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -162,27 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:13:53+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-16T10:14:23+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-19"
-  },
-  {
-   "ts": "2026-10-16T10:14:26+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
   {
    "ts": "2026-10-16T10:15:31+07:00",
    "kind": "done",
@@ -1673,6 +1652,30 @@
    "to": "11-tide",
    "brief": "brief-23",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:57:41+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-23",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T01:57:47+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-26",
+   "project": "story-pipeline-gallery"
+  },
+  {
+   "ts": "2026-10-17T01:57:51+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-24-voice",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1827,6 +1830,21 @@
  ],
  "briefs": [
   {
+   "id": "brief-23",
+   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "114-eddy-omx",
+    "112-swell",
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-10-17T00:27:30+07:00",
+   "updatedAt": "2026-10-17T01:57:41+07:00"
+  },
+  {
    "id": "brief-24-voice",
    "title": "เสียงละครสั้นนำร่อง ตอน 1",
    "project": "short-drama-pilot",
@@ -1900,21 +1918,6 @@
    "status": "open",
    "since": "2026-10-17T01:18:34+07:00",
    "updatedAt": "2026-10-17T01:18:34+07:00"
-  },
-  {
-   "id": "brief-23",
-   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx",
-    "112-swell",
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T00:27:30+07:00",
-   "updatedAt": "2026-10-17T01:17:09+07:00"
   },
   {
    "id": "brief-20b",
