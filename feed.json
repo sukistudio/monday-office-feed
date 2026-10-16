@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T02:01:46+07:00",
+ "updatedAt": "2026-10-17T02:02:24+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -55,7 +55,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "brief-24 · ส่ง PROGRESS",
    "since": "2026-10-17T01:59:25+07:00",
    "model": "fable",
    "brief": "brief-24",
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T10:17:34+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-19"
-  },
   {
    "ts": "2026-10-16T10:19:19+07:00",
    "kind": "progress",
@@ -1678,6 +1671,14 @@
    "from": "12-beam",
    "to": "124-halo-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-17T02:01:52+07:00",
+   "kind": "progress",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "brief-24",
+   "project": "short-drama-pilot"
   }
  ],
  "projects": [
@@ -1840,9 +1841,9 @@
     "11-tide"
    ],
    "qa": null,
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-17T01:29:02+07:00",
-   "updatedAt": "2026-10-17T01:59:42+07:00"
+   "updatedAt": "2026-10-17T02:01:52+07:00"
   },
   {
    "id": "brief-26",
