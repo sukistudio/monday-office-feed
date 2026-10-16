@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:20:38+07:00",
+ "updatedAt": "2026-10-17T00:21:15+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -25,7 +25,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-21 · ส่ง PROGRESS",
+   "task": "brief-20b · ส่งงาน DONE",
    "since": "2026-10-17T00:20:38+07:00",
    "model": "opus",
    "brief": "brief-20b",
@@ -1232,6 +1232,14 @@
    "ts": "2026-10-17T00:20:20+07:00",
    "kind": "done",
    "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-20b",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:21:08+07:00",
+   "kind": "done",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-20b",
    "project": "office-3d"
