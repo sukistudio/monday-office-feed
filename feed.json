@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T00:12:44+07:00",
+ "updatedAt": "2026-10-17T00:13:21+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -15,9 +15,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-20b · แจกงาน",
-   "since": "2026-10-17T00:07:19+07:00",
+   "since": "2026-10-17T00:13:21+07:00",
    "model": "fable",
    "brief": "brief-20b",
    "project": "office-3d"
@@ -1123,6 +1123,14 @@
    "to": "112-swell",
    "brief": "brief-20b",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-17T00:13:11+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #8 แกลเลอรี · เปิด PR"
   }
  ],
  "projects": [
