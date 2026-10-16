@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T01:38:57+07:00",
+ "updatedAt": "2026-10-17T01:40:09+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-26 · แจกงาน",
-   "since": "2026-10-17T01:31:39+07:00",
+   "since": "2026-10-17T01:39:34+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-21 · ส่ง PROGRESS",
-   "since": "2026-10-17T01:29:47+07:00",
+   "since": "2026-10-17T01:39:34+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
-   "task": "brief-24 · ส่ง PROGRESS",
-   "since": "2026-10-17T01:38:57+07:00",
+   "status": "idle",
+   "task": "รับงาน",
+   "since": "2026-10-17T01:40:09+07:00",
    "model": "fable",
    "brief": "brief-24",
    "project": "short-drama-pilot",
@@ -72,9 +72,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T01:37:07+07:00",
+   "since": "2026-10-17T01:39:34+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -104,9 +104,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T01:37:07+07:00",
+   "since": "2026-10-17T01:40:09+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -120,9 +120,9 @@
   },
   {
    "id": "142-chart",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T01:38:19+07:00",
+   "since": "2026-10-17T01:39:34+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T09:43:57+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-17c",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T09:44:02+07:00",
    "kind": "qa-pass",
@@ -1675,6 +1667,13 @@
    "kind": "ack",
    "from": "142-chart",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-17T01:39:36+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
