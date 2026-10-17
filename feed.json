@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T21:20:23+07:00",
+ "updatedAt": "2026-10-17T21:24:25+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2042,12 +2042,10 @@
    "title": "brief-17",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-15T21:21:58+07:00",
+   "since": "2026-10-15T21:28:22+07:00",
    "updatedAt": "2026-10-16T12:06:40+07:00"
   },
   {
