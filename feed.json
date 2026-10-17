@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T22:01:00+07:00",
+ "updatedAt": "2026-10-17T22:03:55+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -107,9 +107,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T14:04:32+07:00",
+   "since": "2026-10-17T22:03:55+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -2045,7 +2045,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-15T22:01:21+07:00",
+   "since": "2026-10-15T22:52:25+07:00",
    "updatedAt": "2026-10-16T12:06:40+07:00"
   },
   {
