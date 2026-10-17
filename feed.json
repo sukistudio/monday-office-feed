@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-17T14:03:18+07:00",
+ "updatedAt": "2026-10-17T14:03:56+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -99,16 +99,16 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T06:51:17+07:00",
+   "since": "2026-10-17T14:03:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
    "status": "working",
-   "task": "",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-17T14:03:18+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:47:38+07:00",
-   "kind": "done",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-17d-1",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T11:48:46+07:00",
    "kind": "done",
@@ -1702,6 +1694,13 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": "brief-23d"
+  },
+  {
+   "ts": "2026-10-17T14:03:47+07:00",
+   "kind": "done",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
