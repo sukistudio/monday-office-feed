@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:07:40+07:00",
+ "updatedAt": "2026-10-19T01:08:20+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T01:07:06+07:00",
+   "since": "2026-10-19T01:08:20+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -135,7 +135,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T00:55:50+07:00",
    "model": "fable",
    "engine": "claude"
@@ -1283,6 +1283,13 @@
   {
    "ts": "2026-10-19T01:05:08+07:00",
    "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:08:17+07:00",
+   "kind": "done",
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
