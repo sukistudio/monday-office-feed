@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T10:16:42+07:00",
+ "updatedAt": "2026-10-18T10:20:47+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2091,7 +2091,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-16T10:19:19+07:00",
+   "since": "2026-10-16T10:21:16+07:00",
    "updatedAt": "2026-10-16T10:33:28+07:00"
   },
   {
@@ -2100,9 +2100,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-10-16T10:17:34+07:00",
+   "since": "2026-10-16T10:24:17+07:00",
    "updatedAt": "2026-10-16T10:25:39+07:00"
   }
  ],
