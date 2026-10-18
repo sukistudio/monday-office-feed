@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:57:35+07:00",
+ "updatedAt": "2026-10-19T00:59:57+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T00:57:00+07:00",
+   "since": "2026-10-19T00:58:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -164,22 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:59:29+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-17T00:59:46+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T01:27:01+07:00",
    "kind": "pr-open",
@@ -1482,7 +1466,7 @@
    ],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:59:29+07:00",
+   "since": "2026-10-17T01:17:09+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
