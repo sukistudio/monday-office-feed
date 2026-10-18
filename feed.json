@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:06:22+07:00",
+ "updatedAt": "2026-10-19T02:07:34+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:07:08+07:00",
-   "kind": "stuck",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T02:07:23+07:00",
-   "kind": "stuck",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T02:08:14+07:00",
    "kind": "progress",
