@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:12:25+07:00",
+ "updatedAt": "2026-10-19T00:13:36+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -75,9 +75,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T00:13:02+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -99,9 +99,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T00:13:02+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -163,30 +163,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:13:11+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 แกลเลอรี · เปิด PR"
-  },
-  {
-   "ts": "2026-10-17T00:13:30+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T00:13:34+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
   {
    "ts": "2026-10-17T00:14:21+07:00",
    "kind": "pr-open",
@@ -1945,7 +1921,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T00:13:30+07:00",
+   "since": "2026-10-17T00:17:27+07:00",
    "updatedAt": "2026-10-17T01:28:58+07:00",
    "titleRedacted": true
   },
