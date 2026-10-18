@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T12:06:00+07:00",
+ "updatedAt": "2026-10-18T12:06:36+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T12:06:36+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-20",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-16T12:06:40+07:00",
    "kind": "done",
@@ -1944,7 +1936,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-16T12:06:31+07:00",
+   "since": "2026-10-16T12:09:15+07:00",
    "updatedAt": "2026-10-16T12:15:58+07:00"
   },
   {
