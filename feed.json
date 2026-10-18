@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:30:41+07:00",
+ "updatedAt": "2026-10-19T00:32:28+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T00:30:03+07:00",
+   "since": "2026-10-19T00:31:18+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:32:25+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-20b",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T00:32:29+07:00",
    "kind": "qa-fail",
@@ -1776,7 +1768,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:32:25+07:00",
+   "since": "2026-10-17T00:32:29+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   }
  ],
