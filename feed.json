@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:04:13+07:00",
+ "updatedAt": "2026-10-19T00:05:59+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-18T23:55:59+07:00",
+   "since": "2026-10-19T00:05:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-23d · ส่งงาน DONE",
+   "task": "brief-22c · ส่ง PROGRESS",
    "since": "2026-10-19T00:03:36+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
-   "task": "brief-23d · ตรวจผ่าน",
-   "since": "2026-10-17T04:07:17+07:00",
+   "status": "working",
+   "task": "brief-22b · ตรวจผ่าน",
+   "since": "2026-10-19T00:04:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-19T00:01:16+07:00",
+   "since": "2026-10-19T00:05:25+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1540,6 +1540,29 @@
    "to": "",
    "brief": "",
    "title": "PR #7 ผังทีม · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T00:05:38+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #26 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T00:05:48+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-22c"
+  },
+  {
+   "ts": "2026-10-19T00:05:49+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-22b",
+   "project": "team-chart"
   }
  ],
  "projects": [
