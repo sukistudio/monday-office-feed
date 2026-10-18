@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T04:00:56+07:00",
+ "updatedAt": "2026-10-19T04:01:33+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T04:01:30+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": "brief-23d"
-  },
   {
    "ts": "2026-10-17T04:01:40+07:00",
    "kind": "done",
@@ -1039,8 +1032,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T04:01:30+07:00",
-   "updatedAt": "2026-10-17T04:01:30+07:00"
+   "since": "2026-10-17T04:01:36+07:00",
+   "updatedAt": "2026-10-17T04:01:36+07:00"
   }
  ],
  "warnings": [
