@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:40:36+07:00",
+ "updatedAt": "2026-10-19T01:42:57+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:40:36+07:00",
+   "since": "2026-10-19T01:41:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23e · ส่ง PROGRESS",
-   "since": "2026-10-19T01:39:59+07:00",
+   "since": "2026-10-19T01:41:48+07:00",
    "model": "fable",
    "brief": "brief-23e",
    "project": "office-3d",
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:42:55+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T01:43:13+07:00",
    "kind": "ack",
