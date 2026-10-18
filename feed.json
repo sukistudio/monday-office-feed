@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T11:51:21+07:00",
+ "updatedAt": "2026-10-18T11:54:51+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:54:35+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-20",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-16T11:56:19+07:00",
    "kind": "qa-pass",
@@ -2004,12 +1996,10 @@
    "title": "brief-20",
    "project": "office-3d",
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-16T11:53:16+07:00",
+   "since": "2026-10-16T11:54:54+07:00",
    "updatedAt": "2026-10-16T12:15:58+07:00"
   },
   {
@@ -2029,9 +2019,9 @@
    "project": "elevenlabs-thai-tts",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-10-16T11:52:55+07:00",
+   "since": "2026-10-16T11:56:19+07:00",
    "updatedAt": "2026-10-16T11:57:45+07:00"
   }
  ],
