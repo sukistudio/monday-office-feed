@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:01:16+07:00",
+ "updatedAt": "2026-10-19T00:03:36+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,18 +17,17 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-22b · แจกงาน",
+   "task": "brief-22c · แจกงาน",
    "since": "2026-10-18T23:58:54+07:00",
    "model": "fable",
-   "brief": "brief-22b",
-   "project": "team-chart",
+   "brief": "brief-22c",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23d · ส่งงาน DONE",
-   "since": "2026-10-17T04:04:13+07:00",
+   "since": "2026-10-19T00:03:36+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -156,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:03:03+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #21 คลิปแผนที่ · เปิด PR"
-  },
   {
    "ts": "2026-10-17T00:09:24+07:00",
    "kind": "brief",
@@ -1534,6 +1525,13 @@
    "to": "114-eddy-omx",
    "brief": "brief-22b",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:03:34+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-22c"
   }
  ],
  "projects": [
@@ -1699,6 +1697,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-22c",
+   "title": "brief-22c",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-19T00:03:34+07:00",
+   "updatedAt": "2026-10-19T00:03:34+07:00"
+  },
   {
    "id": "brief-22b",
    "title": "brief-22b",
@@ -1868,6 +1877,7 @@
  ],
  "warnings": [
   "project-cut:2",
-  "roster-missing:1"
+  "roster-missing:1",
+  "project-unknown:brief-22c"
  ]
 }
