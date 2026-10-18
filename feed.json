@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:17:47+07:00",
+ "updatedAt": "2026-10-19T02:19:33+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,21 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:19:07+07:00",
-   "kind": "stuck",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T02:19:19+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-27",
-   "project": "monday-chat"
-  },
   {
    "ts": "2026-10-17T02:20:12+07:00",
    "kind": "done",
@@ -1393,7 +1378,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T02:18:03+07:00",
+   "since": "2026-10-17T02:19:42+07:00",
    "updatedAt": "2026-10-17T02:20:12+07:00"
   }
  ],
