@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:11:12+07:00",
+ "updatedAt": "2026-10-19T00:11:49+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -45,7 +45,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-22c · ตรวจผ่าน",
+   "task": "brief-22b · ตรวจผ่าน",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -1634,6 +1634,14 @@
    "to": "",
    "brief": "",
    "title": "PR #26 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-19T00:11:13+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-22b",
+   "project": "team-chart"
   }
  ],
  "projects": [
