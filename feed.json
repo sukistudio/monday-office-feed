@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:27:03+07:00",
+ "updatedAt": "2026-10-19T01:27:41+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T01:22:47+07:00",
+   "since": "2026-10-19T01:27:41+07:00",
    "model": "opus",
    "brief": "brief-28",
    "project": "real-estate",
@@ -166,14 +166,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:27:24+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T01:29:36+07:00",
    "kind": "brief",
@@ -1454,6 +1446,14 @@
    "to": "11-tide",
    "brief": "brief-23e",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T01:27:15+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-28",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1630,7 +1630,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T01:04:14+07:00",
-   "updatedAt": "2026-10-19T01:23:29+07:00"
+   "updatedAt": "2026-10-19T01:27:15+07:00"
   },
   {
    "id": "brief-23e",
@@ -1686,7 +1686,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:27:16+07:00",
+   "since": "2026-10-17T01:28:12+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
