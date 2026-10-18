@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T12:06:36+07:00",
+ "updatedAt": "2026-10-18T12:07:13+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,13 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T12:06:40+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-17"
-  },
   {
    "ts": "2026-10-16T12:09:15+07:00",
    "kind": "qa-pass",
@@ -1938,17 +1931,6 @@
    "status": "done",
    "since": "2026-10-16T12:09:15+07:00",
    "updatedAt": "2026-10-16T12:15:58+07:00"
-  },
-  {
-   "id": "brief-17",
-   "title": "brief-17",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-16T12:06:40+07:00",
-   "updatedAt": "2026-10-16T12:06:40+07:00"
   }
  ],
  "warnings": [
