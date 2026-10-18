@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:19:44+07:00",
+ "updatedAt": "2026-10-19T01:20:57+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:18:35+07:00",
+   "since": "2026-10-19T01:20:57+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T01:19:10+07:00",
+   "since": "2026-10-19T01:20:57+07:00",
    "model": "opus",
    "brief": "brief-28",
    "project": "real-estate",
@@ -72,14 +72,14 @@
    "id": "123-pulse",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:15:32+07:00",
+   "since": "2026-10-19T01:20:57+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "13-harbor",
    "status": "working",
-   "task": "รับงาน",
+   "task": "แจกงาน",
    "since": "2026-10-19T01:19:44+07:00",
    "model": "fable",
    "engine": "claude"
@@ -94,17 +94,17 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:20:57+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:13:07+07:00",
+   "since": "2026-10-19T01:20:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -126,9 +126,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T00:28:12+07:00",
+   "since": "2026-10-19T01:20:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1373,6 +1373,28 @@
    "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:20:29+07:00",
+   "kind": "brief",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:20:30+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-28",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:20:36+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1549,7 +1571,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T01:04:14+07:00",
-   "updatedAt": "2026-10-19T01:19:15+07:00"
+   "updatedAt": "2026-10-19T01:20:30+07:00"
   },
   {
    "id": "brief-23e",
