@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:41:50+07:00",
+ "updatedAt": "2026-10-19T02:42:27+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -54,6 +54,8 @@
    "task": "รับงาน",
    "since": "2026-10-19T01:24:40+07:00",
    "model": "fable",
+   "brief": "brief-24",
+   "project": "short-drama-pilot",
    "engine": "claude"
   },
   {
@@ -162,21 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:42:21+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "brief-24",
-   "project": "short-drama-pilot"
-  },
-  {
-   "ts": "2026-10-17T02:42:27+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T02:42:31+07:00",
    "kind": "ack",
@@ -1178,6 +1165,17 @@
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
+   "id": "brief-24",
+   "title": "ละครสั้นไทย ตอนนำร่อง",
+   "project": "short-drama-pilot",
+   "lead": "12-beam",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T02:43:43+07:00",
+   "updatedAt": "2026-10-17T02:43:43+07:00"
+  },
+  {
    "id": "brief-24-gallery",
    "title": "ละครสั้นนำร่อง ep1 ขึ้น gallery ภายใน",
    "project": "short-drama-pilot",
@@ -1187,17 +1185,6 @@
    "status": "open",
    "since": "2026-10-17T02:43:39+07:00",
    "updatedAt": "2026-10-17T02:43:39+07:00"
-  },
-  {
-   "id": "brief-24",
-   "title": "ละครสั้นไทย ตอนนำร่อง",
-   "project": "short-drama-pilot",
-   "lead": "12-beam",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-17T02:42:21+07:00",
-   "updatedAt": "2026-10-17T02:42:21+07:00"
   }
  ],
  "warnings": [
