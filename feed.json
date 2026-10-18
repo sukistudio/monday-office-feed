@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T23:59:31+07:00",
+ "updatedAt": "2026-10-19T00:01:16+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,10 +17,11 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23d · รับงาน",
+   "task": "brief-22b · แจกงาน",
    "since": "2026-10-18T23:58:54+07:00",
    "model": "fable",
-   "brief": "brief-23d",
+   "brief": "brief-22b",
+   "project": "team-chart",
    "engine": "claude"
   },
   {
@@ -131,9 +132,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-17T04:04:50+07:00",
+   "since": "2026-10-19T00:01:16+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1525,6 +1526,14 @@
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T00:00:57+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "brief-22b",
+   "project": "team-chart"
   }
  ],
  "projects": [
@@ -1690,6 +1699,19 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-22b",
+   "title": "brief-22b",
+   "project": "team-chart",
+   "lead": "11-tide",
+   "assignees": [
+    "15-atlas"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-19T00:00:57+07:00",
+   "updatedAt": "2026-10-19T00:01:10+07:00"
+  },
   {
    "id": "brief-23d",
    "title": "brief-23d",
