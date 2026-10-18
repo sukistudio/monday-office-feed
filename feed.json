@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:03:36+07:00",
+ "updatedAt": "2026-10-19T00:04:13+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -35,9 +35,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-17T02:48:59+07:00",
+   "since": "2026-10-19T00:04:13+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1532,6 +1532,14 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": "brief-22c"
+  },
+  {
+   "ts": "2026-10-19T00:03:47+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 ผังทีม · เปิด PR"
   }
  ],
  "projects": [
@@ -1703,7 +1711,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T00:03:34+07:00",
    "updatedAt": "2026-10-19T00:03:34+07:00"
