@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:08:23+07:00",
+ "updatedAt": "2026-10-19T00:09:34+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T00:07:11+07:00",
+   "since": "2026-10-19T00:09:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-19T00:08:23+07:00",
+   "since": "2026-10-19T00:09:00+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -132,9 +132,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-19T00:06:37+07:00",
+   "since": "2026-10-19T00:09:34+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -156,14 +156,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:09:24+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "brief-22",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-17T00:09:47+07:00",
    "kind": "progress",
@@ -1609,6 +1601,38 @@
    "to": "112-swell",
    "brief": "brief-22b",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:09:09+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "brief-22b",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:09:12+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-22b",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:09:21+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-22b",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:09:37+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #7 ผังทีม · MERGED"
   }
  ],
  "projects": [
@@ -1785,7 +1809,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T00:00:57+07:00",
-   "updatedAt": "2026-10-19T00:08:06+07:00"
+   "updatedAt": "2026-10-19T00:09:21+07:00"
   },
   {
    "id": "brief-22c",
@@ -1945,7 +1969,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:09:24+07:00",
+   "since": "2026-10-17T00:09:47+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
