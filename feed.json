@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:11:52+07:00",
+ "updatedAt": "2026-10-19T01:12:30+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -71,7 +71,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-19T01:11:52+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -1306,6 +1306,13 @@
    "kind": "brief",
    "from": "12-beam",
    "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:12:26+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
