@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:57:25+07:00",
+ "updatedAt": "2026-10-19T01:58:02+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,30 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:57:41+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-17T01:57:47+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-26",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T01:57:51+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-24-voice",
-   "project": "short-drama-pilot"
-  },
   {
    "ts": "2026-10-17T01:58:44+07:00",
    "kind": "done",
@@ -1505,7 +1481,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:57:37+07:00",
+   "since": "2026-10-17T02:22:52+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
@@ -1551,7 +1527,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:57:47+07:00",
+   "since": "2026-10-17T01:58:48+07:00",
    "updatedAt": "2026-10-17T01:58:48+07:00"
   },
   {
@@ -1562,7 +1538,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:57:51+07:00",
+   "since": "2026-10-17T01:58:44+07:00",
    "updatedAt": "2026-10-17T01:58:44+07:00"
   }
  ],
