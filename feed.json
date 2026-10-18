@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:28:00+07:00",
+ "updatedAt": "2026-10-19T02:28:38+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:28:38+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "brief-24",
-   "project": "short-drama-pilot"
-  },
   {
    "ts": "2026-10-17T02:31:16+07:00",
    "kind": "ack",
@@ -1267,7 +1259,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T02:28:09+07:00",
+   "since": "2026-10-17T02:28:58+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
@@ -1289,7 +1281,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T02:28:38+07:00",
+   "since": "2026-10-17T02:42:21+07:00",
    "updatedAt": "2026-10-17T02:42:21+07:00"
   }
  ],
