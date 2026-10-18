@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:47:10+07:00",
+ "updatedAt": "2026-10-19T01:47:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:47:39+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-24-voice",
-   "project": "short-drama-pilot"
-  },
   {
    "ts": "2026-10-17T01:48:44+07:00",
    "kind": "done",
@@ -1614,7 +1606,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:47:39+07:00",
+   "since": "2026-10-17T01:48:44+07:00",
    "updatedAt": "2026-10-17T01:58:44+07:00"
   }
  ],
