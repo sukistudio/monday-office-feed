@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:28:57+07:00",
+ "updatedAt": "2026-10-19T01:29:35+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23e · รับงาน",
+   "task": "brief-28 · ส่งงาน DONE",
    "since": "2026-10-19T01:26:26+07:00",
    "model": "fable",
    "brief": "brief-23e",
@@ -30,8 +30,6 @@
    "task": "brief-23e · ส่ง PROGRESS",
    "since": "2026-10-19T01:18:35+07:00",
    "model": "opus",
-   "brief": "brief-25",
-   "project": "gemini-tts",
    "engine": "claude"
   },
   {
@@ -40,15 +38,13 @@
    "task": "brief-28 · ส่ง PROGRESS",
    "since": "2026-10-19T01:27:41+07:00",
    "model": "opus",
-   "brief": "brief-28",
-   "project": "real-estate",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ตรวจผ่าน",
-   "since": "2026-10-19T01:15:32+07:00",
+   "since": "2026-10-19T01:29:35+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -134,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "brief-28 · ส่งงาน DONE",
-   "since": "2026-10-19T01:24:40+07:00",
+   "since": "2026-10-19T01:29:35+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1478,6 +1474,14 @@
    "to": "11-tide",
    "brief": "brief-28",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:29:06+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-28",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1644,6 +1648,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-28",
+   "title": "Dashboard อสังหา (template)",
+   "project": "real-estate",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-19T01:04:14+07:00",
+   "updatedAt": "2026-10-19T01:29:06+07:00"
+  },
+  {
    "id": "brief-23e",
    "title": "brief-23e",
    "project": "office-3d",
@@ -1653,19 +1670,6 @@
    "status": "open",
    "since": "2026-10-19T01:18:08+07:00",
    "updatedAt": "2026-10-19T01:27:52+07:00"
-  },
-  {
-   "id": "brief-28",
-   "title": "Dashboard อสังหา (template)",
-   "project": "real-estate",
-   "lead": "11-tide",
-   "assignees": [
-    "112-swell"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T01:04:14+07:00",
-   "updatedAt": "2026-10-19T01:27:15+07:00"
   },
   {
    "id": "brief-22c",
@@ -1729,12 +1733,10 @@
    "title": "ละครสั้นไทย ตอนนำร่อง",
    "project": "short-drama-pilot",
    "lead": "12-beam",
-   "assignees": [
-    "11-tide"
-   ],
+   "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:29:02+07:00",
+   "since": "2026-10-17T01:34:08+07:00",
    "updatedAt": "2026-10-17T02:42:21+07:00"
   },
   {
@@ -1755,12 +1757,10 @@
    "title": "Gallery: git connect + เก็บชื่อ + ปุ่ม 44px",
    "project": "story-pipeline-gallery",
    "lead": "11-tide",
-   "assignees": [
-    "112-swell"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:29:10+07:00",
+   "since": "2026-10-17T01:29:44+07:00",
    "updatedAt": "2026-10-17T01:58:48+07:00"
   },
   {
@@ -1779,12 +1779,10 @@
    "title": "เทียบ Gemini TTS ภาษาไทย",
    "project": "gemini-tts",
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-10-17T01:29:06+07:00",
+   "since": "2026-10-17T01:29:40+07:00",
    "updatedAt": "2026-10-17T01:29:40+07:00"
   },
   {
@@ -1792,13 +1790,11 @@
    "title": "brief-21",
    "project": "story-pipeline-gallery",
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T01:28:58+07:00",
-   "updatedAt": "2026-10-17T01:28:58+07:00",
+   "since": "2026-10-17T01:29:36+07:00",
+   "updatedAt": "2026-10-17T01:29:36+07:00",
    "titleRedacted": true
   }
  ],
