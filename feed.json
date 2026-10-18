@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:52:48+07:00",
+ "updatedAt": "2026-10-19T00:53:59+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:53:29+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T00:54:00+07:00",
    "kind": "qa-pass",
@@ -1522,7 +1514,7 @@
    ],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:53:21+07:00",
+   "since": "2026-10-17T00:54:00+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
