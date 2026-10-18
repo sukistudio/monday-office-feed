@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:26:26+07:00",
+ "updatedAt": "2026-10-19T01:27:03+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -102,9 +102,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:25:49+07:00",
+   "since": "2026-10-19T01:27:03+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -166,14 +166,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:27:01+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #21 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-17T01:27:24+07:00",
    "kind": "progress",
