@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:10:49+07:00",
+ "updatedAt": "2026-10-19T00:11:12+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "idle",
    "task": "",
-   "since": "2026-10-19T00:09:00+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-22b · รับงาน",
-   "since": "2026-10-18T23:58:54+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "brief": "brief-22b",
    "project": "team-chart",
@@ -28,7 +28,7 @@
    "id": "111-ripple",
    "status": "idle",
    "task": "brief-22c · ส่งงาน DONE",
-   "since": "2026-10-19T00:10:12+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -38,7 +38,7 @@
    "id": "112-swell",
    "status": "idle",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-19T00:10:12+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -46,7 +46,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-22c · ตรวจผ่าน",
-   "since": "2026-10-19T00:07:11+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -54,7 +54,7 @@
    "id": "12-beam",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T02:55:35+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -62,7 +62,7 @@
    "id": "121-glow",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-17T02:44:44+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -70,7 +70,7 @@
    "id": "123-pulse",
    "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-17T02:42:20+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -78,7 +78,7 @@
    "id": "13-harbor",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -86,7 +86,7 @@
    "id": "131-ledger",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -94,7 +94,7 @@
    "id": "133-lantern",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -102,7 +102,7 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-18T22:06:21+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -110,7 +110,7 @@
    "id": "141-scout",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-18T22:05:46+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -118,7 +118,7 @@
    "id": "142-chart",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -126,15 +126,25 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-18T06:06:12+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
+   "engine": "claude"
+  },
+  {
+   "id": "15-atlas",
+   "status": "working",
+   "task": "",
+   "since": "2026-10-19T00:11:12+07:00",
+   "model": "fable",
+   "brief": "brief-22b",
+   "project": "team-chart",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
    "status": "idle",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-19T00:09:34+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -142,7 +152,7 @@
    "id": "124-halo-omx",
    "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-17T02:43:33+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -150,7 +160,7 @@
    "id": "144-buoy-omx",
    "status": "idle",
    "task": "",
-   "since": "2026-10-17T02:21:15+07:00",
+   "since": "2026-10-19T00:11:12+07:00",
    "model": "codex",
    "engine": "codex"
   }
@@ -1943,13 +1953,10 @@
    "title": "Office feed: รวมสมาชิก OMX",
    "project": "office-3d",
    "lead": "11-tide",
-   "assignees": [
-    "112-swell",
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:11:06+07:00",
+   "since": "2026-10-17T00:12:10+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   },
   {
@@ -1966,7 +1973,6 @@
  ],
  "warnings": [
   "project-cut:2",
-  "roster-missing:1",
   "project-unknown:brief-22c"
  ]
 }
