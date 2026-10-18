@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T12:15:58+07:00",
+ "updatedAt": "2026-10-18T12:16:36+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T12:15:58+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-20",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-16T13:47:16+07:00",
    "kind": "progress",
@@ -1872,17 +1864,6 @@
    "status": "progress",
    "since": "2026-10-16T13:47:16+07:00",
    "updatedAt": "2026-10-16T13:47:16+07:00"
-  },
-  {
-   "id": "brief-20",
-   "title": "brief-20",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-16T12:15:58+07:00",
-   "updatedAt": "2026-10-16T12:15:58+07:00"
   }
  ],
  "warnings": [
