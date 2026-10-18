@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T10:08:34+07:00",
+ "updatedAt": "2026-10-18T10:12:38+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2091,7 +2091,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-16T10:11:54+07:00",
+   "since": "2026-10-16T10:19:19+07:00",
    "updatedAt": "2026-10-16T10:33:28+07:00"
   },
   {
@@ -2102,19 +2102,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-16T10:12:35+07:00",
+   "since": "2026-10-16T10:14:23+07:00",
    "updatedAt": "2026-10-16T10:25:39+07:00"
-  },
-  {
-   "id": "brief-17c",
-   "title": "brief-17c",
-   "project": "elevenlabs-thai-tts",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-16T10:09:32+07:00",
-   "updatedAt": "2026-10-16T10:11:02+07:00"
   }
  ],
  "warnings": [
