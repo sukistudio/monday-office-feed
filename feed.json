@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:24:33+07:00",
+ "updatedAt": "2026-10-19T00:25:11+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -164,20 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:25:04+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T00:25:08+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T00:26:46+07:00",
    "kind": "qa-pass",
@@ -1838,9 +1824,9 @@
    "project": "team-chart",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-10-17T00:24:46+07:00",
+   "since": "2026-10-17T00:26:46+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
