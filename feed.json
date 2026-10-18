@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T23:55:59+07:00",
+ "updatedAt": "2026-10-18T23:58:54+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23d · รับงาน",
-   "since": "2026-10-17T04:07:54+07:00",
+   "since": "2026-10-18T23:58:54+07:00",
    "model": "fable",
    "brief": "brief-23d",
    "engine": "claude"
@@ -1847,6 +1847,7 @@
   }
  ],
  "warnings": [
-  "project-cut:2"
+  "project-cut:2",
+  "roster-missing:1"
  ]
 }
