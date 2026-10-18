@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:38:47+07:00",
+ "updatedAt": "2026-10-19T02:39:25+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:39:17+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #24 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-17T02:40:21+07:00",
    "kind": "qa-pass",
