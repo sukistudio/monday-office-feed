@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:10:41+07:00",
+ "updatedAt": "2026-10-19T01:11:52+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "working",
    "task": "",
-   "since": "2026-10-19T01:08:20+07:00",
+   "since": "2026-10-19T01:11:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -55,24 +55,24 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "รับงาน",
+   "task": "แจกงาน",
    "since": "2026-10-19T01:09:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:11:52+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:11:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -110,17 +110,17 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:26:57+07:00",
+   "since": "2026-10-19T01:11:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:11:17+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1292,6 +1292,20 @@
    "kind": "done",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:11:27+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:11:32+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
