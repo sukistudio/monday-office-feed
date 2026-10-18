@@ -1,27 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:11:49+07:00",
+ "updatedAt": "2026-10-19T00:12:25+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T00:12:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-22b · รับงาน",
+   "task": "brief-22b · ส่งงาน DONE",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
-   "brief": "brief-22b",
-   "project": "team-chart",
+   "brief": "brief-22c",
    "engine": "claude"
   },
   {
@@ -133,11 +132,9 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
-   "brief": "brief-22b",
-   "project": "team-chart",
    "engine": "claude"
   },
   {
@@ -166,14 +163,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:12:10+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-20b",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T00:13:11+07:00",
    "kind": "pr-open",
@@ -1642,6 +1631,21 @@
    "to": "11-tide",
    "brief": "brief-22b",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:12:00+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T00:12:07+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-22b",
+   "project": "team-chart"
   }
  ],
  "projects": [
@@ -1816,9 +1820,9 @@
     "15-atlas"
    ],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-10-19T00:00:57+07:00",
-   "updatedAt": "2026-10-19T00:09:21+07:00"
+   "updatedAt": "2026-10-19T00:12:07+07:00"
   },
   {
    "id": "brief-22c",
@@ -1964,7 +1968,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:12:10+07:00",
+   "since": "2026-10-17T00:16:29+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   },
   {
