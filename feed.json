@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T04:03:22+07:00",
+ "updatedAt": "2026-10-19T04:04:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,20 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T04:03:37+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-23d"
-  },
-  {
-   "ts": "2026-10-17T04:03:44+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "brief-23d"
-  },
   {
    "ts": "2026-10-17T04:04:03+07:00",
    "kind": "merged",
@@ -1018,8 +1004,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T04:03:34+07:00",
-   "updatedAt": "2026-10-17T04:03:34+07:00"
+   "since": "2026-10-17T04:04:21+07:00",
+   "updatedAt": "2026-10-17T04:04:21+07:00"
   }
  ],
  "warnings": [
