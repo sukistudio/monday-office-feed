@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T03:55:36+07:00",
+ "updatedAt": "2026-10-19T03:58:31+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T03:58:06+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-23d"
-  },
   {
    "ts": "2026-10-17T04:00:16+07:00",
    "kind": "pr-open",
@@ -1057,12 +1050,12 @@
    "id": "brief-23d",
    "title": "brief-23d",
    "project": null,
-   "lead": "11-tide",
+   "lead": null,
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T03:58:06+07:00",
-   "updatedAt": "2026-10-17T04:07:04+07:00"
+   "since": "2026-10-17T04:00:27+07:00",
+   "updatedAt": "2026-10-17T04:00:27+07:00"
   }
  ],
  "warnings": [
