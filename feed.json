@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:23:59+07:00",
+ "updatedAt": "2026-10-19T01:25:49+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:23:59+07:00",
+   "since": "2026-10-19T01:25:49+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · รับงาน",
-   "since": "2026-10-19T01:22:12+07:00",
+   "since": "2026-10-19T01:25:49+07:00",
    "model": "fable",
    "brief": "brief-28",
    "project": "real-estate",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T01:22:47+07:00",
+   "since": "2026-10-19T01:24:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -104,15 +104,15 @@
    "id": "14-horizon",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:22:12+07:00",
+   "since": "2026-10-19T01:25:49+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:22:12+07:00",
+   "since": "2026-10-19T01:25:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -120,7 +120,7 @@
    "id": "142-chart",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:22:12+07:00",
+   "since": "2026-10-19T01:25:49+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -134,9 +134,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่งงาน DONE",
-   "since": "2026-10-19T01:22:12+07:00",
+   "since": "2026-10-19T01:24:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1446,6 +1446,14 @@
    "from": "12-beam",
    "to": "123-pulse",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:25:47+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #27 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
