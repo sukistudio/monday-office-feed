@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:11:12+07:00",
+ "updatedAt": "2026-10-19T02:11:50+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:11:24+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "brief-24",
-   "project": "short-drama-pilot"
-  },
   {
    "ts": "2026-10-17T02:14:37+07:00",
    "kind": "qa-pass",
@@ -1428,7 +1420,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T02:11:24+07:00",
+   "since": "2026-10-17T02:17:40+07:00",
    "updatedAt": "2026-10-17T02:42:21+07:00"
   },
   {
