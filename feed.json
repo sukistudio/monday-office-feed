@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:21:23+07:00",
+ "updatedAt": "2026-10-19T02:22:01+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -147,7 +147,7 @@
   {
    "id": "124-halo-omx",
    "status": "idle",
-   "task": "ส่ง PROGRESS",
+   "task": "",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "codex",
    "engine": "codex"
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:21:56+07:00",
-   "kind": "progress",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T02:22:05+07:00",
    "kind": "done",
