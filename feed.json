@@ -1,27 +1,27 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:02:57+07:00",
+ "updatedAt": "2026-10-19T01:04:43+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T01:02:22+07:00",
+   "since": "2026-10-19T01:03:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-22c · รับงาน",
+   "task": "brief-28 · แจกงาน",
    "since": "2026-10-19T01:01:12+07:00",
    "model": "fable",
-   "brief": "brief-22c",
-   "project": "office-3d",
+   "brief": "brief-28",
+   "project": "real-estate",
    "engine": "claude"
   },
   {
@@ -36,10 +36,12 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-26 · รับงาน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:04:43+07:00",
    "model": "opus",
+   "brief": "brief-28",
+   "project": "real-estate",
    "engine": "claude"
   },
   {
@@ -1261,6 +1263,14 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:04:14+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-28",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1426,6 +1436,19 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-28",
+   "title": "Dashboard อสังหา (template)",
+   "project": "real-estate",
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-19T01:04:14+07:00",
+   "updatedAt": "2026-10-19T01:04:22+07:00"
+  },
   {
    "id": "brief-22c",
    "title": "brief-22c",
