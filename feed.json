@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:14:51+07:00",
+ "updatedAt": "2026-10-19T00:15:29+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-22b · ส่งงาน DONE",
+   "task": "brief-22c · รับงาน",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "fable",
    "brief": "brief-22c",
@@ -45,7 +45,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-22b · ตรวจผ่าน",
+   "task": "brief-22c · ตรวจผ่าน",
    "since": "2026-10-19T00:11:12+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -76,9 +76,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T00:13:02+07:00",
+   "since": "2026-10-19T00:15:29+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1620,6 +1620,30 @@
    "to": "10-monday",
    "brief": "brief-22b",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:14:52+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-22c",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T00:15:14+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-22c",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T00:15:20+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-22c",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1786,6 +1810,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-22c",
+   "title": "brief-22c",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-19T00:03:34+07:00",
+   "updatedAt": "2026-10-19T00:15:20+07:00"
+  },
+  {
    "id": "brief-22b",
    "title": "brief-22b",
    "project": "team-chart",
@@ -1797,17 +1832,6 @@
    "status": "done",
    "since": "2026-10-19T00:00:57+07:00",
    "updatedAt": "2026-10-19T00:12:07+07:00"
-  },
-  {
-   "id": "brief-22c",
-   "title": "brief-22c",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T00:03:34+07:00",
-   "updatedAt": "2026-10-19T00:06:48+07:00"
   },
   {
    "id": "brief-23d",
