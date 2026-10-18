@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:35:09+07:00",
+ "updatedAt": "2026-10-19T01:37:31+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:28:18+07:00",
+   "since": "2026-10-19T01:35:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:37:25+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "brief-24",
-   "project": "short-drama-pilot"
-  },
   {
    "ts": "2026-10-17T01:38:09+07:00",
    "kind": "done",
@@ -1650,7 +1642,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:37:25+07:00",
+   "since": "2026-10-17T01:39:28+07:00",
    "updatedAt": "2026-10-17T02:42:21+07:00"
   },
   {
