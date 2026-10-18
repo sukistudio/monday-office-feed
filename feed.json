@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:38:10+07:00",
+ "updatedAt": "2026-10-19T02:38:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -139,7 +139,7 @@
   {
    "id": "114-eddy-omx",
    "status": "idle",
-   "task": "brief-23 · ส่ง PROGRESS",
+   "task": "",
    "since": "2026-10-19T01:35:09+07:00",
    "model": "codex",
    "engine": "codex"
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:38:38+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T02:39:17+07:00",
    "kind": "pr-open",
@@ -1205,7 +1197,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T02:38:38+07:00",
+   "since": "2026-10-17T02:39:31+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
