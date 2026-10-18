@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:26:57+07:00",
+ "updatedAt": "2026-10-19T00:27:34+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -100,9 +100,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:24:33+07:00",
+   "since": "2026-10-19T00:27:34+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:27:01+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-22",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-17T00:28:29+07:00",
    "kind": "done",
@@ -1697,7 +1689,7 @@
    ],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:27:30+07:00",
+   "since": "2026-10-17T00:30:05+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
@@ -1809,17 +1801,6 @@
    "status": "done",
    "since": "2026-10-17T00:32:25+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
-  },
-  {
-   "id": "brief-22",
-   "title": "Team chart: เพิ่ม Chart + OMX 3 ตัว",
-   "project": "team-chart",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-17T00:27:01+07:00",
-   "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
  "warnings": [
