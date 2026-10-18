@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T11:29:52+07:00",
+ "updatedAt": "2026-10-18T11:33:55+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2048,20 +2048,6 @@
    "updatedAt": "2026-10-16T12:06:40+07:00"
   },
   {
-   "id": "brief-17d",
-   "title": "brief-17d",
-   "project": "elevenlabs-thai-tts",
-   "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx",
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "done",
-   "since": "2026-10-16T11:33:52+07:00",
-   "updatedAt": "2026-10-16T11:57:45+07:00"
-  },
-  {
    "id": "brief-17d-2",
    "title": "brief-17d-2",
    "project": "elevenlabs-thai-tts",
@@ -2070,6 +2056,17 @@
    "qa": "113-shore",
    "status": "done",
    "since": "2026-10-16T11:38:41+07:00",
+   "updatedAt": "2026-10-16T11:57:45+07:00"
+  },
+  {
+   "id": "brief-17d",
+   "title": "brief-17d",
+   "project": "elevenlabs-thai-tts",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-16T11:38:46+07:00",
    "updatedAt": "2026-10-16T11:57:45+07:00"
   },
   {
