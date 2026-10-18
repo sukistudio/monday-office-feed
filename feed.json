@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:28:49+07:00",
+ "updatedAt": "2026-10-19T00:29:26+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T00:28:12+07:00",
+   "since": "2026-10-19T00:29:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -164,20 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:29:07+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T00:29:11+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T00:30:05+07:00",
    "kind": "brief",
