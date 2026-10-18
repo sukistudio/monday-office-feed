@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:25:11+07:00",
+ "updatedAt": "2026-10-19T00:26:57+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -110,7 +110,7 @@
    "id": "141-scout",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:23:57+07:00",
+   "since": "2026-10-19T00:26:57+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:26:46+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-22",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-17T00:27:01+07:00",
    "kind": "done",
@@ -1826,7 +1818,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T00:26:46+07:00",
+   "since": "2026-10-17T00:27:01+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
