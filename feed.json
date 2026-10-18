@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:16:11+07:00",
+ "updatedAt": "2026-10-19T01:17:58+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:11:52+07:00",
+   "since": "2026-10-19T01:17:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T01:04:43+07:00",
+   "since": "2026-10-19T01:16:48+07:00",
    "model": "opus",
    "brief": "brief-28",
    "project": "real-estate",
@@ -47,16 +47,16 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-22c · ตรวจผ่าน",
+   "task": "brief-28 · ตรวจผ่าน",
    "since": "2026-10-19T01:15:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T01:14:54+07:00",
+   "since": "2026-10-19T01:16:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1350,6 +1350,14 @@
    "to": "11-tide",
    "brief": "brief-28",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:17:49+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-28",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1568,14 +1576,10 @@
    "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
    "project": "office-3d",
    "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx",
-    "112-swell",
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:17:09+07:00",
+   "since": "2026-10-17T01:18:26+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
