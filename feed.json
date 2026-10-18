@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T05:04:11+07:00",
+ "updatedAt": "2026-10-19T05:07:08+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -10,15 +10,15 @@
    "id": "10-monday",
    "status": "idle",
    "task": "",
-   "since": "2026-10-19T02:04:36+07:00",
+   "since": "2026-10-19T05:06:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23e · รับงาน",
-   "since": "2026-10-19T05:04:11+07:00",
+   "since": "2026-10-19T05:07:08+07:00",
    "model": "fable",
    "brief": "brief-23e",
    "project": "office-3d",
