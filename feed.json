@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:32:28+07:00",
+ "updatedAt": "2026-10-19T00:33:05+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T00:31:18+07:00",
+   "since": "2026-10-19T00:33:05+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -164,22 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:32:29+07:00",
-   "kind": "qa-fail",
-   "from": "113-shore",
-   "to": "112-swell",
-   "brief": "brief-20b",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-17T00:32:46+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #19 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-17T00:34:02+07:00",
    "kind": "qa-pass",
@@ -1768,7 +1752,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:32:29+07:00",
+   "since": "2026-10-17T00:33:23+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   }
  ],
