@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T23:49:02+07:00",
+ "updatedAt": "2026-10-18T23:51:56+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,22 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T23:51:33+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-16T23:51:51+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
   {
    "ts": "2026-10-16T23:59:07+07:00",
    "kind": "progress",
@@ -1818,7 +1802,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-16T23:49:02+07:00",
+   "since": "2026-10-16T23:52:00+07:00",
    "updatedAt": "2026-10-17T01:28:58+07:00",
    "titleRedacted": true
   },
