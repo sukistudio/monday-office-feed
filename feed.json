@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:45:22+07:00",
+ "updatedAt": "2026-10-19T01:45:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:45:59+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #9 แกลเลอรี · MERGED"
-  },
   {
    "ts": "2026-10-17T01:46:56+07:00",
    "kind": "progress",
