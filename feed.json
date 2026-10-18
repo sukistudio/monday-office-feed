@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:29:35+07:00",
+ "updatedAt": "2026-10-19T01:30:12+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่งงาน DONE",
-   "since": "2026-10-19T01:26:26+07:00",
+   "since": "2026-10-19T01:30:12+07:00",
    "model": "fable",
    "brief": "brief-23e",
    "project": "office-3d",
@@ -162,29 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:29:36+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T01:29:44+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-26",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T01:30:02+07:00",
-   "kind": "brief",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T01:30:32+07:00",
    "kind": "ack",
@@ -1482,6 +1459,13 @@
    "to": "10-monday",
    "brief": "brief-28",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:29:56+07:00",
+   "kind": "done",
+   "from": "142-chart",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1760,7 +1744,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:29:44+07:00",
+   "since": "2026-10-17T01:31:56+07:00",
    "updatedAt": "2026-10-17T01:58:48+07:00"
   },
   {
@@ -1775,17 +1759,6 @@
    "updatedAt": "2026-10-17T01:58:44+07:00"
   },
   {
-   "id": "brief-25",
-   "title": "เทียบ Gemini TTS ภาษาไทย",
-   "project": "gemini-tts",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-17T01:29:40+07:00",
-   "updatedAt": "2026-10-17T01:29:40+07:00"
-  },
-  {
    "id": "brief-21",
    "title": "brief-21",
    "project": "story-pipeline-gallery",
@@ -1793,8 +1766,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T01:29:36+07:00",
-   "updatedAt": "2026-10-17T01:29:36+07:00",
+   "since": "2026-10-17T01:33:42+07:00",
+   "updatedAt": "2026-10-17T01:33:42+07:00",
    "titleRedacted": true
   }
  ],
