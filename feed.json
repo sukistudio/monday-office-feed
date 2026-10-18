@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:48:28+07:00",
+ "updatedAt": "2026-10-19T02:49:39+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:49:33+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #10 แกลเลอรี · MERGED"
-  },
   {
    "ts": "2026-10-17T02:50:37+07:00",
    "kind": "progress",
@@ -1107,6 +1099,17 @@
    "updatedAt": "2026-10-17T04:07:04+07:00"
   },
   {
+   "id": "brief-23",
+   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-17T02:51:54+07:00",
+   "updatedAt": "2026-10-17T02:51:54+07:00"
+  },
+  {
    "id": "brief-24",
    "title": "ละครสั้นไทย ตอนนำร่อง",
    "project": "short-drama-pilot",
@@ -1127,17 +1130,6 @@
    "status": "open",
    "since": "2026-10-17T02:50:29+07:00",
    "updatedAt": "2026-10-17T02:50:29+07:00"
-  },
-  {
-   "id": "brief-23",
-   "title": "Office v2 (Common Room) ทำต่อให้สมบูรณ์",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-17T02:48:29+07:00",
-   "updatedAt": "2026-10-17T02:48:29+07:00"
   }
  ],
  "warnings": [
