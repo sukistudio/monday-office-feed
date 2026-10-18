@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:38:09+07:00",
+ "updatedAt": "2026-10-19T01:38:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,34 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:38:21+07:00",
-   "kind": "qa-pass",
-   "from": "123-pulse",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T01:38:25+07:00",
-   "kind": "qa-pass",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T01:38:29+07:00",
-   "kind": "done",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T01:38:32+07:00",
-   "kind": "ack",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T01:39:36+07:00",
    "kind": "ack",
