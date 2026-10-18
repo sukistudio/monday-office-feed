@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:55:03+07:00",
+ "updatedAt": "2026-10-19T01:57:25+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:57:01+07:00",
-   "kind": "stuck",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T01:57:41+07:00",
    "kind": "progress",
@@ -1513,7 +1505,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:56:27+07:00",
+   "since": "2026-10-17T01:57:37+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
@@ -1568,9 +1560,9 @@
    "project": "short-drama-pilot",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:55:43+07:00",
+   "since": "2026-10-17T01:57:51+07:00",
    "updatedAt": "2026-10-17T01:58:44+07:00"
   }
  ],
