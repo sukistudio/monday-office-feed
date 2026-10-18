@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T03:58:31+07:00",
+ "updatedAt": "2026-10-19T04:00:18+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T04:00:16+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #25 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-17T04:00:27+07:00",
    "kind": "progress",
