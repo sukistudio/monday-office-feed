@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:15:29+07:00",
+ "updatedAt": "2026-10-19T00:16:41+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-22c · รับงาน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T00:16:41+07:00",
    "model": "fable",
    "brief": "brief-22c",
    "project": "office-3d",
@@ -44,9 +44,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-22c · ตรวจผ่าน",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T00:16:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -100,9 +100,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:13:02+07:00",
+   "since": "2026-10-19T00:16:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -124,9 +124,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T00:14:51+07:00",
+   "since": "2026-10-19T00:16:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -164,14 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:16:29+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-20b",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-17T00:16:51+07:00",
    "kind": "ack",
@@ -1966,7 +1958,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:16:29+07:00",
+   "since": "2026-10-17T00:16:51+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   },
   {
@@ -1977,7 +1969,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:16:18+07:00",
+   "since": "2026-10-17T00:20:10+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
