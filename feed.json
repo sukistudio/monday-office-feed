@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:17:58+07:00",
+ "updatedAt": "2026-10-19T01:19:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T01:17:23+07:00",
+   "since": "2026-10-19T01:18:35+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-28 · ส่ง PROGRESS",
+   "task": "brief-28 · รับงาน",
    "since": "2026-10-19T01:15:32+07:00",
    "model": "fable",
    "brief": "brief-28",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-22c · ส่งงาน DONE",
-   "since": "2026-10-19T00:11:12+07:00",
+   "since": "2026-10-19T01:18:35+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -36,9 +36,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T01:16:48+07:00",
+   "since": "2026-10-19T01:19:10+07:00",
    "model": "opus",
    "brief": "brief-28",
    "project": "real-estate",
@@ -54,9 +54,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T01:16:48+07:00",
+   "since": "2026-10-19T01:19:44+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -71,16 +71,16 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T01:15:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T00:15:29+07:00",
+   "since": "2026-10-19T01:19:44+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1358,6 +1358,21 @@
    "to": "11-tide",
    "brief": "brief-28",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:19:15+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-28",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T01:19:43+07:00",
+   "kind": "done",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1532,9 +1547,20 @@
     "112-swell"
    ],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "open",
    "since": "2026-10-19T01:04:14+07:00",
-   "updatedAt": "2026-10-19T01:04:58+07:00"
+   "updatedAt": "2026-10-19T01:19:15+07:00"
+  },
+  {
+   "id": "brief-23e",
+   "title": "brief-23e",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-19T01:18:08+07:00",
+   "updatedAt": "2026-10-19T01:18:24+07:00"
   },
   {
    "id": "brief-22c",
@@ -1579,7 +1605,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T01:18:26+07:00",
+   "since": "2026-10-17T01:27:16+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
@@ -1669,17 +1695,6 @@
    "since": "2026-10-17T01:28:58+07:00",
    "updatedAt": "2026-10-17T01:28:58+07:00",
    "titleRedacted": true
-  },
-  {
-   "id": "brief-23-p2a",
-   "title": "brief-23-p2a",
-   "project": null,
-   "lead": null,
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-17T01:18:34+07:00",
-   "updatedAt": "2026-10-17T01:18:34+07:00"
   }
  ],
  "warnings": [
