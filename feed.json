@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T05:01:15+07:00",
+ "updatedAt": "2026-10-19T05:04:11+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23e · รับงาน",
-   "since": "2026-10-19T01:52:40+07:00",
+   "since": "2026-10-19T05:04:11+07:00",
    "model": "fable",
    "brief": "brief-23e",
    "project": "office-3d",
