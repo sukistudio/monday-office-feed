@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:33:18+07:00",
+ "updatedAt": "2026-10-19T01:33:55+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23e · รับงาน",
-   "since": "2026-10-19T01:30:12+07:00",
+   "since": "2026-10-19T01:33:55+07:00",
    "model": "fable",
    "brief": "brief-23e",
    "project": "office-3d",
@@ -122,17 +122,17 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T01:32:03+07:00",
+   "since": "2026-10-19T01:33:55+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:29:35+07:00",
+   "since": "2026-10-19T01:33:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,29 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:33:23+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #22 คลิปแผนที่ · เปิด PR"
-  },
-  {
-   "ts": "2026-10-17T01:33:46+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T01:33:53+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T01:33:57+07:00",
    "kind": "brief",
@@ -1756,10 +1733,10 @@
    "project": "story-pipeline-gallery",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "open",
-   "since": "2026-10-17T01:33:42+07:00",
-   "updatedAt": "2026-10-17T01:33:42+07:00",
+   "since": "2026-10-17T01:34:48+07:00",
+   "updatedAt": "2026-10-17T01:34:48+07:00",
    "titleRedacted": true
   }
  ],
