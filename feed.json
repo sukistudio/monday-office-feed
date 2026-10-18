@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:30:12+07:00",
+ "updatedAt": "2026-10-19T01:30:49+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -122,9 +122,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
-   "task": "รับงาน",
-   "since": "2026-10-19T01:28:57+07:00",
+   "status": "idle",
+   "task": "",
+   "since": "2026-10-19T01:30:49+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,13 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:30:32+07:00",
-   "kind": "ack",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-17T01:31:43+07:00",
    "kind": "qa-pass",
@@ -1465,6 +1458,13 @@
    "kind": "done",
    "from": "142-chart",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:30:46+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
    "brief": ""
   }
  ],
