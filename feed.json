@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:27:23+07:00",
+ "updatedAt": "2026-10-19T02:28:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,22 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:27:38+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-23",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-17T02:27:54+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #23 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-17T02:28:38+07:00",
    "kind": "progress",
@@ -1283,7 +1267,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T02:27:38+07:00",
+   "since": "2026-10-17T02:28:09+07:00",
    "updatedAt": "2026-10-17T02:48:19+07:00"
   },
   {
