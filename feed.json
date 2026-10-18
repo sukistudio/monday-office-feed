@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T10:32:59+07:00",
+ "updatedAt": "2026-10-18T10:37:04+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2082,17 +2082,6 @@
    "status": "done",
    "since": "2026-10-16T11:38:37+07:00",
    "updatedAt": "2026-10-16T11:48:46+07:00"
-  },
-  {
-   "id": "brief-18",
-   "title": "brief-18",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-16T10:33:03+07:00",
-   "updatedAt": "2026-10-16T10:33:28+07:00"
   }
  ],
  "warnings": [
