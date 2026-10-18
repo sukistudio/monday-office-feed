@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T02:02:11+07:00",
+ "updatedAt": "2026-10-19T02:03:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T01:41:48+07:00",
+   "since": "2026-10-19T02:03:24+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,14 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T02:03:49+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-27",
-   "project": "monday-chat"
-  },
   {
    "ts": "2026-10-17T02:07:08+07:00",
    "kind": "stuck",
@@ -1480,12 +1472,10 @@
    "title": "Monday ร่างแชท: Discord + Telegram",
    "project": "monday-chat",
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T02:03:49+07:00",
+   "since": "2026-10-17T02:04:00+07:00",
    "updatedAt": "2026-10-17T02:20:12+07:00"
   }
  ],
