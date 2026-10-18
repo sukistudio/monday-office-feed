@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:05:59+07:00",
+ "updatedAt": "2026-10-19T00:07:11+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T00:05:25+07:00",
+   "since": "2026-10-19T00:07:11+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-22c · แจกงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-18T23:58:54+07:00",
    "model": "fable",
    "brief": "brief-22c",
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-22c · ส่ง PROGRESS",
+   "task": "brief-22c · ส่งงาน DONE",
    "since": "2026-10-19T00:03:36+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -45,7 +45,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-22b · ตรวจผ่าน",
-   "since": "2026-10-19T00:04:50+07:00",
+   "since": "2026-10-19T00:07:11+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-23 · ส่ง PROGRESS",
-   "since": "2026-10-19T00:05:25+07:00",
+   "since": "2026-10-19T00:06:37+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1563,6 +1563,43 @@
    "to": "11-tide",
    "brief": "brief-22b",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:06:40+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-22b",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:06:44+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-22b",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T00:06:48+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-22c"
+  },
+  {
+   "ts": "2026-10-19T00:07:03+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T00:07:04+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "brief-22c"
   }
  ],
  "projects": [
@@ -1737,7 +1774,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T00:03:34+07:00",
-   "updatedAt": "2026-10-19T00:03:34+07:00"
+   "updatedAt": "2026-10-19T00:06:48+07:00"
   },
   {
    "id": "brief-22b",
@@ -1750,7 +1787,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T00:00:57+07:00",
-   "updatedAt": "2026-10-19T00:01:10+07:00"
+   "updatedAt": "2026-10-19T00:06:44+07:00"
   },
   {
    "id": "brief-23d",
