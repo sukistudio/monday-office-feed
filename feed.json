@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T00:21:34+07:00",
+ "updatedAt": "2026-10-19T00:23:20+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -100,9 +100,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T00:16:06+07:00",
+   "since": "2026-10-19T00:23:20+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -124,9 +124,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T00:16:06+07:00",
+   "since": "2026-10-19T00:23:20+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -164,30 +164,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T00:22:47+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T00:23:04+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
-  {
-   "ts": "2026-10-17T00:23:14+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
   {
    "ts": "2026-10-17T00:23:23+07:00",
    "kind": "qa-pass",
@@ -1854,7 +1830,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-17T00:22:47+07:00",
+   "since": "2026-10-17T01:28:58+07:00",
    "updatedAt": "2026-10-17T01:28:58+07:00",
    "titleRedacted": true
   },
@@ -1877,7 +1853,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:21:35+07:00",
+   "since": "2026-10-17T00:32:25+07:00",
    "updatedAt": "2026-10-17T00:38:33+07:00"
   },
   {
@@ -1888,7 +1864,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-17T00:21:38+07:00",
+   "since": "2026-10-17T00:23:23+07:00",
    "updatedAt": "2026-10-17T00:27:01+07:00"
   }
  ],
