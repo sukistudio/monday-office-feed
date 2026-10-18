@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:25:49+07:00",
+ "updatedAt": "2026-10-19T01:26:26+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-28 · รับงาน",
-   "since": "2026-10-19T01:25:49+07:00",
+   "since": "2026-10-19T01:26:26+07:00",
    "model": "fable",
    "brief": "brief-28",
    "project": "real-estate",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-22c · ส่งงาน DONE",
+   "task": "brief-23e · ส่ง PROGRESS",
    "since": "2026-10-19T01:18:35+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -126,9 +126,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T01:20:22+07:00",
+   "since": "2026-10-19T01:26:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1454,6 +1454,14 @@
    "to": "",
    "brief": "",
    "title": "PR #27 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T01:25:59+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-23e",
+   "project": "office-3d"
   }
  ],
  "projects": [
