@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:50:51+07:00",
+ "updatedAt": "2026-10-19T01:51:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23e · ส่ง PROGRESS",
+   "task": "brief-23e · รับงาน",
    "since": "2026-10-19T01:50:51+07:00",
    "model": "fable",
    "brief": "brief-23e",
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-23e · ตรวจผ่าน",
-   "since": "2026-10-19T01:31:26+07:00",
+   "since": "2026-10-19T01:51:28+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1273,6 +1273,22 @@
    "to": "10-monday",
    "brief": "brief-23e",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T01:50:54+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-23e",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T01:51:00+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-23e",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1445,9 +1461,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "open",
    "since": "2026-10-19T01:18:08+07:00",
-   "updatedAt": "2026-10-19T01:40:13+07:00"
+   "updatedAt": "2026-10-19T01:51:00+07:00"
   },
   {
    "id": "brief-28",
