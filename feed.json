@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:33:55+07:00",
+ "updatedAt": "2026-10-19T01:34:32+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,29 +162,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-17T01:33:57+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-17T01:34:08+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "brief-24",
-   "project": "short-drama-pilot"
-  },
-  {
-   "ts": "2026-10-17T01:34:21+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #9 แกลเลอรี · เปิด PR"
-  },
   {
    "ts": "2026-10-17T01:34:39+07:00",
    "kind": "done",
@@ -1435,6 +1412,14 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:34:06+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "brief-23e",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1609,7 +1594,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T01:18:08+07:00",
-   "updatedAt": "2026-10-19T01:31:18+07:00"
+   "updatedAt": "2026-10-19T01:34:06+07:00"
   },
   {
    "id": "brief-28",
@@ -1689,7 +1674,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-10-17T01:34:08+07:00",
+   "since": "2026-10-17T01:37:25+07:00",
    "updatedAt": "2026-10-17T02:42:21+07:00"
   },
   {
