@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:15:32+07:00",
+ "updatedAt": "2026-10-19T01:16:11+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -37,7 +37,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-26 · รับงาน",
+   "task": "brief-28 · ส่ง PROGRESS",
    "since": "2026-10-19T01:04:43+07:00",
    "model": "opus",
    "brief": "brief-28",
@@ -1342,6 +1342,14 @@
    "from": "12-beam",
    "to": "121-glow",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T01:15:37+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-28",
+   "project": "real-estate"
   }
  ],
  "projects": [
