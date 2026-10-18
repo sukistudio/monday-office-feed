@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T23:58:54+07:00",
+ "updatedAt": "2026-10-18T23:59:31+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,14 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T23:59:07+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-21",
-   "project": "story-pipeline-gallery"
-  },
   {
    "ts": "2026-10-17T00:03:03+07:00",
    "kind": "pr-open",
@@ -1689,6 +1681,12 @@
    "name": "Monday ร่างแชท (Discord + Telegram)",
    "team": "Monday + Software",
    "status": "building"
+  },
+  {
+   "id": "real-estate",
+   "name": "ทีมอสังหาริมทรัพย์ (Atlas)",
+   "team": "Real Estate",
+   "status": "building"
   }
  ],
  "briefs": [
@@ -1802,7 +1800,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-16T23:59:07+07:00",
+   "since": "2026-10-17T00:13:30+07:00",
    "updatedAt": "2026-10-17T01:28:58+07:00",
    "titleRedacted": true
   },
