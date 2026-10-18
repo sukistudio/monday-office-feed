@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T10:04:29+07:00",
+ "updatedAt": "2026-10-18T10:08:34+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -2111,9 +2111,9 @@
    "project": "elevenlabs-thai-tts",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-10-16T10:06:38+07:00",
+   "since": "2026-10-16T10:09:32+07:00",
    "updatedAt": "2026-10-16T10:11:02+07:00"
   }
  ],
