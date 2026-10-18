@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-18T11:49:00+07:00",
+ "updatedAt": "2026-10-18T11:51:21+07:00",
  "pending": 9,
  "pendingNow": 4,
  "pendingLater": 5,
@@ -155,22 +155,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-16T11:51:05+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-17d-2",
-   "project": "elevenlabs-thai-tts"
-  },
-  {
-   "ts": "2026-10-16T11:51:09+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "111-ripple",
-   "brief": "brief-17d-2",
-   "project": "elevenlabs-thai-tts"
-  },
   {
    "ts": "2026-10-16T11:54:35+07:00",
    "kind": "brief",
@@ -2012,7 +1996,7 @@
    "assignees": [],
    "qa": null,
    "status": "progress",
-   "since": "2026-10-16T11:50:33+07:00",
+   "since": "2026-10-16T11:56:12+07:00",
    "updatedAt": "2026-10-16T13:47:16+07:00"
   },
   {
@@ -2049,17 +2033,6 @@
    "status": "done",
    "since": "2026-10-16T11:52:55+07:00",
    "updatedAt": "2026-10-16T11:57:45+07:00"
-  },
-  {
-   "id": "brief-17d-2",
-   "title": "brief-17d-2",
-   "project": "elevenlabs-thai-tts",
-   "lead": null,
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-16T11:51:05+07:00",
-   "updatedAt": "2026-10-16T11:51:05+07:00"
   }
  ],
  "warnings": [
