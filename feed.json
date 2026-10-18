@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T01:32:40+07:00",
+ "updatedAt": "2026-10-19T01:33:18+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -106,9 +106,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T01:32:03+07:00",
+   "since": "2026-10-19T01:33:18+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,7 +131,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "brief-28 · ส่งงาน DONE",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T01:29:35+07:00",
    "model": "fable",
    "engine": "claude"
@@ -1451,6 +1451,13 @@
    "to": "111-ripple",
    "brief": "brief-23e",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T01:33:04+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
