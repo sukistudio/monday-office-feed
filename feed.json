@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:43:54+07:00",
+ "updatedAt": "2026-10-19T23:47:11+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-32 · ส่งงาน DONE",
+   "task": "brief-32 · รับงาน",
    "since": "2026-10-19T23:08:11+07:00",
    "model": "opus",
    "engine": "claude"
@@ -1592,6 +1592,14 @@
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:46:41+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
   }
