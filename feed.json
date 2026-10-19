@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:20:30+07:00",
+ "updatedAt": "2026-10-19T22:21:45+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "brief-31 · รับงาน",
+   "task": "brief-29 · รับงาน",
    "since": "2026-10-19T21:38:09+07:00",
    "model": "opus",
    "engine": "claude"
@@ -43,16 +43,16 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "brief-31 · รับงาน",
+   "task": "brief-29 · รับงาน",
    "since": "2026-10-19T21:53:51+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T22:21:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:18:40+07:00",
+   "since": "2026-10-19T22:21:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:50:41+07:00",
+   "since": "2026-10-19T22:21:45+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1172,6 +1172,22 @@
    "to": "15-atlas",
    "brief": "brief-31",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:21:31+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T22:21:36+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
   }
  ],
  "projects": [
