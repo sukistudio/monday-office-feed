@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:50:01+07:00",
+ "updatedAt": "2026-10-19T21:51:17+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:50:01+07:00",
+   "since": "2026-10-19T21:51:17+07:00",
    "model": "fable",
    "brief": "brief-29",
    "project": "office-3d",
@@ -155,16 +155,16 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ตรวจผ่าน",
    "since": "2026-10-19T21:37:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:41:17+07:00",
+   "since": "2026-10-19T21:50:41+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1096,6 +1096,13 @@
    "to": "11-tide",
    "brief": "brief-29",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T21:50:51+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
