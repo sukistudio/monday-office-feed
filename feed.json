@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:41:33+07:00",
+ "updatedAt": "2026-10-19T22:43:23+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -21,21 +21,22 @@
    "since": "2026-10-19T22:31:39+07:00",
    "model": "fable",
    "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31 · รับงาน",
-   "since": "2026-10-19T22:39:42+07:00",
+   "since": "2026-10-19T22:43:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31 · ส่งงาน DONE",
-   "since": "2026-10-19T22:40:55+07:00",
+   "since": "2026-10-19T22:42:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1248,7 +1249,8 @@
    "kind": "ack",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": "brief-32"
+   "brief": "brief-32",
+   "project": "office-3d"
   },
   {
    "ts": "2026-10-19T22:37:06+07:00",
@@ -1456,8 +1458,8 @@
  "briefs": [
   {
    "id": "brief-32",
-   "title": "brief-32",
-   "project": null,
+   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
+   "project": "office-3d",
    "lead": "11-tide",
    "assignees": [],
    "qa": null,
