@@ -1,27 +1,27 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:34:52+07:00",
+ "updatedAt": "2026-10-20T01:35:32+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T01:32:26+07:00",
+   "since": "2026-10-20T01:35:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32 · ส่งงาน DONE",
+   "task": "brief-32 · ส่ง PROGRESS",
    "since": "2026-10-20T01:32:26+07:00",
    "model": "fable",
-   "brief": "brief-31",
-   "project": "real-estate",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -30,6 +30,8 @@
    "task": "brief-32 · รับงาน",
    "since": "2026-10-20T01:32:26+07:00",
    "model": "opus",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -186,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:09:21+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:09:37+07:00",
    "kind": "merged",
@@ -1783,6 +1777,14 @@
    "from": "114-eddy-omx",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:35:09+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1957,9 +1959,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "done",
+   "status": "progress",
    "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-20T01:14:12+07:00"
+   "updatedAt": "2026-10-20T01:35:09+07:00"
   },
   {
    "id": "brief-29",
