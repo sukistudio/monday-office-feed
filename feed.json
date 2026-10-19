@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:36:51+07:00",
+ "updatedAt": "2026-10-19T21:37:30+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -130,16 +130,16 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:37:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T21:36:51+07:00",
    "model": "opus",
    "engine": "claude"
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:37:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -915,6 +915,13 @@
    "to": "",
    "brief": "",
    "title": "PR #8 ผังทีม · MERGED"
+  },
+  {
+   "ts": "2026-10-19T21:37:30+07:00",
+   "kind": "done",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
