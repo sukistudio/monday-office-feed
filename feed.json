@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:10:43+07:00",
+ "updatedAt": "2026-10-19T23:11:23+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T23:02:32+07:00",
+   "since": "2026-10-19T23:11:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-31b · ส่ง PROGRESS",
+   "task": "brief-29 · ส่งงาน DONE",
    "since": "2026-10-19T23:07:31+07:00",
    "model": "fable",
    "brief": "brief-31",
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
-   "task": "brief-29 · ตรวจผ่าน",
-   "since": "2026-10-19T22:39:42+07:00",
+   "status": "idle",
+   "task": "brief-32 · รับงาน",
+   "since": "2026-10-19T23:11:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1498,6 +1498,22 @@
    "to": "11-tide",
    "brief": "brief-29",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:10:54+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-29",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:11:05+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1664,6 +1680,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-29",
+   "title": "Office v2: ตกแต่งโซนแต่ละทีม",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-19T21:26:17+07:00",
+   "updatedAt": "2026-10-19T23:10:54+07:00"
+  },
+  {
    "id": "brief-31",
    "title": "Comps collector (Playwright) สำหรับทีมอสังหา",
    "project": "real-estate",
@@ -1695,17 +1722,6 @@
    "status": "open",
    "since": "2026-10-19T22:35:41+07:00",
    "updatedAt": "2026-10-19T22:35:41+07:00"
-  },
-  {
-   "id": "brief-29",
-   "title": "Office v2: ตกแต่งโซนแต่ละทีม",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "progress",
-   "since": "2026-10-19T21:26:17+07:00",
-   "updatedAt": "2026-10-19T22:35:37+07:00"
   },
   {
    "id": "brief-30",
