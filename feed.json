@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:11:47+07:00",
+ "updatedAt": "2026-10-20T02:12:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T02:11:47+07:00",
+   "since": "2026-10-20T02:12:28+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T01:32:26+07:00",
+   "since": "2026-10-20T02:12:28+07:00",
    "model": "opus",
    "brief": "brief-32",
    "project": "office-3d",
@@ -188,22 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:10:26+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #26 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-19T00:11:13+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:12:00+07:00",
    "kind": "done",
@@ -1756,6 +1740,29 @@
    "kind": "hey",
    "from": "112-swell",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:11:59+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #34 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-20T02:12:09+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T02:12:13+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
