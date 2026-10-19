@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T06:03:09+07:00",
+ "updatedAt": "2026-10-20T06:04:24+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -122,9 +122,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T06:04:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1707,6 +1707,20 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T06:03:58+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T06:04:03+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
