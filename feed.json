@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:30:30+07:00",
+ "updatedAt": "2026-10-20T01:31:43+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T00:47:22+07:00",
+   "since": "2026-10-20T01:31:43+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:09:12+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:09:21+07:00",
    "kind": "ack",
@@ -1660,20 +1652,6 @@
    "title": "PR #33 ออฟฟิศ 3D · MERGED"
   },
   {
-   "ts": "2026-10-20T01:00:42+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:01:19+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T01:01:54+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1782,6 +1760,28 @@
    "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:31:16+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #31 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-20T01:31:32+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:31:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
