@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:19:09+07:00",
+ "updatedAt": "2026-10-20T02:21:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T02:17:26+07:00",
+   "since": "2026-10-20T02:21:00+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -188,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:14:52+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-22c",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T00:15:14+07:00",
    "kind": "done",
@@ -1784,6 +1776,14 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T02:20:59+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
   }
