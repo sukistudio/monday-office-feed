@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:41:17+07:00",
+ "updatedAt": "2026-10-19T21:41:56+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-30 · ส่งงาน DONE",
+   "task": "brief-29 · ส่ง PROGRESS",
    "since": "2026-10-19T21:36:51+07:00",
    "model": "fable",
    "brief": "brief-29",
@@ -43,7 +43,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-30 · รับงาน",
+   "task": "brief-29 · รับงาน",
    "since": "2026-10-19T21:41:17+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T21:40:40+07:00",
+   "since": "2026-10-19T21:41:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -131,7 +131,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-10-19T21:37:30+07:00",
    "model": "fable",
    "engine": "claude"
@@ -155,7 +155,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ตรวจไม่ผ่าน",
    "since": "2026-10-19T21:37:30+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -981,6 +981,43 @@
    "from": "152-hearth",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:41:20+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-29",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T21:41:21+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T21:41:26+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:41:31+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:41:36+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "152-hearth",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1147,6 +1184,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-29",
+   "title": "Office v2: ตกแต่งโซนแต่ละทีม",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-10-19T21:26:17+07:00",
+   "updatedAt": "2026-10-19T21:41:20+07:00"
+  },
+  {
    "id": "brief-30",
    "title": "Team chart + office: ลูกทีม Real Estate 3 คน",
    "project": "team-chart",
@@ -1156,17 +1204,6 @@
    "status": "done",
    "since": "2026-10-19T21:27:03+07:00",
    "updatedAt": "2026-10-19T21:38:55+07:00"
-  },
-  {
-   "id": "brief-29",
-   "title": "Office v2: ตกแต่งโซนแต่ละทีม",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T21:26:17+07:00",
-   "updatedAt": "2026-10-19T21:26:17+07:00"
   },
   {
    "id": "brief-23e",
