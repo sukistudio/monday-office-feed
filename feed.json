@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:00:14+07:00",
+ "updatedAt": "2026-10-20T02:02:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T01:59:33+07:00",
+   "since": "2026-10-20T02:02:44+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -44,9 +44,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ตรวจผ่าน",
-   "since": "2026-10-20T02:00:14+07:00",
+   "since": "2026-10-20T02:00:55+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1686,21 +1686,7 @@
    "title": "PR #31 ออฟฟิศ 3D · MERGED"
   },
   {
-   "ts": "2026-10-20T01:31:32+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:31:37+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:31:48+07:00",
+   "ts": "2026-10-20T01:33:10+07:00",
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
@@ -1736,6 +1722,27 @@
    "to": "",
    "brief": "",
    "title": "PR #32 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-20T02:00:27+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:00:34+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:01:29+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
