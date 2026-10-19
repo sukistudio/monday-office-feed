@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:54:43+07:00",
+ "updatedAt": "2026-10-20T01:58:51+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1678,21 +1678,7 @@
    "project": "office-3d"
   },
   {
-   "ts": "2026-10-20T01:27:44+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:27:48+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:28:10+07:00",
+   "ts": "2026-10-20T01:29:15+07:00",
    "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
@@ -1720,13 +1706,6 @@
    "to": "111-ripple",
    "brief": "brief-32",
    "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-20T01:30:13+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T01:31:16+07:00",
