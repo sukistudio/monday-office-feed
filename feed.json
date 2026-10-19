@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:09:19+07:00",
+ "updatedAt": "2026-10-20T02:11:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T02:09:19+07:00",
+   "since": "2026-10-20T02:11:47+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -38,7 +38,7 @@
    "id": "112-swell",
    "status": "idle",
    "task": "brief-32 · ส่งงาน DONE",
-   "since": "2026-10-20T01:32:26+07:00",
+   "since": "2026-10-20T02:11:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1734,6 +1734,27 @@
    "ts": "2026-10-20T02:08:57+07:00",
    "kind": "hey",
    "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:10:08+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:10:12+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T02:10:19+07:00",
+   "kind": "hey",
+   "from": "112-swell",
    "to": "11-tide",
    "brief": ""
   }
