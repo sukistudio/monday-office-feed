@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:32:14+07:00",
+ "updatedAt": "2026-10-19T21:33:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T21:30:21+07:00",
+   "since": "2026-10-19T21:33:28+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-30 · แจกงาน",
-   "since": "2026-10-19T21:30:21+07:00",
+   "since": "2026-10-19T21:33:28+07:00",
    "model": "fable",
    "brief": "brief-30",
    "project": "team-chart",
@@ -34,16 +34,16 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:32:14+07:00",
+   "since": "2026-10-19T21:33:28+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-23e · ตรวจผ่าน",
+   "task": "brief-29 · รับงาน",
    "since": "2026-10-19T21:27:14+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -815,6 +815,14 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:33:04+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
   }
  ],
  "projects": [
