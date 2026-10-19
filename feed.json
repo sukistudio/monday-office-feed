@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:15:47+07:00",
+ "updatedAt": "2026-10-19T21:16:25+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-23e · รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T21:15:47+07:00",
    "model": "fable",
    "brief": "brief-23e",
@@ -753,6 +753,13 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:16:13+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
