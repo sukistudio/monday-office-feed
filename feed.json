@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:58:44+07:00",
+ "updatedAt": "2026-10-19T22:59:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31 · ส่ง PROGRESS",
-   "since": "2026-10-19T22:55:02+07:00",
+   "since": "2026-10-19T22:59:59+07:00",
    "model": "fable",
    "brief": "brief-31",
    "project": "real-estate",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31b · รับงาน",
-   "since": "2026-10-19T22:58:08+07:00",
+   "since": "2026-10-19T22:59:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -138,9 +138,9 @@
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:58:08+07:00",
+   "since": "2026-10-19T22:59:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1400,6 +1400,20 @@
    "ts": "2026-10-19T22:58:34+07:00",
    "kind": "done",
    "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T22:59:39+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T22:59:43+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
   }
