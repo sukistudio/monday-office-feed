@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:10:12+07:00",
+ "updatedAt": "2026-10-20T00:11:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-20T00:06:36+07:00",
+   "since": "2026-10-20T00:11:28+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T00:09:02+07:00",
+   "since": "2026-10-20T00:11:28+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1679,6 +1679,14 @@
    "to": "113-shore",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:11:19+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #32 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
