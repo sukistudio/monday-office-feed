@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:27:34+07:00",
+ "updatedAt": "2026-10-20T01:30:30+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T01:26:57+07:00",
+   "since": "2026-10-20T01:30:30+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -43,7 +43,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-32 · ตรวจไม่ผ่าน",
+   "task": "brief-32 · ตรวจผ่าน",
    "since": "2026-10-20T00:47:22+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -186,22 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:08:06+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
-  {
-   "ts": "2026-10-19T00:09:09+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:09:12+07:00",
    "kind": "qa-pass",
@@ -1748,6 +1732,57 @@
    "to": "111-ripple",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:27:44+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:27:48+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:28:10+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:29:20+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:30:00+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:30:04+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "111-ripple",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:30:13+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
