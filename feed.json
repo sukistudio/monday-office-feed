@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:21:03+07:00",
+ "updatedAt": "2026-10-20T01:25:10+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1681,20 +1681,6 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-20T00:51:23+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:54:14+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T01:00:33+07:00",
