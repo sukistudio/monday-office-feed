@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:12:12+07:00",
+ "updatedAt": "2026-10-20T01:13:24+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T01:08:06+07:00",
+   "since": "2026-10-20T01:13:24+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -188,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:06:44+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:06:48+07:00",
    "kind": "ack",
@@ -1812,6 +1804,14 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:12:56+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
