@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:30:59+07:00",
+ "updatedAt": "2026-10-19T21:32:14+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -36,7 +36,7 @@
    "id": "112-swell",
    "status": "working",
    "task": "brief-28 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:27:14+07:00",
+   "since": "2026-10-19T21:32:14+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -131,7 +131,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T21:21:14+07:00",
    "model": "fable",
    "engine": "claude"
@@ -805,6 +805,13 @@
   {
    "ts": "2026-10-19T21:30:25+07:00",
    "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:31:39+07:00",
+   "kind": "done",
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
