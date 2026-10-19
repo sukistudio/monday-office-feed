@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:36:09+07:00",
+ "updatedAt": "2026-10-19T23:36:48+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1554,6 +1554,14 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:36:35+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #30 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
