@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:30:21+07:00",
+ "updatedAt": "2026-10-19T21:30:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -131,7 +131,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-19T21:21:14+07:00",
    "model": "fable",
    "engine": "claude"
@@ -801,6 +801,13 @@
    "to": "",
    "brief": "",
    "title": "PR #28 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T21:30:25+07:00",
+   "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -972,7 +979,7 @@
    "project": "team-chart",
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T21:27:03+07:00",
    "updatedAt": "2026-10-19T21:27:03+07:00"
