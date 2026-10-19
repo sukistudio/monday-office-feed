@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:03:23+07:00",
+ "updatedAt": "2026-10-20T01:05:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T01:02:13+07:00",
+   "since": "2026-10-20T01:04:35+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1797,6 +1797,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:04:18+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": ""
   }
  ],
