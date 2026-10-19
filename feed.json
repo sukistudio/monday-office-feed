@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:36:48+07:00",
+ "updatedAt": "2026-10-19T23:37:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -35,16 +35,16 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-32 · ส่ง PROGRESS",
+   "task": "brief-32 · ส่งงาน DONE",
    "since": "2026-10-19T23:09:26+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-19T23:11:23+07:00",
+   "since": "2026-10-19T23:37:28+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1562,6 +1562,14 @@
    "to": "",
    "brief": "",
    "title": "PR #30 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T23:36:59+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1733,7 +1741,7 @@
    "project": "office-3d",
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "progress",
    "since": "2026-10-19T22:35:41+07:00",
    "updatedAt": "2026-10-19T23:17:29+07:00"
