@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:35:55+07:00",
+ "updatedAt": "2026-10-19T21:36:34+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:21:14+07:00",
+   "since": "2026-10-19T21:36:34+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:27:14+07:00",
+   "since": "2026-10-19T21:36:34+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -847,6 +847,22 @@
    "to": "11-tide",
    "brief": "brief-30",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T21:36:20+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #28 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-19T21:36:24+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #8 ผังทีม · MERGED"
   }
  ],
  "projects": [
