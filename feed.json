@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:27:14+07:00",
+ "updatedAt": "2026-10-19T21:27:52+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T21:26:39+07:00",
+   "since": "2026-10-19T21:27:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "brief-23e · ส่งงาน DONE",
+   "task": "brief-29 · รับงาน",
    "since": "2026-10-19T21:27:14+07:00",
    "model": "opus",
    "engine": "claude"
@@ -777,6 +777,14 @@
    "to": "112-swell",
    "brief": "brief-30",
    "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T21:27:24+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
   }
  ],
  "projects": [
