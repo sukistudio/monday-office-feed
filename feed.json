@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:16:49+07:00",
+ "updatedAt": "2026-10-20T00:19:11+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T00:16:49+07:00",
+   "since": "2026-10-20T00:18:01+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T00:16:49+07:00",
+   "since": "2026-10-20T00:18:01+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T00:13:49+07:00",
+   "since": "2026-10-20T00:17:26+07:00",
    "model": "codex",
    "engine": "codex"
   },
