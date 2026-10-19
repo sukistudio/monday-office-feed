@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:32:52+07:00",
+ "updatedAt": "2026-10-19T22:34:42+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T22:23:03+07:00",
+   "since": "2026-10-19T22:34:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T22:32:52+07:00",
+   "since": "2026-10-19T22:34:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -170,9 +170,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T22:31:39+07:00",
+   "since": "2026-10-19T22:34:06+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1219,6 +1219,14 @@
    "to": "10-monday",
    "brief": "brief-31",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:34:24+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "brief-29",
+   "project": "office-3d"
   }
  ],
  "projects": [
