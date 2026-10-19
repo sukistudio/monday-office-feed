@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:01:16+07:00",
+ "updatedAt": "2026-10-19T23:03:09+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T23:01:16+07:00",
+   "since": "2026-10-19T23:02:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-31b · รับงาน",
+   "task": "brief-31b · ส่ง PROGRESS",
    "since": "2026-10-19T23:00:38+07:00",
    "model": "fable",
    "brief": "brief-31",
@@ -28,15 +28,15 @@
    "id": "111-ripple",
    "status": "idle",
    "task": "brief-31b · รับงาน",
-   "since": "2026-10-19T22:59:23+07:00",
+   "since": "2026-10-19T23:03:09+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31b · ส่งงาน DONE",
-   "since": "2026-10-19T23:01:16+07:00",
+   "since": "2026-10-19T23:03:09+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T22:58:44+07:00",
+   "since": "2026-10-19T23:01:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1459,6 +1459,13 @@
    "kind": "ack",
    "from": "111-ripple",
    "to": "11-tide",
+   "brief": "brief-31b"
+  },
+  {
+   "ts": "2026-10-19T23:02:48+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": "brief-31b"
   }
  ],
