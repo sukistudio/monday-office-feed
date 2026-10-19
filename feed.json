@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T06:33:34+07:00",
+ "updatedAt": "2026-10-20T06:37:39+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1707,41 +1707,6 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-20T06:03:58+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T06:04:03+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T06:05:07+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T06:05:11+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T06:06:01+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
   }
  ],
  "projects": [
