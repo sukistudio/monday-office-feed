@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:15:53+07:00",
+ "updatedAt": "2026-10-19T23:17:48+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,11 +17,11 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-29 · ส่งงาน DONE",
+   "task": "brief-32 · ส่ง PROGRESS",
    "since": "2026-10-19T23:07:31+07:00",
    "model": "fable",
-   "brief": "brief-31",
-   "project": "real-estate",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-19T23:08:11+07:00",
+   "since": "2026-10-19T23:17:11+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1538,6 +1538,14 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:17:29+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1704,6 +1712,17 @@
  ],
  "briefs": [
   {
+   "id": "brief-32",
+   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "progress",
+   "since": "2026-10-19T22:35:41+07:00",
+   "updatedAt": "2026-10-19T23:17:29+07:00"
+  },
+  {
    "id": "brief-29",
    "title": "Office v2: ตกแต่งโซนแต่ละทีม",
    "project": "office-3d",
@@ -1735,17 +1754,6 @@
    "status": "open",
    "since": "2026-10-19T22:50:26+07:00",
    "updatedAt": "2026-10-19T22:50:26+07:00"
-  },
-  {
-   "id": "brief-32",
-   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-19T22:35:41+07:00"
   },
   {
    "id": "brief-30",
