@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:05:39+07:00",
+ "updatedAt": "2026-10-20T00:06:36+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T00:04:47+07:00",
+   "since": "2026-10-20T00:06:36+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1649,6 +1649,28 @@
    "to": "114-eddy-omx",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:05:53+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:06:11+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:06:24+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
