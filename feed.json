@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:50:22+07:00",
+ "updatedAt": "2026-10-20T00:51:02+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T00:50:22+07:00",
+   "since": "2026-10-20T00:51:02+07:00",
    "model": "opus",
    "brief": "brief-32",
    "project": "office-3d",
@@ -188,22 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:05:48+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-22c",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T00:05:49+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:06:40+07:00",
    "kind": "ack",
@@ -1768,6 +1752,22 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:50:33+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #33 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-20T00:50:42+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
   }
