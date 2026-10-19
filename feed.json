@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:48:00+07:00",
+ "updatedAt": "2026-10-20T00:50:22+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32 · ส่ง PROGRESS",
+   "task": "brief-32 · รับงาน",
    "since": "2026-10-20T00:47:22+07:00",
    "model": "fable",
    "brief": "brief-32",
@@ -26,17 +26,19 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T00:48:00+07:00",
+   "since": "2026-10-20T00:50:22+07:00",
    "model": "opus",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่งงาน DONE",
-   "since": "2026-10-20T00:47:22+07:00",
+   "since": "2026-10-20T00:48:38+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -186,22 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:03:47+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 ผังทีม · เปิด PR"
-  },
-  {
-   "ts": "2026-10-19T00:05:38+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #26 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-19T00:05:48+07:00",
    "kind": "progress",
@@ -1719,6 +1705,71 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:48:20+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:48:24+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:48:34+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:48:46+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:49:15+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:49:19+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:49:23+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:49:59+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:50:03+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1889,11 +1940,13 @@
    "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
    "project": "office-3d",
    "lead": "11-tide",
-   "assignees": [],
+   "assignees": [
+    "111-ripple"
+   ],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "open",
    "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-20T00:14:04+07:00"
+   "updatedAt": "2026-10-20T00:50:03+07:00"
   },
   {
    "id": "brief-29",
