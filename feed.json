@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:44:39+07:00",
+ "updatedAt": "2026-10-19T22:47:04+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T22:44:01+07:00",
+   "since": "2026-10-19T22:45:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31 · ส่งงาน DONE",
-   "since": "2026-10-19T22:31:39+07:00",
+   "since": "2026-10-19T22:45:53+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-19T22:44:01+07:00",
+   "since": "2026-10-19T22:45:17+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:44:01+07:00",
+   "since": "2026-10-19T22:47:04+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:26:05+07:00",
+   "since": "2026-10-19T22:45:53+07:00",
    "model": "opus",
    "engine": "claude"
   },
