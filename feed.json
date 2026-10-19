@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:41:19+07:00",
+ "updatedAt": "2026-10-20T02:45:29+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1669,40 +1669,12 @@
    "project": "office-3d"
   },
   {
-   "ts": "2026-10-20T02:12:13+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T02:12:57+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T02:13:40+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T02:14:02+07:00",
    "kind": "merged",
    "from": "",
    "to": "",
    "brief": "",
    "title": "PR #34 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-20T02:15:02+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T02:16:19+07:00",
