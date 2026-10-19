@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:56:53+07:00",
+ "updatedAt": "2026-10-19T22:58:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T22:56:53+07:00",
+   "since": "2026-10-19T22:58:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -26,17 +26,17 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-31b · รับงาน",
-   "since": "2026-10-19T22:56:53+07:00",
+   "since": "2026-10-19T22:58:08+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31b · ส่งงาน DONE",
-   "since": "2026-10-19T22:56:53+07:00",
+   "since": "2026-10-19T22:58:44+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -132,15 +132,15 @@
    "id": "15-atlas",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:56:53+07:00",
+   "since": "2026-10-19T22:58:44+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:54:26+07:00",
+   "since": "2026-10-19T22:58:08+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-19T22:53:12+07:00",
+   "since": "2026-10-19T22:58:44+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1395,6 +1395,13 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "brief-31b"
+  },
+  {
+   "ts": "2026-10-19T22:58:34+07:00",
+   "kind": "done",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
