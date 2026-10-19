@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:40:02+07:00",
+ "updatedAt": "2026-10-19T21:41:17+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -44,7 +44,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "brief-30 · รับงาน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:41:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:40:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:41:17+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -973,6 +973,13 @@
    "kind": "done",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:40:44+07:00",
+   "kind": "done",
+   "from": "152-hearth",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
