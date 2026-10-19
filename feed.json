@@ -1,27 +1,27 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:13:24+07:00",
+ "updatedAt": "2026-10-20T01:14:36+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T01:04:35+07:00",
+   "since": "2026-10-20T01:14:36+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32 · รับงาน",
+   "task": "brief-32 · ส่งงาน DONE",
    "since": "2026-10-20T01:13:24+07:00",
    "model": "fable",
-   "brief": "brief-32",
-   "project": "office-3d",
+   "brief": "brief-31",
+   "project": "real-estate",
    "engine": "claude"
   },
   {
@@ -30,8 +30,6 @@
    "task": "brief-32 · รับงาน",
    "since": "2026-10-20T00:52:49+07:00",
    "model": "opus",
-   "brief": "brief-32",
-   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -188,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:06:48+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-22c",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T00:07:03+07:00",
    "kind": "progress",
@@ -1812,6 +1802,21 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:14:12+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:14:18+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1986,9 +1991,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-20T00:50:03+07:00"
+   "updatedAt": "2026-10-20T01:14:12+07:00"
   },
   {
    "id": "brief-29",
