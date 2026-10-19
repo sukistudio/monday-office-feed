@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:47:22+07:00",
+ "updatedAt": "2026-10-20T00:48:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T00:47:22+07:00",
+   "since": "2026-10-20T00:48:00+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:03:34+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-22c",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T00:03:47+07:00",
    "kind": "pr-open",
@@ -1714,6 +1706,14 @@
   },
   {
    "ts": "2026-10-20T00:46:54+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:47:32+07:00",
    "kind": "ack",
    "from": "111-ripple",
    "to": "11-tide",
