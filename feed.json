@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:16:57+07:00",
+ "updatedAt": "2026-10-20T01:21:03+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1649,55 +1649,6 @@
    "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-20T00:48:20+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:48:24+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:48:34+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:48:46+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:49:15+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:49:19+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T00:49:23+07:00",
-   "kind": "hey",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T00:49:59+07:00",
