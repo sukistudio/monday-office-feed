@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:19:16+07:00",
+ "updatedAt": "2026-10-19T22:20:30+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T22:19:16+07:00",
+   "since": "2026-10-19T22:20:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-31 · แจกงาน",
+   "task": "brief-31 · รับงาน",
    "since": "2026-10-19T22:15:03+07:00",
    "model": "fable",
    "brief": "brief-31",
@@ -1164,6 +1164,14 @@
    "to": "11-tide",
    "brief": "brief-31",
    "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:20:06+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": "brief-31",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1338,7 +1346,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-10-19T22:17:02+07:00",
-   "updatedAt": "2026-10-19T22:18:40+07:00"
+   "updatedAt": "2026-10-19T22:20:06+07:00"
   },
   {
    "id": "brief-29",
