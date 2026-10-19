@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:35:32+07:00",
+ "updatedAt": "2026-10-20T01:37:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T01:35:32+07:00",
+   "since": "2026-10-20T01:36:49+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T01:32:26+07:00",
+   "since": "2026-10-20T01:36:15+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -1644,13 +1644,6 @@
    "to": "",
    "brief": "",
    "title": "PR #33 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-20T01:07:15+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T01:12:56+07:00",
