@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:57:30+07:00",
+ "updatedAt": "2026-10-20T01:01:02+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -188,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:06:40+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-22b",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T00:06:44+07:00",
    "kind": "ack",
@@ -1783,6 +1775,21 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:00:33+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #33 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-20T01:00:42+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ],
