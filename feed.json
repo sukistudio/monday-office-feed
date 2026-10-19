@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:56:48+07:00",
+ "updatedAt": "2026-10-20T00:01:12+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -138,9 +138,9 @@
   },
   {
    "id": "151-survey",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T23:12:40+07:00",
+   "since": "2026-10-20T00:01:12+07:00",
    "model": "opus",
    "engine": "claude"
   },
