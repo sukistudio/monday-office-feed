@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:03:09+07:00",
+ "updatedAt": "2026-10-19T23:05:38+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-31b · ส่ง PROGRESS",
-   "since": "2026-10-19T23:00:38+07:00",
+   "since": "2026-10-19T23:04:24+07:00",
    "model": "fable",
    "brief": "brief-31",
    "project": "real-estate",
