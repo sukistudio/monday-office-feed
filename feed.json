@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:01:12+07:00",
+ "updatedAt": "2026-10-20T00:03:42+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-19T23:49:52+07:00",
+   "since": "2026-10-20T00:03:42+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-19T23:12:40+07:00",
+   "since": "2026-10-20T00:02:05+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-19T23:00:38+07:00",
+   "since": "2026-10-20T00:03:42+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1626,6 +1626,21 @@
    "to": "111-ripple",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T00:02:54+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "brief-31",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-20T00:03:05+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
   }
  ],
  "projects": [
