@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:42:35+07:00",
+ "updatedAt": "2026-10-19T21:45:01+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T21:38:46+07:00",
+   "since": "2026-10-19T21:43:13+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:43:13+07:00",
    "model": "fable",
    "brief": "brief-29",
    "project": "office-3d",
@@ -138,9 +138,9 @@
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:40:02+07:00",
+   "since": "2026-10-19T21:45:01+07:00",
    "model": "opus",
    "engine": "claude"
   },
