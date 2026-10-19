@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:29:07+07:00",
+ "updatedAt": "2026-10-19T21:30:21+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T21:27:52+07:00",
+   "since": "2026-10-19T21:30:21+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-30 · แจกงาน",
-   "since": "2026-10-19T21:29:07+07:00",
+   "since": "2026-10-19T21:30:21+07:00",
    "model": "fable",
    "brief": "brief-30",
    "project": "team-chart",
@@ -793,6 +793,14 @@
    "to": "",
    "brief": "",
    "title": "PR #8 ผังทีม · เปิด PR"
+  },
+  {
+   "ts": "2026-10-19T21:30:15+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #28 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
