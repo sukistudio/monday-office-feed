@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:32:26+07:00",
+ "updatedAt": "2026-10-20T01:34:52+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T01:32:26+07:00",
+   "since": "2026-10-20T01:34:18+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1652,20 +1652,6 @@
    "title": "PR #33 ออฟฟิศ 3D · MERGED"
   },
   {
-   "ts": "2026-10-20T01:03:02+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:04:18+07:00",
-   "kind": "hey",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T01:07:15+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1789,6 +1775,13 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T01:33:14+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
    "brief": ""
   }
  ],
