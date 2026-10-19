@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:28:31+07:00",
+ "updatedAt": "2026-10-19T22:31:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -52,15 +52,15 @@
    "id": "12-beam",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T22:27:55+07:00",
+   "since": "2026-10-19T22:31:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T22:26:41+07:00",
+   "since": "2026-10-19T22:30:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -170,9 +170,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T22:26:41+07:00",
+   "since": "2026-10-19T22:31:00+07:00",
    "model": "codex",
    "engine": "codex"
   },
