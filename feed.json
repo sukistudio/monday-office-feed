@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T01:58:51+07:00",
+ "updatedAt": "2026-10-20T01:59:33+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-20T01:36:15+07:00",
+   "since": "2026-10-20T01:59:33+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
@@ -188,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T00:09:37+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #7 ผังทีม · MERGED"
-  },
   {
    "ts": "2026-10-19T00:10:10+07:00",
    "kind": "qa-pass",
@@ -1678,20 +1670,6 @@
    "project": "office-3d"
   },
   {
-   "ts": "2026-10-20T01:29:15+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:29:20+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T01:30:00+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
@@ -1706,6 +1684,13 @@
    "to": "111-ripple",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:30:13+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
   },
   {
    "ts": "2026-10-20T01:31:16+07:00",
@@ -1748,6 +1733,14 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T01:59:17+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
   }
