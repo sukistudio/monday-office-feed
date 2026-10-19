@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:26:41+07:00",
+ "updatedAt": "2026-10-19T22:28:31+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "idle",
-   "task": "brief-31 · รับงาน",
+   "task": "brief-31 · ส่ง PROGRESS",
    "since": "2026-10-19T22:23:03+07:00",
    "model": "fable",
    "brief": "brief-31",
@@ -35,7 +35,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-28 · ส่ง PROGRESS",
+   "task": "brief-31 · ส่ง PROGRESS",
    "since": "2026-10-19T22:19:16+07:00",
    "model": "opus",
    "engine": "claude"
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T22:21:08+07:00",
+   "since": "2026-10-19T22:27:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1195,6 +1195,22 @@
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T22:28:00+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-31",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:28:15+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-31",
+   "project": "real-estate"
   }
  ],
  "projects": [
@@ -1367,9 +1383,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-19T22:17:02+07:00",
-   "updatedAt": "2026-10-19T22:20:06+07:00"
+   "updatedAt": "2026-10-19T22:28:15+07:00"
   },
   {
    "id": "brief-29",
