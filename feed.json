@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T00:03:42+07:00",
+ "updatedAt": "2026-10-20T00:05:39+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-20T00:02:05+07:00",
+   "since": "2026-10-20T00:04:47+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T00:01:12+07:00",
+   "since": "2026-10-20T00:04:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่ง PROGRESS",
-   "since": "2026-10-19T23:17:11+07:00",
+   "since": "2026-10-20T00:05:39+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1641,6 +1641,14 @@
    "from": "15-atlas",
    "to": "151-survey",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T00:05:26+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
