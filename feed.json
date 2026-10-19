@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T22:37:14+07:00",
+ "updatedAt": "2026-10-19T22:38:28+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
-   "task": "brief-32 · รับงาน",
-   "since": "2026-10-19T22:35:19+07:00",
+   "status": "idle",
+   "task": "brief-31 · รับงาน",
+   "since": "2026-10-19T22:38:28+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
-   "task": "brief-31 · ตรวจผ่าน",
-   "since": "2026-10-19T22:35:19+07:00",
+   "status": "idle",
+   "task": "brief-31 · รับงาน",
+   "since": "2026-10-19T22:37:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1253,6 +1253,22 @@
   {
    "ts": "2026-10-19T22:37:06+07:00",
    "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-31",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:38:09+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-31",
+   "project": "real-estate"
+  },
+  {
+   "ts": "2026-10-19T22:38:12+07:00",
+   "kind": "ack",
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-31",
