@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T23:35:29+07:00",
+ "updatedAt": "2026-10-19T23:36:09+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1544,6 +1544,14 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T23:35:30+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": "brief-32",
    "project": "office-3d"
   }
