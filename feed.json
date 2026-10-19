@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T02:02:44+07:00",
+ "updatedAt": "2026-10-20T02:06:53+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1684,20 +1684,6 @@
    "to": "",
    "brief": "",
    "title": "PR #31 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-20T01:33:10+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T01:33:14+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T01:35:09+07:00",
