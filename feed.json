@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:47:32+07:00",
+ "updatedAt": "2026-10-19T21:49:23+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-19T21:46:53+07:00",
+   "since": "2026-10-19T21:49:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -98,17 +98,17 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
-   "task": "รับงาน",
-   "since": "2026-10-19T21:41:56+07:00",
+   "status": "working",
+   "task": "แจกงาน",
+   "since": "2026-10-19T21:48:10+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:48:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,24 +131,24 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-10-19T21:37:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:45:01+07:00",
+   "since": "2026-10-19T21:48:10+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "152-hearth",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:46:15+07:00",
+   "since": "2026-10-19T21:48:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1073,6 +1073,20 @@
    "kind": "progress",
    "from": "153-plumb",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:48:54+07:00",
+   "kind": "brief",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:48:54+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
