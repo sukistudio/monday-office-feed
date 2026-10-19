@@ -1,34 +1,34 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:37:30+07:00",
+ "updatedAt": "2026-10-19T21:39:23+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:38:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-30 · แจกงาน",
+   "task": "brief-30 · ส่งงาน DONE",
    "since": "2026-10-19T21:36:51+07:00",
    "model": "fable",
-   "brief": "brief-30",
-   "project": "team-chart",
+   "brief": "brief-29",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · รับงาน",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:38:09+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -138,16 +138,16 @@
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-19T21:36:51+07:00",
+   "since": "2026-10-19T21:38:46+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "152-hearth",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-19T21:36:51+07:00",
    "model": "opus",
    "engine": "claude"
@@ -922,6 +922,43 @@
    "from": "151-survey",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:38:49+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-30",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T21:38:55+07:00",
+   "kind": "done",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:38:55+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-30",
+   "project": "team-chart"
+  },
+  {
+   "ts": "2026-10-19T21:38:58+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:39:03+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "151-survey",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1094,9 +1131,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-10-19T21:27:03+07:00",
-   "updatedAt": "2026-10-19T21:27:03+07:00"
+   "updatedAt": "2026-10-19T21:38:55+07:00"
   },
   {
    "id": "brief-29",
