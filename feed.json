@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-19T21:52:34+07:00",
+ "updatedAt": "2026-10-19T21:54:26+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-19T21:49:23+07:00",
+   "since": "2026-10-19T21:53:51+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "brief-29 · ส่ง PROGRESS",
-   "since": "2026-10-19T21:51:17+07:00",
+   "status": "working",
+   "task": "brief-29 · ส่งงาน DONE",
+   "since": "2026-10-19T21:53:13+07:00",
    "model": "fable",
-   "brief": "brief-29",
+   "brief": "brief-23e",
    "project": "office-3d",
    "engine": "claude"
   },
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-29 · รับงาน",
-   "since": "2026-10-19T21:50:01+07:00",
+   "since": "2026-10-19T21:53:51+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-19T21:37:30+07:00",
+   "since": "2026-10-19T21:53:51+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1110,6 +1110,14 @@
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-19T21:53:53+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-29",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1282,9 +1290,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "done",
    "since": "2026-10-19T21:26:17+07:00",
-   "updatedAt": "2026-10-19T21:41:20+07:00"
+   "updatedAt": "2026-10-19T21:53:53+07:00"
   },
   {
    "id": "brief-30",
