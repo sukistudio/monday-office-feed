@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:04:25+07:00",
+ "updatedAt": "2026-10-20T16:05:04+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T15:45:22+07:00",
+   "since": "2026-10-20T16:05:04+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
@@ -41,17 +41,17 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · รับงาน",
-   "since": "2026-10-20T15:39:44+07:00",
+   "since": "2026-10-20T16:05:04+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-20T16:03:16+07:00",
+   "since": "2026-10-20T16:05:04+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:26:59+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T21:27:03+07:00",
    "kind": "brief",
@@ -1845,6 +1837,27 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:04:27+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:04:31+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:04:43+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
