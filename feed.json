@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:06:47+07:00",
+ "updatedAt": "2026-10-20T10:07:27+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32 · ส่งงาน DONE",
+   "task": "brief-25 · ส่ง PROGRESS",
    "since": "2026-10-20T10:06:47+07:00",
    "model": "fable",
    "brief": "brief-25",
@@ -188,21 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:04:58+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T01:05:08+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:08:17+07:00",
    "kind": "done",
@@ -1746,6 +1731,22 @@
    "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T10:06:54+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-25",
+   "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T10:06:58+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
   }
  ],
  "projects": [
@@ -1912,6 +1913,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-25",
+   "title": "เทียบ Gemini TTS ภาษาไทย",
+   "project": "gemini-tts",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-10-20T10:03:17+07:00",
+   "updatedAt": "2026-10-20T10:06:58+07:00"
+  },
+  {
    "id": "brief-32",
    "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
    "project": "office-3d",
@@ -1923,19 +1937,6 @@
    "status": "done",
    "since": "2026-10-19T22:35:41+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
-  },
-  {
-   "id": "brief-25",
-   "title": "เทียบ Gemini TTS ภาษาไทย",
-   "project": "gemini-tts",
-   "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-20T10:03:17+07:00",
-   "updatedAt": "2026-10-20T10:03:17+07:00"
   },
   {
    "id": "brief-29",
