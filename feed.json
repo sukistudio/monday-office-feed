@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:24:54+07:00",
+ "updatedAt": "2026-10-20T15:26:08+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -10,15 +10,15 @@
    "id": "10-monday",
    "status": "working",
    "task": "",
-   "since": "2026-10-20T15:24:15+07:00",
+   "since": "2026-10-20T15:26:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T15:21:47+07:00",
+   "since": "2026-10-20T15:26:08+07:00",
    "model": "fable",
    "brief": "brief-31",
    "project": "real-estate",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T15:24:15+07:00",
+   "since": "2026-10-20T15:25:33+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
-   "task": "รับงาน",
-   "since": "2026-10-20T15:24:54+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-20T15:26:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -170,9 +170,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T15:26:08+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:23:40+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T01:23:40+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:23:44+07:00",
    "kind": "ack",
@@ -1750,6 +1736,27 @@
    "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T15:25:48+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:25:52+07:00",
+   "kind": "stuck",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:25:56+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
