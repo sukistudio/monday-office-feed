@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:28:02+07:00",
+ "updatedAt": "2026-10-20T15:30:26+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-20T15:28:02+07:00",
+   "since": "2026-10-20T15:29:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
