@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T09:54:17+07:00",
+ "updatedAt": "2026-10-20T09:56:39+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T09:54:17+07:00",
+   "since": "2026-10-20T09:55:31+07:00",
    "model": "fable",
    "brief": "brief-32",
    "project": "office-3d",
