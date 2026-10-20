@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:44:42+07:00",
+ "updatedAt": "2026-10-20T15:45:22+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T15:44:01+07:00",
+   "since": "2026-10-20T15:45:22+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-20T15:44:42+07:00",
    "model": "fable",
    "engine": "claude"
@@ -65,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T15:38:25+07:00",
+   "since": "2026-10-20T15:45:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:31:18+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T01:33:04+07:00",
    "kind": "done",
@@ -1801,6 +1793,20 @@
    "kind": "done",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:45:16+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:45:21+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
