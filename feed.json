@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:09:36+07:00",
+ "updatedAt": "2026-10-20T16:10:16+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · รับงาน",
-   "since": "2026-10-20T16:05:04+07:00",
+   "since": "2026-10-20T16:10:16+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:30:25+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:31:39+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:32:28+07:00",
    "kind": "ack",
@@ -1896,6 +1882,29 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:09:43+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #36 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-20T16:09:46+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #36 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-20T16:09:55+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
