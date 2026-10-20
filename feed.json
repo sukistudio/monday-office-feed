@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:52:48+07:00",
+ "updatedAt": "2026-10-20T15:54:36+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -57,9 +57,9 @@
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T15:50:53+07:00",
+   "since": "2026-10-20T15:54:36+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1561,20 +1561,6 @@
    "project": "gemini-tts"
   },
   {
-   "ts": "2026-10-20T15:24:08+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:24:12+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T15:24:16+07:00",
    "kind": "ack",
    "from": "113-shore",
@@ -1817,6 +1803,34 @@
    "ts": "2026-10-20T15:52:26+07:00",
    "kind": "hey",
    "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:53:03+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:53:09+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:53:13+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:53:18+07:00",
+   "kind": "hey",
+   "from": "124-halo-omx",
    "to": "12-beam",
    "brief": ""
   }
