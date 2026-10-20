@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:09:52+07:00",
+ "updatedAt": "2026-10-20T10:12:19+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่ง PROGRESS",
-   "since": "2026-10-20T10:08:06+07:00",
+   "since": "2026-10-20T10:12:19+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:08:17+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:11:27+07:00",
    "kind": "brief",
@@ -1745,6 +1738,14 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T10:12:06+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
   }
