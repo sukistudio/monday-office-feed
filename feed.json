@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:19:58+07:00",
+ "updatedAt": "2026-10-20T15:21:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่ง PROGRESS",
-   "since": "2026-10-20T15:17:01+07:00",
+   "since": "2026-10-20T15:21:47+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "brief-25 · ส่ง PROGRESS",
+   "task": "brief-25 · ส่งงาน DONE",
    "since": "2026-10-20T15:17:35+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -44,9 +44,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · รับงาน",
-   "since": "2026-10-20T10:20:22+07:00",
+   "since": "2026-10-20T15:21:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -93,7 +93,7 @@
   {
    "id": "133-lantern",
    "status": "idle",
-   "task": "ตรวจไม่ผ่าน",
+   "task": "",
    "since": "2026-10-20T02:14:13+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:21:10+07:00",
-   "kind": "qa-fail",
-   "from": "133-lantern",
-   "to": "13-harbor",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:22:39+07:00",
    "kind": "done",
@@ -1727,6 +1720,21 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T15:21:30+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:21:34+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
   }
