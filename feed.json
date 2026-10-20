@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:04:17+07:00",
+ "updatedAt": "2026-10-20T10:04:57+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T10:03:37+07:00",
+   "since": "2026-10-20T10:04:57+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-32 · ส่งงาน DONE",
    "since": "2026-10-20T10:00:54+07:00",
    "model": "fable",
    "brief": "brief-25",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32 · รับงาน",
-   "since": "2026-10-20T10:03:37+07:00",
+   "since": "2026-10-20T10:04:57+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:00:07+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:04:14+07:00",
    "kind": "brief",
@@ -1745,6 +1738,14 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T10:04:22+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32",
+   "project": "office-3d"
   }
  ],
  "projects": [
@@ -1911,6 +1912,19 @@
  ],
  "briefs": [
   {
+   "id": "brief-32",
+   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
+   "project": "office-3d",
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-10-19T22:35:41+07:00",
+   "updatedAt": "2026-10-20T10:04:22+07:00"
+  },
+  {
    "id": "brief-25",
    "title": "เทียบ Gemini TTS ภาษาไทย",
    "project": "gemini-tts",
@@ -1922,19 +1936,6 @@
    "status": "open",
    "since": "2026-10-20T10:03:17+07:00",
    "updatedAt": "2026-10-20T10:03:17+07:00"
-  },
-  {
-   "id": "brief-32",
-   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-20T09:54:04+07:00"
   },
   {
    "id": "brief-29",
