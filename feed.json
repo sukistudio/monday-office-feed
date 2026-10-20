@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:02:36+07:00",
+ "updatedAt": "2026-10-20T16:04:25+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -25,16 +25,16 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T15:25:33+07:00",
+   "since": "2026-10-20T16:04:25+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
    "status": "working",
-   "task": "brief-32 · ส่งงาน DONE",
+   "task": "brief-32d · ส่งงาน DONE",
    "since": "2026-10-20T15:38:25+07:00",
    "model": "opus",
    "engine": "claude"
@@ -49,17 +49,17 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-10-20T16:01:17+07:00",
+   "since": "2026-10-20T16:03:16+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T16:01:56+07:00",
+   "since": "2026-10-20T16:03:16+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T14:04:51+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:16:13+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:26:59+07:00",
    "kind": "brief",
@@ -1844,6 +1830,21 @@
    "from": "121-glow",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:04:09+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #35 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-10-20T16:04:23+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
