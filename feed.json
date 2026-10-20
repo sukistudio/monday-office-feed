@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:54:36+07:00",
+ "updatedAt": "2026-10-20T15:57:00+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -51,7 +51,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T15:52:48+07:00",
+   "since": "2026-10-20T15:57:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -66,7 +66,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ตรวจผ่าน",
    "since": "2026-10-20T15:50:53+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:40:13+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T01:50:54+07:00",
    "kind": "done",
@@ -1583,20 +1575,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:25:56+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:26:09+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T15:27:40+07:00",
    "kind": "brief",
    "from": "12-beam",
@@ -1831,6 +1809,13 @@
    "ts": "2026-10-20T15:53:18+07:00",
    "kind": "hey",
    "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:56:59+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
   }
