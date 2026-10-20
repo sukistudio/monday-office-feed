@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:18:36+07:00",
+ "updatedAt": "2026-10-20T16:19:16+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T16:07:40+07:00",
+   "since": "2026-10-20T16:19:16+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32d · รับงาน",
+   "task": "brief-32d · ส่ง PROGRESS",
    "since": "2026-10-20T16:16:47+07:00",
    "model": "fable",
    "brief": "brief-32d",
@@ -25,17 +25,17 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T16:16:47+07:00",
+   "since": "2026-10-20T16:19:16+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T16:07:40+07:00",
+   "since": "2026-10-20T16:19:16+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:34:45+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:35:09+07:00",
    "kind": "pr-open",
@@ -1897,6 +1890,27 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:18:42+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:18:47+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:18:51+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
@@ -2069,9 +2083,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-20T15:38:23+07:00",
-   "updatedAt": "2026-10-20T16:12:36+07:00"
+   "updatedAt": "2026-10-20T16:18:51+07:00"
   },
   {
    "id": "brief-25",
