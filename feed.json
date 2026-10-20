@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:24:15+07:00",
+ "updatedAt": "2026-10-20T15:24:54+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -43,16 +43,16 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "brief-25 · ตรวจผ่าน",
+   "task": "brief-25 · รับงาน",
    "since": "2026-10-20T15:24:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T15:24:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:23:32+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
   {
    "ts": "2026-10-19T01:23:40+07:00",
    "kind": "done",
@@ -1750,6 +1742,14 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:24:16+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-25",
+   "project": "gemini-tts"
   }
  ],
  "projects": [
