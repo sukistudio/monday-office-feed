@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:29:41+07:00",
+ "updatedAt": "2026-10-20T16:30:21+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T16:22:25+07:00",
+   "since": "2026-10-20T16:30:21+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -98,7 +98,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ติด รอช่วย",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-20T16:29:07+07:00",
    "model": "fable",
    "engine": "claude"
@@ -185,21 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:35:09+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #29 ออฟฟิศ 3D · เปิด PR"
-  },
-  {
-   "ts": "2026-10-19T21:35:15+07:00",
-   "kind": "progress",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:35:40+07:00",
    "kind": "progress",
@@ -1980,6 +1965,20 @@
    "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:29:43+07:00",
+   "kind": "done",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:30:17+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
    "brief": ""
   }
  ],
