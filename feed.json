@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:44:01+07:00",
+ "updatedAt": "2026-10-20T15:44:42+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -49,9 +49,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-20T15:29:17+07:00",
+   "since": "2026-10-20T15:44:42+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -66,7 +66,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-20T15:38:25+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -185,22 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:31:06+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T01:31:10+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T01:31:18+07:00",
    "kind": "ack",
@@ -1804,6 +1788,20 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:44:05+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:44:31+07:00",
+   "kind": "done",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1978,7 +1976,7 @@
    "qa": "113-shore",
    "status": "progress",
    "since": "2026-10-20T15:38:23+07:00",
-   "updatedAt": "2026-10-20T15:40:41+07:00"
+   "updatedAt": "2026-10-20T15:44:05+07:00"
   },
   {
    "id": "brief-25",
