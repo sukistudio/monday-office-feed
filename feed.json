@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:42:27+07:00",
+ "updatedAt": "2026-10-20T16:43:06+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -33,9 +33,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T16:19:16+07:00",
+   "since": "2026-10-20T16:43:06+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,29 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:40:44+07:00",
-   "kind": "done",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:41:20+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T21:41:21+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T21:41:26+07:00",
    "kind": "qa-fail",
@@ -1590,27 +1567,6 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T16:21:43+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T16:21:47+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T16:22:36+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:22:43+07:00",
    "kind": "hey",
    "from": "12-beam",
@@ -1973,6 +1929,49 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:42:31+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:42:35+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:42:36+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #35 ออฟฟิศ 3D · MERGED"
+  },
+  {
+   "ts": "2026-10-20T16:42:37+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:43:02+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:43:05+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
   }
  ],
  "projects": [
