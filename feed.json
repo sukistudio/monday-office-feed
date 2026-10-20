@@ -1,27 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:36:00+07:00",
+ "updatedAt": "2026-10-20T15:38:25+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T15:36:00+07:00",
+   "since": "2026-10-20T15:37:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T15:26:08+07:00",
+   "status": "working",
+   "task": "brief-32d · แจกงาน",
+   "since": "2026-10-20T15:36:40+07:00",
    "model": "fable",
-   "brief": "brief-31",
-   "project": "real-estate",
+   "brief": "brief-32d",
    "engine": "claude"
   },
   {
@@ -34,17 +33,17 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32 · ส่งงาน DONE",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T15:38:25+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · รับงาน",
-   "since": "2026-10-20T15:24:15+07:00",
+   "since": "2026-10-20T15:38:25+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -66,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-20T15:32:23+07:00",
+   "since": "2026-10-20T15:38:25+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -170,9 +169,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T15:33:34+07:00",
+   "since": "2026-10-20T15:37:50+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -186,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:25:59+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T01:27:15+07:00",
    "kind": "ack",
@@ -1770,6 +1761,13 @@
    "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:38:23+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
@@ -1935,6 +1933,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-32d",
+   "title": "brief-32d",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-20T15:38:23+07:00",
+   "updatedAt": "2026-10-20T15:38:23+07:00"
+  },
   {
    "id": "brief-25",
    "title": "เทียบ Gemini TTS ภาษาไทย",
