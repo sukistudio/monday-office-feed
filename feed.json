@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T01:47:45+07:00",
+ "updatedAt": "2026-10-21T01:51:57+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -1938,17 +1938,6 @@
    "status": "done",
    "since": "2026-10-19T21:27:03+07:00",
    "updatedAt": "2026-10-19T21:38:55+07:00"
-  },
-  {
-   "id": "brief-23e",
-   "title": "brief-23e",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T01:50:30+07:00",
-   "updatedAt": "2026-10-19T01:51:00+07:00"
   }
  ],
  "warnings": [
