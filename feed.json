@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:27:52+07:00",
+ "updatedAt": "2026-10-20T16:29:41+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -49,17 +49,17 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:27:52+07:00",
+   "since": "2026-10-20T16:29:07+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T16:22:59+07:00",
+   "since": "2026-10-20T16:28:32+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -99,15 +99,15 @@
    "id": "14-horizon",
    "status": "working",
    "task": "ติด รอช่วย",
-   "since": "2026-10-20T16:27:12+07:00",
+   "since": "2026-10-20T16:29:07+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:27:52+07:00",
+   "since": "2026-10-20T16:28:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -121,9 +121,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T16:26:37+07:00",
+   "since": "2026-10-20T16:29:41+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1616,20 +1616,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-20T16:01:35+07:00",
-   "kind": "hey",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T16:02:13+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:04:09+07:00",
    "kind": "pr-open",
    "from": "",
@@ -1952,6 +1938,48 @@
    "kind": "hey",
    "from": "121-glow",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:28:02+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:28:06+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:28:32+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:28:36+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:29:05+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:29:10+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
