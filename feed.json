@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:34:10+07:00",
+ "updatedAt": "2026-10-20T16:34:50+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T16:32:15+07:00",
+   "since": "2026-10-20T16:34:50+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-10-20T16:33:30+07:00",
    "model": "fable",
    "engine": "claude"
@@ -65,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T16:05:44+07:00",
+   "since": "2026-10-20T16:34:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,16 +98,16 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-10-20T16:29:07+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:34:10+07:00",
+   "since": "2026-10-20T16:34:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -121,16 +121,16 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T16:31:35+07:00",
+   "since": "2026-10-20T16:34:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-20T16:31:35+07:00",
    "model": "fable",
    "engine": "claude"
@@ -185,29 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:36:24+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 ผังทีม · MERGED"
-  },
-  {
-   "ts": "2026-10-19T21:37:30+07:00",
-   "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:38:49+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-30",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T21:38:55+07:00",
    "kind": "done",
@@ -1606,13 +1583,6 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T16:08:37+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:08:45+07:00",
    "kind": "progress",
    "from": "11-tide",
@@ -1641,13 +1611,6 @@
    "to": "",
    "brief": "",
    "title": "PR #36 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-20T16:09:55+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T16:12:18+07:00",
@@ -1976,6 +1939,41 @@
    "kind": "done",
    "from": "141-scout",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:34:29+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:34:33+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:34:45+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:34:48+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:34:49+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
    "brief": ""
   }
  ],
