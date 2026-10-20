@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:38:39+07:00",
+ "updatedAt": "2026-10-20T16:39:20+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-10-20T16:38:39+07:00",
    "model": "fable",
    "engine": "claude"
@@ -65,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T16:34:50+07:00",
+   "since": "2026-10-20T16:39:20+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,28 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:38:55+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-30",
-   "project": "team-chart"
-  },
-  {
-   "ts": "2026-10-19T21:38:58+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:39:03+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:39:36+07:00",
    "kind": "ack",
@@ -1620,25 +1598,11 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T16:18:47+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:18:51+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
    "brief": "brief-32d"
-  },
-  {
-   "ts": "2026-10-20T16:20:43+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T16:21:11+07:00",
@@ -1974,6 +1938,41 @@
    "kind": "hey",
    "from": "152-hearth",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:38:40+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:38:45+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:39:01+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:39:17+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:39:20+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "152-hearth",
    "brief": ""
   }
  ],
