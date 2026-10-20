@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:54:05+07:00",
+ "updatedAt": "2026-10-20T16:54:44+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -51,7 +51,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-10-20T16:53:25+07:00",
    "model": "fable",
    "engine": "claude"
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:42:05+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T21:42:10+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:46:12+07:00",
    "kind": "qa-fail",
@@ -1958,6 +1944,27 @@
    "kind": "brief",
    "from": "12-beam",
    "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:54:06+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:54:12+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:54:15+07:00",
+   "kind": "hey",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
