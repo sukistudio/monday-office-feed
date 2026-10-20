@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:05:04+07:00",
+ "updatedAt": "2026-10-20T16:05:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T15:46:42+07:00",
+   "since": "2026-10-20T16:05:44+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -33,9 +33,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · ส่งงาน DONE",
-   "since": "2026-10-20T15:38:25+07:00",
+   "since": "2026-10-20T16:05:44+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-20T16:05:04+07:00",
    "model": "fable",
    "engine": "claude"
@@ -65,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T16:01:56+07:00",
+   "since": "2026-10-20T16:05:44+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -169,9 +169,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:01:56+07:00",
+   "since": "2026-10-20T16:05:44+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:27:03+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-30",
-   "project": "team-chart"
-  },
   {
    "ts": "2026-10-19T21:27:24+07:00",
    "kind": "ack",
@@ -1857,6 +1849,13 @@
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:05:32+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
    "brief": ""
   }
  ],
