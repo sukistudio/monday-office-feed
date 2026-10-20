@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:41:13+07:00",
+ "updatedAt": "2026-10-20T16:42:27+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T16:19:56+07:00",
+   "since": "2026-10-20T16:41:52+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-32d · รับงาน",
+   "task": "brief-32d · ตรวจผ่าน",
    "since": "2026-10-20T16:16:47+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:41:13+07:00",
+   "since": "2026-10-20T16:41:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -153,9 +153,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T16:40:39+07:00",
+   "since": "2026-10-20T16:41:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:39:38+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T21:40:44+07:00",
    "kind": "done",
@@ -1597,13 +1590,6 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T16:21:37+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "152-hearth",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:21:43+07:00",
    "kind": "hey",
    "from": "141-scout",
@@ -1973,6 +1959,20 @@
    "from": "152-hearth",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:41:47+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:41:53+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
