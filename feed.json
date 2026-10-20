@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T14:02:54+07:00",
+ "updatedAt": "2026-10-20T14:04:07+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -100,9 +100,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ติด รอช่วย",
-   "since": "2026-10-20T10:12:59+07:00",
+   "since": "2026-10-20T14:03:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:19:43+07:00",
-   "kind": "done",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:20:29+07:00",
    "kind": "brief",
@@ -1720,6 +1713,13 @@
    "to": "111-ripple",
    "brief": "brief-25",
    "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T14:03:34+07:00",
+   "kind": "done",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
