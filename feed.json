@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:08:17+07:00",
+ "updatedAt": "2026-10-20T16:08:56+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T16:04:25+07:00",
+   "since": "2026-10-20T16:08:56+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:28:51+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 ผังทีม · เปิด PR"
-  },
   {
    "ts": "2026-10-19T21:30:15+07:00",
    "kind": "pr-open",
@@ -1556,24 +1548,17 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T15:38:36+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:38:40+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T15:39:26+07:00",
    "kind": "progress",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:39:29+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -1905,6 +1890,20 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:08:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:08:45+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
@@ -2079,7 +2078,7 @@
    "qa": "113-shore",
    "status": "progress",
    "since": "2026-10-20T15:38:23+07:00",
-   "updatedAt": "2026-10-20T16:07:43+07:00"
+   "updatedAt": "2026-10-20T16:08:45+07:00"
   },
   {
    "id": "brief-25",
