@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:29:48+07:00",
+ "updatedAt": "2026-10-20T10:33:53+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1591,27 +1591,6 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T10:03:17+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T10:03:21+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T10:03:26+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
    "brief": ""
   },
   {
