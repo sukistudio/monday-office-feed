@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:15:41+07:00",
+ "updatedAt": "2026-10-20T15:16:21+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-25 · รับงาน",
+   "task": "brief-25 · ส่ง PROGRESS",
    "since": "2026-10-20T15:15:41+07:00",
    "model": "fable",
    "brief": "brief-25",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่ง PROGRESS",
-   "since": "2026-10-20T10:04:57+07:00",
+   "since": "2026-10-20T15:16:21+07:00",
    "model": "opus",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -77,7 +77,7 @@
   {
    "id": "13-harbor",
    "status": "idle",
-   "task": "แจกงาน",
+   "task": "",
    "since": "2026-10-20T02:14:13+07:00",
    "model": "fable",
    "engine": "claude"
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:20:29+07:00",
-   "kind": "brief",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:20:30+07:00",
    "kind": "ack",
@@ -1720,6 +1713,21 @@
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:15:48+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:15:52+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
   }
  ],
  "projects": [
@@ -1894,9 +1902,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-20T10:03:17+07:00",
-   "updatedAt": "2026-10-20T10:21:26+07:00"
+   "updatedAt": "2026-10-20T15:15:52+07:00"
   },
   {
    "id": "brief-32",
