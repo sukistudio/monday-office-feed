@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:30:26+07:00",
+ "updatedAt": "2026-10-20T15:31:07+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -67,7 +67,7 @@
   {
    "id": "123-pulse",
    "status": "working",
-   "task": "",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-20T15:28:02+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:25:47+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #27 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-10-19T01:25:59+07:00",
    "kind": "progress",
@@ -1768,6 +1760,13 @@
   {
    "ts": "2026-10-20T15:27:48+07:00",
    "kind": "hey",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:30:40+07:00",
+   "kind": "progress",
    "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
