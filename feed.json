@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T09:53:36+07:00",
+ "updatedAt": "2026-10-20T09:54:17+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,12 +16,12 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T07:18:45+07:00",
+   "since": "2026-10-20T09:54:17+07:00",
    "model": "fable",
-   "brief": "brief-31",
-   "project": "real-estate",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -30,6 +30,8 @@
    "task": "brief-32 · รับงาน",
    "since": "2026-10-20T02:14:13+07:00",
    "model": "opus",
+   "brief": "brief-32",
+   "project": "office-3d",
    "engine": "claude"
   },
   {
@@ -1707,6 +1709,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T09:54:04+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1881,9 +1890,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "done",
+   "status": "open",
    "since": "2026-10-19T22:35:41+07:00",
-   "updatedAt": "2026-10-20T02:21:40+07:00"
+   "updatedAt": "2026-10-20T09:54:04+07:00"
   },
   {
    "id": "brief-29",
