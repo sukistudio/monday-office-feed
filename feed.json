@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:04:57+07:00",
+ "updatedAt": "2026-10-20T10:06:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "brief-32 · ส่งงาน DONE",
-   "since": "2026-10-20T10:00:54+07:00",
+   "since": "2026-10-20T10:06:47+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "brief-32 · รับงาน",
+   "task": "brief-25 · ส่ง PROGRESS",
    "since": "2026-10-20T10:04:57+07:00",
    "model": "opus",
    "brief": "brief-25",
@@ -188,14 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:04:14+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
   {
    "ts": "2026-10-19T01:04:58+07:00",
    "kind": "progress",
@@ -1746,6 +1738,14 @@
    "to": "10-monday",
    "brief": "brief-32",
    "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-20T10:06:32+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-25",
+   "project": "gemini-tts"
   }
  ],
  "projects": [
