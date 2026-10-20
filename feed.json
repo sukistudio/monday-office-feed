@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:26:47+07:00",
+ "updatedAt": "2026-10-20T15:28:02+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T15:26:08+07:00",
+   "since": "2026-10-20T15:27:27+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "stuck",
-   "task": "ติด รอช่วย",
-   "since": "2026-10-20T15:26:08+07:00",
+   "status": "working",
+   "task": "แจกงาน",
+   "since": "2026-10-20T15:28:02+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -66,9 +66,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T15:28:02+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:23:44+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:25:47+07:00",
    "kind": "pr-open",
@@ -1762,6 +1755,20 @@
    "ts": "2026-10-20T15:26:09+07:00",
    "kind": "hey",
    "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:27:40+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:27:48+07:00",
+   "kind": "hey",
+   "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
   }
