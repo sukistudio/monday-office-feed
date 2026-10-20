@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:51:33+07:00",
+ "updatedAt": "2026-10-20T15:52:48+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -51,7 +51,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T15:50:14+07:00",
+   "since": "2026-10-20T15:52:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1810,6 +1810,13 @@
    "ts": "2026-10-20T15:51:01+07:00",
    "kind": "hey",
    "from": "124-halo-omx",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:52:26+07:00",
+   "kind": "hey",
+   "from": "121-glow",
    "to": "12-beam",
    "brief": ""
   }
