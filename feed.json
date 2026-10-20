@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:30:21+07:00",
+ "updatedAt": "2026-10-20T16:31:35+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -107,7 +107,7 @@
    "id": "141-scout",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:28:32+07:00",
+   "since": "2026-10-20T16:31:35+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -121,17 +121,17 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T16:29:41+07:00",
+   "since": "2026-10-20T16:31:35+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T16:22:59+07:00",
+   "since": "2026-10-20T16:31:35+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -153,9 +153,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T16:31:35+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:35:40+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T21:35:43+07:00",
    "kind": "qa-pass",
@@ -1616,20 +1608,6 @@
    "brief": "brief-32d"
   },
   {
-   "ts": "2026-10-20T16:04:27+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T16:04:31+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T16:04:43+07:00",
    "kind": "qa-pass",
    "from": "123-pulse",
@@ -1641,13 +1619,6 @@
    "kind": "done",
    "from": "12-beam",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T16:05:52+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
    "brief": ""
   },
   {
@@ -1979,6 +1950,34 @@
    "kind": "done",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:31:20+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:31:25+07:00",
+   "kind": "done",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:31:31+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:31:35+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
    "brief": ""
   }
  ],
