@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:38:25+07:00",
+ "updatedAt": "2026-10-20T15:39:04+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "brief-25 · รับงาน",
+   "task": "brief-32d · รับงาน",
    "since": "2026-10-20T15:38:25+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -185,30 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:27:15+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T01:27:48+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T01:27:52+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "brief-23e",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T01:28:19+07:00",
    "kind": "qa-pass",
@@ -1768,6 +1744,41 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:38:27+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:38:31+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:38:32+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:38:36+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:38:40+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1939,10 +1950,10 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-10-20T15:38:23+07:00",
-   "updatedAt": "2026-10-20T15:38:23+07:00"
+   "updatedAt": "2026-10-20T15:38:36+07:00"
   },
   {
    "id": "brief-25",
