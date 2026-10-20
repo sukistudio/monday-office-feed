@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:39:44+07:00",
+ "updatedAt": "2026-10-20T15:40:58+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-32d · แจกงาน",
+   "task": "brief-32d · ส่ง PROGRESS",
    "since": "2026-10-20T15:36:40+07:00",
    "model": "fable",
    "brief": "brief-32d",
@@ -114,7 +114,7 @@
   {
    "id": "142-chart",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-20T02:14:13+07:00",
    "model": "opus",
    "engine": "claude"
@@ -185,28 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:29:06+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T01:29:56+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T01:30:46+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T01:31:00+07:00",
    "kind": "done",
@@ -1778,6 +1756,41 @@
    "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:40:28+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:40:32+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:40:37+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T15:40:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:40:41+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-32d"
   }
  ],
  "projects": [
@@ -1950,9 +1963,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-10-20T15:38:23+07:00",
-   "updatedAt": "2026-10-20T15:38:36+07:00"
+   "updatedAt": "2026-10-20T15:40:41+07:00"
   },
   {
    "id": "brief-25",
