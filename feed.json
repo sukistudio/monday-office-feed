@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:12:40+07:00",
+ "updatedAt": "2026-10-20T16:16:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,18 +16,18 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · รับงาน",
-   "since": "2026-10-20T16:11:31+07:00",
+   "since": "2026-10-20T16:16:47+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T16:08:56+07:00",
+   "since": "2026-10-20T16:16:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · รับงาน",
-   "since": "2026-10-20T16:10:16+07:00",
+   "since": "2026-10-20T16:16:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1546,20 +1546,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:43:32+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:44:01+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T15:44:05+07:00",
    "kind": "progress",
    "from": "11-tide",
@@ -1576,20 +1562,6 @@
   {
    "ts": "2026-10-20T15:45:16+07:00",
    "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:45:21+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:45:36+07:00",
-   "kind": "hey",
    "from": "12-beam",
    "to": "10-monday",
    "brief": ""
@@ -1890,6 +1862,27 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:16:39+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:16:43+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:16:47+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
   }
  ],
  "projects": [
