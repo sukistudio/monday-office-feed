@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T10:33:53+07:00",
+ "updatedAt": "2026-10-20T10:37:59+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1600,13 +1600,6 @@
    "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
-  },
-  {
-   "ts": "2026-10-20T10:04:12+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-10-20T10:04:22+07:00",
