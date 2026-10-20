@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:26:08+07:00",
+ "updatedAt": "2026-10-20T15:26:47+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1756,6 +1756,13 @@
    "kind": "hey",
    "from": "12-beam",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:26:09+07:00",
+   "kind": "hey",
+   "from": "124-halo-omx",
+   "to": "12-beam",
    "brief": ""
   }
  ],
