@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T07:14:08+07:00",
+ "updatedAt": "2026-10-20T07:15:22+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T07:12:54+07:00",
+   "since": "2026-10-20T07:14:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -186,6 +186,21 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-10-19T00:15:20+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "brief-22c",
+   "project": "office-3d"
+  },
+  {
+   "ts": "2026-10-19T00:18:31+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
   {
    "ts": "2026-10-19T00:28:00+07:00",
    "kind": "done",
@@ -593,14 +608,6 @@
    "project": "office-3d"
   },
   {
-   "ts": "2026-10-19T21:28:51+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 ผังทีม · เปิด PR"
-  },
-  {
    "ts": "2026-10-19T21:30:15+07:00",
    "kind": "pr-open",
    "from": "",
@@ -689,14 +696,6 @@
    "to": "",
    "brief": "",
    "title": "PR #28 ออฟฟิศ 3D · MERGED"
-  },
-  {
-   "ts": "2026-10-19T21:36:24+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #8 ผังทีม · MERGED"
   },
   {
    "ts": "2026-10-19T21:37:30+07:00",
