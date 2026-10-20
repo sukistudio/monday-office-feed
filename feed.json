@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:21:44+07:00",
+ "updatedAt": "2026-10-20T16:23:34+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-20T16:19:16+07:00",
+   "since": "2026-10-20T16:22:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -57,9 +57,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T16:03:16+07:00",
+   "since": "2026-10-20T16:22:59+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "ติด รอช่วย",
-   "since": "2026-10-20T16:19:56+07:00",
+   "since": "2026-10-20T16:22:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-20T16:20:30+07:00",
+   "since": "2026-10-20T16:22:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -169,9 +169,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:07:05+07:00",
+   "since": "2026-10-20T16:22:59+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1588,38 +1588,24 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:52:26+07:00",
+   "ts": "2026-10-20T15:53:57+07:00",
    "kind": "hey",
    "from": "121-glow",
    "to": "12-beam",
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:53:03+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:53:09+07:00",
+   "ts": "2026-10-20T15:54:25+07:00",
    "kind": "hey",
    "from": "12-beam",
    "to": "124-halo-omx",
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:53:13+07:00",
+   "ts": "2026-10-20T15:54:29+07:00",
    "kind": "hey",
    "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:53:18+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
+   "to": "121-glow",
    "brief": ""
   },
   {
@@ -1938,6 +1924,55 @@
    "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:21:47+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:22:36+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:22:43+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:22:45+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:22:47+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:22:54+07:00",
+   "kind": "hey",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T16:23:09+07:00",
+   "kind": "hey",
+   "from": "124-halo-omx",
+   "to": "12-beam",
    "brief": ""
   }
  ],
