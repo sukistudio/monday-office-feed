@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T16:19:16+07:00",
+ "updatedAt": "2026-10-20T16:21:04+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T16:16:47+07:00",
+   "since": "2026-10-20T16:19:56+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
@@ -49,9 +49,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-20T16:07:05+07:00",
+   "since": "2026-10-20T16:19:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ติด รอช่วย",
-   "since": "2026-10-20T14:04:46+07:00",
+   "since": "2026-10-20T16:19:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-20T02:14:13+07:00",
+   "since": "2026-10-20T16:20:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1588,20 +1588,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-20T15:50:58+07:00",
-   "kind": "hey",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-20T15:51:01+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-20T15:52:26+07:00",
    "kind": "hey",
    "from": "121-glow",
@@ -1911,6 +1897,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "brief-32d"
+  },
+  {
+   "ts": "2026-10-20T16:20:43+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
