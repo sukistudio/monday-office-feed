@@ -1,37 +1,35 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:23:36+07:00",
+ "updatedAt": "2026-10-20T15:24:15+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T15:17:01+07:00",
+   "since": "2026-10-20T15:24:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-25 · ส่ง PROGRESS",
+   "task": "brief-25 · ส่งงาน DONE",
    "since": "2026-10-20T15:21:47+07:00",
    "model": "fable",
-   "brief": "brief-25",
-   "project": "gemini-tts",
+   "brief": "brief-31",
+   "project": "real-estate",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-25 · ส่งงาน DONE",
-   "since": "2026-10-20T15:17:35+07:00",
+   "since": "2026-10-20T15:24:15+07:00",
    "model": "opus",
-   "brief": "brief-25",
-   "project": "gemini-tts",
    "engine": "claude"
   },
   {
@@ -44,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-25 · ตรวจผ่าน",
-   "since": "2026-10-20T15:21:47+07:00",
+   "since": "2026-10-20T15:24:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -188,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:23:29+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
   {
    "ts": "2026-10-19T01:23:32+07:00",
    "kind": "done",
@@ -1738,6 +1728,28 @@
    "to": "11-tide",
    "brief": "brief-25",
    "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T15:24:04+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
+  },
+  {
+   "ts": "2026-10-20T15:24:08+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:24:12+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1912,9 +1924,9 @@
     "111-ripple"
    ],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "done",
    "since": "2026-10-20T10:03:17+07:00",
-   "updatedAt": "2026-10-20T15:19:44+07:00"
+   "updatedAt": "2026-10-20T15:24:04+07:00"
   },
   {
    "id": "brief-32",
