@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:42:13+07:00",
+ "updatedAt": "2026-10-20T15:44:01+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-20T15:37:15+07:00",
+   "since": "2026-10-20T15:44:01+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "brief-32d · ส่ง PROGRESS",
-   "since": "2026-10-20T15:42:13+07:00",
+   "since": "2026-10-20T15:44:01+07:00",
    "model": "fable",
    "brief": "brief-32d",
    "engine": "claude"
@@ -1789,6 +1789,20 @@
    "kind": "progress",
    "from": "124-halo-omx",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:43:32+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:44:01+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ],
