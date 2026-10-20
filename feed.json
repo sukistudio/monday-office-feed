@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:39:04+07:00",
+ "updatedAt": "2026-10-20T15:39:44+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "brief-32d · รับงาน",
-   "since": "2026-10-20T15:38:25+07:00",
+   "since": "2026-10-20T15:39:44+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T01:28:19+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-28",
-   "project": "real-estate"
-  },
   {
    "ts": "2026-10-19T01:29:06+07:00",
    "kind": "done",
@@ -1778,6 +1770,13 @@
    "kind": "hey",
    "from": "112-swell",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:39:26+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
