@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T15:57:00+07:00",
+ "updatedAt": "2026-10-20T15:57:39+07:00",
  "pending": 10,
  "pendingNow": 5,
  "pendingLater": 5,
@@ -1817,6 +1817,20 @@
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:57:18+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-20T15:57:22+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
