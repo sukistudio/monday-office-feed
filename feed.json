@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-20T23:59:33+07:00",
+ "updatedAt": "2026-10-21T00:03:46+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -1971,7 +1971,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-19T00:03:34+07:00",
+   "since": "2026-10-19T00:03:49+07:00",
    "updatedAt": "2026-10-19T00:15:20+07:00"
   },
   {
@@ -1979,12 +1979,10 @@
    "title": "brief-22b",
    "project": "team-chart",
    "lead": "11-tide",
-   "assignees": [
-    "15-atlas"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-19T00:00:57+07:00",
+   "since": "2026-10-19T00:03:51+07:00",
    "updatedAt": "2026-10-19T00:12:07+07:00"
   }
  ],
