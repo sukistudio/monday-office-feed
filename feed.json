@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T02:08:35+07:00",
+ "updatedAt": "2026-10-22T02:12:13+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,22 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T02:11:59+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #34 ออฟฟิศ 3D · เปิด PR"
-  },
-  {
-   "ts": "2026-10-20T02:12:09+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-20T02:14:02+07:00",
    "kind": "merged",
@@ -1156,7 +1140,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T02:08:57+07:00",
+   "since": "2026-10-20T02:12:13+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
   }
  ],
