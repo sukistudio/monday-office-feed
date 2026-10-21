@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T22:59:44+07:00",
+ "updatedAt": "2026-10-21T23:00:24+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,36 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T23:00:07+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "brief-31",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T23:00:12+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "11-tide",
-   "brief": "brief-31",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T23:00:17+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T23:00:21+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T23:00:56+07:00",
    "kind": "ack",
@@ -1603,6 +1573,17 @@
    "updatedAt": "2026-10-20T10:04:22+07:00"
   },
   {
+   "id": "brief-31",
+   "title": "Comps collector (Playwright) สำหรับทีมอสังหา",
+   "project": "real-estate",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-20T00:02:54+07:00",
+   "updatedAt": "2026-10-20T00:02:54+07:00"
+  },
+  {
    "id": "brief-29",
    "title": "Office v2: ตกแต่งโซนแต่ละทีม",
    "project": "office-3d",
@@ -1623,17 +1604,6 @@
    "status": "open",
    "since": "2026-10-19T23:00:47+07:00",
    "updatedAt": "2026-10-19T23:00:47+07:00"
-  },
-  {
-   "id": "brief-31",
-   "title": "Comps collector (Playwright) สำหรับทีมอสังหา",
-   "project": "real-estate",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-19T23:00:07+07:00",
-   "updatedAt": "2026-10-19T23:00:07+07:00"
   }
  ],
  "warnings": [
