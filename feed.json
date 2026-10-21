@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T22:04:03+07:00",
+ "updatedAt": "2026-10-21T22:04:45+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T22:04:27+07:00",
-   "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-10-19T22:07:14+07:00",
    "kind": "done",
