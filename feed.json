@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T19:22:49+07:00",
+ "updatedAt": "2026-10-21T19:26:55+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -1655,34 +1655,6 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:53:54+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:54:36+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "152-hearth",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:54:40+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:56:16+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "15-atlas",
    "brief": ""
   },
   {
