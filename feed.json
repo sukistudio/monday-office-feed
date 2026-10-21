@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T18:56:34+07:00",
+ "updatedAt": "2026-10-21T18:58:23+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-21T18:50:34+07:00",
+   "since": "2026-10-21T18:58:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-21T18:55:59+07:00",
+   "since": "2026-10-21T18:57:14+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -132,7 +132,7 @@
    "id": "15-atlas",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-21T18:54:06+07:00",
+   "since": "2026-10-21T18:58:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-20T16:43:47+07:00",
+   "since": "2026-10-21T18:58:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T21:49:43+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T21:50:51+07:00",
    "kind": "qa-pass",
@@ -1720,6 +1712,20 @@
    "kind": "hey",
    "from": "152-hearth",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-21T18:58:05+07:00",
+   "kind": "done",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-21T18:58:10+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
