@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T23:46:50+07:00",
+ "updatedAt": "2026-10-21T23:48:46+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,30 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T23:47:48+07:00",
-   "kind": "ack",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T23:48:11+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T23:48:17+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "111-ripple",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-20T00:02:54+07:00",
    "kind": "done",
@@ -1413,7 +1389,7 @@
    ],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-19T23:47:08+07:00",
+   "since": "2026-10-19T23:50:12+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
   },
   {
