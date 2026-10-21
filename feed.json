@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T22:53:34+07:00",
+ "updatedAt": "2026-10-21T22:54:50+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T22:54:43+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": "brief-31b"
-  },
   {
    "ts": "2026-10-19T22:56:42+07:00",
    "kind": "ack",
@@ -1649,17 +1642,6 @@
    "updatedAt": "2026-10-19T23:10:54+07:00"
   },
   {
-   "id": "brief-31b",
-   "title": "brief-31b",
-   "project": null,
-   "lead": null,
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-10-19T22:54:34+07:00",
-   "updatedAt": "2026-10-19T22:54:34+07:00"
-  },
-  {
    "id": "brief-31",
    "title": "Comps collector (Playwright) สำหรับทีมอสังหา",
    "project": "real-estate",
@@ -1667,8 +1649,19 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-10-19T22:53:41+07:00",
-   "updatedAt": "2026-10-19T22:53:41+07:00"
+   "since": "2026-10-19T23:00:07+07:00",
+   "updatedAt": "2026-10-19T23:00:07+07:00"
+  },
+  {
+   "id": "brief-31b",
+   "title": "brief-31b",
+   "project": null,
+   "lead": null,
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-10-19T22:55:55+07:00",
+   "updatedAt": "2026-10-19T22:55:55+07:00"
   }
  ],
  "warnings": [
