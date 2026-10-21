@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T22:36:16+07:00",
+ "updatedAt": "2026-10-21T22:37:31+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T22:37:06+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-31",
-   "project": "real-estate"
-  },
   {
    "ts": "2026-10-19T22:38:09+07:00",
    "kind": "ack",
@@ -1786,7 +1778,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "progress",
-   "since": "2026-10-19T22:37:06+07:00",
+   "since": "2026-10-19T22:37:57+07:00",
    "updatedAt": "2026-10-19T22:50:36+07:00"
   },
   {
