@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T23:10:48+07:00",
+ "updatedAt": "2026-10-21T23:11:28+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,22 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T23:10:54+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-29",
-   "project": "office-3d"
-  },
-  {
-   "ts": "2026-10-19T23:11:05+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-19T23:14:52+07:00",
    "kind": "progress",
@@ -1517,7 +1501,7 @@
    ],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-19T23:11:05+07:00",
+   "since": "2026-10-19T23:13:23+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
   },
   {
@@ -1530,28 +1514,6 @@
    "status": "open",
    "since": "2026-10-20T00:02:54+07:00",
    "updatedAt": "2026-10-20T00:02:54+07:00"
-  },
-  {
-   "id": "brief-31b",
-   "title": "brief-31b",
-   "project": null,
-   "lead": null,
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-19T23:11:13+07:00",
-   "updatedAt": "2026-10-19T23:11:13+07:00"
-  },
-  {
-   "id": "brief-29",
-   "title": "Office v2: ตกแต่งโซนแต่ละทีม",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "done",
-   "since": "2026-10-19T23:10:54+07:00",
-   "updatedAt": "2026-10-19T23:10:54+07:00"
   }
  ],
  "warnings": [
