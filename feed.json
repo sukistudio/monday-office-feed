@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T01:31:48+07:00",
+ "updatedAt": "2026-10-22T01:35:22+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T01:35:09+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-20T01:59:17+07:00",
    "kind": "qa-pass",
@@ -1180,7 +1172,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T01:31:48+07:00",
+   "since": "2026-10-20T01:59:17+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
   }
  ],
