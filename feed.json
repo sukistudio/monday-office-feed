@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-21T22:52:54+07:00",
+ "updatedAt": "2026-10-21T22:53:34+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,28 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-19T22:52:55+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "brief-31",
-   "project": "real-estate"
-  },
-  {
-   "ts": "2026-10-19T22:53:00+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-19T22:53:11+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-31b"
-  },
   {
    "ts": "2026-10-19T22:54:43+07:00",
    "kind": "done",
@@ -1678,8 +1656,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-10-19T22:53:11+07:00",
-   "updatedAt": "2026-10-19T22:53:11+07:00"
+   "since": "2026-10-19T22:54:34+07:00",
+   "updatedAt": "2026-10-19T22:54:34+07:00"
   },
   {
    "id": "brief-31",
@@ -1689,8 +1667,8 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-10-19T22:52:55+07:00",
-   "updatedAt": "2026-10-19T22:52:55+07:00"
+   "since": "2026-10-19T22:53:41+07:00",
+   "updatedAt": "2026-10-19T22:53:41+07:00"
   }
  ],
  "warnings": [
