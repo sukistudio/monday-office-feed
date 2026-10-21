@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T00:59:02+07:00",
+ "updatedAt": "2026-10-22T01:00:53+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T01:00:33+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #33 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-10-20T01:12:56+07:00",
    "kind": "qa-pass",
@@ -1244,7 +1236,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T01:00:42+07:00",
+   "since": "2026-10-20T01:01:15+07:00",
    "updatedAt": "2026-10-20T10:04:22+07:00"
   }
  ],
