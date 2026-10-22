@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T06:33:20+07:00",
+ "updatedAt": "2026-10-23T06:35:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -64,9 +64,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-23T06:32:41+07:00",
+   "since": "2026-10-23T06:33:58+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -120,9 +120,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-23T06:33:20+07:00",
+   "since": "2026-10-23T06:35:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -168,9 +168,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-23T06:32:41+07:00",
+   "since": "2026-10-23T06:34:33+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -255,24 +255,17 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-23T06:04:46+07:00",
+   "ts": "2026-10-23T06:05:08+07:00",
    "kind": "hey",
    "from": "141-scout",
    "to": "143-sextant",
    "brief": ""
   },
   {
-   "ts": "2026-10-23T06:04:51+07:00",
+   "ts": "2026-10-23T06:05:12+07:00",
    "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:05:06+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "141-scout",
    "brief": ""
   },
   {
@@ -280,6 +273,13 @@
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:06:26+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "141-scout",
    "brief": ""
   },
   {
@@ -581,6 +581,27 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:33:56+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:34:25+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:34:44+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
