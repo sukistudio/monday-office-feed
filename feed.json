@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T06:28:20+07:00",
+ "updatedAt": "2026-10-23T06:30:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -50,7 +50,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-23T06:20:17+07:00",
+   "since": "2026-10-23T06:30:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -64,9 +64,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-23T06:28:20+07:00",
+   "since": "2026-10-23T06:30:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -96,9 +96,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-23T06:25:16+07:00",
+   "since": "2026-10-23T06:30:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -511,6 +511,20 @@
    "kind": "hey",
    "from": "12-beam",
    "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:29:40+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:29:45+07:00",
+   "kind": "hey",
+   "from": "124-halo-omx",
+   "to": "12-beam",
    "brief": ""
   }
  ],
