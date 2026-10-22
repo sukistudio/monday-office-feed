@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T10:13:02+07:00",
+ "updatedAt": "2026-10-22T10:13:42+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T10:13:06+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-25",
-   "project": "gemini-tts"
-  },
   {
    "ts": "2026-10-20T10:15:52+07:00",
    "kind": "progress",
@@ -1017,7 +1009,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T10:13:06+07:00",
+   "since": "2026-10-20T10:15:52+07:00",
    "updatedAt": "2026-10-20T15:24:04+07:00"
   }
  ],
