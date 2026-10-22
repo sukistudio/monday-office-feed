@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T15:20:20+07:00",
+ "updatedAt": "2026-10-22T15:21:37+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -25,7 +25,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "brief-25 · ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-20T16:19:16+07:00",
    "model": "opus",
    "engine": "claude"
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T15:21:34+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-25",
-   "project": "gemini-tts"
-  },
   {
    "ts": "2026-10-20T15:23:03+07:00",
    "kind": "qa-pass",
@@ -921,7 +913,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T15:21:30+07:00",
+   "since": "2026-10-20T15:23:03+07:00",
    "updatedAt": "2026-10-20T15:24:04+07:00"
   }
  ],
