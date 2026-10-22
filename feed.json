@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T06:35:08+07:00",
+ "updatedAt": "2026-10-23T06:35:46+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -64,9 +64,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-23T06:33:58+07:00",
+   "since": "2026-10-23T06:35:46+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -250,20 +250,6 @@
   {
    "ts": "2026-10-22T22:05:18+07:00",
    "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:05:08+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:05:12+07:00",
-   "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
@@ -602,6 +588,13 @@
    "kind": "qa-pass",
    "from": "123-pulse",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:35:17+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
    "brief": ""
   }
  ],
