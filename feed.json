@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T16:10:20+07:00",
+ "updatedAt": "2026-10-22T16:12:43+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -33,7 +33,7 @@
   {
    "id": "112-swell",
    "status": "idle",
-   "task": "brief-32d · ส่ง PROGRESS",
+   "task": "",
    "since": "2026-10-20T16:44:27+07:00",
    "model": "opus",
    "engine": "claude"
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T16:12:18+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "brief-32d"
-  },
-  {
-   "ts": "2026-10-20T16:12:36+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "brief-32d"
-  },
   {
    "ts": "2026-10-20T16:18:51+07:00",
    "kind": "progress",
@@ -644,7 +630,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T16:12:18+07:00",
+   "since": "2026-10-20T16:16:39+07:00",
    "updatedAt": "2026-10-20T16:43:53+07:00"
   }
  ],
