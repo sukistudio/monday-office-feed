@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T06:32:00+07:00",
+ "updatedAt": "2026-10-23T06:32:41+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -64,9 +64,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-23T06:30:08+07:00",
+   "since": "2026-10-23T06:32:41+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -168,9 +168,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-23T06:30:47+07:00",
+   "since": "2026-10-23T06:32:41+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -567,6 +567,13 @@
    "kind": "hey",
    "from": "124-halo-omx",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-23T06:32:31+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
