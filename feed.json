@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-22T10:04:02+07:00",
+ "updatedAt": "2026-10-22T10:04:41+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-20T10:04:22+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-32",
-   "project": "office-3d"
-  },
   {
    "ts": "2026-10-20T10:06:32+07:00",
    "kind": "progress",
@@ -1065,19 +1057,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-10-20T10:04:12+07:00",
+   "since": "2026-10-20T10:06:32+07:00",
    "updatedAt": "2026-10-20T15:24:04+07:00"
-  },
-  {
-   "id": "brief-32",
-   "title": "Office v2 เฟส 3: การ์ดงานค้าง · เดินไปคุย · กลางวัน-คืน",
-   "project": "office-3d",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-10-20T10:04:22+07:00",
-   "updatedAt": "2026-10-20T10:04:22+07:00"
   }
  ],
  "warnings": [
