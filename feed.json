@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T06:59:13+07:00",
+ "updatedAt": "2026-10-23T07:03:19+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -332,58 +332,9 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-23T06:29:40+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:29:45+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:30:10+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:30:14+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:31:10+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:31:46+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-23T06:31:49+07:00",
    "kind": "qa-pass",
    "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-23T06:31:56+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
    "to": "12-beam",
    "brief": ""
   },
@@ -395,10 +346,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-23T06:33:11+07:00",
+   "ts": "2026-10-23T06:33:45+07:00",
    "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
+   "from": "124-halo-omx",
+   "to": "12-beam",
    "brief": ""
   },
   {
@@ -423,7 +374,7 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-23T06:35:17+07:00",
+   "ts": "2026-10-23T06:34:56+07:00",
    "kind": "hey",
    "from": "14-horizon",
    "to": "143-sextant",
