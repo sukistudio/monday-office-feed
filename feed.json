@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-23T18:58:33+07:00",
+ "updatedAt": "2026-10-23T18:59:12+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -153,7 +153,7 @@
   {
    "id": "153-plumb",
    "status": "idle",
-   "task": "ตรวจผ่าน",
+   "task": "",
    "since": "2026-10-21T19:00:26+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -184,27 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-21T18:58:50+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:58:51+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "152-hearth",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-21T18:58:54+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "152-hearth",
-   "brief": ""
-  },
   {
    "ts": "2026-10-21T18:59:18+07:00",
    "kind": "done",
