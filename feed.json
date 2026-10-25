@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-25T22:02:29+07:00",
+ "updatedAt": "2026-10-25T22:06:01+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -105,7 +105,7 @@
   {
    "id": "141-scout",
    "status": "offline",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-10-24T00:32:03+07:00",
    "model": "unknown",
    "engine": "claude"
@@ -183,15 +183,7 @@
    "engine": "codex"
   }
  ],
- "events": [
-  {
-   "ts": "2026-10-23T22:06:00+07:00",
-   "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  }
- ],
+ "events": [],
  "projects": [
   {
    "id": "monday-projects",
