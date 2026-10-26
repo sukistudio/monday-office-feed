@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-26T13:02:58+07:00",
+ "updatedAt": "2026-10-26T13:07:05+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -241,27 +241,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-26T12:34:08+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-26T12:34:12+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-26T12:34:19+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-26T12:34:44+07:00",
    "kind": "done",
    "from": "141-scout",
@@ -273,13 +252,6 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-26T12:35:42+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
    "brief": ""
   }
  ],
