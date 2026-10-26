@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-27T02:04:48+07:00",
+ "updatedAt": "2026-10-27T02:05:28+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -24,9 +24,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
-   "task": "",
-   "since": "2026-10-26T12:10:06+07:00",
+   "status": "working",
+   "task": "รับงาน",
+   "since": "2026-10-27T02:05:28+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -280,6 +280,27 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:04:50+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:05:05+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:05:27+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   }
  ],
