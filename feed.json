@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-27T03:37:17+07:00",
+ "updatedAt": "2026-10-27T03:39:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
    "id": "111-ripple",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-27T02:25:04+07:00",
+   "since": "2026-10-27T03:39:08+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -40,17 +40,17 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-27T02:26:20+07:00",
+   "since": "2026-10-27T03:39:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-27T03:36:38+07:00",
+   "since": "2026-10-27T03:38:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-27T03:36:38+07:00",
+   "since": "2026-10-27T03:37:58+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -122,23 +122,23 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "",
-   "since": "2026-10-26T12:35:50+07:00",
+   "since": "2026-10-27T03:39:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-27T03:37:17+07:00",
+   "since": "2026-10-27T03:38:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-27T03:37:17+07:00",
+   "since": "2026-10-27T03:38:33+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -434,6 +434,69 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:37:18+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:37:22+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:37:27+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:38:00+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:38:01+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:38:05+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:38:19+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:38:32+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T03:39:00+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
