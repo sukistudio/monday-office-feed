@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-26T12:13:03+07:00",
+ "updatedAt": "2026-10-26T12:15:59+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -48,9 +48,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:10:06+07:00",
+   "since": "2026-10-26T12:15:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:10:41+07:00",
+   "since": "2026-10-26T12:15:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -128,9 +128,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:11:54+07:00",
+   "since": "2026-10-26T12:15:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -183,7 +183,43 @@
    "engine": "codex"
   }
  ],
- "events": [],
+ "events": [
+  {
+   "ts": "2026-10-26T12:15:35+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:15:39+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:15:43+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:15:48+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "13-harbor",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:15:52+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "15-atlas",
+   "brief": ""
+  }
+ ],
  "projects": [
   {
    "id": "monday-projects",
