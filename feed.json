@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-26T12:16:38+07:00",
+ "updatedAt": "2026-10-26T12:18:26+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -74,7 +74,7 @@
    "id": "13-harbor",
    "status": "working",
    "task": "",
-   "since": "2026-10-26T12:15:59+07:00",
+   "since": "2026-10-26T12:18:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -128,9 +128,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-26T12:15:59+07:00",
+   "since": "2026-10-26T12:17:51+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -168,9 +168,9 @@
   },
   {
    "id": "124-halo-omx",
-   "status": "offline",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-24T00:32:03+07:00",
+   "since": "2026-10-26T12:17:51+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -224,6 +224,20 @@
    "kind": "hey",
    "from": "13-harbor",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:16:49+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-26T12:18:14+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
    "brief": ""
   }
  ],
