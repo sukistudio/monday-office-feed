@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-27T02:12:53+07:00",
+ "updatedAt": "2026-10-27T02:13:32+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-27T02:11:00+07:00",
+   "since": "2026-10-27T02:13:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -341,6 +341,27 @@
   {
    "ts": "2026-10-27T02:12:52+07:00",
    "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:12:53+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:12:56+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T02:13:11+07:00",
+   "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
    "brief": ""
