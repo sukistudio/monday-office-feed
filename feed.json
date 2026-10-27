@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-27T22:02:36+07:00",
+ "updatedAt": "2026-10-27T22:03:51+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -96,9 +96,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-27T14:05:45+07:00",
+   "since": "2026-10-27T22:03:51+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -434,6 +434,13 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-27T22:03:27+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
