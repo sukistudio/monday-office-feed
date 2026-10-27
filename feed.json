@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-28T06:19:26+07:00",
+ "updatedAt": "2026-10-28T06:20:41+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -120,9 +120,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-10-28T06:18:12+07:00",
+   "since": "2026-10-28T06:20:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
