@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-29T02:13:28+07:00",
+ "updatedAt": "2026-10-29T02:14:42+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-27T02:14:21+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-27T02:14:48+07:00",
    "kind": "progress",
