@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-29T02:09:43+07:00",
+ "updatedAt": "2026-10-29T02:11:32+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-27T02:11:04+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-27T02:12:29+07:00",
    "kind": "qa-pass",
