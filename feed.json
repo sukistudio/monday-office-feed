@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-29T03:47:19+07:00",
+ "updatedAt": "2026-10-29T03:51:29+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "idle",
-   "task": "รับงาน",
+   "task": "",
    "since": "2026-10-27T03:54:00+07:00",
    "model": "fable",
    "engine": "claude"
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-27T03:51:16+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-27T03:51:25+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-10-27T06:07:01+07:00",
    "kind": "ack",
