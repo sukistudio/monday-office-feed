@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:25:14+07:00",
+ "updatedAt": "2026-10-30T03:27:38+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -50,17 +50,17 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-30T03:24:33+07:00",
+   "since": "2026-10-30T03:25:53+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-30T03:24:33+07:00",
+   "since": "2026-10-30T03:25:53+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -286,41 +286,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T02:56:02+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:56:06+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:56:08+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:56:10+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:56:13+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T02:56:29+07:00",
    "kind": "done",
    "from": "123-pulse",
@@ -335,10 +300,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T02:57:12+07:00",
+   "ts": "2026-10-30T02:57:52+07:00",
    "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
+   "from": "12-beam",
+   "to": "124-halo-omx",
    "brief": ""
   },
   {
@@ -381,13 +346,6 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:59:25+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
    "brief": ""
   },
   {
@@ -447,6 +405,13 @@
    "brief": ""
   },
   {
+   "ts": "2026-10-30T03:01:02+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
    "ts": "2026-10-30T03:01:07+07:00",
    "kind": "ack",
    "from": "12-beam",
@@ -486,13 +451,6 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:02:19+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
    "brief": ""
   },
   {
