@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T02:50:04+07:00",
+ "updatedAt": "2026-10-30T02:50:44+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,9 +17,11 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-25 · รับงาน",
    "since": "2026-10-30T02:50:04+07:00",
    "model": "fable",
+   "brief": "brief-25",
+   "project": "gemini-tts",
    "engine": "claude"
   },
   {
@@ -358,6 +360,21 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-10-30T02:50:06+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T02:50:23+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-25",
+   "project": "gemini-tts"
   }
  ],
  "projects": [
@@ -522,7 +539,19 @@
    "status": "building"
   }
  ],
- "briefs": [],
+ "briefs": [
+  {
+   "id": "brief-25",
+   "title": "เทียบ Gemini TTS ภาษาไทย",
+   "project": "gemini-tts",
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-10-30T02:50:23+07:00",
+   "updatedAt": "2026-10-30T02:50:23+07:00"
+  }
+ ],
  "warnings": [
   "project-cut:2"
  ]
