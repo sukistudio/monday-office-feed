@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:08:14+07:00",
+ "updatedAt": "2026-10-30T03:08:54+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-30T03:08:14+07:00",
+   "since": "2026-10-30T03:08:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -215,24 +215,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T02:38:42+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T02:39:04+07:00",
    "kind": "ack",
    "from": "14-horizon",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:39:12+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -717,6 +703,20 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:08:23+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:08:28+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
    "brief": ""
   }
  ],
