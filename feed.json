@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T02:53:14+07:00",
+ "updatedAt": "2026-10-30T02:54:29+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -59,7 +59,7 @@
   {
    "id": "121-glow",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-30T02:48:54+07:00",
    "model": "opus",
    "engine": "claude"
@@ -409,6 +409,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T02:54:23+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
    "brief": ""
   }
  ],
