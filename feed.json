@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T04:45:57+07:00",
+ "updatedAt": "2026-10-30T04:48:24+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-30T04:44:42+07:00",
+   "since": "2026-10-30T04:46:37+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
