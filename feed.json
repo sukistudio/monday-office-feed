@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T04:40:18+07:00",
+ "updatedAt": "2026-10-30T04:40:58+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-30T03:11:27+07:00",
+   "since": "2026-10-30T04:40:58+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -661,6 +661,13 @@
    "kind": "ack",
    "from": "121-glow",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T04:40:40+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ],
