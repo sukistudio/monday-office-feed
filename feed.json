@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:38:26+07:00",
+ "updatedAt": "2026-10-30T03:42:00+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -440,13 +440,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T03:08:28+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T03:09:01+07:00",
    "kind": "progress",
    "from": "124-halo-omx",
@@ -461,38 +454,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T03:09:17+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:09:21+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T03:09:58+07:00",
    "kind": "ack",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:10:01+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "124-halo-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:10:02+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
    "brief": ""
   },
   {
@@ -507,27 +472,6 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:10:07+07:00",
-   "kind": "hey",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:10:51+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:11:25+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
    "brief": ""
   },
   {
@@ -646,6 +590,13 @@
    "ts": "2026-10-30T03:25:10+07:00",
    "kind": "progress",
    "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:41:50+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
   }
