@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:24:33+07:00",
+ "updatedAt": "2026-10-30T03:25:14+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -51,7 +51,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "รับงาน",
    "since": "2026-10-30T03:24:33+07:00",
    "model": "fable",
    "engine": "claude"
@@ -780,6 +780,41 @@
    "kind": "hey",
    "from": "123-pulse",
    "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:24:46+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:24:47+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:24:51+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:24:51+07:00",
+   "kind": "ack",
+   "from": "121-glow",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:25:10+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
    "brief": ""
   }
  ],
