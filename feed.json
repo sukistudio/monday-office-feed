@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T05:20:39+07:00",
+ "updatedAt": "2026-10-30T05:24:51+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -661,20 +661,6 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T04:52:43+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T04:52:47+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
    "brief": ""
   }
  ],
