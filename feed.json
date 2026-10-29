@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T02:37:30+07:00",
+ "updatedAt": "2026-10-30T02:38:45+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -160,17 +160,17 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:29:41+07:00",
+   "since": "2026-10-30T02:38:45+07:00",
    "model": "codex",
    "engine": "codex"
   },
   {
    "id": "124-halo-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:17:51+07:00",
+   "since": "2026-10-30T02:38:45+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -231,6 +231,13 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T02:38:42+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "124-halo-omx",
    "brief": ""
   }
  ],
