@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:02:57+07:00",
+ "updatedAt": "2026-10-30T03:03:36+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-30T03:02:57+07:00",
+   "since": "2026-10-30T03:03:36+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "รับงาน",
-   "since": "2026-10-30T03:02:16+07:00",
+   "status": "working",
+   "task": "ส่ง PROGRESS",
+   "since": "2026-10-30T03:03:36+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "",
+   "task": "ส่ง PROGRESS",
    "since": "2026-10-30T02:58:15+07:00",
    "model": "opus",
    "engine": "claude"
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ติด รอช่วย",
-   "since": "2026-10-30T02:52:34+07:00",
+   "since": "2026-10-30T03:03:36+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -633,6 +633,20 @@
    "kind": "progress",
    "from": "124-halo-omx",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:03:21+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:03:33+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
