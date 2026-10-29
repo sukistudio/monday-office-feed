@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T02:46:18+07:00",
+ "updatedAt": "2026-10-30T02:47:35+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -315,6 +315,13 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T02:47:33+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
    "brief": ""
   }
  ],
