@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T03:11:27+07:00",
+ "updatedAt": "2026-10-30T03:12:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -66,9 +66,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "working",
-   "task": "ส่งงาน DONE",
-   "since": "2026-10-30T03:00:15+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-30T03:12:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -752,6 +752,13 @@
    "kind": "hey",
    "from": "12-beam",
    "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T03:11:41+07:00",
+   "kind": "stuck",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
