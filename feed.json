@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T11:19:19+07:00",
+ "updatedAt": "2026-10-30T11:23:26+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -727,20 +727,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T10:49:34+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T10:49:38+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T10:50:30+07:00",
    "kind": "progress",
    "from": "123-pulse",
@@ -755,41 +741,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T10:50:36+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T10:52:09+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T10:52:14+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T10:52:33+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T10:52:37+07:00",
-   "kind": "hey",
-   "from": "121-glow",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-30T10:52:45+07:00",
    "kind": "ack",
    "from": "111-ripple",
@@ -797,10 +748,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-30T10:53:12+07:00",
+   "ts": "2026-10-30T10:53:26+07:00",
    "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   },
   {
