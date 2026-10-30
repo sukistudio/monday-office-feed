@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T10:57:37+07:00",
+ "updatedAt": "2026-10-30T10:58:52+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-30T10:56:58+07:00",
+   "since": "2026-10-30T10:58:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-10-30T10:56:58+07:00",
+   "status": "working",
+   "task": "ส่งงาน DONE",
+   "since": "2026-10-30T10:58:18+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -26,9 +26,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-30T10:56:18+07:00",
+   "since": "2026-10-30T10:58:52+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -42,17 +42,17 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-30T10:50:38+07:00",
+   "since": "2026-10-30T10:58:18+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-30T10:57:37+07:00",
+   "since": "2026-10-30T10:58:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -997,6 +997,20 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:58:41+07:00",
+   "kind": "progress",
+   "from": "123-pulse",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:58:51+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
