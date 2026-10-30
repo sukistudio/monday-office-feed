@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T15:02:17+07:00",
+ "updatedAt": "2026-10-30T15:04:41+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -52,7 +52,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "แจกงาน",
-   "since": "2026-10-30T14:58:29+07:00",
+   "since": "2026-10-30T15:04:41+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -982,6 +982,13 @@
    "ts": "2026-10-30T15:02:06+07:00",
    "kind": "ack",
    "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T15:04:15+07:00",
+   "kind": "done",
+   "from": "123-pulse",
    "to": "12-beam",
    "brief": ""
   }
