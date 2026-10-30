@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-31T01:39:53+07:00",
+ "updatedAt": "2026-10-31T01:41:09+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -44,7 +44,7 @@
    "id": "113-shore",
    "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-31T01:36:40+07:00",
+   "since": "2026-10-31T01:41:09+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1098,13 +1098,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-10-31T01:10:17+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-10-31T01:11:23+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1319,6 +1312,13 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-31T01:41:07+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
    "brief": ""
   }
  ],
