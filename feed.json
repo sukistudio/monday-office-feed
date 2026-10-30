@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T11:51:34+07:00",
+ "updatedAt": "2026-10-30T11:52:13+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -878,6 +878,20 @@
    "kind": "ack",
    "from": "12-beam",
    "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T11:51:34+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T11:51:59+07:00",
+   "kind": "qa-pass",
+   "from": "123-pulse",
+   "to": "12-beam",
    "brief": ""
   }
  ],
