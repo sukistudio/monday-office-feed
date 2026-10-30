@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T11:56:30+07:00",
+ "updatedAt": "2026-10-30T11:58:53+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-10-30T11:54:41+07:00",
+   "since": "2026-10-30T11:57:44+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
