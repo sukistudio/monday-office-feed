@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T10:58:52+07:00",
+ "updatedAt": "2026-10-30T10:59:32+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-10-30T10:58:52+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-10-30T10:59:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1011,6 +1011,27 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:58:55+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:58:56+07:00",
+   "kind": "stuck",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:59:00+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
    "brief": ""
   }
  ],
