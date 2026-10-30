@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T12:41:21+07:00",
+ "updatedAt": "2026-10-30T12:45:31+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -66,9 +66,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-30T11:53:27+07:00",
+   "since": "2026-10-30T12:45:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
