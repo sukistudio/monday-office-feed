@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-30T10:54:57+07:00",
+ "updatedAt": "2026-10-30T10:55:38+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-30T10:54:22+07:00",
+   "since": "2026-10-30T10:55:38+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-10-30T10:54:22+07:00",
+   "since": "2026-10-30T10:55:38+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-10-30T10:52:27+07:00",
    "model": "opus",
    "engine": "claude"
@@ -933,6 +933,20 @@
    "ts": "2026-10-30T10:53:12+07:00",
    "kind": "hey",
    "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:55:05+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-30T10:55:09+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
   }
