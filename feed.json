@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:25:10+07:00",
+ "updatedAt": "2026-11-01T03:26:25+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-01T03:24:35+07:00",
+   "since": "2026-11-01T03:26:25+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1222,13 +1222,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:56:06+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:56:19+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
@@ -1243,13 +1236,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:56:25+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "152-hearth",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:56:28+07:00",
    "kind": "hey",
    "from": "151-survey",
@@ -1261,6 +1247,13 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:56:50+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "153-plumb",
    "brief": ""
   },
   {
@@ -1396,6 +1389,13 @@
    "from": "13-harbor",
    "to": "10-monday",
    "brief": "brief-9g"
+  },
+  {
+   "ts": "2026-11-01T03:26:07+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
   }
  ],
  "projects": [
