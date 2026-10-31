@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:58:12+07:00",
+ "updatedAt": "2026-11-01T02:58:52+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T02:51:42+07:00",
+   "since": "2026-11-01T02:58:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-01T02:54:56+07:00",
+   "since": "2026-11-01T02:58:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-01T02:54:16+07:00",
+   "since": "2026-11-01T02:58:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -129,7 +129,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-11-01T02:56:12+07:00",
    "model": "fable",
    "engine": "claude"
@@ -152,9 +152,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-01T02:50:23+07:00",
+   "since": "2026-11-01T02:58:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T02:58:49+07:00",
-   "kind": "progress",
-   "from": "124-halo-omx",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T02:59:15+07:00",
    "kind": "ack",
@@ -1751,6 +1744,34 @@
    "kind": "done",
    "from": "152-hearth",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:58:26+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:58:30+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:58:31+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:58:34+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "152-hearth",
    "brief": ""
   }
  ],
