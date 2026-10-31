@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-10-31T09:11:37+07:00",
+ "updatedAt": "2026-10-31T09:14:37+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-10-31T09:05:46+07:00",
+   "since": "2026-10-31T09:14:37+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-31T01:43:10+07:00",
+   "since": "2026-10-31T09:14:37+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1235,6 +1235,20 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-31T09:14:19+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-10-31T09:14:23+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
    "brief": ""
   }
  ],
