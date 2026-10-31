@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T01:57:05+07:00",
+ "updatedAt": "2026-11-01T01:58:55+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "แจกงาน",
-   "since": "2026-11-01T01:54:36+07:00",
+   "since": "2026-11-01T01:57:46+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -1273,13 +1273,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T01:28:16+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T01:29:09+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -1294,7 +1287,7 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T01:30:55+07:00",
+   "ts": "2026-11-01T01:29:32+07:00",
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
