@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:11:42+07:00",
+ "updatedAt": "2026-11-01T03:12:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T03:12:29+07:00",
-   "kind": "progress",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T03:12:31+07:00",
-   "kind": "stuck",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T03:14:29+07:00",
    "kind": "progress",
@@ -1148,13 +1134,6 @@
    "kind": "stuck",
    "from": "151-survey",
    "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:42:19+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
    "brief": ""
   },
   {
