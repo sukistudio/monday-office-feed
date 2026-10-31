@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T04:00:07+07:00",
+ "updatedAt": "2026-11-01T04:02:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T04:02:19+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T04:11:29+07:00",
    "kind": "progress",
@@ -1305,13 +1298,6 @@
    "from": "13-harbor",
    "to": "10-monday",
    "brief": "brief-9g"
-  },
-  {
-   "ts": "2026-11-01T03:30:26+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
   },
   {
    "ts": "2026-11-01T03:30:30+07:00",
