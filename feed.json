@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:16:06+07:00",
+ "updatedAt": "2026-11-01T03:16:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -80,9 +80,9 @@
   },
   {
    "id": "131-ledger",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-01T03:15:26+07:00",
+   "since": "2026-11-01T03:16:45+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T03:16:27+07:00",
-   "kind": "progress",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T03:24:47+07:00",
    "kind": "progress",
@@ -1176,13 +1169,6 @@
    "kind": "ack",
    "from": "15-atlas",
    "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:46:25+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
    "brief": ""
   },
   {
