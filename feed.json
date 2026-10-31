@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:19:08+07:00",
+ "updatedAt": "2026-11-01T03:23:16+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1219,55 +1219,6 @@
    "kind": "brief",
    "from": "15-atlas",
    "to": "152-hearth",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:20+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:24+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:30+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:32+07:00",
-   "kind": "hey",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:42+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:50:47+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:52:09+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "153-plumb",
    "brief": ""
   },
   {
