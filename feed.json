@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:30:04+07:00",
+ "updatedAt": "2026-11-01T03:30:44+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T03:04:12+07:00",
+   "since": "2026-11-01T03:30:44+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -76,6 +76,7 @@
    "task": "brief-9g · ส่ง PROGRESS",
    "since": "2026-11-01T03:28:55+07:00",
    "model": "fable",
+   "brief": "brief-9g",
    "engine": "claude"
   },
   {
@@ -88,9 +89,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-01T03:29:30+07:00",
+   "since": "2026-11-01T03:30:44+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1361,6 +1362,20 @@
    "from": "13-harbor",
    "to": "131-ledger",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:30:26+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:30:30+07:00",
+   "kind": "progress",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": "brief-9g"
   }
  ],
  "projects": [
@@ -1536,12 +1551,12 @@
    "id": "brief-9g",
    "title": "brief-9g",
    "project": null,
-   "lead": null,
+   "lead": "13-harbor",
    "assignees": [],
    "qa": null,
-   "status": "open",
+   "status": "progress",
    "since": "2026-11-01T03:02:52+07:00",
-   "updatedAt": "2026-11-01T03:02:52+07:00"
+   "updatedAt": "2026-11-01T03:30:30+07:00"
   }
  ],
  "warnings": [
