@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:49:09+07:00",
+ "updatedAt": "2026-11-01T02:50:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-01T02:47:49+07:00",
+   "since": "2026-11-01T02:49:49+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -131,7 +131,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "รับงาน",
+   "task": "แจกงาน",
    "since": "2026-11-01T02:48:30+07:00",
    "model": "fable",
    "engine": "claude"
@@ -146,17 +146,17 @@
   },
   {
    "id": "152-hearth",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:20:18+07:00",
+   "since": "2026-11-01T02:50:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจไม่ผ่าน",
-   "since": "2026-11-01T02:49:09+07:00",
+   "since": "2026-11-01T02:50:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1308,13 +1308,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:19:39+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:19:53+07:00",
    "kind": "progress",
    "from": "151-survey",
@@ -1698,6 +1691,20 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:16+07:00",
+   "kind": "brief",
+   "from": "15-atlas",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:20+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
