@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:30:44+07:00",
+ "updatedAt": "2026-11-01T03:32:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T03:02:51+07:00",
+   "since": "2026-11-01T03:31:58+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -73,10 +73,9 @@
   {
    "id": "13-harbor",
    "status": "working",
-   "task": "brief-9g · ส่ง PROGRESS",
+   "task": "brief-9g · ส่งงาน DONE",
    "since": "2026-11-01T03:28:55+07:00",
    "model": "fable",
-   "brief": "brief-9g",
    "engine": "claude"
   },
   {
@@ -89,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-01T03:30:44+07:00",
+   "since": "2026-11-01T03:32:34+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1301,27 +1300,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T03:00:55+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T03:00:59+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T03:01:28+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T03:02:52+07:00",
    "kind": "hey",
    "from": "13-harbor",
@@ -1373,6 +1351,13 @@
   {
    "ts": "2026-11-01T03:30:30+07:00",
    "kind": "progress",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": "brief-9g"
+  },
+  {
+   "ts": "2026-11-01T03:32:00+07:00",
+   "kind": "done",
    "from": "13-harbor",
    "to": "10-monday",
    "brief": "brief-9g"
@@ -1554,9 +1539,9 @@
    "lead": "13-harbor",
    "assignees": [],
    "qa": null,
-   "status": "progress",
+   "status": "done",
    "since": "2026-11-01T03:02:52+07:00",
-   "updatedAt": "2026-11-01T03:30:30+07:00"
+   "updatedAt": "2026-11-01T03:32:00+07:00"
   }
  ],
  "warnings": [
