@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T01:56:26+07:00",
+ "updatedAt": "2026-11-01T01:57:05+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:10:06+07:00",
+   "since": "2026-11-01T01:57:05+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1326,6 +1326,13 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T01:56:56+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   }
  ],
