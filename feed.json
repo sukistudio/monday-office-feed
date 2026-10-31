@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:16:45+07:00",
+ "updatedAt": "2026-11-01T03:19:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9g · ส่ง PROGRESS",
-   "since": "2026-11-01T03:01:32+07:00",
+   "since": "2026-11-01T03:17:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1194,13 +1194,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:47:48+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:48:13+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
@@ -1215,38 +1208,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:48:22+07:00",
-   "kind": "hey",
-   "from": "153-plumb",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:48:37+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:48:48+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:48:49+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:49:05+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
    "brief": ""
   },
   {
