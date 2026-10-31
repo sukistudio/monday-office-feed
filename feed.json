@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:00:52+07:00",
+ "updatedAt": "2026-11-01T03:01:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-01T02:58:52+07:00",
+   "since": "2026-11-01T03:01:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-27T03:37:58+07:00",
+   "since": "2026-11-01T03:01:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T03:01:07+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T03:01:37+07:00",
    "kind": "stuck",
@@ -1256,20 +1249,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:30:58+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:31:02+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:31:05+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
@@ -1277,10 +1256,17 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:31:18+07:00",
+   "ts": "2026-11-01T02:31:45+07:00",
    "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:31:49+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
    "brief": ""
   },
   {
@@ -1759,6 +1745,20 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:00:59+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:01:28+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "13-harbor",
    "brief": ""
   }
  ],
