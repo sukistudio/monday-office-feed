@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T04:25:54+07:00",
+ "updatedAt": "2026-11-01T04:30:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T04:24:05+07:00",
+   "since": "2026-11-01T04:28:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
