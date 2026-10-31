@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:14:46+07:00",
+ "updatedAt": "2026-11-01T03:15:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -73,24 +73,24 @@
   {
    "id": "13-harbor",
    "status": "working",
-   "task": "",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-01T03:01:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "131-ledger",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:10:41+07:00",
+   "since": "2026-11-01T03:15:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-10-26T12:10:41+07:00",
+   "since": "2026-11-01T03:15:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T03:15:13+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T03:16:27+07:00",
    "kind": "progress",
@@ -1186,13 +1179,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:45:12+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:45:44+07:00",
    "kind": "hey",
    "from": "151-survey",
@@ -1535,6 +1521,13 @@
    "kind": "hey",
    "from": "13-harbor",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:15:23+07:00",
+   "kind": "done",
+   "from": "13-harbor",
+   "to": "133-lantern",
    "brief": ""
   }
  ],
