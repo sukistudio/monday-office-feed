@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:46:35+07:00",
+ "updatedAt": "2026-11-01T02:47:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-01T02:45:13+07:00",
+   "since": "2026-11-01T02:47:49+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -35,16 +35,16 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-01T02:37:26+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-10-31T09:27:05+07:00",
+   "since": "2026-11-01T02:47:49+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-01T02:39:56+07:00",
+   "since": "2026-11-01T02:47:49+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T02:42:32+07:00",
+   "since": "2026-11-01T02:47:15+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1301,13 +1301,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:16:49+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:16:50+07:00",
    "kind": "ack",
    "from": "15-atlas",
@@ -1641,6 +1634,28 @@
    "kind": "ack",
    "from": "15-atlas",
    "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:47:31+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 แดชบอร์ด · เปิด PR"
+  },
+  {
+   "ts": "2026-11-01T02:47:44+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:47:48+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   }
  ],
