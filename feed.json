@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:42:12+07:00",
+ "updatedAt": "2026-11-01T03:46:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1297,13 +1297,6 @@
    "kind": "done",
    "from": "13-harbor",
    "to": "133-lantern",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T03:15:27+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "131-ledger",
    "brief": ""
   },
   {
