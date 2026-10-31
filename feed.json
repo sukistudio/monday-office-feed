@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:52:17+07:00",
+ "updatedAt": "2026-11-01T02:52:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -144,9 +144,9 @@
   },
   {
    "id": "152-hearth",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-01T02:50:23+07:00",
+   "since": "2026-11-01T02:52:56+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T02:52:19+07:00",
-   "kind": "progress",
-   "from": "121-glow",
-   "to": "123-pulse",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T02:54:23+07:00",
    "kind": "done",
