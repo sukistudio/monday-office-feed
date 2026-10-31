@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:27:40+07:00",
+ "updatedAt": "2026-11-01T03:30:04+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -72,25 +72,25 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "brief-9g · ส่ง PROGRESS",
-   "since": "2026-11-01T03:27:05+07:00",
+   "since": "2026-11-01T03:28:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "131-ledger",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-01T03:16:45+07:00",
+   "since": "2026-11-01T03:30:04+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-01T03:26:25+07:00",
+   "since": "2026-11-01T03:29:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1264,13 +1264,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:58:26+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:58:30+07:00",
    "kind": "done",
    "from": "15-atlas",
@@ -1278,24 +1271,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:58:31+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:58:34+07:00",
    "kind": "ack",
    "from": "15-atlas",
    "to": "152-hearth",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:59:38+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
    "brief": ""
   },
   {
@@ -1318,6 +1297,13 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:00:55+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   },
   {
@@ -1367,6 +1353,13 @@
    "kind": "hey",
    "from": "13-harbor",
    "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:29:41+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "131-ledger",
    "brief": ""
   }
  ],
