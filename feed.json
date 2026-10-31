@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:02:51+07:00",
+ "updatedAt": "2026-11-01T03:03:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T03:03:21+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T03:03:33+07:00",
    "kind": "progress",
@@ -1242,13 +1235,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:33:07+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:34:37+07:00",
    "kind": "done",
    "from": "151-survey",
@@ -1718,6 +1704,13 @@
    "from": "10-monday",
    "to": "13-harbor",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-01T03:02:52+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1888,7 +1881,19 @@
    "status": "active"
   }
  ],
- "briefs": [],
+ "briefs": [
+  {
+   "id": "brief-9g",
+   "title": "brief-9g",
+   "project": null,
+   "lead": null,
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-01T03:02:52+07:00",
+   "updatedAt": "2026-11-01T03:02:52+07:00"
+  }
+ ],
  "warnings": [
   "project-cut:2"
  ]
