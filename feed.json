@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:39:16+07:00",
+ "updatedAt": "2026-11-01T02:39:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,17 +130,17 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-01T02:33:12+07:00",
+   "since": "2026-11-01T02:39:56+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "151-survey",
-   "status": "working",
-   "task": "ส่งงาน DONE",
-   "since": "2026-11-01T02:26:15+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-11-01T02:39:56+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T02:39:21+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T02:39:50+07:00",
-   "kind": "done",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T02:40:13+07:00",
    "kind": "done",
@@ -1301,13 +1287,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:09:29+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:12:59+07:00",
    "kind": "hey",
    "from": "10-monday",
@@ -1578,6 +1557,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:39:55+07:00",
+   "kind": "stuck",
+   "from": "151-survey",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
