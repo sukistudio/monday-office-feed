@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:50:23+07:00",
+ "updatedAt": "2026-11-01T02:51:03+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,8 +20,6 @@
    "task": "ส่ง PROGRESS",
    "since": "2026-11-01T02:49:49+07:00",
    "model": "fable",
-   "brief": "brief-25",
-   "project": "gemini-tts",
    "engine": "claude"
   },
   {
@@ -186,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T02:50:23+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "brief-25",
-   "project": "gemini-tts"
-  },
   {
    "ts": "2026-10-30T02:52:15+07:00",
    "kind": "progress",
@@ -1315,13 +1305,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:20:31+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:22:58+07:00",
    "kind": "done",
    "from": "151-survey",
@@ -1706,6 +1689,41 @@
    "from": "15-atlas",
    "to": "153-plumb",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:24+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:30+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:32+07:00",
+   "kind": "hey",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:42+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:50:47+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1876,19 +1894,7 @@
    "status": "active"
   }
  ],
- "briefs": [
-  {
-   "id": "brief-25",
-   "title": "เทียบ Gemini TTS ภาษาไทย",
-   "project": "gemini-tts",
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-10-30T02:50:23+07:00",
-   "updatedAt": "2026-10-30T02:50:23+07:00"
-  }
- ],
+ "briefs": [],
  "warnings": [
   "project-cut:2"
  ]
