@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:57:32+07:00",
+ "updatedAt": "2026-11-01T02:58:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -144,9 +144,9 @@
   },
   {
    "id": "152-hearth",
-   "status": "working",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-11-01T02:56:52+07:00",
+   "status": "idle",
+   "task": "ส่งงาน DONE",
+   "since": "2026-11-01T02:58:12+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T02:58:04+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T02:58:49+07:00",
    "kind": "progress",
@@ -1291,13 +1284,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:27:59+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:28:25+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
@@ -1309,6 +1295,13 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:29:58+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "15-atlas",
    "brief": ""
   },
   {
@@ -1737,6 +1730,27 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:57:53+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:57:57+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:58:01+07:00",
+   "kind": "done",
+   "from": "152-hearth",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
