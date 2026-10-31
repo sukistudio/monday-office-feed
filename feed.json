@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T04:53:13+07:00",
+ "updatedAt": "2026-11-01T04:57:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1207,13 +1207,6 @@
    "from": "13-harbor",
    "to": "10-monday",
    "brief": "brief-9g"
-  },
-  {
-   "ts": "2026-11-01T04:23:45+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
   }
  ],
  "projects": [
