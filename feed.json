@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:54:56+07:00",
+ "updatedAt": "2026-11-01T02:56:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -128,9 +128,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-01T02:52:17+07:00",
+   "since": "2026-11-01T02:56:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1298,38 +1298,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-01T02:24:58+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:25:39+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-01T02:25:43+07:00",
    "kind": "ack",
    "from": "15-atlas",
    "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:25:47+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:25:53+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
    "brief": ""
   },
   {
@@ -1709,6 +1681,27 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:55:41+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "152-hearth",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:55:45+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:56:06+07:00",
+   "kind": "hey",
+   "from": "152-hearth",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
