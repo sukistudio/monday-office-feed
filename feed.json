@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:44:34+07:00",
+ "updatedAt": "2026-11-01T02:45:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-01T02:43:52+07:00",
+   "since": "2026-11-01T02:45:13+07:00",
    "model": "fable",
    "brief": "brief-25",
    "project": "gemini-tts",
@@ -1620,6 +1620,20 @@
    "kind": "ack",
    "from": "15-atlas",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:45:08+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:45:12+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
    "brief": ""
   }
  ],
