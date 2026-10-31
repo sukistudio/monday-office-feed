@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T02:28:04+07:00",
+ "updatedAt": "2026-11-01T02:28:44+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -155,7 +155,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ตรวจไม่ผ่าน",
    "since": "2026-11-01T02:25:35+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -1507,6 +1507,13 @@
    "ts": "2026-11-01T02:27:59+07:00",
    "kind": "hey",
    "from": "10-monday",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-01T02:28:25+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
   }
