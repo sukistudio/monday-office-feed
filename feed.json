@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T06:10:59+07:00",
+ "updatedAt": "2026-11-01T06:13:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T06:13:21+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T06:13:25+07:00",
    "kind": "ack",
