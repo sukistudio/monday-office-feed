@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T03:23:16+07:00",
+ "updatedAt": "2026-11-01T03:23:55+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "brief-9g · ส่ง PROGRESS",
-   "since": "2026-11-01T03:17:25+07:00",
+   "since": "2026-11-01T03:23:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1226,13 +1226,6 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:53:34+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
    "brief": ""
   },
   {
