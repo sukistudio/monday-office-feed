@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:11:38+07:00",
+ "updatedAt": "2026-11-02T02:12:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,16 +17,16 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-11-02T02:07:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-02T02:06:31+07:00",
+   "since": "2026-11-02T02:12:17+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-02T02:11:03+07:00",
+   "since": "2026-11-02T02:12:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -663,20 +663,6 @@
    "brief": "brief-9g"
   },
   {
-   "ts": "2026-11-02T01:41:40+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:41:44+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-02T01:43:21+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -695,6 +681,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:43:32+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -1047,6 +1040,34 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:11:41+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:11:49+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "13-harbor",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:11:51+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:12:03+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
    "brief": ""
   }
  ],
