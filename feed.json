@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:08:25+07:00",
+ "updatedAt": "2026-11-02T02:09:04+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-02T02:04:39+07:00",
+   "since": "2026-11-02T02:09:04+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -663,13 +663,6 @@
    "brief": "brief-9g"
   },
   {
-   "ts": "2026-11-02T01:39:05+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-02T01:39:09+07:00",
    "kind": "hey",
    "from": "10-monday",
@@ -1048,6 +1041,13 @@
    "to": "",
    "brief": "",
    "title": "PR #10 แดชบอร์ด · MERGED"
+  },
+  {
+   "ts": "2026-11-02T02:08:52+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "13-harbor",
+   "brief": ""
   }
  ],
  "projects": [
