@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T01:53:33+07:00",
+ "updatedAt": "2026-11-02T01:55:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-02T01:49:40+07:00",
+   "since": "2026-11-02T01:55:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
-   "task": "brief-9g · ส่งงาน DONE",
-   "since": "2026-11-02T01:53:33+07:00",
+   "status": "working",
+   "task": "รับงาน",
+   "since": "2026-11-02T01:54:47+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-02T01:52:14+07:00",
+   "since": "2026-11-02T01:55:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -864,6 +864,27 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:54:59+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:55:11+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:55:12+07:00",
+   "kind": "ack",
+   "from": "13-harbor",
+   "to": "133-lantern",
    "brief": ""
   }
  ],
