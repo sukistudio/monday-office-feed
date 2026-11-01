@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T01:49:40+07:00",
+ "updatedAt": "2026-11-02T01:50:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -25,7 +25,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-02T01:41:45+07:00",
    "model": "opus",
    "engine": "claude"
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-01T03:01:32+07:00",
+   "since": "2026-11-02T01:50:19+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -779,6 +779,28 @@
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:49:44+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #10 แดชบอร์ด · เปิด PR"
+  },
+  {
+   "ts": "2026-11-02T01:50:01+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:50:05+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
    "brief": ""
   }
  ],
