@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T16:31:31+07:00",
+ "updatedAt": "2026-11-01T16:32:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T16:32:27+07:00",
-   "kind": "done",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T17:15:52+07:00",
    "kind": "progress",
