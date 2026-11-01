@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:42:50+07:00",
+ "updatedAt": "2026-11-02T02:47:00+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -799,23 +799,9 @@
    "title": "PR #11 แดชบอร์ด · เปิด PR"
   },
   {
-   "ts": "2026-11-02T02:13:24+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-02T02:13:28+07:00",
    "kind": "done",
    "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T02:14:03+07:00",
-   "kind": "hey",
-   "from": "11-tide",
    "to": "113-shore",
    "brief": ""
   },
@@ -833,27 +819,6 @@
    "to": "",
    "brief": "",
    "title": "PR #11 แดชบอร์ด · MERGED"
-  },
-  {
-   "ts": "2026-11-02T02:15:44+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T02:15:49+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T02:15:55+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
   }
  ],
  "projects": [
