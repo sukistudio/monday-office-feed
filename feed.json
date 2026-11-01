@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T01:41:05+07:00",
+ "updatedAt": "2026-11-02T01:41:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -24,17 +24,17 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-10-31T09:28:20+07:00",
+   "since": "2026-11-02T01:41:45+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T02:59:32+07:00",
+   "since": "2026-11-02T01:41:45+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "brief-9g · ส่งงาน DONE",
-   "since": "2026-11-02T01:39:12+07:00",
+   "since": "2026-11-02T01:41:45+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-31T01:41:11+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-10-31T01:42:08+07:00",
    "kind": "qa-pass",
@@ -716,6 +709,55 @@
    "kind": "hey",
    "from": "13-harbor",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:09+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:13+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "13-harbor",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:26+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:35+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:40+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:41:44+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   }
  ],
