@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:14:51+07:00",
+ "updatedAt": "2026-11-02T02:15:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-02T02:13:32+07:00",
+   "since": "2026-11-02T02:15:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1077,6 +1077,14 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:15:25+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #11 แดชบอร์ด · MERGED"
   }
  ],
  "projects": [
