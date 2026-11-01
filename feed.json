@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T14:58:24+07:00",
+ "updatedAt": "2026-11-01T14:59:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,27 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T14:59:04+07:00",
-   "kind": "brief",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T14:59:08+07:00",
-   "kind": "progress",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-10-30T14:59:22+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T15:01:52+07:00",
    "kind": "brief",
