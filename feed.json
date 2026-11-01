@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T15:02:01+07:00",
+ "updatedAt": "2026-11-01T15:02:43+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -57,7 +57,7 @@
   {
    "id": "121-glow",
    "status": "idle",
-   "task": "รับงาน",
+   "task": "",
    "since": "2026-10-30T17:22:06+07:00",
    "model": "opus",
    "engine": "claude"
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-10-30T15:02:06+07:00",
-   "kind": "ack",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-10-30T15:04:15+07:00",
    "kind": "done",
