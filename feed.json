@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-01T22:32:54+07:00",
+ "updatedAt": "2026-11-01T22:35:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-01T22:11:03+07:00",
+   "since": "2026-11-01T22:35:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -787,13 +787,6 @@
    "from": "13-harbor",
    "to": "10-monday",
    "brief": "brief-9g"
-  },
-  {
-   "ts": "2026-11-01T22:03:16+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
   }
  ],
  "projects": [
