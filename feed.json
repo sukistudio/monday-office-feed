@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:12:17+07:00",
+ "updatedAt": "2026-11-02T02:13:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-02T02:08:25+07:00",
+   "since": "2026-11-02T02:12:57+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-02T02:07:46+07:00",
+   "since": "2026-11-02T02:13:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-02T02:08:25+07:00",
+   "since": "2026-11-02T02:13:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-02T02:12:17+07:00",
+   "since": "2026-11-02T02:13:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -663,29 +663,8 @@
    "brief": "brief-9g"
   },
   {
-   "ts": "2026-11-02T01:43:21+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-02T01:43:22+07:00",
    "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:43:25+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:43:32+07:00",
-   "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
@@ -1068,6 +1047,28 @@
    "kind": "hey",
    "from": "13-harbor",
    "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:12:29+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:13:11+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #11 แดชบอร์ด · เปิด PR"
+  },
+  {
+   "ts": "2026-11-02T02:13:28+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
    "brief": ""
   }
  ],
