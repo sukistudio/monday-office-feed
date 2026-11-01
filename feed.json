@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-02T02:10:24+07:00",
+ "updatedAt": "2026-11-02T02:11:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-02T02:06:31+07:00",
+   "since": "2026-11-02T02:11:03+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-02T02:09:04+07:00",
+   "since": "2026-11-02T02:11:03+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -663,41 +663,6 @@
    "brief": "brief-9g"
   },
   {
-   "ts": "2026-11-02T01:41:09+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:41:13+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:41:26+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:41:31+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-02T01:41:35+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-02T01:41:40+07:00",
    "kind": "hey",
    "from": "112-swell",
@@ -709,6 +674,13 @@
    "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T01:43:21+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   },
   {
@@ -1061,6 +1033,20 @@
    "kind": "ack",
    "from": "13-harbor",
    "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:10:34+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-02T02:11:36+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
