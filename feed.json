@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T03:13:45+07:00",
+ "updatedAt": "2026-11-03T03:15:37+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T03:15:23+07:00",
-   "kind": "done",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T03:15:31+07:00",
-   "kind": "progress",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9g"
-  },
   {
    "ts": "2026-11-01T03:30:30+07:00",
    "kind": "progress",
@@ -727,7 +713,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-01T03:15:31+07:00",
+   "since": "2026-11-01T03:30:30+07:00",
    "updatedAt": "2026-11-01T03:32:00+07:00"
   }
  ],
