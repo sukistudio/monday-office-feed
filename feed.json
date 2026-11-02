@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:42:01+07:00",
+ "updatedAt": "2026-11-03T02:42:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -137,7 +137,7 @@
   {
    "id": "151-survey",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-01T02:51:42+07:00",
    "model": "opus",
    "engine": "claude"
@@ -147,7 +147,7 @@
    "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-11-01T02:58:12+07:00",
-   "model": "unknown",
+   "model": "opus",
    "engine": "claude"
   },
   {
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:42:23+07:00",
-   "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:42:55+07:00",
    "kind": "ack",
