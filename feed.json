@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:08:50+07:00",
+ "updatedAt": "2026-11-03T02:11:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-03T02:03:06+07:00",
+   "since": "2026-11-03T02:10:04+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -32,9 +32,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-03T02:08:09+07:00",
+   "since": "2026-11-03T02:09:29+07:00",
    "model": "opus",
    "engine": "claude"
   },
