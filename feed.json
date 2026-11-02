@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T03:15:37+07:00",
+ "updatedAt": "2026-11-03T03:19:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -485,13 +485,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-03T02:48:08+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-03T02:48:25+07:00",
    "kind": "pr-open",
    "from": "",
@@ -513,13 +506,6 @@
    "to": "",
    "brief": "",
    "title": "PR #10 ผังทีม · MERGED"
-  },
-  {
-   "ts": "2026-11-03T02:49:18+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
   },
   {
    "ts": "2026-11-03T02:49:23+07:00",
