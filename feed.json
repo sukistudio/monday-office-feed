@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T03:30:31+07:00",
+ "updatedAt": "2026-11-03T03:32:21+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T03:32:00+07:00",
-   "kind": "done",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": "brief-9g"
-  },
   {
    "ts": "2026-11-02T01:43:22+07:00",
    "kind": "progress",
@@ -683,19 +676,7 @@
    "status": "active"
   }
  ],
- "briefs": [
-  {
-   "id": "brief-9g",
-   "title": "brief-9g",
-   "project": null,
-   "lead": "13-harbor",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-11-01T03:32:00+07:00",
-   "updatedAt": "2026-11-01T03:32:00+07:00"
-  }
- ],
+ "briefs": [],
  "warnings": [
   "project-cut:2"
  ]
