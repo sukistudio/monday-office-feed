@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:39:31+07:00",
+ "updatedAt": "2026-11-03T02:40:11+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -67,7 +67,7 @@
    "status": "idle",
    "task": "",
    "since": "2026-10-30T17:22:06+07:00",
-   "model": "sonnet",
+   "model": "unknown",
    "engine": "claude"
   },
   {
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:39:55+07:00",
-   "kind": "stuck",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:42:23+07:00",
    "kind": "done",
