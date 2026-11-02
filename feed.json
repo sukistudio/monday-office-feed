@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:28:10+07:00",
+ "updatedAt": "2026-11-03T02:28:50+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:28:25+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:31:05+07:00",
    "kind": "qa-fail",
@@ -783,6 +776,13 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:28:31+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ],
