@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:46:37+07:00",
+ "updatedAt": "2026-11-03T02:47:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -25,7 +25,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "รับงาน",
    "since": "2026-11-03T02:46:37+07:00",
    "model": "opus",
    "engine": "claude"
@@ -708,6 +708,20 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:46:46+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:46:49+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   }
  ],
