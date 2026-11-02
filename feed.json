@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T06:03:51+07:00",
+ "updatedAt": "2026-11-03T06:05:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -96,17 +96,17 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-03T06:03:51+07:00",
+   "since": "2026-11-03T06:05:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-03T06:02:36+07:00",
+   "since": "2026-11-03T06:04:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
