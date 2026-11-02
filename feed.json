@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:57:27+07:00",
+ "updatedAt": "2026-11-03T02:58:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -145,7 +145,7 @@
   {
    "id": "152-hearth",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-01T02:58:12+07:00",
    "model": "opus",
    "engine": "claude"
@@ -153,7 +153,7 @@
   {
    "id": "153-plumb",
    "status": "idle",
-   "task": "ตรวจผ่าน",
+   "task": "",
    "since": "2026-11-01T02:58:52+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -184,27 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:57:53+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "152-hearth",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:57:57+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:58:01+07:00",
-   "kind": "done",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:58:30+07:00",
    "kind": "done",
