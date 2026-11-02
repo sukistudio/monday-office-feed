@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:29:31+07:00",
+ "updatedAt": "2026-11-03T02:31:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-03T02:23:15+07:00",
+   "since": "2026-11-03T02:30:47+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:31:05+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:32:15+07:00",
    "kind": "done",
