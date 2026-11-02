@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:34:33+07:00",
+ "updatedAt": "2026-11-03T02:35:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "stuck",
-   "task": "ติด รอช่วย",
-   "since": "2026-11-03T02:23:15+07:00",
+   "status": "working",
+   "task": "แจกงาน",
+   "since": "2026-11-03T02:35:13+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:34:37+07:00",
-   "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:39:55+07:00",
    "kind": "stuck",
@@ -597,13 +590,6 @@
    "title": "PR #11 แดชบอร์ด · MERGED"
   },
   {
-   "ts": "2026-11-03T02:05:01+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-03T02:07:58+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -769,6 +755,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:34:37+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
