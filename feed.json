@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:47:19+07:00",
+ "updatedAt": "2026-11-03T02:48:00+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "working",
-   "task": "",
+   "task": "รับงาน",
    "since": "2026-11-03T02:46:37+07:00",
    "model": "fable",
    "engine": "claude"
@@ -24,9 +24,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-03T02:46:37+07:00",
+   "since": "2026-11-03T02:48:00+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -184,21 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:47:31+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #9 แดชบอร์ด · เปิด PR"
-  },
-  {
-   "ts": "2026-11-01T02:47:44+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:48:13+07:00",
    "kind": "qa-fail",
@@ -721,6 +706,13 @@
    "ts": "2026-11-03T02:46:49+07:00",
    "kind": "ack",
    "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:47:50+07:00",
+   "kind": "ack",
+   "from": "10-monday",
    "to": "11-tide",
    "brief": ""
   }
