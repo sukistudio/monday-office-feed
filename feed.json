@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:44:00+07:00",
+ "updatedAt": "2026-11-03T02:44:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-03T02:42:01+07:00",
+   "since": "2026-11-03T02:44:40+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:44:03+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-01T02:44:16+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:45:08+07:00",
    "kind": "ack",
@@ -576,13 +562,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-03T02:14:07+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-03T02:14:34+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -590,17 +569,17 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-03T02:14:38+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-03T02:14:56+07:00",
    "kind": "hey",
    "from": "10-monday",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:15:27+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   },
   {
@@ -736,6 +715,14 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-03T02:44:20+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #9 ผังทีม · MERGED"
   }
  ],
  "projects": [
