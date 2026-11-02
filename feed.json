@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T02:56:47+07:00",
+ "updatedAt": "2026-11-03T02:57:27+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-01T02:56:54+07:00",
-   "kind": "progress",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-01T02:57:53+07:00",
    "kind": "qa-pass",
