@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T01:50:00+07:00",
+ "updatedAt": "2026-11-04T01:50:40+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-02T01:50:05+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-11-02T01:52:12+07:00",
    "kind": "done",
