@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T02:04:04+07:00",
+ "updatedAt": "2026-11-04T02:04:45+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -72,17 +72,17 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-04T02:02:07+07:00",
+   "since": "2026-11-04T02:04:45+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "131-ledger",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-04T01:59:32+07:00",
+   "since": "2026-11-04T02:04:45+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-02T02:04:38+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "133-lantern",
-   "brief": ""
-  },
   {
    "ts": "2026-11-02T02:07:39+07:00",
    "kind": "qa-pass",
@@ -603,20 +596,6 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:34:34+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:34:38+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
    "brief": ""
   },
   {
