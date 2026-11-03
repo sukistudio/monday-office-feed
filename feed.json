@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T02:02:43+07:00",
+ "updatedAt": "2026-11-04T02:03:24+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -895,6 +895,28 @@
    "from": "114-eddy-omx",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:02:44+07:00",
+   "kind": "done",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:03:01+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:03:21+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #14 แดชบอร์ด · MERGED"
   }
  ],
  "projects": [
