@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T01:35:59+07:00",
+ "updatedAt": "2026-11-04T01:36:39+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -32,9 +32,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-04T01:34:39+07:00",
+   "since": "2026-11-04T01:36:39+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -822,6 +822,14 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:36:13+07:00",
+   "kind": "merged",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #12 แดชบอร์ด · MERGED"
   }
  ],
  "projects": [
