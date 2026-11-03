@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T01:46:12+07:00",
+ "updatedAt": "2026-11-04T01:46:52+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-04T01:45:31+07:00",
+   "since": "2026-11-04T01:46:52+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -73,7 +73,7 @@
   {
    "id": "13-harbor",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-11-04T01:37:59+07:00",
    "model": "fable",
    "engine": "claude"
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-02T02:11:03+07:00",
+   "since": "2026-11-04T01:46:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -161,7 +161,7 @@
   {
    "id": "114-eddy-omx",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-04T01:44:11+07:00",
    "model": "codex",
    "engine": "codex"
@@ -866,6 +866,41 @@
    "to": "",
    "brief": "",
    "title": "PR #13 แดชบอร์ด · เปิด PR"
+  },
+  {
+   "ts": "2026-11-04T01:46:14+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:46:18+07:00",
+   "kind": "done",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:46:21+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:46:40+07:00",
+   "kind": "progress",
+   "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:46:47+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
