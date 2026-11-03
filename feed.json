@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T02:15:29+07:00",
+ "updatedAt": "2026-11-04T02:19:41+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -577,24 +577,10 @@
    "title": "PR #13 แดชบอร์ด · เปิด PR"
   },
   {
-   "ts": "2026-11-04T01:46:14+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-04T01:46:18+07:00",
    "kind": "done",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:46:21+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "133-lantern",
    "brief": ""
   },
   {
@@ -612,40 +598,12 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-04T01:47:01+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "131-ledger",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-04T01:47:09+07:00",
    "kind": "merged",
    "from": "",
    "to": "",
    "brief": "",
    "title": "PR #13 แดชบอร์ด · MERGED"
-  },
-  {
-   "ts": "2026-11-04T01:47:42+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:47:47+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:47:51+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
   },
   {
    "ts": "2026-11-04T01:54:14+07:00",
