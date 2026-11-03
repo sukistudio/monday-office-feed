@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T15:44:16+07:00",
+ "updatedAt": "2026-11-03T15:44:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-11-03T15:43:37+07:00",
    "model": "fable",
    "engine": "claude"
@@ -533,6 +533,13 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-03T15:44:20+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ],
