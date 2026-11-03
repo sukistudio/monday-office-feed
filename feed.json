@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T14:39:33+07:00",
+ "updatedAt": "2026-11-03T14:41:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -11,7 +11,7 @@
    "status": "idle",
    "task": "รับงาน",
    "since": "2026-11-03T14:39:33+07:00",
-   "model": "fable",
+   "model": "unknown",
    "engine": "claude"
   },
   {
