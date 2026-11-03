@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T02:00:49+07:00",
+ "updatedAt": "2026-11-04T02:02:43+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-04T02:00:07+07:00",
+   "since": "2026-11-04T02:01:31+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-04T02:00:07+07:00",
+   "since": "2026-11-04T02:02:43+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-04T01:47:31+07:00",
+   "since": "2026-11-04T02:02:43+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -72,9 +72,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-04T01:58:57+07:00",
+   "since": "2026-11-04T02:02:07+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -88,9 +88,9 @@
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-04T01:57:07+07:00",
+   "since": "2026-11-04T02:01:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -160,9 +160,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-04T02:00:49+07:00",
+   "since": "2026-11-04T02:02:43+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -592,24 +592,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-04T01:30:55+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-04T01:30:57+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:32:04+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -879,6 +865,35 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:01:02+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:01:06+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "131-ledger",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T02:02:30+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #14 แดชบอร์ด · เปิด PR"
+  },
+  {
+   "ts": "2026-11-04T02:02:40+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
    "brief": ""
   }
  ],
