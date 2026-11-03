@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-04T01:53:10+07:00",
+ "updatedAt": "2026-11-04T01:54:26+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -73,16 +73,16 @@
   {
    "id": "13-harbor",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-04T01:53:10+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "131-ledger",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-04T01:47:31+07:00",
+   "since": "2026-11-04T01:53:51+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -571,20 +571,6 @@
    "title": "PR #12 แดชบอร์ด · เปิด PR"
   },
   {
-   "ts": "2026-11-04T01:23:43+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T01:23:47+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-04T01:23:51+07:00",
    "kind": "done",
    "from": "114-eddy-omx",
@@ -886,6 +872,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-04T01:54:14+07:00",
+   "kind": "done",
+   "from": "13-harbor",
+   "to": "131-ledger",
    "brief": ""
   }
  ],
