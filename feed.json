@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-03T20:02:53+07:00",
+ "updatedAt": "2026-11-03T20:04:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -399,14 +399,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-03T02:41:43+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #9 ผังทีม · เปิด PR"
-  },
-  {
    "ts": "2026-11-03T02:41:53+07:00",
    "kind": "done",
    "from": "111-ripple",
@@ -426,14 +418,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": ""
-  },
-  {
-   "ts": "2026-11-03T02:44:20+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #9 ผังทีม · MERGED"
   },
   {
    "ts": "2026-11-03T02:46:24+07:00",
@@ -471,27 +455,11 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-03T02:48:25+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #10 ผังทีม · เปิด PR"
-  },
-  {
    "ts": "2026-11-03T02:48:32+07:00",
    "kind": "done",
    "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
-  },
-  {
-   "ts": "2026-11-03T02:48:54+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #10 ผังทีม · MERGED"
   },
   {
    "ts": "2026-11-03T02:49:23+07:00",
