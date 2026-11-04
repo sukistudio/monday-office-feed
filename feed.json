@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-05T02:42:27+07:00",
+ "updatedAt": "2026-11-05T02:43:42+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-03T02:43:30+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-11-03T02:44:20+07:00",
    "kind": "merged",
