@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-06T06:34:10+07:00",
+ "updatedAt": "2026-11-06T06:38:16+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -183,15 +183,7 @@
    "engine": "codex"
   }
  ],
- "events": [
-  {
-   "ts": "2026-11-06T06:04:20+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  }
- ],
+ "events": [],
  "projects": [
   {
    "id": "monday-projects",
