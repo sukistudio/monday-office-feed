@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-06T00:54:11+07:00",
+ "updatedAt": "2026-11-06T00:57:10+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,20 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-04T00:56:47+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-04T00:57:03+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-11-04T01:02:49+07:00",
    "kind": "progress",
