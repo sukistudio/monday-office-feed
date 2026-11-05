@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-06T01:56:52+07:00",
+ "updatedAt": "2026-11-06T02:01:01+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "idle",
-   "task": "แจกงาน",
+   "task": "",
    "since": "2026-11-04T02:05:25+07:00",
    "model": "fable",
    "engine": "claude"
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-04T02:00:35+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-11-04T02:02:30+07:00",
    "kind": "pr-open",
