@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-06T06:02:20+07:00",
+ "updatedAt": "2026-11-06T06:03:35+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -120,9 +120,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-05T06:05:21+07:00",
+   "since": "2026-11-06T06:03:35+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -183,7 +183,22 @@
    "engine": "codex"
   }
  ],
- "events": [],
+ "events": [
+  {
+   "ts": "2026-11-06T06:03:09+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-06T06:03:13+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  }
+ ],
  "projects": [
   {
    "id": "monday-projects",
