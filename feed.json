@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-06T01:45:19+07:00",
+ "updatedAt": "2026-11-06T01:45:59+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -184,14 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-04T01:45:58+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #13 แดชบอร์ด · เปิด PR"
-  },
   {
    "ts": "2026-11-04T01:46:18+07:00",
    "kind": "done",
