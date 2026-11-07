@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-07T14:57:03+07:00",
+ "updatedAt": "2026-11-07T15:01:10+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -369,34 +369,6 @@
    "to": "",
    "brief": "",
    "title": "PR #16 แดชบอร์ด · MERGED"
-  },
-  {
-   "ts": "2026-11-07T14:28:17+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:28:22+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:28:26+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:28:38+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "13-harbor",
-   "brief": ""
   },
   {
    "ts": "2026-11-07T14:33:10+07:00",
