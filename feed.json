@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-07T14:44:37+07:00",
+ "updatedAt": "2026-11-07T14:48:44+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -285,34 +285,6 @@
    "title": "PR #15 แดชบอร์ด · MERGED"
   },
   {
-   "ts": "2026-11-07T14:15:26+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:15:31+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:15:35+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:15:39+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-07T14:15:55+07:00",
    "kind": "ack",
    "from": "10-monday",
@@ -324,13 +296,6 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-07T14:17:07+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
    "brief": ""
   },
   {
