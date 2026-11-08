@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-08T14:37:22+07:00",
+ "updatedAt": "2026-11-08T14:38:35+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-08T14:36:08+07:00",
+   "since": "2026-11-08T14:38:35+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-11-08T14:34:54+07:00",
    "model": "fable",
    "engine": "claude"
@@ -97,7 +97,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "",
+   "task": "ส่ง PROGRESS",
    "since": "2026-11-08T14:35:33+07:00",
    "model": "fable",
    "engine": "claude"
@@ -112,17 +112,17 @@
   },
   {
    "id": "142-chart",
-   "status": "idle",
-   "task": "",
-   "since": "2026-10-26T12:11:19+07:00",
+   "status": "working",
+   "task": "รับงาน",
+   "since": "2026-11-08T14:38:35+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-08T14:36:47+07:00",
+   "since": "2026-11-08T14:38:00+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -160,9 +160,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-08T14:25:45+07:00",
+   "since": "2026-11-08T14:38:35+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -620,6 +620,41 @@
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T14:38:15+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T14:38:19+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T14:38:23+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T14:38:29+07:00",
+   "kind": "ack",
+   "from": "142-chart",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T14:38:34+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
