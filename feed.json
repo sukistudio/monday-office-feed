@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-08T10:26:28+07:00",
+ "updatedAt": "2026-11-08T10:27:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -97,7 +97,7 @@
   {
    "id": "14-horizon",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-08T06:06:07+07:00",
    "model": "fable",
    "engine": "claude"
@@ -160,9 +160,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-08T09:45:51+07:00",
+   "since": "2026-11-08T10:27:08+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -184,13 +184,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-06T10:26:50+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-11-06T10:28:01+07:00",
    "kind": "brief",
