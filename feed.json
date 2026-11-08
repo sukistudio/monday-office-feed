@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-08T14:51:41+07:00",
+ "updatedAt": "2026-11-08T14:55:47+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -112,9 +112,9 @@
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-08T14:50:33+07:00",
+   "since": "2026-11-08T14:55:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -462,13 +462,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-08T14:22:17+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-08T14:22:21+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
@@ -490,23 +483,9 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-08T14:23:46+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-08T14:23:51+07:00",
    "kind": "ack",
    "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-08T14:24:58+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
    "to": "113-shore",
    "brief": ""
   },
