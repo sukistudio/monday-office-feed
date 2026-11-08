@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-08T15:03:08+07:00",
+ "updatedAt": "2026-11-08T15:05:30+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-08T15:01:20+07:00",
+   "since": "2026-11-08T15:04:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-08T14:58:14+07:00",
+   "since": "2026-11-08T15:04:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -96,9 +96,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-08T14:41:42+07:00",
+   "since": "2026-11-08T15:05:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -113,16 +113,16 @@
   {
    "id": "142-chart",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-08T14:55:47+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-08T14:41:07+07:00",
+   "since": "2026-11-08T15:05:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -518,27 +518,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-08T14:33:53+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-08T14:34:57+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-08T14:35:01+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-08T14:36:33+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -704,6 +683,20 @@
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T15:05:00+07:00",
+   "kind": "hey",
+   "from": "142-chart",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-08T15:05:04+07:00",
+   "kind": "done",
+   "from": "142-chart",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
