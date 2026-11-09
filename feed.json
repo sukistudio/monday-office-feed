@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T14:04:38+07:00",
+ "updatedAt": "2026-11-09T14:07:01+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-07T14:06:35+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
   {
    "ts": "2026-11-07T14:09:35+07:00",
    "kind": "pr-open",
