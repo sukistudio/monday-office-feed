@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T09:40:23+07:00",
+ "updatedAt": "2026-11-09T09:41:37+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-09T09:11:56+07:00",
+   "since": "2026-11-09T09:41:37+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -693,24 +693,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-09T09:10:29+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-09T09:10:33+07:00",
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-09T09:11:29+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
    "brief": ""
   },
   {
@@ -725,6 +711,13 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:41:36+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ],
@@ -897,6 +890,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "brief-27b",
+   "title": "brief-27b",
+   "project": null,
+   "lead": null,
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-09T09:41:36+07:00",
+   "updatedAt": "2026-11-09T09:41:36+07:00"
+  },
   {
    "id": "brief-37",
    "title": "brief-37",
