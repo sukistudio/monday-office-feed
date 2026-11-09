@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T09:46:28+07:00",
+ "updatedAt": "2026-11-09T09:47:07+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "brief-27b · แจกงาน",
+   "task": "brief-27b · รับงาน",
    "since": "2026-11-09T09:46:28+07:00",
    "model": "fable",
    "brief": "brief-27b",
@@ -27,7 +27,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "brief-27b · ส่ง PROGRESS",
    "since": "2026-11-09T09:44:05+07:00",
    "model": "opus",
    "engine": "claude"
@@ -736,6 +736,36 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:46:32+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:46:36+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:46:40+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "brief-27b",
+   "project": "monday-chat"
+  },
+  {
+   "ts": "2026-11-09T09:46:58+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "brief-27b",
+   "project": "monday-chat"
   }
  ],
  "projects": [
@@ -916,7 +946,7 @@
    "qa": null,
    "status": "open",
    "since": "2026-11-09T09:41:36+07:00",
-   "updatedAt": "2026-11-09T09:43:41+07:00"
+   "updatedAt": "2026-11-09T09:46:40+07:00"
   },
   {
    "id": "brief-37",
