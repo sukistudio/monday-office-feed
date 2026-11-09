@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T09:02:48+07:00",
+ "updatedAt": "2026-11-09T09:05:10+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
-   "task": "รับงาน",
-   "since": "2026-11-09T08:58:40+07:00",
+   "status": "working",
+   "task": "ส่งงาน DONE",
+   "since": "2026-11-09T09:05:10+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-09T09:02:48+07:00",
    "model": "fable",
    "engine": "claude"
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-09T08:56:12+07:00",
+   "since": "2026-11-09T09:03:27+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -96,9 +96,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-09T06:05:43+07:00",
+   "since": "2026-11-09T09:05:10+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -711,6 +711,34 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:04:42+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:05:01+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:05:05+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T09:05:09+07:00",
+   "kind": "done",
+   "from": "10-monday",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
