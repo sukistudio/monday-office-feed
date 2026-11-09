@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T19:52:30+07:00",
+ "updatedAt": "2026-11-09T19:54:54+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-09T19:52:30+07:00",
+   "since": "2026-11-09T19:54:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-09T19:51:49+07:00",
+   "since": "2026-11-09T19:53:44+07:00",
    "model": "fable",
    "brief": "brief-27c",
    "engine": "claude"
@@ -668,20 +668,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-09T19:24:22+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-09T19:24:26+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "12-beam",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-09T19:25:24+07:00",
    "kind": "hey",
    "from": "12-beam",
@@ -1051,6 +1037,21 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-09T19:53:35+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-09T19:54:55+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #37 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
