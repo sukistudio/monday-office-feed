@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-09T10:09:46+07:00",
+ "updatedAt": "2026-11-09T10:12:08+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-09T10:09:46+07:00",
+   "since": "2026-11-09T10:11:34+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -50,9 +50,9 @@
   },
   {
    "id": "12-beam",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-09T10:01:43+07:00",
+   "since": "2026-11-09T10:11:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -697,13 +697,6 @@
   {
    "ts": "2026-11-09T09:10:33+07:00",
    "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-09T09:41:36+07:00",
-   "kind": "hey",
    "from": "10-monday",
    "to": "11-tide",
    "brief": ""
