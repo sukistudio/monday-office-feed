@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-10T14:28:59+07:00",
+ "updatedAt": "2026-11-10T14:33:06+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -916,13 +916,6 @@
    "kind": "done",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-10T14:02:38+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
    "brief": ""
   },
   {
