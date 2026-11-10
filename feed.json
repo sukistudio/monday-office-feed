@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-10T09:28:34+07:00",
+ "updatedAt": "2026-11-10T09:29:14+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -34,7 +34,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-10T09:22:22+07:00",
    "model": "opus",
    "engine": "claude"
@@ -1028,6 +1028,20 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:29:04+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:29:08+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   }
  ],
