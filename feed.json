@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-10T09:20:33+07:00",
+ "updatedAt": "2026-11-10T09:22:22+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -10,14 +10,14 @@
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-10T09:20:33+07:00",
+   "since": "2026-11-10T09:22:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "แจกงาน",
    "since": "2026-11-10T09:18:04+07:00",
    "model": "fable",
    "brief": "brief-27c",
@@ -25,17 +25,17 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "brief-27c · ส่งงาน DONE",
-   "since": "2026-11-09T19:50:40+07:00",
+   "since": "2026-11-10T09:22:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-10T06:18:26+07:00",
+   "since": "2026-11-10T09:22:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-08T09:21:55+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-11-08T09:25:09+07:00",
    "kind": "progress",
@@ -1013,6 +1006,41 @@
    "ts": "2026-11-10T09:20:22+07:00",
    "kind": "hey",
    "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:21:53+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:21:57+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:22:02+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:22:08+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:22:11+07:00",
+   "kind": "hey",
+   "from": "112-swell",
    "to": "11-tide",
    "brief": ""
   }
