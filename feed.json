@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-10T09:32:22+07:00",
+ "updatedAt": "2026-11-10T09:33:02+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "รับงาน",
    "since": "2026-11-10T09:28:34+07:00",
    "model": "fable",
    "brief": "brief-27c",
@@ -1063,6 +1063,13 @@
    "kind": "progress",
    "from": "111-ripple",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-10T09:32:58+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
