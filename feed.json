@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-10T09:34:57+07:00",
+ "updatedAt": "2026-11-10T09:35:37+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-10T09:22:22+07:00",
+   "since": "2026-11-10T09:35:37+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-08T09:35:06+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-11-08T09:35:46+07:00",
    "kind": "ack",
