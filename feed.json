@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T18:19:20+07:00",
+ "updatedAt": "2026-11-11T18:20:00+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-11T18:13:48+07:00",
+   "since": "2026-11-11T18:20:00+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -933,6 +933,13 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:19:40+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
