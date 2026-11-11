@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T19:49:44+07:00",
+ "updatedAt": "2026-11-11T19:52:07+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-09T19:51:34+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-27c"
-  },
   {
    "ts": "2026-11-09T19:54:55+07:00",
    "kind": "pr-open",
@@ -1029,8 +1022,8 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-09T19:51:34+07:00",
-   "updatedAt": "2026-11-09T19:51:34+07:00"
+   "since": "2026-11-09T19:52:17+07:00",
+   "updatedAt": "2026-11-09T19:52:17+07:00"
   }
  ],
  "warnings": [
