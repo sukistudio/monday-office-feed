@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T09:53:02+07:00",
+ "updatedAt": "2026-11-11T09:54:17+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-09T09:54:13+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "brief-27b",
-   "project": "monday-chat"
-  },
   {
    "ts": "2026-11-09T09:55:52+07:00",
    "kind": "ack",
@@ -955,8 +947,8 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-09T09:54:13+07:00",
-   "updatedAt": "2026-11-09T09:54:13+07:00"
+   "since": "2026-11-09T09:54:26+07:00",
+   "updatedAt": "2026-11-09T09:54:26+07:00"
   }
  ],
  "warnings": [
