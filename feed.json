@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T18:37:38+07:00",
+ "updatedAt": "2026-11-11T18:38:17+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-11T18:34:18+07:00",
+   "since": "2026-11-11T18:38:17+07:00",
    "model": "fable",
    "brief": "brief-27c",
    "engine": "claude"
@@ -775,20 +775,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-11T18:16:45+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:16:58+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-11T18:17:02+07:00",
    "kind": "hey",
    "from": "15-atlas",
@@ -1255,6 +1241,34 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:38:05+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:38:08+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:38:09+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:38:12+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
    "brief": ""
   }
  ],
