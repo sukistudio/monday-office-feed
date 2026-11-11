@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T19:39:19+07:00",
+ "updatedAt": "2026-11-11T19:39:59+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-09T19:40:40+07:00",
    "model": "fable",
    "engine": "claude"
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-09T19:39:21+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-09T19:39:22+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
   {
    "ts": "2026-11-09T19:41:47+07:00",
    "kind": "brief",
