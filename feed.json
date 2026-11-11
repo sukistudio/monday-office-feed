@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T17:07:19+07:00",
+ "updatedAt": "2026-11-11T17:10:52+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-11T17:01:59+07:00",
+   "since": "2026-11-11T17:10:52+07:00",
    "model": "fable",
    "brief": "brief-27c",
    "engine": "claude"
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-11T02:20:09+07:00",
+   "since": "2026-11-11T17:10:52+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -740,6 +740,28 @@
   {
    "ts": "2026-11-11T17:00:25+07:00",
    "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T17:10:23+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #41 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-11-11T17:10:32+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T17:10:43+07:00",
+   "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
    "brief": ""
