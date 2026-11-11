@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T19:52:07+07:00",
+ "updatedAt": "2026-11-11T19:54:34+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -20,7 +20,6 @@
    "task": "รับงาน",
    "since": "2026-11-11T18:57:03+07:00",
    "model": "fable",
-   "brief": "brief-27c",
    "engine": "claude"
   },
   {
@@ -1013,19 +1012,7 @@
    "status": "active"
   }
  ],
- "briefs": [
-  {
-   "id": "brief-27c",
-   "title": "brief-27c",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-09T19:52:17+07:00",
-   "updatedAt": "2026-11-09T19:52:17+07:00"
-  }
- ],
+ "briefs": [],
  "warnings": [
   "project-cut:2"
  ]
