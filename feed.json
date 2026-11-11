@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T18:51:39+07:00",
+ "updatedAt": "2026-11-11T18:55:48+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-11T18:41:36+07:00",
+   "since": "2026-11-11T18:55:48+07:00",
    "model": "fable",
    "brief": "brief-27c",
    "engine": "claude"
@@ -810,24 +810,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-11T18:21:55+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-11T18:21:59+07:00",
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:22:14+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
    "brief": ""
   },
   {
@@ -852,27 +838,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-11T18:22:52+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:22:56+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:23:08+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-11T18:23:33+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -887,20 +852,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-11T18:24:04+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:24:20+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-11T18:24:43+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
@@ -908,31 +859,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-11T18:24:44+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-11T18:24:47+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:24:48+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:25:15+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -947,6 +877,13 @@
    "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-11T18:25:52+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
    "brief": ""
   },
   {
