@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-11T09:51:43+07:00",
+ "updatedAt": "2026-11-11T09:52:23+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -185,14 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-09T09:51:51+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "brief-27b",
-   "project": "monday-chat"
-  },
   {
    "ts": "2026-11-09T09:52:58+07:00",
    "kind": "progress",
@@ -969,9 +961,9 @@
    "project": "monday-chat",
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "progress",
-   "since": "2026-11-09T09:51:47+07:00",
+   "since": "2026-11-09T09:52:58+07:00",
    "updatedAt": "2026-11-09T09:52:58+07:00"
   }
  ],
