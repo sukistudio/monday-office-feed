@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:13:13+07:00",
+ "updatedAt": "2026-11-13T02:14:33+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-13T02:10:34+07:00",
+   "since": "2026-11-13T02:13:54+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "stuck",
-   "task": "tide-43 · ติด รอช่วย",
-   "since": "2026-11-13T02:00:22+07:00",
+   "status": "working",
+   "task": "tide-43 · ส่ง PROGRESS",
+   "since": "2026-11-13T02:14:33+07:00",
    "model": "codex",
    "brief": "tide-43",
    "engine": "codex"
@@ -187,20 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T02:13:58+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-39e"
-  },
-  {
-   "ts": "2026-11-11T02:14:02+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": "tide-39e"
-  },
   {
    "ts": "2026-11-11T02:15:57+07:00",
    "kind": "progress",
@@ -862,27 +848,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T01:43:18+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:43:24+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:43:42+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:43:51+07:00",
    "kind": "ack",
    "from": "10-monday",
@@ -1191,6 +1156,27 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T02:13:15+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:13:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:13:57+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-43"
   }
  ],
  "projects": [
@@ -1475,7 +1461,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-11T02:13:58+07:00",
+   "since": "2026-11-11T02:15:11+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
