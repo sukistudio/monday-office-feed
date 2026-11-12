@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:23:03+07:00",
+ "updatedAt": "2026-11-13T02:24:19+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-43 · รับงาน",
-   "since": "2026-11-13T02:20:23+07:00",
+   "since": "2026-11-13T02:24:19+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · รับงาน",
-   "since": "2026-11-13T02:22:27+07:00",
+   "since": "2026-11-13T02:24:19+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -1211,6 +1211,13 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T02:23:41+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1495,7 +1502,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-11T02:23:49+07:00",
+   "since": "2026-11-11T02:24:35+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
