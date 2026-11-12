@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:49:35+07:00",
+ "updatedAt": "2026-11-13T01:50:16+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-13T01:48:25+07:00",
+   "since": "2026-11-13T01:50:16+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -27,7 +27,7 @@
    "status": "idle",
    "task": "ส่งงาน DONE",
    "since": "2026-11-11T18:37:38+07:00",
-   "model": "opus",
+   "model": "unknown",
    "engine": "claude"
   },
   {
@@ -40,9 +40,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T01:47:09+07:00",
+   "since": "2026-11-13T01:50:16+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -160,9 +160,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-11-13T01:43:20+07:00",
+   "status": "stuck",
+   "task": "ติด รอช่วย",
+   "since": "2026-11-13T01:50:16+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -761,20 +761,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T01:20:25+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:20:28+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:20:33+07:00",
    "kind": "hey",
    "from": "10-monday",
@@ -1176,6 +1162,27 @@
   {
    "ts": "2026-11-13T01:46:48+07:00",
    "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:49:55+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:49:59+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:50:07+07:00",
+   "kind": "stuck",
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": ""
