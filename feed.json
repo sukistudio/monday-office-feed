@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:05:29+07:00",
+ "updatedAt": "2026-11-13T02:06:10+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · ส่ง PROGRESS",
-   "since": "2026-11-13T02:03:38+07:00",
+   "since": "2026-11-13T02:06:10+07:00",
    "model": "fable",
    "brief": "tide-43",
    "engine": "claude"
@@ -57,9 +57,9 @@
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "tide-43 · ส่งงาน DONE",
-   "since": "2026-11-13T02:01:05+07:00",
+   "since": "2026-11-13T02:06:10+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -820,20 +820,6 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T01:35:59+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:36:09+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:36:18+07:00",
    "kind": "ack",
    "from": "15-atlas",
@@ -1233,6 +1219,20 @@
    "from": "121-glow",
    "to": "12-beam",
    "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T02:05:33+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:05:37+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
   }
  ],
  "projects": [
