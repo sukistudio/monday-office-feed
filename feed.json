@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T05:05:54+07:00",
+ "updatedAt": "2026-11-13T05:10:04+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1171,39 +1171,11 @@
    "brief": "tide-41"
   },
   {
-   "ts": "2026-11-13T04:35:54+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T04:35:57+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-41"
-  },
-  {
-   "ts": "2026-11-13T04:35:58+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:36:03+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:36:04+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T04:36:28+07:00",
@@ -1220,34 +1192,6 @@
    "brief": "tide-41"
   },
   {
-   "ts": "2026-11-13T04:36:51+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:36:55+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:36:56+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:37:18+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T04:37:33+07:00",
    "kind": "done",
    "from": "112-swell",
@@ -1262,45 +1206,10 @@
    "brief": "tide-41"
   },
   {
-   "ts": "2026-11-13T04:37:41+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:37:45+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:37:55+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T04:38:00+07:00",
    "kind": "done",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:38:00+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:38:47+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
    "brief": ""
   },
   {
@@ -1318,31 +1227,10 @@
    "brief": "tide-41"
   },
   {
-   "ts": "2026-11-13T04:39:02+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:39:29+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T04:39:54+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
    "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:40:00+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
    "brief": ""
   },
   {
