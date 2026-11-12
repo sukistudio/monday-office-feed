@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:44:34+07:00",
+ "updatedAt": "2026-11-13T04:47:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -121,9 +121,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-13T04:36:23+07:00",
+   "since": "2026-11-13T04:45:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1558,6 +1558,20 @@
   {
    "ts": "2026-11-13T04:44:16+07:00",
    "kind": "hey",
+   "from": "151-survey",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:46:50+07:00",
+   "kind": "done",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:46:54+07:00",
+   "kind": "done",
    "from": "151-survey",
    "to": "153-plumb",
    "brief": ""
