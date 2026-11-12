@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:25:03+07:00",
+ "updatedAt": "2026-11-13T02:27:28+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "atlas-5 · รับงาน",
-   "since": "2026-11-13T02:24:19+07:00",
+   "since": "2026-11-13T02:26:18+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -888,20 +888,6 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "tide-44"
-  },
-  {
-   "ts": "2026-11-13T01:56:38+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:56:42+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T01:56:55+07:00",
