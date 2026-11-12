@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:35:43+07:00",
+ "updatedAt": "2026-11-13T04:36:23+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "รับงาน",
+   "task": "tide-41 · ส่งงาน DONE",
    "since": "2026-11-13T04:35:43+07:00",
    "model": "fable",
    "brief": "tide-41",
@@ -121,9 +121,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T02:00:22+07:00",
+   "since": "2026-11-13T04:36:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1309,6 +1309,48 @@
    "from": "14-horizon",
    "to": "141-scout",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:35:45+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:35:50+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:35:53+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-41"
+  },
+  {
+   "ts": "2026-11-13T04:35:57+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-41"
+  },
+  {
+   "ts": "2026-11-13T04:36:03+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:36:04+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1481,6 +1523,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-41",
+   "title": "quota decider เขียน 5h จาก board ลง limits (Q5)",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-11T18:16:21+07:00",
+   "updatedAt": "2026-11-13T04:35:53+07:00"
+  },
+  {
    "id": "atlas-5",
    "title": "atlas-5",
    "project": null,
@@ -1540,17 +1593,6 @@
    "status": "done",
    "since": "2026-11-13T01:14:39+07:00",
    "updatedAt": "2026-11-13T01:29:23+07:00"
-  },
-  {
-   "id": "tide-41",
-   "title": "quota decider เขียน 5h จาก board ลง limits (Q5)",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-11T18:16:21+07:00",
-   "updatedAt": "2026-11-11T18:35:52+07:00"
   },
   {
    "id": "atlas-4",
