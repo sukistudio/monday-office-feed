@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:23:19+07:00",
+ "updatedAt": "2026-11-13T01:24:03+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -33,16 +33,16 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "ส่ง PROGRESS",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-13T01:15:06+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-11T18:30:28+07:00",
+   "since": "2026-11-13T01:24:03+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -849,6 +849,20 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:23:29+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:23:39+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
    "brief": ""
   }
  ],
