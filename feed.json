@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:21:47+07:00",
+ "updatedAt": "2026-11-13T02:23:03+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-43 · ตรวจผ่าน",
+   "task": "tide-43 · รับงาน",
    "since": "2026-11-13T02:20:23+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-43 · รับงาน",
-   "since": "2026-11-13T02:13:54+07:00",
+   "since": "2026-11-13T02:22:27+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T02:22:47+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "tide-39e"
-  },
   {
    "ts": "2026-11-11T02:29:07+07:00",
    "kind": "done",
@@ -861,13 +854,6 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T01:52:09+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:52:13+07:00",
    "kind": "progress",
    "from": "11-tide",
@@ -875,25 +861,11 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T01:52:22+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:52:38+07:00",
    "kind": "ack",
    "from": "12-beam",
    "to": "10-monday",
    "brief": "tide-43"
-  },
-  {
-   "ts": "2026-11-13T01:52:43+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T01:55:26+07:00",
@@ -1218,6 +1190,27 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:22:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:22:33+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T02:23:02+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-43"
   }
  ],
  "projects": [
@@ -1502,7 +1495,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-11T02:22:47+07:00",
+   "since": "2026-11-11T02:23:49+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
