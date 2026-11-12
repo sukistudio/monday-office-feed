@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-12T17:24:42+07:00",
+ "updatedAt": "2026-11-12T17:25:22+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -137,7 +137,7 @@
   {
    "id": "151-survey",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-12T17:13:44+07:00",
    "model": "opus",
    "engine": "claude"
@@ -701,6 +701,13 @@
    "ts": "2026-11-12T17:24:32+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-12T17:25:11+07:00",
+   "kind": "done",
+   "from": "151-survey",
    "to": "15-atlas",
    "brief": ""
   }
