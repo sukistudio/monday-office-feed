@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:04:15+07:00",
+ "updatedAt": "2026-11-13T02:05:29+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -49,16 +49,16 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · รับงาน",
-   "since": "2026-11-13T02:02:28+07:00",
+   "since": "2026-11-13T02:05:29+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
    "status": "working",
-   "task": "",
+   "task": "tide-43 · ส่งงาน DONE",
    "since": "2026-11-13T02:01:05+07:00",
    "model": "opus",
    "engine": "claude"
@@ -820,34 +820,6 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T01:35:05+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:35:10+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:35:13+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:35:28+07:00",
-   "kind": "hey",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:35:59+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -869,10 +841,24 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T01:37:38+07:00",
+   "ts": "2026-11-13T01:36:22+07:00",
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:36:28+07:00",
+   "kind": "hey",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:36:38+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -880,13 +866,6 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:38:07+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -911,10 +890,24 @@
    "brief": "tide-43"
   },
   {
+   "ts": "2026-11-13T01:38:48+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-13T01:38:58+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:39:02+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -946,24 +939,10 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T01:40:13+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:40:40+07:00",
    "kind": "hey",
    "from": "15-atlas",
    "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:40:45+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -981,9 +960,23 @@
    "brief": "tide-43"
   },
   {
+   "ts": "2026-11-13T01:41:07+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-13T01:41:09+07:00",
    "kind": "hey",
    "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:41:23+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
   },
@@ -1233,6 +1226,13 @@
    "from": "121-glow",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:05:02+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "tide-43"
   }
  ],
  "projects": [
