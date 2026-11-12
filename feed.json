@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T06:02:11+07:00",
+ "updatedAt": "2026-11-13T06:03:27+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -121,9 +121,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T04:45:17+07:00",
+   "since": "2026-11-13T06:03:27+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1350,6 +1350,20 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T06:03:06+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T06:03:10+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
