@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:20:23+07:00",
+ "updatedAt": "2026-11-13T02:21:04+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T02:20:30+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "tide-39e"
-  },
   {
    "ts": "2026-11-11T02:22:47+07:00",
    "kind": "done",
@@ -1493,9 +1486,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-11-11T02:20:26+07:00",
+   "since": "2026-11-11T02:22:47+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
