@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T05:22:44+07:00",
+ "updatedAt": "2026-11-13T05:26:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1336,20 +1336,6 @@
    "kind": "qa-fail",
    "from": "153-plumb",
    "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:53:24+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:53:28+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
    "brief": ""
   },
   {
