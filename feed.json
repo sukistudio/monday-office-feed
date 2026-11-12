@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:30:23+07:00",
+ "updatedAt": "2026-11-13T01:32:16+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-13T01:29:43+07:00",
+   "since": "2026-11-13T01:31:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -128,9 +128,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T01:29:03+07:00",
+   "since": "2026-11-13T01:31:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -152,9 +152,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจไม่ผ่าน",
-   "since": "2026-11-13T01:29:43+07:00",
+   "since": "2026-11-13T01:31:05+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -959,6 +959,13 @@
   {
    "ts": "2026-11-13T01:30:12+07:00",
    "kind": "hey",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:31:46+07:00",
+   "kind": "qa-fail",
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
