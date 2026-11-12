@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T06:29:46+07:00",
+ "updatedAt": "2026-11-13T06:33:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1350,27 +1350,6 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T06:03:06+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T06:03:10+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T06:03:54+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
    "brief": ""
   }
  ],
