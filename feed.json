@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:54:22+07:00",
+ "updatedAt": "2026-11-13T02:58:31+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -1038,32 +1038,11 @@
    "brief": "tide-43"
   },
   {
-   "ts": "2026-11-13T02:24:29+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T02:24:33+07:00",
    "kind": "ack",
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "atlas-5"
-  },
-  {
-   "ts": "2026-11-13T02:24:46+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T02:24:48+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
   }
  ],
  "projects": [
