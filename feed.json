@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:38:43+07:00",
+ "updatedAt": "2026-11-13T01:39:25+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -153,7 +153,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ตรวจไม่ผ่าน",
+   "task": "ตรวจผ่าน",
    "since": "2026-11-13T01:38:03+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -1087,6 +1087,27 @@
    "kind": "stuck",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:38:58+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:39:16+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:39:20+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
    "brief": ""
   }
  ],
