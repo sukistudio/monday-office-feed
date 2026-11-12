@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:29:38+07:00",
+ "updatedAt": "2026-11-13T04:30:20+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-43 · ส่งงาน DONE",
+   "task": "tide-43 · แจกงาน",
    "since": "2026-11-13T04:28:57+07:00",
    "model": "fable",
    "brief": "tide-41",
@@ -65,9 +65,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T02:00:22+07:00",
+   "since": "2026-11-13T04:30:20+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -81,17 +81,17 @@
   },
   {
    "id": "131-ledger",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T02:00:22+07:00",
+   "since": "2026-11-13T04:30:20+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "133-lantern",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T02:00:22+07:00",
+   "since": "2026-11-13T04:30:20+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · ส่ง PROGRESS",
-   "since": "2026-11-13T02:15:14+07:00",
+   "since": "2026-11-13T04:30:20+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1091,6 +1091,62 @@
    "kind": "ack",
    "from": "151-survey",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:29:49+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:29:50+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T04:29:53+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:29:57+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:29:58+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:30:04+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "131-ledger",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:30:08+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "133-lantern",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:30:20+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
    "brief": ""
   }
  ],
