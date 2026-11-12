@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:42:36+07:00",
+ "updatedAt": "2026-11-13T04:43:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T04:34:21+07:00",
+   "since": "2026-11-13T04:43:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1066,25 +1066,11 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T04:29:49+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T04:29:50+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "114-eddy-omx",
    "brief": "tide-43"
-  },
-  {
-   "ts": "2026-11-13T04:29:53+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T04:29:57+07:00",
@@ -1552,6 +1538,20 @@
    "ts": "2026-11-13T04:42:28+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:42:50+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:42:55+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
    "to": "151-survey",
    "brief": ""
   }
