@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:55:10+07:00",
+ "updatedAt": "2026-11-13T04:57:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T04:44:34+07:00",
+   "since": "2026-11-13T04:55:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
