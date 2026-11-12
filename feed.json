@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T04:47:01+07:00",
+ "updatedAt": "2026-11-13T04:48:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -140,7 +140,7 @@
    "id": "151-survey",
    "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-13T04:28:15+07:00",
+   "since": "2026-11-13T04:48:49+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -155,7 +155,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ตรวจไม่ผ่าน",
    "since": "2026-11-13T04:44:34+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -1574,6 +1574,20 @@
    "kind": "done",
    "from": "151-survey",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:48:38+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T04:48:43+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "151-survey",
    "brief": ""
   }
  ],
