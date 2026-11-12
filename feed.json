@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:24:19+07:00",
+ "updatedAt": "2026-11-13T02:25:03+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-43 · ส่งงาน DONE",
-   "since": "2026-11-13T02:19:03+07:00",
+   "since": "2026-11-13T02:25:03+07:00",
    "model": "fable",
    "brief": "tide-41",
    "engine": "claude"
@@ -130,7 +130,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "tide-43 · รับงาน",
+   "task": "atlas-5 · รับงาน",
    "since": "2026-11-13T02:24:19+07:00",
    "model": "fable",
    "brief": "atlas-5",
@@ -1218,6 +1218,34 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:24:29+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:24:33+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "atlas-5"
+  },
+  {
+   "ts": "2026-11-13T02:24:46+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T02:24:48+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1390,6 +1418,17 @@
  ],
  "briefs": [
   {
+   "id": "atlas-5",
+   "title": "atlas-5",
+   "project": null,
+   "lead": "15-atlas",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-12T17:13:35+07:00",
+   "updatedAt": "2026-11-13T02:24:33+07:00"
+  },
+  {
    "id": "tide-43",
    "title": "เว็บห้องโปรเจกต์อสังหา เฟส 1 (อ่านอย่างเดียว หลัง login)",
    "project": null,
@@ -1438,17 +1477,6 @@
    "status": "done",
    "since": "2026-11-13T01:14:39+07:00",
    "updatedAt": "2026-11-13T01:29:23+07:00"
-  },
-  {
-   "id": "atlas-5",
-   "title": "atlas-5",
-   "project": null,
-   "lead": "15-atlas",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-12T17:13:35+07:00",
-   "updatedAt": "2026-11-12T17:43:42+07:00"
   },
   {
    "id": "tide-41",
@@ -1502,7 +1530,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-11T02:24:35+07:00",
+   "since": "2026-11-11T02:29:07+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
