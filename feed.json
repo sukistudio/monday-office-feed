@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:14:33+07:00",
+ "updatedAt": "2026-11-13T02:15:49+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-43 · ส่งงาน DONE",
-   "since": "2026-11-13T02:13:13+07:00",
+   "since": "2026-11-13T02:15:49+07:00",
    "model": "fable",
    "brief": "tide-43",
    "engine": "claude"
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-43 · ส่ง PROGRESS",
-   "since": "2026-11-13T02:14:33+07:00",
+   "since": "2026-11-13T02:15:14+07:00",
    "model": "codex",
    "brief": "tide-43",
    "engine": "codex"
@@ -855,13 +855,6 @@
    "brief": "tide-44"
   },
   {
-   "ts": "2026-11-13T01:45:32+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:45:36+07:00",
    "kind": "brief",
    "from": "11-tide",
@@ -869,18 +862,25 @@
    "brief": "tide-44"
   },
   {
-   "ts": "2026-11-13T01:45:41+07:00",
+   "ts": "2026-11-13T01:46:48+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T01:46:54+07:00",
    "kind": "hey",
    "from": "112-swell",
    "to": "11-tide",
    "brief": ""
   },
   {
-   "ts": "2026-11-13T01:46:48+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-43"
+   "ts": "2026-11-13T01:47:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
   },
   {
    "ts": "2026-11-13T01:49:55+07:00",
@@ -1177,6 +1177,13 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-43"
+  },
+  {
+   "ts": "2026-11-13T02:15:35+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-43"
   }
  ],
  "projects": [
@@ -1461,7 +1468,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-11T02:15:11+07:00",
+   "since": "2026-11-11T02:15:57+07:00",
    "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
