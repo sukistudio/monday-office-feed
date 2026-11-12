@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:43:20+07:00",
+ "updatedAt": "2026-11-13T01:44:03+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-11-13T01:43:20+07:00",
    "model": "fable",
    "engine": "claude"
@@ -740,13 +740,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T01:14:39+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T01:14:43+07:00",
    "kind": "brief",
    "from": "11-tide",
@@ -1150,6 +1143,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:43:24+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:43:42+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:43:51+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   }
  ],
