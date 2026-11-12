@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T01:42:06+07:00",
+ "updatedAt": "2026-11-13T01:43:20+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-13T01:36:48+07:00",
+   "since": "2026-11-13T01:43:20+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -128,9 +128,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T01:34:17+07:00",
+   "since": "2026-11-13T01:43:20+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -152,17 +152,17 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T01:38:03+07:00",
+   "since": "2026-11-13T01:42:46+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-13T01:40:46+07:00",
+   "since": "2026-11-13T01:43:20+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1143,6 +1143,13 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:43:18+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
    "brief": ""
   }
  ],
