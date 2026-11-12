@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-12T18:06:18+07:00",
+ "updatedAt": "2026-11-12T18:10:27+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -677,50 +677,8 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-12T17:36:37+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:36:52+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:38:16+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-12T17:38:20+07:00",
    "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:40:05+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:40:09+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:40:13+07:00",
-   "kind": "hey",
    "from": "151-survey",
    "to": "15-atlas",
    "brief": ""
@@ -740,6 +698,13 @@
    "brief": ""
   },
   {
+   "ts": "2026-11-12T17:41:41+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-12T17:41:42+07:00",
    "kind": "qa-fail",
    "from": "153-plumb",
@@ -747,23 +712,16 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-12T17:41:59+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:42:11+07:00",
+   "ts": "2026-11-12T17:41:53+07:00",
    "kind": "hey",
    "from": "15-atlas",
    "to": "151-survey",
    "brief": ""
   },
   {
-   "ts": "2026-11-12T17:42:52+07:00",
+   "ts": "2026-11-12T17:41:59+07:00",
    "kind": "hey",
-   "from": "151-survey",
+   "from": "10-monday",
    "to": "15-atlas",
    "brief": ""
   },
@@ -779,6 +737,13 @@
    "kind": "ack",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-12T17:44:09+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
    "brief": ""
   },
   {
@@ -807,13 +772,6 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:46:02+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
    "brief": ""
   },
   {
