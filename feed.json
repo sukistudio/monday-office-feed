@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T02:00:04+07:00",
+ "updatedAt": "2026-11-13T02:00:22+07:00",
  "pending": 14,
  "pendingNow": 9,
  "pendingLater": 5,
@@ -9,48 +9,49 @@
   {
    "id": "10-monday",
    "status": "idle",
-   "task": "รับงาน",
-   "since": "2026-11-13T01:43:20+07:00",
+   "task": "tide-44 · รับงาน",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
-   "since": "2026-11-13T01:56:05+07:00",
+   "task": "tide-44 · ส่งงาน DONE",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
+   "brief": "tide-43",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "ส่งงาน DONE",
-   "since": "2026-11-11T18:37:38+07:00",
+   "task": "tide-41 · ส่งงาน DONE",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "unknown",
    "engine": "claude"
   },
   {
    "id": "112-swell",
    "status": "idle",
-   "task": "ส่งงาน DONE",
-   "since": "2026-11-13T01:56:47+07:00",
+   "task": "tide-44 · ส่งงาน DONE",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "working",
-   "task": "ตรวจผ่าน",
-   "since": "2026-11-13T01:56:05+07:00",
+   "status": "idle",
+   "task": "tide-43 · ตรวจผ่าน",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
-   "status": "idle",
-   "task": "รับงาน",
-   "since": "2026-11-09T19:40:40+07:00",
+   "status": "working",
+   "task": "tide-43 · รับงาน",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -58,7 +59,7 @@
    "id": "121-glow",
    "status": "idle",
    "task": "",
-   "since": "2026-11-09T19:37:25+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -66,7 +67,7 @@
    "id": "123-pulse",
    "status": "idle",
    "task": "",
-   "since": "2026-11-09T19:39:25+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -74,7 +75,7 @@
    "id": "13-harbor",
    "status": "idle",
    "task": "",
-   "since": "2026-11-07T14:38:46+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -82,7 +83,7 @@
    "id": "131-ledger",
    "status": "idle",
    "task": "",
-   "since": "2026-11-04T02:06:05+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -90,7 +91,7 @@
    "id": "133-lantern",
    "status": "idle",
    "task": "",
-   "since": "2026-11-07T14:36:52+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,7 +99,7 @@
    "id": "14-horizon",
    "status": "idle",
    "task": "",
-   "since": "2026-11-12T22:03:51+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -106,7 +107,7 @@
    "id": "141-scout",
    "status": "idle",
    "task": "",
-   "since": "2026-11-12T14:03:52+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -114,7 +115,7 @@
    "id": "142-chart",
    "status": "idle",
    "task": "",
-   "since": "2026-11-08T15:12:47+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -122,7 +123,7 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "",
-   "since": "2026-11-12T06:04:22+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -130,15 +131,16 @@
    "id": "15-atlas",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T01:43:20+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "fable",
+   "brief": "atlas-5",
    "engine": "claude"
   },
   {
    "id": "151-survey",
    "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-12T17:45:18+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -146,7 +148,7 @@
    "id": "152-hearth",
    "status": "idle",
    "task": "",
-   "since": "2026-11-01T02:58:12+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -154,23 +156,24 @@
    "id": "153-plumb",
    "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T01:42:46+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
    "status": "stuck",
-   "task": "ติด รอช่วย",
-   "since": "2026-11-13T01:50:16+07:00",
+   "task": "tide-43 · ติด รอช่วย",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "codex",
+   "brief": "tide-43",
    "engine": "codex"
   },
   {
    "id": "124-halo-omx",
    "status": "idle",
    "task": "",
-   "since": "2026-10-30T03:10:13+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -178,7 +181,7 @@
    "id": "144-buoy-omx",
    "status": "idle",
    "task": "",
-   "since": "2026-10-26T12:22:10+07:00",
+   "since": "2026-11-13T02:00:22+07:00",
    "model": "codex",
    "engine": "codex"
   }
@@ -189,56 +192,56 @@
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:14:02+07:00",
    "kind": "done",
    "from": "112-swell",
    "to": "111-ripple",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:15:57+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:19:18+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:20:30+07:00",
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:22:47+07:00",
    "kind": "done",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T02:29:07+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-39e"
   },
   {
    "ts": "2026-11-11T17:00:12+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "112-swell",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T17:10:23+07:00",
@@ -253,21 +256,21 @@
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T17:12:43+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T17:17:51+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T17:18:17+07:00",
@@ -282,42 +285,42 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T17:21:11+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-39f"
   },
   {
    "ts": "2026-11-11T18:04:57+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-40"
   },
   {
    "ts": "2026-11-11T18:16:21+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:16:29+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "112-swell",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:17:44+07:00",
    "kind": "ack",
    "from": "10-monday",
    "to": "15-atlas",
-   "brief": ""
+   "brief": "atlas-4"
   },
   {
    "ts": "2026-11-11T18:17:44+07:00",
@@ -331,7 +334,7 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:20:37+07:00",
@@ -352,7 +355,7 @@
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:22:20+07:00",
@@ -373,21 +376,21 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:23:33+07:00",
    "kind": "ack",
    "from": "11-tide",
    "to": "112-swell",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:23:53+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:24:43+07:00",
@@ -408,14 +411,14 @@
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:26:46+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:27:39+07:00",
@@ -436,28 +439,28 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:28:27+07:00",
    "kind": "progress",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
+   "brief": "atlas-4"
   },
   {
    "ts": "2026-11-11T18:28:46+07:00",
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:29:33+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:33:02+07:00",
@@ -471,21 +474,21 @@
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:34:06+07:00",
    "kind": "progress",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
+   "brief": "atlas-4"
   },
   {
    "ts": "2026-11-11T18:34:24+07:00",
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:35:02+07:00",
@@ -506,7 +509,7 @@
    "kind": "ack",
    "from": "11-tide",
    "to": "111-ripple",
-   "brief": ""
+   "brief": "tide-41"
   },
   {
    "ts": "2026-11-11T18:36:47+07:00",
@@ -569,7 +572,7 @@
    "kind": "ack",
    "from": "10-monday",
    "to": "15-atlas",
-   "brief": ""
+   "brief": "atlas-5"
   },
   {
    "ts": "2026-11-12T17:15:39+07:00",
@@ -653,7 +656,7 @@
    "kind": "progress",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
+   "brief": "atlas-5"
   },
   {
    "ts": "2026-11-12T17:38:20+07:00",
@@ -688,7 +691,7 @@
    "kind": "ack",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
+   "brief": "atlas-5"
   },
   {
    "ts": "2026-11-12T17:45:23+07:00",
@@ -723,56 +726,56 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:15:20+07:00",
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:20:02+07:00",
    "kind": "progress",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:22:05+07:00",
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:23:29+07:00",
    "kind": "ack",
    "from": "10-monday",
    "to": "15-atlas",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:23:39+07:00",
    "kind": "done",
    "from": "112-swell",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:24:06+07:00",
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:26:33+07:00",
    "kind": "done",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:28:59+07:00",
@@ -786,28 +789,14 @@
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-42"
   },
   {
    "ts": "2026-11-13T01:29:53+07:00",
    "kind": "done",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:30:05+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T01:30:12+07:00",
-   "kind": "hey",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
+   "brief": "tide-42b"
   },
   {
    "ts": "2026-11-13T01:30:36+07:00",
@@ -821,6 +810,13 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T01:30:51+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -849,14 +845,14 @@
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:33:43+07:00",
    "kind": "ack",
    "from": "11-tide",
    "to": "114-eddy-omx",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:34:10+07:00",
@@ -947,7 +943,7 @@
    "kind": "stuck",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:38:58+07:00",
@@ -982,7 +978,7 @@
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:40:13+07:00",
@@ -1017,7 +1013,7 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:41:09+07:00",
@@ -1059,7 +1055,7 @@
    "kind": "ack",
    "from": "10-monday",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-44"
   },
   {
    "ts": "2026-11-13T01:45:32+07:00",
@@ -1073,7 +1069,7 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-44"
   },
   {
    "ts": "2026-11-13T01:45:41+07:00",
@@ -1087,7 +1083,7 @@
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:49:55+07:00",
@@ -1108,14 +1104,14 @@
    "kind": "stuck",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:51:33+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:52:09+07:00",
@@ -1129,7 +1125,7 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:52:22+07:00",
@@ -1143,7 +1139,7 @@
    "kind": "ack",
    "from": "12-beam",
    "to": "10-monday",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:52:43+07:00",
@@ -1165,14 +1161,14 @@
    "kind": "done",
    "from": "112-swell",
    "to": "113-shore",
-   "brief": ""
+   "brief": "tide-44"
   },
   {
    "ts": "2026-11-13T01:55:44+07:00",
    "kind": "done",
    "from": "112-swell",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-44"
   },
   {
    "ts": "2026-11-13T01:56:38+07:00",
@@ -1193,14 +1189,14 @@
    "kind": "stuck",
    "from": "114-eddy-omx",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:58:07+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-44"
   },
   {
    "ts": "2026-11-13T01:58:52+07:00",
@@ -1215,18 +1211,25 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T01:59:38+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
-   "brief": ""
+   "brief": "tide-43"
   },
   {
    "ts": "2026-11-13T02:00:03+07:00",
    "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-44"
+  },
+  {
+   "ts": "2026-11-13T02:00:07+07:00",
+   "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
@@ -1402,15 +1405,120 @@
  ],
  "briefs": [
   {
-   "id": "brief-nn",
-   "title": "brief-nn",
+   "id": "tide-44",
+   "title": "tide-44",
    "project": null,
-   "lead": null,
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-11-13T01:43:42+07:00",
+   "updatedAt": "2026-11-13T02:00:03+07:00"
+  },
+  {
+   "id": "tide-43",
+   "title": "tide-43",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "114-eddy-omx"
+   ],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-11-13T01:21:53+07:00",
+   "updatedAt": "2026-11-13T01:52:13+07:00"
+  },
+  {
+   "id": "tide-42b",
+   "title": "tide-42b",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "done",
+   "since": "2026-11-13T01:29:53+07:00",
+   "updatedAt": "2026-11-13T01:29:53+07:00"
+  },
+  {
+   "id": "tide-42",
+   "title": "tide-42",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "112-swell"
+   ],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-11-13T01:14:39+07:00",
+   "updatedAt": "2026-11-13T01:29:23+07:00"
+  },
+  {
+   "id": "atlas-5",
+   "title": "atlas-5",
+   "project": null,
+   "lead": "15-atlas",
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-13T01:40:01+07:00",
-   "updatedAt": "2026-11-13T01:40:01+07:00"
+   "since": "2026-11-12T17:13:35+07:00",
+   "updatedAt": "2026-11-12T17:43:42+07:00"
+  },
+  {
+   "id": "tide-41",
+   "title": "tide-41",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-11T18:16:21+07:00",
+   "updatedAt": "2026-11-11T18:35:52+07:00"
+  },
+  {
+   "id": "atlas-4",
+   "title": "atlas-4",
+   "project": null,
+   "lead": "15-atlas",
+   "assignees": [],
+   "qa": null,
+   "status": "progress",
+   "since": "2026-11-11T18:17:07+07:00",
+   "updatedAt": "2026-11-11T18:34:06+07:00"
+  },
+  {
+   "id": "tide-40",
+   "title": "tide-40",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "done",
+   "since": "2026-11-11T17:59:28+07:00",
+   "updatedAt": "2026-11-11T18:04:57+07:00"
+  },
+  {
+   "id": "tide-39f",
+   "title": "tide-39f",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-11-11T16:56:39+07:00",
+   "updatedAt": "2026-11-11T17:21:11+07:00"
+  },
+  {
+   "id": "tide-39e",
+   "title": "tide-39e",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "done",
+   "since": "2026-11-11T02:07:02+07:00",
+   "updatedAt": "2026-11-11T02:29:07+07:00"
   }
  ],
  "warnings": [
