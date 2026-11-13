@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T17:08:44+07:00",
+ "updatedAt": "2026-11-13T17:10:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,14 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T17:10:23+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #41 ออฟฟิศ 3D · เปิด PR"
-  },
   {
    "ts": "2026-11-11T17:10:43+07:00",
    "kind": "done",
@@ -1855,7 +1847,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-11T17:10:32+07:00",
+   "since": "2026-11-11T17:10:43+07:00",
    "updatedAt": "2026-11-11T17:21:11+07:00"
   }
  ],
