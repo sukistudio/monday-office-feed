@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:16:42+07:00",
+ "updatedAt": "2026-11-13T21:17:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-45 · ส่ง PROGRESS",
-   "since": "2026-11-13T21:10:21+07:00",
+   "since": "2026-11-13T21:17:57+07:00",
    "model": "fable",
    "brief": "tide-45",
    "engine": "claude"
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T21:15:27+07:00",
+   "since": "2026-11-13T21:17:22+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1763,6 +1763,27 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T21:17:31+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:17:36+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:17:40+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
   }
  ],
  "projects": [
