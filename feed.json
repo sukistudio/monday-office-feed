@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:31:41+07:00",
+ "updatedAt": "2026-11-13T21:32:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T21:16:01+07:00",
+   "since": "2026-11-13T21:32:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-12T17:13:53+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": "atlas-5"
-  },
   {
    "ts": "2026-11-12T17:15:39+07:00",
    "kind": "ack",
@@ -1860,6 +1853,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T21:31:59+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
