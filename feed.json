@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T15:38:16+07:00",
+ "updatedAt": "2026-11-13T15:42:25+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1542,20 +1542,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T15:08:50+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T15:08:55+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T15:08:59+07:00",
    "kind": "progress",
    "from": "15-atlas",
@@ -1563,24 +1549,10 @@
    "brief": "atlas-5"
   },
   {
-   "ts": "2026-11-13T15:09:01+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T15:09:18+07:00",
    "kind": "ack",
    "from": "15-atlas",
    "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T15:11:39+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "153-plumb",
    "brief": ""
   },
   {
