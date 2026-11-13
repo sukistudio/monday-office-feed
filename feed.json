@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T20:31:49+07:00",
+ "updatedAt": "2026-11-13T20:32:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1349,6 +1349,13 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T20:32:10+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-41"
   }
  ],
  "projects": [
