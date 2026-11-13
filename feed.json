@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:04:23+07:00",
+ "updatedAt": "2026-11-13T21:06:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-45 · ส่ง PROGRESS",
    "since": "2026-11-13T21:03:09+07:00",
    "model": "fable",
-   "brief": "tide-45",
+   "brief": "tide-46",
    "engine": "claude"
   },
   {
@@ -33,9 +33,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-41 · ส่งงาน DONE",
-   "since": "2026-11-13T04:39:48+07:00",
+   "since": "2026-11-13T21:06:14+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -123,7 +123,7 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "",
-   "since": "2026-11-13T13:17:26+07:00",
+   "since": "2026-11-13T21:06:14+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1331,13 +1331,6 @@
    "brief": "tide-45"
   },
   {
-   "ts": "2026-11-13T20:35:27+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T20:38:12+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
@@ -1482,6 +1475,48 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:04:57+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:05:31+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:05:55+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:05:59+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:06:04+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:06:05+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   }
  ],
@@ -1654,6 +1689,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-46",
+   "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-13T21:05:55+07:00",
+   "updatedAt": "2026-11-13T21:06:04+07:00"
+  },
   {
    "id": "tide-45",
    "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
