@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T15:08:14+07:00",
+ "updatedAt": "2026-11-13T15:09:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T15:07:35+07:00",
+   "since": "2026-11-13T15:08:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T15:06:54+07:00",
+   "since": "2026-11-13T15:09:29+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T15:07:35+07:00",
+   "since": "2026-11-13T15:08:55+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1666,6 +1666,20 @@
    "from": "15-atlas",
    "to": "153-plumb",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T15:08:59+07:00",
+   "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "atlas-5"
+  },
+  {
+   "ts": "2026-11-13T15:09:18+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1844,9 +1858,9 @@
    "lead": "15-atlas",
    "assignees": [],
    "qa": null,
-   "status": "open",
+   "status": "progress",
    "since": "2026-11-12T17:13:35+07:00",
-   "updatedAt": "2026-11-13T15:07:28+07:00"
+   "updatedAt": "2026-11-13T15:08:59+07:00"
   },
   {
    "id": "tide-41",
