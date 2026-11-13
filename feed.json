@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T06:07:41+07:00",
+ "updatedAt": "2026-11-14T06:08:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -121,9 +121,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T06:05:42+07:00",
+   "since": "2026-11-14T06:08:56+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1629,6 +1629,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-46"
+  },
+  {
+   "ts": "2026-11-14T06:08:25+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
   }
  ],
  "projects": [
