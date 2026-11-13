@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T18:39:49+07:00",
+ "updatedAt": "2026-11-13T18:40:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T18:39:51+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:40:22+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-11-12T14:05:37+07:00",
    "kind": "ack",
@@ -1530,8 +1516,8 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-11T18:40:26+07:00",
-   "updatedAt": "2026-11-11T18:40:26+07:00"
+   "since": "2026-11-12T17:26:29+07:00",
+   "updatedAt": "2026-11-12T17:26:29+07:00"
   }
  ],
  "warnings": [
