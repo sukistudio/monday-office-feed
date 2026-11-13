@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T14:46:02+07:00",
+ "updatedAt": "2026-11-13T14:47:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -138,9 +138,9 @@
   },
   {
    "id": "151-survey",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-13T04:54:35+07:00",
+   "since": "2026-11-13T14:46:42+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1491,6 +1491,27 @@
    "from": "10-monday",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:46:47+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:46:51+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:46:58+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1663,6 +1684,17 @@
  ],
  "briefs": [
   {
+   "id": "atlas-5",
+   "title": "atlas-5",
+   "project": null,
+   "lead": "15-atlas",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-12T17:13:35+07:00",
+   "updatedAt": "2026-11-13T14:46:51+07:00"
+  },
+  {
    "id": "tide-41",
    "title": "quota decider เขียน 5h จาก board ลง limits (Q5)",
    "project": null,
@@ -1672,17 +1704,6 @@
    "status": "open",
    "since": "2026-11-11T18:16:21+07:00",
    "updatedAt": "2026-11-13T04:40:55+07:00"
-  },
-  {
-   "id": "atlas-5",
-   "title": "atlas-5",
-   "project": null,
-   "lead": "15-atlas",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-12T17:13:35+07:00",
-   "updatedAt": "2026-11-13T02:24:33+07:00"
   },
   {
    "id": "tide-43",
