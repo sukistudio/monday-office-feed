@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T14:47:17+07:00",
+ "updatedAt": "2026-11-13T14:48:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T14:46:02+07:00",
+   "since": "2026-11-13T14:48:00+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
