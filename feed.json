@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T20:30:35+07:00",
+ "updatedAt": "2026-11-13T20:31:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,17 +17,17 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "แจกงาน",
+   "task": "tide-41 · ส่ง PROGRESS",
    "since": "2026-11-13T20:30:35+07:00",
    "model": "fable",
-   "brief": "tide-45",
+   "brief": "tide-41",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-41 · ส่งงาน DONE",
-   "since": "2026-11-13T20:26:53+07:00",
+   "since": "2026-11-13T20:31:14+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-41 · ตรวจผ่าน",
-   "since": "2026-11-13T04:41:10+07:00",
+   "since": "2026-11-13T20:31:49+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1321,6 +1321,34 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": "tide-41"
+  },
+  {
+   "ts": "2026-11-13T20:31:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T20:31:23+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-41"
+  },
+  {
+   "ts": "2026-11-13T20:31:26+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T20:31:30+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-45"
   }
  ],
  "projects": [
@@ -1493,6 +1521,18 @@
  ],
  "briefs": [
   {
+   "id": "tide-41",
+   "title": "tide-41",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-11-13T04:30:37+07:00",
+   "updatedAt": "2026-11-13T20:31:23+07:00",
+   "titleRedacted": true
+  },
+  {
    "id": "tide-45",
    "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
    "project": null,
@@ -1513,18 +1553,6 @@
    "status": "done",
    "since": "2026-11-12T17:13:35+07:00",
    "updatedAt": "2026-11-13T15:14:45+07:00"
-  },
-  {
-   "id": "tide-41",
-   "title": "tide-41",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-13T04:30:37+07:00",
-   "updatedAt": "2026-11-13T04:40:55+07:00",
-   "titleRedacted": true
   },
   {
    "id": "tide-43",
