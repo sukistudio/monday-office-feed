@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T06:07:00+07:00",
+ "updatedAt": "2026-11-14T06:07:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-14T06:05:02+07:00",
+   "since": "2026-11-14T06:07:41+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-46 · ส่งงาน DONE",
+   "task": "tide-46 · รับงาน",
    "since": "2026-11-14T06:06:18+07:00",
    "model": "fable",
-   "brief": "tide-41",
+   "brief": "tide-46",
    "engine": "claude"
   },
   {
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-45 · ส่งงาน DONE",
-   "since": "2026-11-14T06:05:42+07:00",
+   "since": "2026-11-14T06:07:41+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-14T06:06:18+07:00",
+   "since": "2026-11-14T06:07:41+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-12T17:27:50+07:00",
-   "kind": "ack",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:30:34+07:00",
-   "kind": "progress",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-12T17:31:03+07:00",
    "kind": "progress",
@@ -1629,6 +1615,20 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-14T06:07:16+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-14T06:07:21+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-46"
   }
  ],
  "projects": [
@@ -1807,9 +1807,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "done",
+   "status": "open",
    "since": "2026-11-13T21:05:55+07:00",
-   "updatedAt": "2026-11-13T21:41:13+07:00"
+   "updatedAt": "2026-11-14T06:07:21+07:00"
   },
   {
    "id": "tide-45",
@@ -1822,7 +1822,7 @@
    "qa": "113-shore",
    "status": "done",
    "since": "2026-11-13T20:20:28+07:00",
-   "updatedAt": "2026-11-13T21:29:51+07:00"
+   "updatedAt": "2026-11-14T06:07:16+07:00"
   },
   {
    "id": "atlas-5",
