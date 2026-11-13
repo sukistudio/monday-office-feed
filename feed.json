@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T20:18:12+07:00",
+ "updatedAt": "2026-11-13T20:20:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T20:18:12+07:00",
+   "since": "2026-11-13T20:20:38+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-13T13:05:32+07:00",
+   "since": "2026-11-13T20:20:03+07:00",
    "model": "fable",
-   "brief": "tide-41",
+   "brief": "tide-45",
    "engine": "claude"
   },
   {
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T15:15:47+07:00",
+   "since": "2026-11-13T20:20:03+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1265,6 +1265,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "atlas-5"
+  },
+  {
+   "ts": "2026-11-13T20:20:28+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1436,6 +1443,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-45",
+   "title": "tide-45",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-13T20:20:28+07:00",
+   "updatedAt": "2026-11-13T20:20:28+07:00"
+  },
   {
    "id": "atlas-5",
    "title": "atlas-5",
