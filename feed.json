@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:18:40+07:00",
+ "updatedAt": "2026-11-13T21:21:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-45 · ส่ง PROGRESS",
-   "since": "2026-11-13T21:17:57+07:00",
+   "since": "2026-11-13T21:19:21+07:00",
    "model": "fable",
    "brief": "tide-45",
    "engine": "claude"
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T21:17:22+07:00",
+   "since": "2026-11-13T21:19:56+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1371,13 +1371,6 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-45"
-  },
-  {
-   "ts": "2026-11-13T20:49:47+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T20:51:35+07:00",
