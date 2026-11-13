@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T13:01:33+07:00",
+ "updatedAt": "2026-11-13T13:02:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-41 · รับงาน",
+   "task": "แจกงาน",
    "since": "2026-11-13T12:57:19+07:00",
    "model": "fable",
    "brief": "tide-41",
@@ -73,9 +73,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-13T13:00:59+07:00",
+   "since": "2026-11-13T13:02:13+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -98,7 +98,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "",
+   "task": "แจกงาน",
    "since": "2026-11-13T13:00:59+07:00",
    "model": "fable",
    "engine": "claude"
@@ -1356,6 +1356,34 @@
    "ts": "2026-11-13T13:01:12+07:00",
    "kind": "ack",
    "from": "13-harbor",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:01:38+07:00",
+   "kind": "brief",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:01:42+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:02:04+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:02:11+07:00",
+   "kind": "brief",
+   "from": "11-tide",
    "to": "10-monday",
    "brief": ""
   }
