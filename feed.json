@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T16:53:12+07:00",
+ "updatedAt": "2026-11-13T16:57:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1862,19 +1862,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-11T16:56:39+07:00",
+   "since": "2026-11-11T17:00:12+07:00",
    "updatedAt": "2026-11-11T17:21:11+07:00"
-  },
-  {
-   "id": "tide-39e",
-   "title": "tide-39e",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-11T16:53:53+07:00",
-   "updatedAt": "2026-11-11T16:53:53+07:00"
   }
  ],
  "warnings": [
