@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T14:48:35+07:00",
+ "updatedAt": "2026-11-13T14:52:44+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-13T14:48:00+07:00",
+   "since": "2026-11-13T14:52:44+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-13T13:08:52+07:00",
+   "since": "2026-11-13T14:52:44+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1509,6 +1509,20 @@
   {
    "ts": "2026-11-13T14:46:58+07:00",
    "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:52:24+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:52:29+07:00",
+   "kind": "done",
    "from": "151-survey",
    "to": "15-atlas",
    "brief": ""
