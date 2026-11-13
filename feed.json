@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T14:52:44+07:00",
+ "updatedAt": "2026-11-13T14:53:59+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,7 +130,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "รับงาน",
+   "task": "atlas-5 · ส่ง PROGRESS",
    "since": "2026-11-13T14:52:44+07:00",
    "model": "fable",
    "brief": "atlas-5",
@@ -1526,6 +1526,27 @@
    "from": "151-survey",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:53:27+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T14:53:32+07:00",
+   "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "atlas-5"
+  },
+  {
+   "ts": "2026-11-13T14:53:36+07:00",
+   "kind": "hey",
+   "from": "151-survey",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1704,9 +1725,9 @@
    "lead": "15-atlas",
    "assignees": [],
    "qa": null,
-   "status": "open",
+   "status": "progress",
    "since": "2026-11-12T17:13:35+07:00",
-   "updatedAt": "2026-11-13T14:46:51+07:00"
+   "updatedAt": "2026-11-13T14:53:32+07:00"
   },
   {
    "id": "tide-41",
