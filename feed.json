@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:33:03+07:00",
+ "updatedAt": "2026-11-13T21:33:43+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T21:32:22+07:00",
+   "since": "2026-11-13T21:33:43+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-45 · ส่งงาน DONE",
+   "task": "tide-46 · ส่ง PROGRESS",
    "since": "2026-11-13T21:25:59+07:00",
    "model": "fable",
    "brief": "tide-46",
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-46 · ตรวจผ่าน",
-   "since": "2026-11-13T21:31:41+07:00",
+   "since": "2026-11-13T21:33:43+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-45 · ส่ง PROGRESS",
-   "since": "2026-11-13T21:30:24+07:00",
+   "since": "2026-11-13T21:33:43+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-12T17:24:27+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-11-12T17:24:32+07:00",
    "kind": "qa-pass",
@@ -1379,13 +1372,6 @@
    "brief": "tide-45"
   },
   {
-   "ts": "2026-11-13T21:03:41+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T21:03:52+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1867,6 +1853,20 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-46"
+  },
+  {
+   "ts": "2026-11-13T21:33:10+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:33:14+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-46"
   }
  ],
  "projects": [
@@ -2039,6 +2039,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-46",
+   "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-11-13T21:05:55+07:00",
+   "updatedAt": "2026-11-13T21:33:14+07:00"
+  },
+  {
    "id": "tide-45",
    "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
    "project": null,
@@ -2061,17 +2072,6 @@
    "status": "done",
    "since": "2026-11-12T17:13:35+07:00",
    "updatedAt": "2026-11-13T21:14:27+07:00"
-  },
-  {
-   "id": "tide-46",
-   "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "progress",
-   "since": "2026-11-13T21:05:55+07:00",
-   "updatedAt": "2026-11-13T21:11:00+07:00"
   },
   {
    "id": "tide-41",
