@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:36:08+07:00",
+ "updatedAt": "2026-11-13T21:36:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-46 · ส่ง PROGRESS",
-   "since": "2026-11-13T21:34:24+07:00",
+   "since": "2026-11-13T21:36:47+07:00",
    "model": "fable",
    "brief": "tide-46",
    "engine": "claude"
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-12T17:24:32+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-12T17:25:11+07:00",
    "kind": "done",
@@ -1810,6 +1803,13 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "tide-46"
+  },
+  {
+   "ts": "2026-11-13T21:36:14+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": "tide-46"
   }
  ],
