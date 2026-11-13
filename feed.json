@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T20:50:06+07:00",
+ "updatedAt": "2026-11-13T20:51:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T20:42:14+07:00",
+   "since": "2026-11-13T20:50:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-45 · ตรวจผ่าน",
-   "since": "2026-11-13T20:48:07+07:00",
+   "since": "2026-11-13T20:50:48+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1265,13 +1265,6 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "atlas-5"
-  },
-  {
-   "ts": "2026-11-13T20:20:28+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T20:24:01+07:00",
