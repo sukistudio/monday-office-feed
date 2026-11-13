@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T06:08:56+07:00",
+ "updatedAt": "2026-11-14T06:10:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-46 · รับงาน",
-   "since": "2026-11-14T06:06:18+07:00",
+   "since": "2026-11-14T06:09:38+07:00",
    "model": "fable",
    "brief": "tide-46",
    "engine": "claude"
@@ -99,7 +99,7 @@
    "id": "14-horizon",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-14T06:07:00+07:00",
+   "since": "2026-11-14T06:10:14+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1635,6 +1635,13 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T06:09:54+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
