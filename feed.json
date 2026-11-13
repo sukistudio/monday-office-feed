@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T22:00:39+07:00",
+ "updatedAt": "2026-11-13T22:02:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -105,9 +105,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-13T14:04:00+07:00",
+   "since": "2026-11-13T22:02:29+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1526,20 +1526,6 @@
    "brief": "tide-46"
   },
   {
-   "ts": "2026-11-13T21:31:19+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:31:22+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T21:31:23+07:00",
    "kind": "progress",
    "from": "15-atlas",
@@ -1551,20 +1537,6 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:32:19+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:32:24+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "11-tide",
    "brief": ""
   },
   {
