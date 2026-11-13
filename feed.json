@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:07:35+07:00",
+ "updatedAt": "2026-11-13T21:08:20+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-45 · ส่ง PROGRESS",
    "since": "2026-11-13T21:07:35+07:00",
    "model": "fable",
-   "brief": "tide-46",
+   "brief": "tide-45",
    "engine": "claude"
   },
   {
@@ -1338,13 +1338,6 @@
    "brief": "tide-45"
   },
   {
-   "ts": "2026-11-13T20:38:16+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T20:38:21+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
@@ -1560,6 +1553,27 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T21:07:48+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:07:53+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T21:07:57+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-45"
   }
  ],
  "projects": [
@@ -1732,6 +1746,19 @@
  ],
  "briefs": [
   {
+   "id": "tide-45",
+   "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "114-eddy-omx"
+   ],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-11-13T20:20:28+07:00",
+   "updatedAt": "2026-11-13T21:07:57+07:00"
+  },
+  {
    "id": "tide-46",
    "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
    "project": null,
@@ -1741,19 +1768,6 @@
    "status": "open",
    "since": "2026-11-13T21:05:55+07:00",
    "updatedAt": "2026-11-13T21:06:04+07:00"
-  },
-  {
-   "id": "tide-45",
-   "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-13T20:20:28+07:00",
-   "updatedAt": "2026-11-13T21:03:56+07:00"
   },
   {
    "id": "atlas-5",
