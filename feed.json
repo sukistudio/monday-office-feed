@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T18:39:06+07:00",
+ "updatedAt": "2026-11-13T18:39:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T18:39:17+07:00",
-   "kind": "ack",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-11T18:39:51+07:00",
    "kind": "ack",
@@ -1476,7 +1469,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-11T18:39:22+07:00",
+   "since": "2026-11-13T04:30:37+07:00",
    "updatedAt": "2026-11-13T04:40:55+07:00"
   },
   {
