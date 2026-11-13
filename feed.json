@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T15:00:11+07:00",
+ "updatedAt": "2026-11-13T15:02:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T14:58:26+07:00",
+   "since": "2026-11-13T15:02:36+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1588,6 +1588,13 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T15:02:12+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
