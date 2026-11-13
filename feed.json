@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T18:34:32+07:00",
+ "updatedAt": "2026-11-13T18:35:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T18:35:02+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-11T18:35:07+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-11-11T18:35:52+07:00",
    "kind": "ack",
