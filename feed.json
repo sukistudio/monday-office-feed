@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T12:59:44+07:00",
+ "updatedAt": "2026-11-13T13:01:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T12:58:35+07:00",
+   "since": "2026-11-13T13:00:24+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -49,9 +49,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-13T04:31:44+07:00",
+   "since": "2026-11-13T13:00:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -73,9 +73,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "idle",
-   "task": "",
-   "since": "2026-11-13T04:32:25+07:00",
+   "status": "working",
+   "task": "รับงาน",
+   "since": "2026-11-13T13:00:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T04:44:34+07:00",
+   "since": "2026-11-13T13:00:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · ส่ง PROGRESS",
-   "since": "2026-11-13T04:43:58+07:00",
+   "since": "2026-11-13T13:00:24+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -1350,6 +1350,13 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "151-survey",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:01:12+07:00",
+   "kind": "ack",
+   "from": "13-harbor",
+   "to": "10-monday",
    "brief": ""
   }
  ],
