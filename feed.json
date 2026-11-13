@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T15:42:25+07:00",
+ "updatedAt": "2026-11-13T15:46:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1563,20 +1563,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-13T15:12:33+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T15:12:37+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T15:12:38+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
@@ -1603,20 +1589,6 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "atlas-5"
-  },
-  {
-   "ts": "2026-11-13T15:14:49+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T15:14:53+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
   }
  ],
  "projects": [
