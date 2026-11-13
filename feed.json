@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:14:46+07:00",
+ "updatedAt": "2026-11-13T21:16:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-13T21:13:12+07:00",
+   "since": "2026-11-13T21:16:01+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -33,17 +33,17 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-46 · รับงาน",
-   "since": "2026-11-13T21:13:12+07:00",
+   "since": "2026-11-13T21:15:27+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-45 · ตรวจผ่าน",
-   "since": "2026-11-13T21:13:12+07:00",
+   "since": "2026-11-13T21:15:27+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T21:11:05+07:00",
+   "since": "2026-11-13T21:15:27+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1741,6 +1741,13 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "tide-45"
+  },
+  {
+   "ts": "2026-11-13T21:15:27+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": "tide-45"
   }
  ],
