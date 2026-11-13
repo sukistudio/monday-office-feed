@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T21:39:59+07:00",
+ "updatedAt": "2026-11-13T21:41:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,10 +17,10 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-46 · ส่ง PROGRESS",
+   "task": "tide-46 · ส่งงาน DONE",
    "since": "2026-11-13T21:38:44+07:00",
    "model": "fable",
-   "brief": "tide-46",
+   "brief": "tide-41",
    "engine": "claude"
   },
   {
@@ -33,16 +33,16 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-46 · ส่งงาน DONE",
-   "since": "2026-11-13T21:24:43+07:00",
+   "since": "2026-11-13T21:41:19+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-46 · ตรวจไม่ผ่าน",
+   "task": "tide-46 · ตรวจผ่าน",
    "since": "2026-11-13T21:37:29+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-12T17:26:10+07:00",
-   "kind": "ack",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-12T17:26:50+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-12T17:26:54+07:00",
    "kind": "qa-pass",
@@ -1393,13 +1379,6 @@
    "brief": "tide-46"
   },
   {
-   "ts": "2026-11-13T21:10:49+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T21:10:53+07:00",
    "kind": "done",
    "from": "151-survey",
@@ -1468,6 +1447,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "tide-46"
+  },
+  {
+   "ts": "2026-11-13T21:12:15+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
   },
   {
    "ts": "2026-11-13T21:12:38+07:00",
@@ -1790,6 +1776,27 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:40:20+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T21:40:50+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-46"
+  },
+  {
+   "ts": "2026-11-13T21:41:13+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-46"
   }
  ],
  "projects": [
@@ -1968,9 +1975,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "done",
    "since": "2026-11-13T21:05:55+07:00",
-   "updatedAt": "2026-11-13T21:37:24+07:00"
+   "updatedAt": "2026-11-13T21:41:13+07:00"
   },
   {
    "id": "tide-45",
