@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T22:09:14+07:00",
+ "updatedAt": "2026-11-13T22:13:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1575,27 +1575,6 @@
    "brief": "tide-46"
   },
   {
-   "ts": "2026-11-13T21:39:49+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:39:53+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:40:20+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-13T21:40:50+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
@@ -1608,13 +1587,6 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-46"
-  },
-  {
-   "ts": "2026-11-13T21:41:54+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T22:02:54+07:00",
