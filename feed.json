@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T05:58:19+07:00",
+ "updatedAt": "2026-11-14T06:02:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -105,9 +105,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-13T22:03:53+07:00",
+   "since": "2026-11-14T06:02:32+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
