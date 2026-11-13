@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T13:10:07+07:00",
+ "updatedAt": "2026-11-13T13:13:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -99,7 +99,7 @@
    "id": "14-horizon",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-13T13:00:59+07:00",
+   "since": "2026-11-13T13:12:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1567,6 +1567,13 @@
    "kind": "progress",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-13T13:12:33+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
