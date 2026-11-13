@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T18:33:15+07:00",
+ "updatedAt": "2026-11-13T18:34:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,27 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-11T18:34:01+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "tide-41"
-  },
-  {
-   "ts": "2026-11-11T18:34:06+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "atlas-4"
-  },
-  {
-   "ts": "2026-11-11T18:34:24+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "tide-41"
-  },
   {
    "ts": "2026-11-11T18:35:02+07:00",
    "kind": "qa-pass",
@@ -1546,7 +1525,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-11T18:34:01+07:00",
+   "since": "2026-11-11T18:35:27+07:00",
    "updatedAt": "2026-11-13T04:40:55+07:00"
   },
   {
@@ -1606,9 +1585,9 @@
    "lead": "15-atlas",
    "assignees": [],
    "qa": null,
-   "status": "progress",
-   "since": "2026-11-11T18:34:06+07:00",
-   "updatedAt": "2026-11-11T18:34:06+07:00"
+   "status": "open",
+   "since": "2026-11-11T18:40:26+07:00",
+   "updatedAt": "2026-11-11T18:40:26+07:00"
   }
  ],
  "warnings": [
