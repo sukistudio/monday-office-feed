@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T14:55:52+07:00",
+ "updatedAt": "2026-11-13T14:57:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -131,7 +131,7 @@
    "id": "15-atlas",
    "status": "working",
    "task": "atlas-5 · ส่ง PROGRESS",
-   "since": "2026-11-13T14:52:44+07:00",
+   "since": "2026-11-13T14:57:07+07:00",
    "model": "fable",
    "brief": "atlas-5",
    "engine": "claude"
@@ -1568,6 +1568,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "atlas-5"
+  },
+  {
+   "ts": "2026-11-13T14:56:37+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
