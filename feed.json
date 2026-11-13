@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T07:32:26+07:00",
+ "updatedAt": "2026-11-13T07:33:09+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "stuck",
+   "status": "idle",
    "task": "tide-43 · ติด รอช่วย",
-   "since": "2026-11-13T04:32:59+07:00",
+   "since": "2026-11-13T07:33:09+07:00",
    "model": "codex",
    "engine": "codex"
   },
