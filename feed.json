@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T22:05:03+07:00",
+ "updatedAt": "2026-11-13T22:09:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1559,20 +1559,6 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "tide-46"
-  },
-  {
-   "ts": "2026-11-13T21:37:15+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:37:20+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
   },
   {
    "ts": "2026-11-13T21:37:24+07:00",
