@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-13T15:15:06+07:00",
+ "updatedAt": "2026-11-13T15:17:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "atlas-5 · ส่งงาน DONE",
-   "since": "2026-11-13T15:11:53+07:00",
+   "since": "2026-11-13T15:15:47+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1476,34 +1476,6 @@
    "kind": "progress",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T14:45:41+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T14:46:47+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T14:46:51+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T14:46:58+07:00",
-   "kind": "hey",
-   "from": "151-survey",
-   "to": "15-atlas",
    "brief": ""
   },
   {
