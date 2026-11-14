@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:29:37+07:00",
+ "updatedAt": "2026-11-14T10:30:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -163,7 +163,7 @@
   {
    "id": "114-eddy-omx",
    "status": "working",
-   "task": "tide-47b · ส่ง PROGRESS",
+   "task": "tide-48 · ส่ง PROGRESS",
    "since": "2026-11-14T10:26:32+07:00",
    "model": "codex",
    "brief": "tide-47",
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T01:56:55+07:00",
-   "kind": "stuck",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T01:58:07+07:00",
    "kind": "qa-pass",
@@ -1789,6 +1782,13 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:29:56+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": "tide-48"
   }
  ],
