@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:24:36+07:00",
+ "updatedAt": "2026-11-14T11:25:16+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-47e · ส่งงาน DONE",
-   "since": "2026-11-14T11:24:36+07:00",
+   "since": "2026-11-14T11:25:16+07:00",
    "model": "fable",
    "brief": "tide-49",
    "engine": "claude"
@@ -1338,13 +1338,6 @@
    "brief": "tide-49"
   },
   {
-   "ts": "2026-11-14T11:03:42+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:03:50+07:00",
    "kind": "brief",
    "from": "11-tide",
@@ -1357,13 +1350,6 @@
    "from": "112-swell",
    "to": "111-ripple",
    "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:04:25+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-14T11:04:47+07:00",
@@ -1866,6 +1852,20 @@
    "ts": "2026-11-14T11:24:27+07:00",
    "kind": "hey",
    "from": "15-atlas",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:24:52+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:24:56+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
   }
