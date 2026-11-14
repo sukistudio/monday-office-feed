@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T12:08:05+07:00",
+ "updatedAt": "2026-11-14T12:09:20+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -35,7 +35,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-49 · รับงาน",
+   "task": "tide-49 · ส่งงาน DONE",
    "since": "2026-11-14T12:06:51+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T15:11:43+07:00",
-   "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T15:12:38+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-13T15:13:24+07:00",
    "kind": "progress",
@@ -1408,13 +1394,6 @@
    "brief": "tide-49"
   },
   {
-   "ts": "2026-11-14T11:38:40+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:38:45+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -1833,6 +1812,20 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T12:09:13+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-49"
+  },
+  {
+   "ts": "2026-11-14T12:09:17+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": "tide-49"
   }
  ],
  "projects": [
