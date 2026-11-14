@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:14:19+07:00",
+ "updatedAt": "2026-11-14T11:15:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T11:03:42+07:00",
+   "since": "2026-11-14T11:15:34+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-49 · ส่ง PROGRESS",
+   "task": "tide-47e · ส่ง PROGRESS",
    "since": "2026-11-14T11:12:18+07:00",
    "model": "fable",
-   "brief": "tide-49",
+   "brief": "tide-47e",
    "engine": "claude"
   },
   {
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-47d · ตรวจผ่าน",
+   "task": "tide-47e · ตรวจผ่าน",
    "since": "2026-11-14T11:14:19+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -132,7 +132,7 @@
   {
    "id": "15-atlas",
    "status": "working",
-   "task": "tide-47 · ส่งงาน DONE",
+   "task": "tide-49 · ส่ง PROGRESS",
    "since": "2026-11-14T10:54:37+07:00",
    "model": "fable",
    "brief": "tide-49",
@@ -164,9 +164,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-48 · ส่ง PROGRESS",
-   "since": "2026-11-14T11:12:59+07:00",
+   "since": "2026-11-14T11:15:34+07:00",
    "model": "codex",
    "brief": "tide-47",
    "engine": "codex"
@@ -189,34 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T04:38:00+07:00",
-   "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T04:38:51+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-41"
-  },
-  {
-   "ts": "2026-11-13T04:38:54+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-41"
-  },
-  {
-   "ts": "2026-11-13T04:39:54+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-13T04:40:04+07:00",
    "kind": "done",
@@ -1366,20 +1338,6 @@
    "brief": "tide-48"
   },
   {
-   "ts": "2026-11-14T10:57:40+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:57:44+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T10:58:05+07:00",
    "kind": "ack",
    "from": "15-atlas",
@@ -1868,6 +1826,48 @@
    "from": "114-eddy-omx",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:14:28+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:15:01+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-47e"
+  },
+  {
+   "ts": "2026-11-14T11:15:02+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:15:23+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:15:24+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-47e"
+  },
+  {
+   "ts": "2026-11-14T11:15:27+07:00",
+   "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "tide-49"
   }
  ],
  "projects": [
@@ -2040,6 +2040,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-47e",
+   "title": "tide-47e",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "progress",
+   "since": "2026-11-14T11:12:48+07:00",
+   "updatedAt": "2026-11-14T11:15:24+07:00"
+  },
+  {
    "id": "tide-49",
    "title": "tide-49",
    "project": null,
@@ -2066,17 +2077,6 @@
    "status": "open",
    "since": "2026-11-14T09:44:17+07:00",
    "updatedAt": "2026-11-14T11:12:52+07:00"
-  },
-  {
-   "id": "tide-47e",
-   "title": "tide-47e",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-14T11:12:48+07:00",
-   "updatedAt": "2026-11-14T11:12:48+07:00"
   },
   {
    "id": "tide-47d",
