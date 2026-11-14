@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T09:40:15+07:00",
+ "updatedAt": "2026-11-14T09:42:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-44 · รับงาน",
-   "since": "2026-11-14T06:07:41+07:00",
+   "since": "2026-11-14T09:42:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
