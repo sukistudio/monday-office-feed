@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:55:01+07:00",
+ "updatedAt": "2026-11-14T11:56:16+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · ส่ง PROGRESS",
-   "since": "2026-11-14T11:53:51+07:00",
+   "since": "2026-11-14T11:56:16+07:00",
    "model": "fable",
    "brief": "tide-49",
    "engine": "claude"
@@ -34,18 +34,18 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · รับงาน",
-   "since": "2026-11-14T11:42:25+07:00",
+   "since": "2026-11-14T11:56:16+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · ตรวจผ่าน",
-   "since": "2026-11-14T11:53:11+07:00",
+   "since": "2026-11-14T11:56:16+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1387,27 +1387,6 @@
    "brief": "tide-49"
   },
   {
-   "ts": "2026-11-14T11:27:22+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:27:26+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:27:30+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:29:09+07:00",
    "kind": "done",
    "from": "112-swell",
@@ -1867,6 +1846,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:55:57+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:56:01+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:56:06+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "112-swell",
    "brief": ""
   }
  ],
