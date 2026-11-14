@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:29:40+07:00",
+ "updatedAt": "2026-11-14T11:31:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -36,7 +36,7 @@
    "id": "112-swell",
    "status": "working",
    "task": "tide-49 · ส่งงาน DONE",
-   "since": "2026-11-14T11:01:41+07:00",
+   "since": "2026-11-14T11:31:30+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-47e · ส่งงาน DONE",
-   "since": "2026-11-14T11:29:40+07:00",
+   "since": "2026-11-14T11:30:55+07:00",
    "model": "fable",
    "brief": "tide-49",
    "engine": "claude"
@@ -1338,39 +1338,11 @@
    "brief": "tide-47d"
   },
   {
-   "ts": "2026-11-14T11:08:05+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:08:10+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:08:15+07:00",
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-47"
-  },
-  {
-   "ts": "2026-11-14T11:08:17+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:08:47+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-14T11:08:52+07:00",
@@ -1867,6 +1839,34 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:31:07+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:31:12+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:31:16+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:31:26+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
