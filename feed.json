@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T09:45:45+07:00",
+ "updatedAt": "2026-11-14T09:46:59+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-14T06:07:41+07:00",
+   "since": "2026-11-14T09:46:59+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1616,6 +1616,13 @@
    "from": "11-tide",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T09:46:45+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1795,7 +1802,7 @@
    "assignees": [
     "114-eddy-omx"
    ],
-   "qa": null,
+   "qa": "153-plumb",
    "status": "open",
    "since": "2026-11-14T09:44:17+07:00",
    "updatedAt": "2026-11-14T09:45:39+07:00"
