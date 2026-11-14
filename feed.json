@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:08:57+07:00",
+ "updatedAt": "2026-11-14T11:09:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -189,27 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T04:30:37+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-43"
-  },
-  {
-   "ts": "2026-11-13T04:30:37+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "tide-41"
-  },
-  {
-   "ts": "2026-11-13T04:30:41+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-11-13T04:30:58+07:00",
    "kind": "ack",
@@ -1867,6 +1846,27 @@
    "kind": "hey",
    "from": "111-ripple",
    "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:09:00+07:00",
+   "kind": "ack",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": "tide-49"
+  },
+  {
+   "ts": "2026-11-14T11:09:03+07:00",
+   "kind": "ack",
+   "from": "15-atlas",
+   "to": "11-tide",
+   "brief": "tide-49"
+  },
+  {
+   "ts": "2026-11-14T11:09:03+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
