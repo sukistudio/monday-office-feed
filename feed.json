@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T04:36:30+07:00",
+ "updatedAt": "2026-11-15T04:40:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1885,7 +1885,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "progress",
-   "since": "2026-11-13T04:36:41+07:00",
+   "since": "2026-11-13T04:40:55+07:00",
    "updatedAt": "2026-11-13T20:31:23+07:00",
    "titleRedacted": true
   },
@@ -1897,8 +1897,8 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-13T04:37:41+07:00",
-   "updatedAt": "2026-11-13T04:37:41+07:00"
+   "since": "2026-11-13T04:42:50+07:00",
+   "updatedAt": "2026-11-13T04:42:50+07:00"
   }
  ],
  "warnings": [
