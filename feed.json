@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T17:24:33+07:00",
+ "updatedAt": "2026-11-14T17:28:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1874,7 +1874,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-12T17:27:50+07:00",
+   "since": "2026-11-12T17:31:03+07:00",
    "updatedAt": "2026-11-13T21:14:27+07:00"
   },
   {
@@ -1938,17 +1938,6 @@
    "status": "done",
    "since": "2026-11-13T01:14:39+07:00",
    "updatedAt": "2026-11-13T01:29:23+07:00"
-  },
-  {
-   "id": "atlas-4",
-   "title": "atlas-4",
-   "project": null,
-   "lead": "15-atlas",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-12T17:26:29+07:00",
-   "updatedAt": "2026-11-12T17:26:29+07:00"
   }
  ],
  "warnings": [
