@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:13:39+07:00",
+ "updatedAt": "2026-11-14T10:14:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T01:33:43+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T01:36:18+07:00",
    "kind": "ack",
@@ -1436,13 +1429,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-14T09:44:17+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T09:45:11+07:00",
    "kind": "hey",
    "from": "15-atlas",
@@ -1756,6 +1742,13 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:13:41+07:00",
+   "kind": "progress",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "tide-47"
   }
  ],
  "projects": [
