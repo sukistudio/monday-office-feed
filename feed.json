@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:50:37+07:00",
+ "updatedAt": "2026-11-14T11:51:51+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-14T11:49:17+07:00",
+   "since": "2026-11-14T11:51:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · ส่ง PROGRESS",
-   "since": "2026-11-14T11:50:37+07:00",
+   "since": "2026-11-14T11:51:51+07:00",
    "model": "fable",
    "brief": "tide-49",
    "engine": "claude"
@@ -157,7 +157,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "ตรวจผ่าน",
+   "task": "ตรวจไม่ผ่าน",
    "since": "2026-11-14T11:49:57+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T14:52:29+07:00",
-   "kind": "done",
-   "from": "151-survey",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T14:53:32+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "atlas-5"
-  },
   {
    "ts": "2026-11-13T14:54:39+07:00",
    "kind": "qa-pass",
@@ -1401,13 +1387,6 @@
    "brief": "tide-49"
   },
   {
-   "ts": "2026-11-14T11:24:56+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:25:39+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -1867,6 +1846,27 @@
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:51:41+07:00",
+   "kind": "qa-fail",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:51:43+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-49"
+  },
+  {
+   "ts": "2026-11-14T11:51:46+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
