@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T09:57:39+07:00",
+ "updatedAt": "2026-11-14T09:58:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,20 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T01:15:20+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "tide-42"
-  },
-  {
-   "ts": "2026-11-13T01:20:02+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-42"
-  },
   {
    "ts": "2026-11-13T01:22:05+07:00",
    "kind": "ack",
@@ -1672,6 +1658,20 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T09:57:44+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-47"
+  },
+  {
+   "ts": "2026-11-14T09:58:05+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1854,7 +1854,7 @@
    "qa": "153-plumb",
    "status": "progress",
    "since": "2026-11-14T09:44:17+07:00",
-   "updatedAt": "2026-11-14T09:56:10+07:00"
+   "updatedAt": "2026-11-14T09:57:44+07:00"
   },
   {
    "id": "tide-46",
