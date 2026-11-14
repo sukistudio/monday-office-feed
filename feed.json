@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T12:14:24+07:00",
+ "updatedAt": "2026-11-14T12:15:05+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · ส่งงาน DONE",
-   "since": "2026-11-14T12:11:59+07:00",
+   "since": "2026-11-14T12:15:05+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -1422,20 +1422,6 @@
    "brief": "tide-49"
   },
   {
-   "ts": "2026-11-14T11:44:44+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:44:49+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:44:52+07:00",
    "kind": "progress",
    "from": "15-atlas",
@@ -1450,6 +1436,13 @@
    "brief": ""
   },
   {
+   "ts": "2026-11-14T11:45:09+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-14T11:45:26+07:00",
    "kind": "hey",
    "from": "15-atlas",
@@ -1461,6 +1454,13 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:46:02+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "15-atlas",
    "brief": ""
   },
   {
@@ -1497,13 +1497,6 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:47:38+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": ""
   },
   {
    "ts": "2026-11-14T11:49:14+07:00",
@@ -1819,6 +1812,20 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-49"
+  },
+  {
+   "ts": "2026-11-14T12:14:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T12:14:35+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
   }
  ],
  "projects": [
