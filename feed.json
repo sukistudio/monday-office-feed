@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T01:41:04+07:00",
+ "updatedAt": "2026-11-15T01:45:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1897,7 +1897,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T01:41:06+07:00",
+   "since": "2026-11-13T01:46:48+07:00",
    "updatedAt": "2026-11-13T02:16:23+07:00"
   },
   {
@@ -1905,12 +1905,10 @@
    "title": "บอร์ดงาน office: รับแท็ก brief ของทุกทีม",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "112-swell"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T01:43:42+07:00",
+   "since": "2026-11-13T01:45:32+07:00",
    "updatedAt": "2026-11-13T02:00:03+07:00"
   }
  ],
