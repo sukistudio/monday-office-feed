@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:52:43+07:00",
+ "updatedAt": "2026-11-14T10:53:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T10:50:19+07:00",
+   "since": "2026-11-14T10:53:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -20,7 +20,7 @@
    "task": "tide-48 · ส่งงาน DONE",
    "since": "2026-11-14T10:52:43+07:00",
    "model": "fable",
-   "brief": "tide-48",
+   "brief": "tide-47c",
    "engine": "claude"
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-48 · ตรวจผ่าน",
-   "since": "2026-11-14T10:47:45+07:00",
+   "since": "2026-11-14T10:53:23+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T02:13:57+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T02:15:35+07:00",
    "kind": "qa-pass",
@@ -1469,13 +1462,6 @@
    "brief": "tide-47b"
   },
   {
-   "ts": "2026-11-14T10:23:30+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T10:23:57+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1810,6 +1796,20 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:53:25+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:53:30+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1988,9 +1988,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-11-14T10:23:30+07:00",
-   "updatedAt": "2026-11-14T10:44:15+07:00"
+   "updatedAt": "2026-11-14T10:53:25+07:00"
   },
   {
    "id": "tide-47b",
