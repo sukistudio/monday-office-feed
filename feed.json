@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T09:42:06+07:00",
+ "updatedAt": "2026-11-14T09:44:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,11 +16,11 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-46 · รับงาน",
-   "since": "2026-11-14T06:09:38+07:00",
+   "since": "2026-11-14T09:44:30+07:00",
    "model": "fable",
-   "brief": "tide-46",
+   "brief": "tide-47",
    "engine": "claude"
   },
   {
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-45 · ส่งงาน DONE",
-   "since": "2026-11-14T09:01:35+07:00",
+   "since": "2026-11-14T09:43:55+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -1587,6 +1587,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T09:44:17+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1758,6 +1765,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-47",
+   "title": "tide-47",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-14T09:44:17+07:00",
+   "updatedAt": "2026-11-14T09:44:17+07:00"
+  },
   {
    "id": "tide-46",
    "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
