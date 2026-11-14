@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:34:41+07:00",
+ "updatedAt": "2026-11-14T10:35:55+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T10:25:58+07:00",
+   "since": "2026-11-14T10:35:55+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -43,23 +43,23 @@
    "id": "113-shore",
    "status": "working",
    "task": "tide-48 · ตรวจผ่าน",
-   "since": "2026-11-14T10:32:46+07:00",
+   "since": "2026-11-14T10:35:55+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "รับงาน",
+   "task": "tide-48 · รับงาน",
    "since": "2026-11-14T10:34:41+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "tide-43 · ส่งงาน DONE",
-   "since": "2026-11-14T10:27:53+07:00",
+   "since": "2026-11-14T10:35:55+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -187,20 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T01:59:30+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-43"
-  },
-  {
-   "ts": "2026-11-13T01:59:38+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T02:00:03+07:00",
    "kind": "done",
@@ -1406,20 +1392,6 @@
    "brief": "tide-47b"
   },
   {
-   "ts": "2026-11-14T10:05:21+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:05:29+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T10:06:12+07:00",
    "kind": "hey",
    "from": "15-atlas",
@@ -1796,6 +1768,48 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:35:38+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:35:41+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:35:45+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:35:49+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:35:50+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:35:52+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
