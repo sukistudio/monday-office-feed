@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T01:20:06+07:00",
+ "updatedAt": "2026-11-15T01:24:18+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1894,12 +1894,10 @@
    "title": "เว็บห้องโปรเจกต์อสังหา เฟส 1 (อ่านอย่างเดียว หลัง login)",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T01:21:53+07:00",
+   "since": "2026-11-13T01:24:20+07:00",
    "updatedAt": "2026-11-13T02:16:23+07:00"
   },
   {
@@ -1932,9 +1930,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "done",
-   "since": "2026-11-13T01:20:25+07:00",
+   "since": "2026-11-13T01:26:16+07:00",
    "updatedAt": "2026-11-13T01:29:23+07:00"
   }
  ],
