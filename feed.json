@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:08:17+07:00",
+ "updatedAt": "2026-11-14T11:08:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-47d · ตรวจผ่าน",
-   "since": "2026-11-14T11:06:22+07:00",
+   "since": "2026-11-14T11:08:57+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1471,27 +1471,6 @@
    "brief": "tide-48"
   },
   {
-   "ts": "2026-11-14T10:44:28+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:44:42+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:44:54+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T10:46:24+07:00",
    "kind": "done",
    "from": "112-swell",
@@ -1868,6 +1847,27 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-47"
+  },
+  {
+   "ts": "2026-11-14T11:08:17+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:08:47+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:08:52+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "112-swell",
+   "brief": ""
   }
  ],
  "projects": [
