@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:45:34+07:00",
+ "updatedAt": "2026-11-14T11:46:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "tide-49 · รับงาน",
+   "task": "tide-49 · ส่งงาน DONE",
    "since": "2026-11-14T11:35:54+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · ตรวจผ่าน",
-   "since": "2026-11-14T11:41:45+07:00",
+   "since": "2026-11-14T11:46:14+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -156,9 +156,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-14T11:41:45+07:00",
+   "since": "2026-11-14T11:46:14+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T13:07:18+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T13:07:56+07:00",
    "kind": "qa-pass",
@@ -1436,20 +1429,6 @@
    "brief": "tide-47e"
   },
   {
-   "ts": "2026-11-14T11:21:10+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:21:47+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T11:22:00+07:00",
    "kind": "hey",
    "from": "111-ripple",
@@ -1868,6 +1847,27 @@
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:45:41+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:46:02+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:46:12+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "tide-49"
   }
  ],
  "projects": [
