@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T11:09:38+07:00",
+ "updatedAt": "2026-11-14T11:10:18+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-47 · ส่ง PROGRESS",
-   "since": "2026-11-14T10:52:43+07:00",
+   "since": "2026-11-14T11:10:18+07:00",
    "model": "fable",
    "brief": "tide-47",
    "engine": "claude"
@@ -68,7 +68,7 @@
   {
    "id": "123-pulse",
    "status": "idle",
-   "task": "รับงาน",
+   "task": "",
    "since": "2026-11-13T04:31:44+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T04:30:58+07:00",
-   "kind": "ack",
-   "from": "123-pulse",
-   "to": "12-beam",
-   "brief": ""
-  },
   {
    "ts": "2026-11-13T04:32:42+07:00",
    "kind": "stuck",
@@ -1864,6 +1857,13 @@
   },
   {
    "ts": "2026-11-14T11:09:03+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T11:10:09+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
    "to": "15-atlas",
