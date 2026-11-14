@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:32:46+07:00",
+ "updatedAt": "2026-11-14T10:34:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -33,9 +33,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-48 · ส่งงาน DONE",
-   "since": "2026-11-14T10:32:46+07:00",
+   "since": "2026-11-14T10:34:01+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-48 · ส่ง PROGRESS",
-   "since": "2026-11-14T10:26:32+07:00",
+   "since": "2026-11-14T10:33:26+07:00",
    "model": "codex",
    "brief": "tide-47",
    "engine": "codex"
@@ -1407,27 +1407,6 @@
    "brief": "tide-47"
   },
   {
-   "ts": "2026-11-14T10:03:55+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:04:00+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T10:04:00+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-14T10:05:17+07:00",
    "kind": "brief",
    "from": "11-tide",
@@ -1803,6 +1782,13 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:33:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ],
