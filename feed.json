@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T09:59:40+07:00",
+ "updatedAt": "2026-11-14T10:00:20+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,10 +17,10 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-47 · ส่ง PROGRESS",
+   "task": "tide-47 · ส่งงาน DONE",
    "since": "2026-11-14T09:53:13+07:00",
    "model": "fable",
-   "brief": "tide-47",
+   "brief": "tide-46",
    "engine": "claude"
   },
   {
@@ -129,9 +129,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-47 · ส่งงาน DONE",
-   "since": "2026-11-14T09:56:24+07:00",
+   "since": "2026-11-14T10:00:20+07:00",
    "model": "fable",
    "brief": "atlas-4",
    "engine": "claude"
@@ -166,7 +166,6 @@
    "task": "tide-47 · ส่ง PROGRESS",
    "since": "2026-11-14T09:53:54+07:00",
    "model": "codex",
-   "brief": "tide-47",
    "engine": "codex"
   },
   {
@@ -187,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T01:23:39+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": "tide-42"
-  },
   {
    "ts": "2026-11-13T01:24:06+07:00",
    "kind": "done",
@@ -1672,6 +1664,13 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": "tide-47"
+  },
+  {
+   "ts": "2026-11-14T09:59:49+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-47"
   }
  ],
  "projects": [
@@ -1852,9 +1851,9 @@
     "114-eddy-omx"
    ],
    "qa": "153-plumb",
-   "status": "progress",
+   "status": "done",
    "since": "2026-11-14T09:44:17+07:00",
-   "updatedAt": "2026-11-14T09:57:44+07:00"
+   "updatedAt": "2026-11-14T09:59:49+07:00"
   },
   {
    "id": "tide-46",
