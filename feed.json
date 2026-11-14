@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T17:16:16+07:00",
+ "updatedAt": "2026-11-14T17:20:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1874,7 +1874,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-12T17:16:21+07:00",
+   "since": "2026-11-12T17:27:50+07:00",
    "updatedAt": "2026-11-13T21:14:27+07:00"
   },
   {
