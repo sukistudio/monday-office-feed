@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-14T10:40:17+07:00",
+ "updatedAt": "2026-11-14T10:40:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T10:37:10+07:00",
+   "since": "2026-11-14T10:40:57+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -34,23 +34,23 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-48 · ส่งงาน DONE",
+   "task": "tide-48 · รับงาน",
    "since": "2026-11-14T10:40:17+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-48 · ตรวจผ่าน",
-   "since": "2026-11-14T10:35:55+07:00",
+   "since": "2026-11-14T10:40:57+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "12-beam",
    "status": "working",
-   "task": "tide-48 · รับงาน",
+   "task": "tide-48 · ส่งงาน DONE",
    "since": "2026-11-14T10:39:35+07:00",
    "model": "fable",
    "engine": "claude"
@@ -187,20 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T02:01:13+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "tide-43"
-  },
-  {
-   "ts": "2026-11-13T02:05:02+07:00",
-   "kind": "done",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": "tide-43"
-  },
   {
    "ts": "2026-11-13T02:06:57+07:00",
    "kind": "ack",
@@ -1788,6 +1774,34 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:40:27+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-14T10:40:42+07:00",
+   "kind": "ack",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:40:46+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "tide-48"
+  },
+  {
+   "ts": "2026-11-14T10:40:50+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
    "brief": ""
   }
  ],
