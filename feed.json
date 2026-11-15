@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T21:12:58+07:00",
+ "updatedAt": "2026-11-15T21:17:37+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1918,19 +1918,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T21:13:46+07:00",
+   "since": "2026-11-13T21:18:16+07:00",
    "updatedAt": "2026-11-14T06:07:16+07:00"
-  },
-  {
-   "id": "atlas-5",
-   "title": "atlas-5",
-   "project": null,
-   "lead": "15-atlas",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-11-13T21:13:11+07:00",
-   "updatedAt": "2026-11-13T21:14:27+07:00"
   }
  ],
  "warnings": [
