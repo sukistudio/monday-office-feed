@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:31:55+07:00",
+ "updatedAt": "2026-11-15T11:33:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-15T11:31:55+07:00",
+   "since": "2026-11-15T11:33:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -20,7 +20,7 @@
    "task": "tide-50b · ส่ง PROGRESS",
    "since": "2026-11-15T11:24:30+07:00",
    "model": "fable",
-   "brief": "tide-50b",
+   "brief": "tide-50c",
    "engine": "claude"
   },
   {
@@ -1672,6 +1672,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:32:49+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1843,6 +1850,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-50c",
+   "title": "tide-50c",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-15T11:32:53+07:00",
+   "updatedAt": "2026-11-15T11:32:53+07:00"
+  },
   {
    "id": "tide-50b",
    "title": "tide-50b",
