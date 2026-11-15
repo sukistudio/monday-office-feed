@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T21:04:27+07:00",
+ "updatedAt": "2026-11-15T21:08:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1907,7 +1907,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-13T21:05:55+07:00",
+   "since": "2026-11-13T21:10:05+07:00",
    "updatedAt": "2026-11-14T06:07:21+07:00"
   },
   {
@@ -1915,12 +1915,10 @@
    "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T21:05:59+07:00",
+   "since": "2026-11-13T21:09:20+07:00",
    "updatedAt": "2026-11-14T06:07:16+07:00"
   },
   {
