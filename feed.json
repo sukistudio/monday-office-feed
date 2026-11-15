@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:14:16+07:00",
+ "updatedAt": "2026-11-15T11:14:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-50 · รับงาน",
+   "task": "tide-50 · ตรวจผ่าน",
    "since": "2026-11-15T11:13:03+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T20:40:27+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T20:40:56+07:00",
    "kind": "progress",
@@ -1608,6 +1601,13 @@
    "kind": "progress",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": "tide-50"
+  },
+  {
+   "ts": "2026-11-15T11:14:40+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": "tide-50"
   }
  ],
