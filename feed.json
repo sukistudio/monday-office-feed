@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:03:44+07:00",
+ "updatedAt": "2026-11-15T11:06:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-49 · ส่ง PROGRESS",
    "since": "2026-11-15T11:02:35+07:00",
    "model": "fable",
-   "brief": "tide-49",
+   "brief": "tide-50",
    "engine": "claude"
   },
   {
@@ -1588,6 +1588,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "tide-47e"
+  },
+  {
+   "ts": "2026-11-15T11:06:03+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1759,6 +1766,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-50",
+   "title": "tide-50",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-15T11:06:03+07:00",
+   "updatedAt": "2026-11-15T11:06:03+07:00"
+  },
   {
    "id": "tide-49",
    "title": "tide-49",
