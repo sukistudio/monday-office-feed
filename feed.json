@@ -1,33 +1,33 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:40:48+07:00",
+ "updatedAt": "2026-11-15T11:42:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-15T11:40:08+07:00",
+   "since": "2026-11-15T11:41:31+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-50c · ส่งงาน DONE",
+   "task": "tide-50d · แจกงาน",
    "since": "2026-11-15T11:40:48+07:00",
    "model": "fable",
-   "brief": "tide-50b",
+   "brief": "tide-50d",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "tide-50c · ส่งงาน DONE",
-   "since": "2026-11-15T11:39:33+07:00",
+   "since": "2026-11-15T11:42:41+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "tide-50c · ตรวจผ่าน",
+   "task": "tide-50d · รับงาน",
    "since": "2026-11-15T11:40:48+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T21:15:27+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
-  {
-   "ts": "2026-11-13T21:16:25+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T21:18:25+07:00",
    "kind": "progress",
@@ -1693,6 +1679,41 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-50c"
+  },
+  {
+   "ts": "2026-11-15T11:42:19+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-50d"
+  },
+  {
+   "ts": "2026-11-15T11:42:23+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:42:25+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:42:27+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:42:28+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-50d"
   }
  ],
  "projects": [
@@ -1864,6 +1885,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-50d",
+   "title": "tide-50d",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-15T11:42:19+07:00",
+   "updatedAt": "2026-11-15T11:42:27+07:00"
+  },
   {
    "id": "tide-50c",
    "title": "tide-50c",
