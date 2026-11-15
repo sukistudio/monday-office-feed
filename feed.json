@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:06:48+07:00",
+ "updatedAt": "2026-11-15T11:08:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "tide-49 · รับงาน",
+   "task": "tide-50 · ส่ง PROGRESS",
    "since": "2026-11-15T11:06:48+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T20:32:10+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-41"
-  },
   {
    "ts": "2026-11-13T20:33:00+07:00",
    "kind": "progress",
@@ -1607,6 +1600,13 @@
    "ts": "2026-11-15T11:06:27+07:00",
    "kind": "ack",
    "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-50"
+  },
+  {
+   "ts": "2026-11-15T11:08:34+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": "tide-50"
   }
