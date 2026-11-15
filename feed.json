@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:44:30+07:00",
+ "updatedAt": "2026-11-15T11:45:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-50d · แจกงาน",
+   "task": "tide-50d · ส่ง PROGRESS",
    "since": "2026-11-15T11:44:30+07:00",
    "model": "fable",
    "brief": "tide-50d",
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-50d · ส่งงาน DONE",
-   "since": "2026-11-15T11:42:41+07:00",
+   "since": "2026-11-15T11:45:10+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-50d · รับงาน",
+   "task": "tide-50d · ตรวจผ่าน",
    "since": "2026-11-15T11:44:30+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T21:25:46+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
-  {
-   "ts": "2026-11-13T21:27:38+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T21:29:51+07:00",
    "kind": "done",
@@ -1714,6 +1700,20 @@
    "from": "111-ripple",
    "to": "113-shore",
    "brief": "tide-50d"
+  },
+  {
+   "ts": "2026-11-15T11:45:25+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-50d"
+  },
+  {
+   "ts": "2026-11-15T11:45:29+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-50d"
   }
  ],
  "projects": [
@@ -1892,9 +1892,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-11-15T11:42:19+07:00",
-   "updatedAt": "2026-11-15T11:42:27+07:00"
+   "updatedAt": "2026-11-15T11:45:29+07:00"
   },
   {
    "id": "tide-50c",
