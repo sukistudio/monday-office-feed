@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T13:04:41+07:00",
+ "updatedAt": "2026-11-15T13:08:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1945,17 +1945,6 @@
    "since": "2026-11-13T14:37:02+07:00",
    "updatedAt": "2026-11-13T20:31:23+07:00",
    "titleRedacted": true
-  },
-  {
-   "id": "tide-43",
-   "title": "เว็บห้องโปรเจกต์อสังหา เฟส 1 (อ่านอย่างเดียว หลัง login)",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-13T13:05:37+07:00",
-   "updatedAt": "2026-11-13T13:05:37+07:00"
   }
  ],
  "warnings": [
