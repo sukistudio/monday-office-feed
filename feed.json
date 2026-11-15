@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:33:12+07:00",
+ "updatedAt": "2026-11-15T11:33:52+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-50b · ส่ง PROGRESS",
+   "task": "tide-50c · แจกงาน",
    "since": "2026-11-15T11:24:30+07:00",
    "model": "fable",
    "brief": "tide-50c",
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "tide-50b · ส่งงาน DONE",
-   "since": "2026-11-15T11:29:32+07:00",
+   "since": "2026-11-15T11:33:52+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "tide-50b · ตรวจผ่าน",
+   "task": "tide-50c · รับงาน",
    "since": "2026-11-15T11:30:12+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T21:11:56+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-13T21:11:59+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "151-survey",
-   "brief": ""
-  },
   {
    "ts": "2026-11-13T21:12:06+07:00",
    "kind": "ack",
@@ -1679,6 +1665,34 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:33:33+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-50c"
+  },
+  {
+   "ts": "2026-11-15T11:33:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:33:39+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:33:42+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-50c"
   }
  ],
  "projects": [
@@ -1856,7 +1870,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-11-15T11:32:53+07:00",
    "updatedAt": "2026-11-15T11:32:53+07:00"
