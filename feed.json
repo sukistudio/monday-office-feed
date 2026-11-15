@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:14:57+07:00",
+ "updatedAt": "2026-11-15T11:16:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -10,17 +10,17 @@
    "id": "10-monday",
    "status": "working",
    "task": "",
-   "since": "2026-11-15T11:14:16+07:00",
+   "since": "2026-11-15T11:16:13+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-50 · ส่ง PROGRESS",
+   "task": "tide-50 · ส่งงาน DONE",
    "since": "2026-11-15T11:13:03+07:00",
    "model": "fable",
-   "brief": "tide-50",
+   "brief": "tide-50b",
    "engine": "claude"
   },
   {
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-50 · ตรวจผ่าน",
-   "since": "2026-11-15T11:13:03+07:00",
+   "since": "2026-11-15T11:15:39+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T20:40:56+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T20:48:10+07:00",
    "kind": "progress",
@@ -1609,6 +1602,20 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-50"
+  },
+  {
+   "ts": "2026-11-15T11:16:06+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-50"
+  },
+  {
+   "ts": "2026-11-15T11:16:10+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1781,15 +1788,26 @@
  ],
  "briefs": [
   {
+   "id": "tide-50b",
+   "title": "tide-50b",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-15T11:16:10+07:00",
+   "updatedAt": "2026-11-15T11:16:10+07:00"
+  },
+  {
    "id": "tide-50",
    "title": "tide-50",
    "project": null,
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "done",
    "since": "2026-11-15T11:06:03+07:00",
-   "updatedAt": "2026-11-15T11:14:11+07:00"
+   "updatedAt": "2026-11-15T11:16:06+07:00"
   },
   {
    "id": "tide-49",
