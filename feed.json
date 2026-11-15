@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:40:08+07:00",
+ "updatedAt": "2026-11-15T11:40:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,11 +16,11 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "tide-50c · แจกงาน",
-   "since": "2026-11-15T11:40:08+07:00",
+   "status": "working",
+   "task": "tide-50c · ส่งงาน DONE",
+   "since": "2026-11-15T11:40:48+07:00",
    "model": "fable",
-   "brief": "tide-50c",
+   "brief": "tide-50b",
    "engine": "claude"
   },
   {
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-50c · ตรวจผ่าน",
-   "since": "2026-11-15T11:38:53+07:00",
+   "since": "2026-11-15T11:40:48+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T21:14:46+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T21:15:27+07:00",
    "kind": "progress",
@@ -1693,6 +1686,13 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-50c"
+  },
+  {
+   "ts": "2026-11-15T11:40:24+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-50c"
   }
  ],
  "projects": [
@@ -1871,9 +1871,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-11-15T11:32:53+07:00",
-   "updatedAt": "2026-11-15T11:36:39+07:00"
+   "updatedAt": "2026-11-15T11:40:24+07:00"
   },
   {
    "id": "tide-50b",
