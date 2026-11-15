@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:06:08+07:00",
+ "updatedAt": "2026-11-15T11:06:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-49 · ส่ง PROGRESS",
+   "task": "tide-50 · แจกงาน",
    "since": "2026-11-15T11:02:35+07:00",
    "model": "fable",
    "brief": "tide-50",
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "tide-49 · รับงาน",
-   "since": "2026-11-14T12:11:19+07:00",
+   "since": "2026-11-15T11:06:48+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -44,7 +44,7 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "tide-49 · ตรวจผ่าน",
+   "task": "tide-50 · รับงาน",
    "since": "2026-11-14T12:21:42+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -189,20 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T20:31:26+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
-  {
-   "ts": "2026-11-13T20:31:30+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T20:32:10+07:00",
    "kind": "qa-pass",
@@ -1595,6 +1581,34 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:06:16+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-50"
+  },
+  {
+   "ts": "2026-11-15T11:06:20+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:06:23+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-15T11:06:27+07:00",
+   "kind": "ack",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-50"
   }
  ],
  "projects": [
@@ -1772,7 +1786,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-11-15T11:06:03+07:00",
    "updatedAt": "2026-11-15T11:06:03+07:00"
