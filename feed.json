@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T21:17:37+07:00",
+ "updatedAt": "2026-11-15T21:22:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1918,7 +1918,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-13T21:18:16+07:00",
+   "since": "2026-11-13T21:25:42+07:00",
    "updatedAt": "2026-11-14T06:07:16+07:00"
   }
  ],
