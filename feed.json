@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T11:45:45+07:00",
+ "updatedAt": "2026-11-15T11:46:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-15T11:41:31+07:00",
+   "since": "2026-11-15T11:46:24+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-50d · ส่ง PROGRESS",
+   "task": "tide-50d · ส่งงาน DONE",
    "since": "2026-11-15T11:44:30+07:00",
    "model": "fable",
-   "brief": "tide-50d",
+   "brief": "tide-50b",
    "engine": "claude"
   },
   {
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-50d · ตรวจผ่าน",
-   "since": "2026-11-15T11:44:30+07:00",
+   "since": "2026-11-15T11:46:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -189,13 +189,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-13T21:29:51+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-45"
-  },
   {
    "ts": "2026-11-13T21:31:18+07:00",
    "kind": "done",
@@ -1380,13 +1373,6 @@
    "brief": "tide-50"
   },
   {
-   "ts": "2026-11-15T11:16:10+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-15T11:18:40+07:00",
    "kind": "brief",
    "from": "11-tide",
@@ -1714,6 +1700,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-50d"
+  },
+  {
+   "ts": "2026-11-15T11:46:08+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-50d"
   }
  ],
  "projects": [
@@ -1892,9 +1885,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "done",
    "since": "2026-11-15T11:42:19+07:00",
-   "updatedAt": "2026-11-15T11:45:29+07:00"
+   "updatedAt": "2026-11-15T11:46:08+07:00"
   },
   {
    "id": "tide-50c",
