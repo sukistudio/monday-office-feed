@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T06:06:42+07:00",
+ "updatedAt": "2026-11-16T06:08:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -107,9 +107,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-16T06:06:42+07:00",
+   "since": "2026-11-16T06:08:34+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-16T06:05:43+07:00",
+   "since": "2026-11-16T06:07:38+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1609,6 +1609,13 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-16T06:07:52+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1919,28 +1926,6 @@
    "status": "progress",
    "since": "2026-11-14T10:15:06+07:00",
    "updatedAt": "2026-11-14T10:18:07+07:00"
-  },
-  {
-   "id": "tide-46",
-   "title": "ทดลองเล็ก — agent สร้างหน้าไทย 3 หน้า แล้วจดจุดผิด",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-14T06:07:21+07:00",
-   "updatedAt": "2026-11-14T06:07:21+07:00"
-  },
-  {
-   "id": "tide-45",
-   "title": "ห้องโปรเจกต์ — look & feel ให้เป็นชุดเดียวกับเว็บนำเสนอ",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "done",
-   "since": "2026-11-14T06:07:16+07:00",
-   "updatedAt": "2026-11-14T06:07:16+07:00"
   }
  ],
  "warnings": [
