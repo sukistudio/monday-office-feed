@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-15T13:00:32+07:00",
+ "updatedAt": "2026-11-15T13:04:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1952,10 +1952,10 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "153-plumb",
+   "qa": null,
    "status": "open",
-   "since": "2026-11-13T13:03:42+07:00",
-   "updatedAt": "2026-11-13T13:03:42+07:00"
+   "since": "2026-11-13T13:05:37+07:00",
+   "updatedAt": "2026-11-13T13:05:37+07:00"
   }
  ],
  "warnings": [
