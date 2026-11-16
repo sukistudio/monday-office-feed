@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T11:12:13+07:00",
+ "updatedAt": "2026-11-16T11:13:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,62 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-14T11:12:15+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "11-tide",
-   "brief": "tide-47"
-  },
-  {
-   "ts": "2026-11-14T11:12:22+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:12:45+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:12:48+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "tide-47e"
-  },
-  {
-   "ts": "2026-11-14T11:12:52+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "15-atlas",
-   "brief": "tide-47"
-  },
-  {
-   "ts": "2026-11-14T11:13:04+07:00",
-   "kind": "ack",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:13:07+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:13:11+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-49"
-  },
   {
    "ts": "2026-11-14T11:15:01+07:00",
    "kind": "qa-pass",
@@ -1248,7 +1192,7 @@
    ],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-14T11:12:22+07:00",
+   "since": "2026-11-14T11:13:29+07:00",
    "updatedAt": "2026-11-15T13:47:35+07:00"
   },
   {
@@ -1316,19 +1260,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-14T11:12:48+07:00",
+   "since": "2026-11-14T11:14:13+07:00",
    "updatedAt": "2026-11-14T11:19:10+07:00"
-  },
-  {
-   "id": "tide-47",
-   "title": "tide-47",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-14T11:12:15+07:00",
-   "updatedAt": "2026-11-14T11:12:52+07:00"
   }
  ],
  "warnings": [
