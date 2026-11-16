@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T23:15:18+07:00",
+ "updatedAt": "2026-11-16T23:18:43+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -44,8 +44,8 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-52 · ตรวจผ่าน",
-   "since": "2026-11-16T23:12:53+07:00",
+   "task": "tide-52 · ตรวจไม่ผ่าน",
+   "since": "2026-11-16T23:17:13+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -734,27 +734,6 @@
    "brief": "tide-52"
   },
   {
-   "ts": "2026-11-16T22:47:11+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-16T22:47:13+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-16T22:47:15+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-16T22:47:26+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
@@ -762,17 +741,17 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-16T22:48:02+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-16T22:48:17+07:00",
    "kind": "done",
    "from": "15-atlas",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:48:47+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -976,6 +955,13 @@
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
+   "brief": "tide-52"
+  },
+  {
+   "ts": "2026-11-16T23:18:43+07:00",
+   "kind": "qa-fail",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": "tide-52"
   }
  ],
