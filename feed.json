@@ -1,42 +1,42 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T00:00:39+07:00",
+ "updatedAt": "2026-11-17T00:01:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-16T23:59:48+07:00",
+   "since": "2026-11-17T00:01:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-53 · แจกงาน",
-   "since": "2026-11-16T23:59:10+07:00",
+   "since": "2026-11-17T00:01:26+07:00",
    "model": "fable",
    "brief": "tide-53",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-53 · ส่ง PROGRESS",
-   "since": "2026-11-16T23:49:16+07:00",
+   "since": "2026-11-17T00:01:26+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-53 · ส่ง PROGRESS",
-   "since": "2026-11-16T23:55:00+07:00",
+   "since": "2026-11-17T00:01:26+07:00",
    "model": "opus",
    "brief": "tide-49f",
    "engine": "claude"
@@ -1082,6 +1082,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "tide-53"
+  },
+  {
+   "ts": "2026-11-17T00:00:44+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
   }
  ],
  "projects": [
