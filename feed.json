@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T10:27:37+07:00",
+ "updatedAt": "2026-11-16T10:30:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -165,7 +165,7 @@
   {
    "id": "114-eddy-omx",
    "status": "idle",
-   "task": "tide-48 · ส่ง PROGRESS",
+   "task": "",
    "since": "2026-11-14T11:15:34+07:00",
    "model": "codex",
    "engine": "codex"
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-14T10:29:56+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-48"
-  },
   {
    "ts": "2026-11-14T10:31:31+07:00",
    "kind": "done",
@@ -1619,7 +1612,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-14T10:29:56+07:00",
+   "since": "2026-11-14T10:31:31+07:00",
    "updatedAt": "2026-11-14T10:53:25+07:00"
   }
  ],
