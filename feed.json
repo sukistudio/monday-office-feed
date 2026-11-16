@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T10:04:16+07:00",
+ "updatedAt": "2026-11-16T10:05:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -188,13 +188,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-14T10:05:17+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": "tide-47b"
-  },
   {
    "ts": "2026-11-14T10:06:16+07:00",
    "kind": "progress",
@@ -1765,7 +1758,7 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-14T10:05:21+07:00",
+   "since": "2026-11-14T10:06:12+07:00",
    "updatedAt": "2026-11-14T11:12:52+07:00"
   },
   {
@@ -1798,7 +1791,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-14T10:05:17+07:00",
+   "since": "2026-11-14T10:06:40+07:00",
    "updatedAt": "2026-11-14T10:21:42+07:00"
   },
   {
