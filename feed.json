@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T12:14:20+07:00",
+ "updatedAt": "2026-11-16T12:18:46+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -803,9 +803,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "open",
-   "since": "2026-11-14T12:14:31+07:00",
+   "since": "2026-11-14T12:20:35+07:00",
    "updatedAt": "2026-11-15T13:47:35+07:00"
   },
   {
