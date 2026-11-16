@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T09:42:16+07:00",
+ "updatedAt": "2026-11-16T09:45:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -168,7 +168,6 @@
    "task": "tide-48 · ส่ง PROGRESS",
    "since": "2026-11-14T11:15:34+07:00",
    "model": "codex",
-   "brief": "tide-47",
    "engine": "codex"
   },
   {
@@ -1847,12 +1846,10 @@
    "title": "tide-47",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "114-eddy-omx"
-   ],
+   "assignees": [],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-14T09:44:17+07:00",
+   "since": "2026-11-14T09:46:02+07:00",
    "updatedAt": "2026-11-14T11:12:52+07:00"
   },
   {
