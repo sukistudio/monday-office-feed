@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T01:16:42+07:00",
+ "updatedAt": "2026-11-17T01:17:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "tide-53 · ส่งงาน DONE",
+   "task": "tide-53 · รับงาน",
    "since": "2026-11-17T01:16:42+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -1217,13 +1217,6 @@
    "brief": "tide-53"
   },
   {
-   "ts": "2026-11-17T00:47:13+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-17T00:47:17+07:00",
    "kind": "progress",
    "from": "11-tide",
@@ -1306,6 +1299,27 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T01:16:43+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T01:16:47+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T01:17:00+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "tide-53"
   }
  ],
  "projects": [
