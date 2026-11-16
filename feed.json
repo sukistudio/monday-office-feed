@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T22:53:52+07:00",
+ "updatedAt": "2026-11-16T22:55:18+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-16T22:52:22+07:00",
+   "since": "2026-11-16T22:54:38+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -629,22 +629,8 @@
    "brief": "tide-51"
   },
   {
-   "ts": "2026-11-16T22:24:22+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-16T22:24:26+07:00",
    "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-16T22:25:09+07:00",
-   "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
@@ -969,6 +955,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:54:25+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:54:36+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:54:52+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ],
