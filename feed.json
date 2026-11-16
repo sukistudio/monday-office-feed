@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T00:28:38+07:00",
+ "updatedAt": "2026-11-17T00:29:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-53 · ส่ง PROGRESS",
-   "since": "2026-11-17T00:25:55+07:00",
+   "since": "2026-11-17T00:29:29+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1375,6 +1375,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:28:38+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:29:01+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-53"
+  },
+  {
+   "ts": "2026-11-17T00:29:11+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
    "brief": ""
   }
  ],
