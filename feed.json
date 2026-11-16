@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T10:58:46+07:00",
+ "updatedAt": "2026-11-16T11:00:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,27 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-14T10:58:57+07:00",
-   "kind": "progress",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T10:59:40+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "11-tide",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T10:59:44+07:00",
-   "kind": "ack",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-49"
-  },
   {
    "ts": "2026-11-14T11:01:35+07:00",
    "kind": "brief",
@@ -1402,7 +1381,7 @@
    ],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-14T10:58:53+07:00",
+   "since": "2026-11-14T11:01:35+07:00",
    "updatedAt": "2026-11-15T13:47:35+07:00"
   },
   {
