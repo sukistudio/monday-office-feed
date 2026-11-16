@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T23:57:45+07:00",
+ "updatedAt": "2026-11-16T23:59:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-16T23:52:13+07:00",
+   "since": "2026-11-16T23:59:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-53 · แจกงาน",
-   "since": "2026-11-16T23:57:45+07:00",
+   "since": "2026-11-16T23:59:10+07:00",
    "model": "fable",
    "brief": "tide-53",
    "engine": "claude"
@@ -895,13 +895,6 @@
    "brief": "tide-52"
   },
   {
-   "ts": "2026-11-16T23:28:20+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-16T23:34:02+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
@@ -1067,6 +1060,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T23:59:12+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
