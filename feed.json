@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T23:38:04+07:00",
+ "updatedAt": "2026-11-16T23:40:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,18 +16,18 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-52 · รับงาน",
-   "since": "2026-11-16T23:34:31+07:00",
+   "since": "2026-11-16T23:39:02+07:00",
    "model": "fable",
    "brief": "tide-52",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-52 · รับงาน",
-   "since": "2026-11-16T23:37:14+07:00",
+   "since": "2026-11-16T23:39:02+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
