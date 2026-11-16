@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T11:51:14+07:00",
+ "updatedAt": "2026-11-16T11:52:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -155,7 +155,7 @@
   {
    "id": "153-plumb",
    "status": "idle",
-   "task": "ตรวจไม่ผ่าน",
+   "task": "",
    "since": "2026-11-14T11:53:11+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -186,34 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-14T11:51:41+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-14T11:51:43+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:51:52+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-49"
-  },
-  {
-   "ts": "2026-11-14T11:52:18+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": ""
-  },
   {
    "ts": "2026-11-14T11:56:22+07:00",
    "kind": "ack",
@@ -919,7 +891,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-14T11:51:43+07:00",
+   "since": "2026-11-14T11:52:51+07:00",
    "updatedAt": "2026-11-15T13:47:35+07:00"
   },
   {
