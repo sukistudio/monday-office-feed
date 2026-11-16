@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-16T22:27:56+07:00",
+ "updatedAt": "2026-11-16T22:29:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-16T22:24:44+07:00",
+   "since": "2026-11-16T22:29:24+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-51 · แจกงาน",
+   "task": "tide-49f · แจกงาน",
    "since": "2026-11-16T22:22:44+07:00",
    "model": "fable",
-   "brief": "tide-51",
+   "brief": "tide-49",
    "engine": "claude"
   },
   {
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T12:16:19+07:00",
+   "since": "2026-11-16T22:29:24+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -106,9 +106,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-16T22:25:32+07:00",
+   "since": "2026-11-16T22:29:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -124,7 +124,7 @@
    "id": "143-sextant",
    "status": "working",
    "task": "",
-   "since": "2026-11-16T22:24:44+07:00",
+   "since": "2026-11-16T22:29:24+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -703,6 +703,41 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:28:02+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:28:14+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:28:18+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-16T22:29:07+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-49f"
+  },
+  {
+   "ts": "2026-11-16T22:29:14+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
@@ -875,6 +910,28 @@
  ],
  "briefs": [
   {
+   "id": "tide-49",
+   "title": "tide-49",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-15T13:12:56+07:00",
+   "updatedAt": "2026-11-16T22:29:11+07:00"
+  },
+  {
+   "id": "tide-49f",
+   "title": "tide-49f",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-16T22:29:07+07:00",
+   "updatedAt": "2026-11-16T22:29:07+07:00"
+  },
+  {
    "id": "tide-51",
    "title": "tide-51",
    "project": null,
@@ -884,17 +941,6 @@
    "status": "open",
    "since": "2026-11-16T22:23:22+07:00",
    "updatedAt": "2026-11-16T22:23:27+07:00"
-  },
-  {
-   "id": "tide-49",
-   "title": "tide-49",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-15T13:12:56+07:00",
-   "updatedAt": "2026-11-15T13:47:35+07:00"
   },
   {
    "id": "tide-50e",
