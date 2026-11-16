@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T00:29:29+07:00",
+ "updatedAt": "2026-11-17T00:31:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,16 +18,16 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-53 · ส่ง PROGRESS",
-   "since": "2026-11-17T00:24:26+07:00",
+   "since": "2026-11-17T00:31:45+07:00",
    "model": "fable",
    "brief": "tide-53",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-53 · ส่งงาน DONE",
-   "since": "2026-11-17T00:28:38+07:00",
+   "since": "2026-11-17T00:30:26+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -43,9 +43,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-53 · ตรวจผ่าน",
-   "since": "2026-11-17T00:27:44+07:00",
+   "since": "2026-11-17T00:30:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
-   "task": "tide-53 · ส่ง PROGRESS",
-   "since": "2026-11-17T00:29:29+07:00",
+   "status": "working",
+   "task": "tide-53 · ส่งงาน DONE",
+   "since": "2026-11-17T00:30:26+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -156,7 +156,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ตรวจผ่าน",
    "since": "2026-11-17T00:26:52+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -951,13 +951,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-16T23:59:54+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-16T23:59:59+07:00",
    "kind": "progress",
    "from": "15-atlas",
@@ -984,13 +977,6 @@
    "from": "11-tide",
    "to": "15-atlas",
    "brief": "tide-53"
-  },
-  {
-   "ts": "2026-11-17T00:01:36+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": ""
   },
   {
    "ts": "2026-11-17T00:05:44+07:00",
@@ -1397,6 +1383,34 @@
    "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:31:07+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:31:11+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:31:16+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T00:31:22+07:00",
+   "kind": "done",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": "tide-53"
   }
  ],
  "projects": [
