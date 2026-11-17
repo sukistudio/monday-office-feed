@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T11:51:54+07:00",
+ "updatedAt": "2026-11-17T11:53:50+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-15T11:53:17+07:00",
-   "kind": "ack",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-50d"
-  },
   {
    "ts": "2026-11-15T11:54:20+07:00",
    "kind": "done",
@@ -1210,13 +1203,11 @@
    "title": "tide-50d",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-15T11:53:04+07:00",
-   "updatedAt": "2026-11-15T11:53:08+07:00"
+   "since": "2026-11-15T11:54:20+07:00",
+   "updatedAt": "2026-11-15T11:54:20+07:00"
   }
  ],
  "warnings": [
