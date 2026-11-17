@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T14:02:21+07:00",
+ "updatedAt": "2026-11-17T14:03:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -99,17 +99,17 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "ติด รอช่วย",
-   "since": "2026-11-17T06:12:48+07:00",
+   "since": "2026-11-17T14:03:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T06:11:11+07:00",
+   "since": "2026-11-17T14:03:09+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -878,6 +878,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T14:03:23+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
