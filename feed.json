@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:59:38+07:00",
+ "updatedAt": "2026-11-17T18:00:24+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-56 · ส่งงาน DONE",
-   "since": "2026-11-17T17:56:40+07:00",
+   "since": "2026-11-17T18:00:24+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1376,6 +1376,27 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-56"
+  },
+  {
+   "ts": "2026-11-17T18:00:09+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T18:00:13+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T18:00:18+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "153-plumb",
+   "brief": ""
   }
  ],
  "projects": [
