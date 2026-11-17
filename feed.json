@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T11:54:54+07:00",
+ "updatedAt": "2026-11-17T11:55:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-15T11:55:26+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-50d"
-  },
   {
    "ts": "2026-11-15T12:03:19+07:00",
    "kind": "brief",
@@ -1183,17 +1176,6 @@
    "status": "open",
    "since": "2026-11-15T12:03:19+07:00",
    "updatedAt": "2026-11-15T12:03:28+07:00"
-  },
-  {
-   "id": "tide-50d",
-   "title": "tide-50d",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-15T11:55:26+07:00",
-   "updatedAt": "2026-11-15T11:55:26+07:00"
   }
  ],
  "warnings": [
