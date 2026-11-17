@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T14:16:07+07:00",
+ "updatedAt": "2026-11-17T14:18:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-54 · ส่งงาน DONE",
-   "since": "2026-11-17T14:01:06+07:00",
+   "since": "2026-11-17T14:17:38+07:00",
    "model": "fable",
    "brief": "tide-53",
    "engine": "claude"
