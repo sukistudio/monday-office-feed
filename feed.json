@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T22:33:07+07:00",
+ "updatedAt": "2026-11-17T22:37:37+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1341,27 +1341,6 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-56b"
-  },
-  {
-   "ts": "2026-11-17T22:05:05+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-17T22:07:05+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-17T22:07:09+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
   }
  ],
  "projects": [
