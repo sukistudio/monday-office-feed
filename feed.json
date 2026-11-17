@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:50:45+07:00",
+ "updatedAt": "2026-11-17T15:51:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,16 +17,16 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-55e · ส่งงาน DONE",
+   "task": "tide-55 · ส่งงาน DONE",
    "since": "2026-11-17T15:43:51+07:00",
    "model": "fable",
-   "brief": "tide-55",
+   "brief": "tide-55e",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "tide-55 · ส่งงาน DONE",
+   "task": "tide-55 · รับงาน",
    "since": "2026-11-17T15:34:50+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-55 · ส่งงาน DONE",
-   "since": "2026-11-17T15:42:31+07:00",
+   "since": "2026-11-17T15:51:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -944,13 +944,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-17T15:21:24+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-17T15:21:47+07:00",
    "kind": "done",
    "from": "15-atlas",
@@ -976,6 +969,13 @@
    "kind": "hey",
    "from": "112-swell",
    "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:23:02+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "112-swell",
    "brief": ""
   },
   {
@@ -1018,13 +1018,6 @@
    "kind": "hey",
    "from": "15-atlas",
    "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-17T15:24:51+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "112-swell",
    "brief": ""
   },
   {
@@ -1355,6 +1348,41 @@
    "from": "11-tide",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:50:53+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-55"
+  },
+  {
+   "ts": "2026-11-17T15:51:05+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:51:09+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:51:14+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:51:17+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "tide-55"
   }
  ],
  "projects": [
@@ -1533,9 +1561,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "done",
    "since": "2026-11-17T15:13:11+07:00",
-   "updatedAt": "2026-11-17T15:31:10+07:00"
+   "updatedAt": "2026-11-17T15:50:53+07:00"
   },
   {
    "id": "tide-55e",
