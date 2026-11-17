@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T13:44:12+07:00",
+ "updatedAt": "2026-11-17T13:47:59+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-15T13:47:35+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-49"
-  },
   {
    "ts": "2026-11-15T22:06:56+07:00",
    "kind": "ack",
@@ -1092,7 +1085,7 @@
    ],
    "qa": null,
    "status": "open",
-   "since": "2026-11-15T13:46:37+07:00",
+   "since": "2026-11-16T22:29:11+07:00",
    "updatedAt": "2026-11-16T22:36:06+07:00"
   },
   {
