@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:39:49+07:00",
+ "updatedAt": "2026-11-17T17:41:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T17:39:11+07:00",
+   "since": "2026-11-17T17:41:13+07:00",
    "model": "fable",
    "brief": "tide-56",
    "engine": "claude"
@@ -1354,6 +1354,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:41:19+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": ""
   }
  ],
