@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T16:38:46+07:00",
+ "updatedAt": "2026-11-17T16:39:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1263,6 +1263,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T16:38:52+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": ""
   }
  ],
