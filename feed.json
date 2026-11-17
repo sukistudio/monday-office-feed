@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:37:34+07:00",
+ "updatedAt": "2026-11-17T15:38:20+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1278,6 +1278,13 @@
    "from": "112-swell",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:38:11+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-55"
   }
  ],
  "projects": [
