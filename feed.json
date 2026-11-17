@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T13:55:19+07:00",
+ "updatedAt": "2026-11-17T13:56:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-17T13:54:31+07:00",
+   "since": "2026-11-17T13:56:07+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -872,6 +872,13 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": "tide-54"
+  },
+  {
+   "ts": "2026-11-17T13:55:39+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1052,7 +1059,7 @@
    "qa": null,
    "status": "open",
    "since": "2026-11-17T13:55:03+07:00",
-   "updatedAt": "2026-11-17T13:55:03+07:00"
+   "updatedAt": "2026-11-17T13:55:39+07:00"
   },
   {
    "id": "tide-53",
