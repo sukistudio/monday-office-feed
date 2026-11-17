@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:43:55+07:00",
+ "updatedAt": "2026-11-17T17:44:50+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-11-17T17:27:54+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -1360,6 +1360,41 @@
    "ts": "2026-11-17T17:41:19+07:00",
    "kind": "qa-pass",
    "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:44:08+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:44:13+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:44:17+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:44:23+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:44:26+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
   }
