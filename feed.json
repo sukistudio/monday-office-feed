@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T11:20:56+07:00",
+ "updatedAt": "2026-11-17T11:22:00+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,20 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-15T11:20:59+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-50"
-  },
-  {
-   "ts": "2026-11-15T11:21:16+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "tide-50b"
-  },
   {
    "ts": "2026-11-15T11:22:36+07:00",
    "kind": "progress",
@@ -1408,6 +1394,17 @@
    "updatedAt": "2026-11-16T22:23:27+07:00"
   },
   {
+   "id": "tide-50",
+   "title": "tide-50",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-15T12:06:59+07:00",
+   "updatedAt": "2026-11-15T12:06:59+07:00"
+  },
+  {
    "id": "tide-50e",
    "title": "tide-50e",
    "project": null,
@@ -1450,19 +1447,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-15T11:21:16+07:00",
+   "since": "2026-11-15T11:22:36+07:00",
    "updatedAt": "2026-11-15T11:26:38+07:00"
-  },
-  {
-   "id": "tide-50",
-   "title": "tide-50",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-15T11:20:59+07:00",
-   "updatedAt": "2026-11-15T11:20:59+07:00"
   }
  ],
  "warnings": [
