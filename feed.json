@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:45:51+07:00",
+ "updatedAt": "2026-11-17T17:46:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-11-17T17:41:13+07:00",
    "model": "fable",
    "brief": "tide-56",
@@ -1408,6 +1408,20 @@
   {
    "ts": "2026-11-17T17:45:30+07:00",
    "kind": "hey",
+   "from": "11-tide",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:45:52+07:00",
+   "kind": "hey",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:46:22+07:00",
+   "kind": "ack",
    "from": "11-tide",
    "to": "153-plumb",
    "brief": ""
