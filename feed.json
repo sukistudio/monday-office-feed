@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:01:44+07:00",
+ "updatedAt": "2026-11-17T17:02:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1396,6 +1396,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:02:23+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
    "brief": ""
   }
  ],
