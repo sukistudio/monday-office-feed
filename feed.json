@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:57:47+07:00",
+ "updatedAt": "2026-11-17T15:58:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T15:55:08+07:00",
+   "since": "2026-11-17T15:58:33+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1368,6 +1368,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:58:12+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:58:16+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:58:25+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": ""
   }
  ],
