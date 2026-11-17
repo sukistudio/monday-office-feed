@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:28:07+07:00",
+ "updatedAt": "2026-11-17T15:30:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,27 +16,27 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-55 · รับงาน",
-   "since": "2026-11-17T15:28:07+07:00",
+   "since": "2026-11-17T15:29:25+07:00",
    "model": "fable",
    "brief": "tide-55",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "tide-55 · ส่งงาน DONE",
-   "since": "2026-11-17T15:27:23+07:00",
+   "since": "2026-11-17T15:30:01+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-55 · ส่งงาน DONE",
-   "since": "2026-11-17T15:17:40+07:00",
+   "since": "2026-11-17T15:28:49+07:00",
    "model": "opus",
    "brief": "tide-49f",
    "engine": "claude"
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-55 · ส่งงาน DONE",
-   "since": "2026-11-17T15:25:58+07:00",
+   "since": "2026-11-17T15:29:25+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -1159,6 +1159,20 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": "tide-55"
+  },
+  {
+   "ts": "2026-11-17T15:29:30+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:29:42+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
   }
  ],
  "projects": [
