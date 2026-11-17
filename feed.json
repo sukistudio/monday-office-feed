@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:19:10+07:00",
+ "updatedAt": "2026-11-17T17:19:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T17:01:44+07:00",
+   "since": "2026-11-17T17:19:57+07:00",
    "model": "opus",
    "brief": "tide-49",
    "engine": "claude"
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T17:18:26+07:00",
+   "since": "2026-11-17T17:19:57+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1397,6 +1397,27 @@
    "from": "15-atlas",
    "to": "11-tide",
    "brief": "tide-56"
+  },
+  {
+   "ts": "2026-11-17T17:19:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:19:41+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:19:45+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "153-plumb",
+   "brief": ""
   }
  ],
  "projects": [
