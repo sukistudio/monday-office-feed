@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:23:11+07:00",
+ "updatedAt": "2026-11-17T15:24:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-55 · แจกงาน",
    "since": "2026-11-17T15:22:28+07:00",
    "model": "fable",
-   "brief": "tide-55",
+   "brief": "tide-55e",
    "engine": "claude"
   },
   {
@@ -35,7 +35,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-55 · รับงาน",
+   "task": "tide-55 · ส่ง PROGRESS",
    "since": "2026-11-17T15:17:40+07:00",
    "model": "opus",
    "brief": "tide-49f",
@@ -133,7 +133,7 @@
    "id": "15-atlas",
    "status": "working",
    "task": "tide-55 · ส่งงาน DONE",
-   "since": "2026-11-17T15:21:46+07:00",
+   "since": "2026-11-17T15:24:32+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T11:15:34+07:00",
+   "since": "2026-11-17T15:24:32+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1040,6 +1040,34 @@
    "from": "112-swell",
    "to": "111-ripple",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:24:11+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:24:15+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:24:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:24:30+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-55"
   }
  ],
  "projects": [
@@ -1211,6 +1239,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-55e",
+   "title": "tide-55e",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-17T15:24:15+07:00",
+   "updatedAt": "2026-11-17T15:24:15+07:00"
+  },
   {
    "id": "tide-55",
    "title": "tide-55",
