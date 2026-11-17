@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T18:33:21+07:00",
+ "updatedAt": "2026-11-17T18:34:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -155,9 +155,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "ตรวจผ่าน",
-   "since": "2026-11-17T18:32:35+07:00",
+   "since": "2026-11-17T18:34:26+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1382,6 +1382,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T18:33:32+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
