@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T17:16:22+07:00",
+ "updatedAt": "2026-11-17T17:18:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-17T17:16:22+07:00",
+   "since": "2026-11-17T17:17:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T17:04:40+07:00",
+   "since": "2026-11-17T17:17:10+07:00",
    "model": "fable",
-   "brief": "tide-55",
+   "brief": "tide-56",
    "engine": "claude"
   },
   {
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T17:08:52+07:00",
+   "since": "2026-11-17T17:18:26+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1224,24 +1224,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-17T16:47:22+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-17T16:47:24+07:00",
    "kind": "done",
    "from": "111-ripple",
    "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-17T16:48:08+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "153-plumb",
    "brief": ""
   },
   {
@@ -1368,6 +1354,13 @@
    "kind": "hey",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T17:18:16+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
    "brief": ""
   }
  ],
@@ -1540,6 +1533,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-56",
+   "title": "tide-56",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-17T17:18:16+07:00",
+   "updatedAt": "2026-11-17T17:18:16+07:00"
+  },
   {
    "id": "tide-55",
    "title": "tide-55",
