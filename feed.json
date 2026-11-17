@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T14:03:48+07:00",
+ "updatedAt": "2026-11-17T14:04:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-53 · ส่งงาน DONE",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-17T14:01:06+07:00",
    "model": "fable",
    "brief": "tide-54",
@@ -107,9 +107,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-17T14:03:09+07:00",
+   "since": "2026-11-17T14:04:34+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -885,6 +885,13 @@
    "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T14:04:12+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": ""
   }
  ],
