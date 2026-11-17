@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T15:27:23+07:00",
+ "updatedAt": "2026-11-17T15:28:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
-   "task": "tide-55 · ส่ง PROGRESS",
-   "since": "2026-11-17T15:22:28+07:00",
+   "status": "idle",
+   "task": "tide-55 · รับงาน",
+   "since": "2026-11-17T15:28:07+07:00",
    "model": "fable",
    "brief": "tide-55",
    "engine": "claude"
@@ -35,7 +35,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-55 · ส่ง PROGRESS",
+   "task": "tide-55 · ส่งงาน DONE",
    "since": "2026-11-17T15:17:40+07:00",
    "model": "opus",
    "brief": "tide-49f",
@@ -1131,6 +1131,34 @@
    "from": "11-tide",
    "to": "153-plumb",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:27:37+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-55"
+  },
+  {
+   "ts": "2026-11-17T15:27:38+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T15:27:41+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": "tide-55"
+  },
+  {
+   "ts": "2026-11-17T15:28:06+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-55"
   }
  ],
  "projects": [
@@ -1309,9 +1337,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "progress",
+   "status": "open",
    "since": "2026-11-17T15:13:11+07:00",
-   "updatedAt": "2026-11-17T15:25:52+07:00"
+   "updatedAt": "2026-11-17T15:28:06+07:00"
   },
   {
    "id": "tide-55e",
