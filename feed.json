@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-17T16:42:21+07:00",
+ "updatedAt": "2026-11-17T16:43:09+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "tide-55 · รับงาน",
+   "task": "ส่ง PROGRESS",
    "since": "2026-11-17T16:38:46+07:00",
    "model": "opus",
    "brief": "tide-49",
@@ -1304,6 +1304,13 @@
    "ts": "2026-11-17T16:41:52+07:00",
    "kind": "hey",
    "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-17T16:42:57+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
    "to": "11-tide",
    "brief": ""
   }
