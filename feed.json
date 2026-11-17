@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T02:49:15+07:00",
+ "updatedAt": "2026-11-18T02:50:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-56b · ติด รอช่วย",
-   "since": "2026-11-17T21:44:53+07:00",
+   "since": "2026-11-18T02:50:06+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -1341,6 +1341,13 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-56b"
+  },
+  {
+   "ts": "2026-11-18T02:49:36+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
   }
  ],
  "projects": [
