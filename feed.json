@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T09:00:44+07:00",
+ "updatedAt": "2026-11-18T09:01:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-56b · ส่งงาน DONE",
-   "since": "2026-11-18T02:59:08+07:00",
+   "since": "2026-11-18T09:01:23+07:00",
    "model": "fable",
    "brief": "tide-55",
    "engine": "claude"
@@ -1348,6 +1348,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-56b"
+  },
+  {
+   "ts": "2026-11-18T09:00:57+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
