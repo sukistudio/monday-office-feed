@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T23:34:28+07:00",
+ "updatedAt": "2026-11-18T23:37:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-18T23:32:02+07:00",
+   "since": "2026-11-18T23:37:29+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-16T23:37:26+07:00",
-   "kind": "ack",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "tide-52"
-  },
   {
    "ts": "2026-11-16T23:49:01+07:00",
    "kind": "brief",
@@ -1309,17 +1302,6 @@
    "status": "progress",
    "since": "2026-11-16T23:46:52+07:00",
    "updatedAt": "2026-11-17T00:47:17+07:00"
-  },
-  {
-   "id": "tide-52",
-   "title": "tide-52",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-16T23:36:11+07:00",
-   "updatedAt": "2026-11-16T23:36:11+07:00"
   }
  ],
  "warnings": [
