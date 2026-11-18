@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T22:23:29+07:00",
+ "updatedAt": "2026-11-18T22:24:46+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -187,13 +187,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-16T22:24:26+07:00",
-   "kind": "done",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-16T22:25:41+07:00",
    "kind": "done",
@@ -1648,8 +1641,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-16T22:23:31+07:00",
-   "updatedAt": "2026-11-16T22:23:31+07:00"
+   "since": "2026-11-16T22:25:41+07:00",
+   "updatedAt": "2026-11-16T22:25:41+07:00"
   }
  ],
  "warnings": [
