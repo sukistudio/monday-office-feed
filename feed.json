@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T22:53:46+07:00",
+ "updatedAt": "2026-11-18T22:56:15+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -37,7 +37,6 @@
    "task": "tide-55 · รับงาน",
    "since": "2026-11-17T15:41:44+07:00",
    "model": "opus",
-   "brief": "tide-49f",
    "engine": "claude"
   },
   {
@@ -1452,7 +1451,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-16T22:54:36+07:00",
+   "since": "2026-11-16T22:59:34+07:00",
    "updatedAt": "2026-11-16T23:24:28+07:00"
   },
   {
@@ -1463,21 +1462,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-16T22:54:25+07:00",
-   "updatedAt": "2026-11-16T22:54:25+07:00"
-  },
-  {
-   "id": "tide-49f",
-   "title": "tide-49f",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [
-    "112-swell"
-   ],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-16T22:53:47+07:00",
-   "updatedAt": "2026-11-16T22:53:47+07:00"
+   "since": "2026-11-16T22:56:51+07:00",
+   "updatedAt": "2026-11-16T22:56:51+07:00"
   }
  ],
  "warnings": [
