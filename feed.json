@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T01:08:01+07:00",
+ "updatedAt": "2026-11-19T01:12:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1108,8 +1108,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-17T01:10:09+07:00",
-   "updatedAt": "2026-11-17T01:10:09+07:00"
+   "since": "2026-11-17T01:13:54+07:00",
+   "updatedAt": "2026-11-17T01:13:54+07:00"
   }
  ],
  "warnings": [
