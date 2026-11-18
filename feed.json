@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T00:11:29+07:00",
+ "updatedAt": "2026-11-19T00:12:11+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-57 · ตรวจผ่าน",
-   "since": "2026-11-18T23:53:24+07:00",
+   "since": "2026-11-19T00:12:11+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T00:11:38+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-53"
-  },
-  {
-   "ts": "2026-11-17T00:12:07+07:00",
-   "kind": "progress",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": "tide-53"
-  },
   {
    "ts": "2026-11-17T00:13:45+07:00",
    "kind": "progress",
@@ -1395,7 +1381,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "progress",
-   "since": "2026-11-17T00:11:38+07:00",
+   "since": "2026-11-17T00:12:43+07:00",
    "updatedAt": "2026-11-17T00:47:17+07:00"
   }
  ],
