@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T22:36:06+07:00",
+ "updatedAt": "2026-11-18T22:40:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-16T22:39:49+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-16T22:39:53+07:00",
-   "kind": "done",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
   {
    "ts": "2026-11-16T22:40:39+07:00",
    "kind": "done",
@@ -1556,7 +1542,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-16T22:36:24+07:00",
+   "since": "2026-11-16T22:40:39+07:00",
    "updatedAt": "2026-11-16T22:53:47+07:00"
   },
   {
