@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T23:48:48+07:00",
+ "updatedAt": "2026-11-18T23:49:27+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -153,9 +153,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "tide-55 · ตรวจไม่ผ่าน",
-   "since": "2026-11-18T23:45:05+07:00",
+   "since": "2026-11-18T23:49:27+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-16T23:49:01+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": "tide-53"
-  },
-  {
-   "ts": "2026-11-16T23:49:05+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": "tide-53"
-  },
   {
    "ts": "2026-11-16T23:52:46+07:00",
    "kind": "progress",
@@ -1423,7 +1409,7 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "progress",
-   "since": "2026-11-16T23:49:01+07:00",
+   "since": "2026-11-16T23:49:46+07:00",
    "updatedAt": "2026-11-17T00:47:17+07:00"
   }
  ],
