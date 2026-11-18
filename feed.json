@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T00:14:52+07:00",
+ "updatedAt": "2026-11-19T00:16:42+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T00:16:13+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-53"
-  },
   {
    "ts": "2026-11-17T00:16:47+07:00",
    "kind": "qa-pass",
@@ -942,20 +935,6 @@
    "brief": "tide-55"
   },
   {
-   "ts": "2026-11-18T23:44:53+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-18T23:44:57+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-18T23:45:20+07:00",
    "kind": "qa-pass",
    "from": "153-plumb",
@@ -968,13 +947,6 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-57"
-  },
-  {
-   "ts": "2026-11-18T23:46:25+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
   },
   {
    "ts": "2026-11-18T23:46:46+07:00",
@@ -1386,9 +1358,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": "153-plumb",
    "status": "progress",
-   "since": "2026-11-17T00:16:13+07:00",
+   "since": "2026-11-17T00:16:47+07:00",
    "updatedAt": "2026-11-17T00:47:17+07:00"
   }
  ],
