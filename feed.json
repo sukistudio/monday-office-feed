@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T01:23:04+07:00",
+ "updatedAt": "2026-11-19T01:23:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T01:23:39+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-53"
-  },
   {
    "ts": "2026-11-17T06:09:57+07:00",
    "kind": "done",
@@ -1071,17 +1064,6 @@
    "status": "done",
    "since": "2026-11-17T13:55:03+07:00",
    "updatedAt": "2026-11-17T14:15:41+07:00"
-  },
-  {
-   "id": "tide-53",
-   "title": "tide-53",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-17T01:23:39+07:00",
-   "updatedAt": "2026-11-17T01:23:39+07:00"
   }
  ],
  "warnings": [
