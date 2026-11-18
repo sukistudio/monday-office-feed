@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T00:54:54+07:00",
+ "updatedAt": "2026-11-19T00:59:02+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -849,27 +849,6 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-57"
-  },
-  {
-   "ts": "2026-11-19T00:28:15+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-19T00:28:56+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-19T00:29:00+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "153-plumb",
-   "brief": ""
   },
   {
    "ts": "2026-11-19T00:29:44+07:00",
