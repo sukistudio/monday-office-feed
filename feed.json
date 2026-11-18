@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T00:29:19+07:00",
+ "updatedAt": "2026-11-19T00:29:58+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -989,6 +989,13 @@
    "from": "11-tide",
    "to": "153-plumb",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-19T00:29:44+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-57"
   }
  ],
  "projects": [
@@ -1169,7 +1176,7 @@
    "qa": "113-shore",
    "status": "progress",
    "since": "2026-11-18T23:40:33+07:00",
-   "updatedAt": "2026-11-19T00:12:28+07:00"
+   "updatedAt": "2026-11-19T00:29:44+07:00"
   },
   {
    "id": "tide-56b",
