@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T00:12:11+07:00",
+ "updatedAt": "2026-11-19T00:12:51+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -161,9 +161,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-57 · ส่ง PROGRESS",
-   "since": "2026-11-18T23:57:50+07:00",
+   "since": "2026-11-19T00:12:51+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -942,27 +942,6 @@
    "brief": "tide-55"
   },
   {
-   "ts": "2026-11-18T23:42:35+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-18T23:42:39+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-18T23:42:43+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-18T23:43:15+07:00",
    "kind": "hey",
    "from": "114-eddy-omx",
@@ -975,6 +954,13 @@
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": "tide-55"
+  },
+  {
+   "ts": "2026-11-18T23:43:58+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "10-monday",
+   "brief": ""
   },
   {
    "ts": "2026-11-18T23:44:53+07:00",
@@ -1135,6 +1121,20 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": "tide-57"
+  },
+  {
+   "ts": "2026-11-19T00:12:24+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-19T00:12:28+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": "tide-57"
   }
  ],
@@ -1316,7 +1316,7 @@
    "qa": "113-shore",
    "status": "progress",
    "since": "2026-11-18T23:40:33+07:00",
-   "updatedAt": "2026-11-18T23:53:44+07:00"
+   "updatedAt": "2026-11-19T00:12:28+07:00"
   },
   {
    "id": "tide-56b",
@@ -1381,7 +1381,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "progress",
-   "since": "2026-11-17T00:12:43+07:00",
+   "since": "2026-11-17T00:13:27+07:00",
    "updatedAt": "2026-11-17T00:47:17+07:00"
   }
  ],
