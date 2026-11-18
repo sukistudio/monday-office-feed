@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-18T22:34:09+07:00",
+ "updatedAt": "2026-11-18T22:36:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -29,7 +29,6 @@
    "task": "รับงาน",
    "since": "2026-11-17T17:27:54+07:00",
    "model": "opus",
-   "brief": "tide-49",
    "engine": "claude"
   },
   {
@@ -187,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-16T22:36:02+07:00",
-   "kind": "brief",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
   {
    "ts": "2026-11-16T22:39:49+07:00",
    "kind": "done",
@@ -1564,7 +1556,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-16T22:35:58+07:00",
+   "since": "2026-11-16T22:36:24+07:00",
    "updatedAt": "2026-11-16T22:53:47+07:00"
   },
   {
@@ -1583,13 +1575,11 @@
    "title": "tide-49",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-16T22:34:33+07:00",
-   "updatedAt": "2026-11-16T22:36:06+07:00"
+   "since": "2026-11-16T22:41:18+07:00",
+   "updatedAt": "2026-11-16T22:41:18+07:00"
   }
  ],
  "warnings": [
