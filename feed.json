@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T16:11:22+07:00",
+ "updatedAt": "2026-11-19T16:14:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T16:14:15+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
   {
    "ts": "2026-11-17T16:16:36+07:00",
    "kind": "brief",
@@ -718,6 +711,17 @@
    "updatedAt": "2026-11-18T02:56:11+07:00"
   },
   {
+   "id": "tide-55e",
+   "title": "tide-55e",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "153-plumb",
+   "status": "open",
+   "since": "2026-11-17T18:32:51+07:00",
+   "updatedAt": "2026-11-17T18:32:51+07:00"
+  },
+  {
    "id": "tide-56",
    "title": "tide-56",
    "project": null,
@@ -727,17 +731,6 @@
    "status": "done",
    "since": "2026-11-17T17:18:16+07:00",
    "updatedAt": "2026-11-17T18:30:49+07:00"
-  },
-  {
-   "id": "tide-55e",
-   "title": "tide-55e",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "153-plumb",
-   "status": "open",
-   "since": "2026-11-17T16:14:11+07:00",
-   "updatedAt": "2026-11-17T16:14:11+07:00"
   }
  ],
  "warnings": [
