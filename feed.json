@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T22:04:06+07:00",
+ "updatedAt": "2026-11-19T22:04:46+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-19T14:05:02+07:00",
+   "since": "2026-11-19T22:04:46+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -331,6 +331,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-57"
+  },
+  {
+   "ts": "2026-11-19T22:04:09+07:00",
+   "kind": "hey",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
