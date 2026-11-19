@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T18:43:42+07:00",
+ "updatedAt": "2026-11-19T18:44:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T18:44:46+07:00",
-   "kind": "stuck",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-56b"
-  },
   {
    "ts": "2026-11-18T02:56:11+07:00",
    "kind": "done",
@@ -539,7 +532,7 @@
    "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-17T18:44:46+07:00",
+   "since": "2026-11-17T18:45:23+07:00",
    "updatedAt": "2026-11-18T02:56:11+07:00"
   }
  ],
