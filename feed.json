@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T15:26:51+07:00",
+ "updatedAt": "2026-11-19T15:28:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,20 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T15:27:37+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-55"
-  },
-  {
-   "ts": "2026-11-17T15:27:41+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": "tide-55"
-  },
   {
    "ts": "2026-11-17T15:28:06+07:00",
    "kind": "ack",
@@ -898,9 +884,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-17T15:27:02+07:00",
+   "since": "2026-11-17T15:28:06+07:00",
    "updatedAt": "2026-11-17T15:52:44+07:00"
   },
   {
