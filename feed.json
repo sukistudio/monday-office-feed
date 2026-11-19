@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T17:41:32+07:00",
+ "updatedAt": "2026-11-19T17:44:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "idle",
-   "task": "รับงาน",
+   "task": "",
    "since": "2026-11-17T17:27:54+07:00",
    "model": "opus",
    "engine": "claude"
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T17:44:26+07:00",
-   "kind": "ack",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-11-17T17:46:22+07:00",
    "kind": "ack",
@@ -624,7 +617,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-17T17:44:08+07:00",
+   "since": "2026-11-17T17:55:15+07:00",
    "updatedAt": "2026-11-17T18:30:49+07:00"
   }
  ],
