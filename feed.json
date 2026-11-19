@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T15:31:20+07:00",
+ "updatedAt": "2026-11-19T15:34:20+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,7 +34,7 @@
   {
    "id": "112-swell",
    "status": "idle",
-   "task": "tide-55 · รับงาน",
+   "task": "",
    "since": "2026-11-17T15:41:44+07:00",
    "model": "opus",
    "engine": "claude"
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T15:34:08+07:00",
-   "kind": "ack",
-   "from": "112-swell",
-   "to": "111-ripple",
-   "brief": "tide-55"
-  },
   {
    "ts": "2026-11-17T15:38:11+07:00",
    "kind": "qa-pass",
@@ -844,7 +837,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-17T15:33:19+07:00",
+   "since": "2026-11-17T15:36:31+07:00",
    "updatedAt": "2026-11-17T15:52:44+07:00"
   },
   {
