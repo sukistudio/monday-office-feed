@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T18:23:59+07:00",
+ "updatedAt": "2026-11-19T18:27:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T18:27:13+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-56"
-  },
   {
    "ts": "2026-11-17T18:30:40+07:00",
    "kind": "done",
@@ -582,7 +575,7 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "done",
-   "since": "2026-11-17T18:27:13+07:00",
+   "since": "2026-11-17T18:30:40+07:00",
    "updatedAt": "2026-11-17T18:30:49+07:00"
   }
  ],
