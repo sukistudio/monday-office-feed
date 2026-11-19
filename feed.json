@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-19T16:20:54+07:00",
+ "updatedAt": "2026-11-19T16:21:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-17T16:21:07+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
   {
    "ts": "2026-11-17T16:33:01+07:00",
    "kind": "done",
