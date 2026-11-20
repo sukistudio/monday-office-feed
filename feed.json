@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:03:07+07:00",
+ "updatedAt": "2026-11-20T13:03:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-20T13:02:32+07:00",
+   "since": "2026-11-20T13:03:47+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -59,7 +59,7 @@
   {
    "id": "121-glow",
    "status": "working",
-   "task": "",
+   "task": "beam-11 · ส่ง PROGRESS",
    "since": "2026-11-20T13:00:38+07:00",
    "model": "opus",
    "brief": "beam-11",
@@ -155,9 +155,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "tide-55 · ตรวจผ่าน",
-   "since": "2026-11-19T00:33:42+07:00",
+   "since": "2026-11-20T13:03:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -508,6 +508,34 @@
    "from": "15-atlas",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:03:10+07:00",
+   "kind": "hey",
+   "from": "142-chart",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:03:14+07:00",
+   "kind": "done",
+   "from": "142-chart",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:03:31+07:00",
+   "kind": "hey",
+   "from": "15-atlas",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:03:33+07:00",
+   "kind": "progress",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "beam-11"
   }
  ],
  "projects": [
@@ -685,7 +713,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "153-plumb",
    "status": "open",
    "since": "2026-11-20T12:58:43+07:00",
    "updatedAt": "2026-11-20T12:58:43+07:00"
