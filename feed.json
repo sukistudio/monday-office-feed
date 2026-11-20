@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T12:59:24+07:00",
+ "updatedAt": "2026-11-20T13:00:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-20T12:55:43+07:00",
+   "since": "2026-11-20T13:00:03+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-57 · ส่งงาน DONE",
-   "since": "2026-11-20T12:50:53+07:00",
+   "since": "2026-11-20T13:00:38+07:00",
    "model": "fable",
    "brief": "tide-58",
    "engine": "claude"
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "",
+   "task": "beam-11 · แจกงาน",
    "since": "2026-11-20T12:55:08+07:00",
    "model": "fable",
    "brief": "beam-11",
@@ -58,18 +58,18 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-14T10:40:17+07:00",
+   "since": "2026-11-20T13:00:38+07:00",
    "model": "opus",
    "brief": "beam-11",
    "engine": "claude"
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-13T04:31:44+07:00",
+   "since": "2026-11-20T13:00:38+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -466,6 +466,34 @@
    "from": "11-tide",
    "to": "15-atlas",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:00:04+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:00:14+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-20T13:00:18+07:00",
+   "kind": "brief",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-20T13:00:32+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
@@ -656,7 +684,7 @@
    "assignees": [
     "121-glow"
    ],
-   "qa": null,
+   "qa": "123-pulse",
    "status": "open",
    "since": "2026-11-20T12:56:08+07:00",
    "updatedAt": "2026-11-20T12:56:08+07:00"
