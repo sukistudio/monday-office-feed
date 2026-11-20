@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:44:31+07:00",
+ "updatedAt": "2026-11-20T13:46:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-57 · ตรวจผ่าน",
-   "since": "2026-11-20T13:44:31+07:00",
+   "since": "2026-11-20T13:46:21+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -474,13 +474,6 @@
    "brief": "beam-12"
   },
   {
-   "ts": "2026-11-20T13:15:04+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-20T13:15:13+07:00",
    "kind": "done",
    "from": "14-horizon",
@@ -488,21 +481,14 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-20T13:15:31+07:00",
+   "ts": "2026-11-20T13:17:17+07:00",
    "kind": "hey",
    "from": "12-beam",
    "to": "121-glow",
    "brief": ""
   },
   {
-   "ts": "2026-11-20T13:15:36+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T13:15:55+07:00",
+   "ts": "2026-11-20T13:17:24+07:00",
    "kind": "hey",
    "from": "121-glow",
    "to": "12-beam",
