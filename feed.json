@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T16:54:33+07:00",
+ "updatedAt": "2026-11-20T16:58:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -675,20 +675,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-59b"
-  },
-  {
-   "ts": "2026-11-20T16:28:18+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T16:28:22+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
   }
  ],
  "projects": [
