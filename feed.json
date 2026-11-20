@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:15:06+07:00",
+ "updatedAt": "2026-11-20T13:15:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -100,7 +100,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ส่งงาน DONE",
    "since": "2026-11-20T13:11:17+07:00",
    "model": "fable",
    "engine": "claude"
@@ -724,6 +724,20 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:15:13+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:15:31+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
    "brief": ""
   }
  ],
