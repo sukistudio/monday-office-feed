@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T07:00:52+07:00",
+ "updatedAt": "2026-11-20T07:05:01+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -324,13 +324,6 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-57"
-  },
-  {
-   "ts": "2026-11-20T06:31:18+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
   },
   {
    "ts": "2026-11-20T06:35:01+07:00",
