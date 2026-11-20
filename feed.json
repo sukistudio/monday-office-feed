@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T15:50:17+07:00",
+ "updatedAt": "2026-11-20T15:52:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-59 · ส่ง PROGRESS",
-   "since": "2026-11-20T15:47:52+07:00",
+   "since": "2026-11-20T15:51:32+07:00",
    "model": "codex",
    "engine": "codex"
   },
