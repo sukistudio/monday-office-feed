@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:03:47+07:00",
+ "updatedAt": "2026-11-20T13:04:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-57 · ส่งงาน DONE",
+   "task": "tide-58 · รับงาน",
    "since": "2026-11-20T13:01:52+07:00",
    "model": "fable",
    "brief": "tide-58",
@@ -58,9 +58,9 @@
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "beam-11 · ส่ง PROGRESS",
-   "since": "2026-11-20T13:00:38+07:00",
+   "since": "2026-11-20T13:04:26+07:00",
    "model": "opus",
    "brief": "beam-11",
    "engine": "claude"
@@ -156,7 +156,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "tide-55 · ตรวจผ่าน",
+   "task": "tide-58 · ตรวจผ่าน",
    "since": "2026-11-20T13:03:47+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -536,6 +536,34 @@
    "from": "121-glow",
    "to": "12-beam",
    "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-20T13:03:59+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:04:02+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:04:06+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": "tide-58"
+  },
+  {
+   "ts": "2026-11-20T13:04:24+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": "tide-58"
   }
  ],
  "projects": [
@@ -716,7 +744,7 @@
    "qa": "153-plumb",
    "status": "open",
    "since": "2026-11-20T12:58:43+07:00",
-   "updatedAt": "2026-11-20T12:58:43+07:00"
+   "updatedAt": "2026-11-20T13:04:06+07:00"
   },
   {
    "id": "beam-11",
