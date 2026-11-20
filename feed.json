@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:53:31+07:00",
+ "updatedAt": "2026-11-20T13:54:10+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-58 · ส่ง PROGRESS",
+   "task": "tide-58 · รับงาน",
    "since": "2026-11-20T13:50:30+07:00",
    "model": "fable",
    "brief": "tide-58",
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-58 · ส่งงาน DONE",
-   "since": "2026-11-20T13:52:18+07:00",
+   "since": "2026-11-20T13:54:10+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -682,6 +682,13 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-58"
+  },
+  {
+   "ts": "2026-11-20T13:53:51+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "15-atlas",
+   "brief": "tide-58"
   }
  ],
  "projects": [
@@ -854,6 +861,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-58",
+   "title": "tide-58",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "153-plumb",
+   "status": "open",
+   "since": "2026-11-20T12:58:43+07:00",
+   "updatedAt": "2026-11-20T13:53:51+07:00"
+  },
+  {
    "id": "beam-12",
    "title": "beam-12",
    "project": null,
@@ -863,17 +881,6 @@
    "status": "progress",
    "since": "2026-11-20T13:05:26+07:00",
    "updatedAt": "2026-11-20T13:32:42+07:00"
-  },
-  {
-   "id": "tide-58",
-   "title": "tide-58",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "153-plumb",
-   "status": "progress",
-   "since": "2026-11-20T12:58:43+07:00",
-   "updatedAt": "2026-11-20T13:28:20+07:00"
   },
   {
    "id": "beam-11",
