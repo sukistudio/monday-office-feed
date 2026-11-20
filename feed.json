@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T12:56:23+07:00",
+ "updatedAt": "2026-11-20T12:58:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-57 · ส่งงาน DONE",
    "since": "2026-11-20T12:50:53+07:00",
    "model": "fable",
-   "brief": "tide-55",
+   "brief": "tide-58",
    "engine": "claude"
   },
   {
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-57 · ส่ง PROGRESS",
-   "since": "2026-11-19T00:29:19+07:00",
+   "since": "2026-11-20T12:58:45+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -424,6 +424,34 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-20T12:56:46+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T12:57:41+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T12:57:50+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T12:58:43+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -595,6 +623,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-58",
+   "title": "tide-58",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-20T12:58:43+07:00",
+   "updatedAt": "2026-11-20T12:58:43+07:00"
+  },
   {
    "id": "beam-11",
    "title": "beam-11",
