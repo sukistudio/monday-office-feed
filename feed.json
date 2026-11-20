@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:19:27+07:00",
+ "updatedAt": "2026-11-20T13:20:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -332,13 +332,6 @@
    "kind": "done",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T12:49:39+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -767,6 +760,13 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": "beam-12"
+  },
+  {
+   "ts": "2026-11-20T13:19:30+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "123-pulse",
+   "brief": ""
   }
  ],
  "projects": [
