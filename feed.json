@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:37:48+07:00",
+ "updatedAt": "2026-11-20T13:39:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-58 · ส่งงาน DONE",
-   "since": "2026-11-20T13:06:24+07:00",
+   "since": "2026-11-20T13:39:36+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -155,7 +155,7 @@
   {
    "id": "153-plumb",
    "status": "working",
-   "task": "tide-58 · ตรวจไม่ผ่าน",
+   "task": "tide-58 · ตรวจผ่าน",
    "since": "2026-11-20T13:36:00+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -409,13 +409,6 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": "beam-11"
-  },
-  {
-   "ts": "2026-11-20T13:07:49+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-20T13:10:09+07:00",
@@ -738,6 +731,13 @@
    "from": "11-tide",
    "to": "153-plumb",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:39:31+07:00",
+   "kind": "qa-pass",
+   "from": "153-plumb",
+   "to": "15-atlas",
+   "brief": "tide-58"
   }
  ],
  "projects": [
