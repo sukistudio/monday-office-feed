@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T23:43:45+07:00",
+ "updatedAt": "2026-11-20T23:45:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-18T23:45:20+07:00",
-   "kind": "qa-pass",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": "tide-55"
-  },
   {
    "ts": "2026-11-18T23:46:01+07:00",
    "kind": "progress",
@@ -915,8 +908,8 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "open",
-   "since": "2026-11-18T23:43:58+07:00",
-   "updatedAt": "2026-11-18T23:43:58+07:00"
+   "since": "2026-11-18T23:46:08+07:00",
+   "updatedAt": "2026-11-18T23:46:08+07:00"
   }
  ],
  "warnings": [
