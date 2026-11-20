@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-21T06:35:38+07:00",
+ "updatedAt": "2026-11-21T06:39:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -549,13 +549,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-59b"
-  },
-  {
-   "ts": "2026-11-21T06:06:00+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
   }
  ],
  "projects": [
