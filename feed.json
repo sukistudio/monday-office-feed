@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:28:01+07:00",
+ "updatedAt": "2026-11-20T13:28:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -154,17 +154,17 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "tide-58 · ตรวจไม่ผ่าน",
-   "since": "2026-11-20T13:23:12+07:00",
+   "since": "2026-11-20T13:28:40+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-58 · ส่ง PROGRESS",
-   "since": "2026-11-20T13:23:12+07:00",
+   "since": "2026-11-20T13:28:40+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -338,20 +338,6 @@
    "kind": "done",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T12:58:01+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T12:58:43+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -773,6 +759,41 @@
    "from": "153-plumb",
    "to": "15-atlas",
    "brief": "tide-58"
+  },
+  {
+   "ts": "2026-11-20T13:28:07+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:28:11+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:28:15+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "153-plumb",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:28:17+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:28:20+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-58"
   }
  ],
  "projects": [
@@ -945,6 +966,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-58",
+   "title": "tide-58",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "153-plumb",
+   "status": "progress",
+   "since": "2026-11-20T12:58:43+07:00",
+   "updatedAt": "2026-11-20T13:28:20+07:00"
+  },
+  {
    "id": "beam-11",
    "title": "beam-11",
    "project": null,
@@ -967,17 +999,6 @@
    "status": "progress",
    "since": "2026-11-20T13:05:26+07:00",
    "updatedAt": "2026-11-20T13:19:27+07:00"
-  },
-  {
-   "id": "tide-58",
-   "title": "tide-58",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "153-plumb",
-   "status": "progress",
-   "since": "2026-11-20T12:58:43+07:00",
-   "updatedAt": "2026-11-20T13:07:23+07:00"
   },
   {
    "id": "tide-57",
