@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T14:14:09+07:00",
+ "updatedAt": "2026-11-20T14:14:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -154,17 +154,17 @@
   },
   {
    "id": "153-plumb",
-   "status": "idle",
+   "status": "working",
    "task": "tide-58 · ตรวจผ่าน",
-   "since": "2026-11-20T14:10:01+07:00",
+   "since": "2026-11-20T14:14:49+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-58 · ส่ง PROGRESS",
-   "since": "2026-11-20T14:08:48+07:00",
+   "since": "2026-11-20T14:14:49+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -688,6 +688,20 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T14:14:25+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T14:14:29+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "153-plumb",
    "brief": ""
   }
  ],
