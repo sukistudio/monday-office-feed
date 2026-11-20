@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T14:46:28+07:00",
+ "updatedAt": "2026-11-20T14:48:52+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "tide-58 · ส่งงาน DONE",
-   "since": "2026-11-20T14:46:28+07:00",
+   "since": "2026-11-20T14:47:42+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -154,9 +154,9 @@
   },
   {
    "id": "153-plumb",
-   "status": "working",
+   "status": "idle",
    "task": "tide-58 · ตรวจผ่าน",
-   "since": "2026-11-20T14:41:07+07:00",
+   "since": "2026-11-20T14:47:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
