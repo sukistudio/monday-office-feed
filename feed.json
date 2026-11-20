@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-20T13:10:37+07:00",
+ "updatedAt": "2026-11-20T13:11:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -59,7 +59,7 @@
   {
    "id": "121-glow",
    "status": "working",
-   "task": "beam-11 · ส่ง PROGRESS",
+   "task": "beam-11 · ส่งงาน DONE",
    "since": "2026-11-20T13:06:24+07:00",
    "model": "opus",
    "brief": "beam-11",
@@ -99,9 +99,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-20T13:08:53+07:00",
+   "since": "2026-11-20T13:11:17+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-20T13:06:24+07:00",
+   "since": "2026-11-20T13:11:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -325,13 +325,6 @@
    "kind": "ack",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T12:41:09+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -620,6 +613,27 @@
    "from": "12-beam",
    "to": "123-pulse",
    "brief": "beam-12"
+  },
+  {
+   "ts": "2026-11-20T13:10:57+07:00",
+   "kind": "hey",
+   "from": "142-chart",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:11:01+07:00",
+   "kind": "done",
+   "from": "142-chart",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-20T13:11:09+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "beam-11"
   }
  ],
  "projects": [
