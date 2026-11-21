@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-21T08:56:47+07:00",
+ "updatedAt": "2026-11-21T09:00:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "tide-58 · ส่งงาน DONE",
-   "since": "2026-11-20T14:53:49+07:00",
+   "since": "2026-11-21T09:00:19+07:00",
    "model": "fable",
    "engine": "claude"
   },
