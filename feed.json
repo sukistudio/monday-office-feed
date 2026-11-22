@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:22:24+07:00",
+ "updatedAt": "2026-11-23T02:24:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ส่งงาน DONE",
-   "since": "2026-11-23T02:13:12+07:00",
+   "since": "2026-11-23T02:23:04+07:00",
    "model": "fable",
    "brief": "tide-61",
    "engine": "claude"
@@ -98,10 +98,11 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
-   "task": "horizon-15 · ส่งงาน DONE",
-   "since": "2026-11-23T02:19:26+07:00",
+   "status": "working",
+   "task": "horizon-15 · รับงาน",
+   "since": "2026-11-23T02:23:04+07:00",
    "model": "fable",
+   "brief": "horizon-15",
    "engine": "claude"
   },
   {
@@ -122,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-23T02:16:17+07:00",
+   "since": "2026-11-23T02:24:13+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -182,6 +183,7 @@
    "task": "ส่ง PROGRESS",
    "since": "2026-11-23T02:05:08+07:00",
    "model": "codex",
+   "brief": "horizon-15",
    "engine": "codex"
   }
  ],
@@ -724,6 +726,27 @@
    "from": "14-horizon",
    "to": "141-scout",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:23:51+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:23:55+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:23:59+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": "horizon-15"
   }
  ],
  "projects": [
@@ -904,9 +927,9 @@
     "144-buoy-omx"
    ],
    "qa": null,
-   "status": "done",
+   "status": "open",
    "since": "2026-11-23T01:56:20+07:00",
-   "updatedAt": "2026-11-23T02:16:59+07:00"
+   "updatedAt": "2026-11-23T02:23:59+07:00"
   },
   {
    "id": "tide-61",
