@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:24:53+07:00",
+ "updatedAt": "2026-11-23T02:26:44+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-23T02:22:24+07:00",
+   "since": "2026-11-23T02:26:09+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่งงาน DONE",
-   "since": "2026-11-23T02:23:04+07:00",
+   "since": "2026-11-23T02:26:44+07:00",
    "model": "fable",
-   "brief": "tide-61",
+   "brief": "tide-62",
    "engine": "claude"
   },
   {
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "horizon-15 · รับงาน",
-   "since": "2026-11-23T02:23:04+07:00",
+   "since": "2026-11-23T02:26:09+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-23T02:24:13+07:00",
+   "since": "2026-11-23T02:25:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T02:05:08+07:00",
+   "since": "2026-11-23T02:26:44+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
@@ -476,13 +476,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T01:56:20+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T02:01:15+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -754,6 +747,20 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:25:07+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:25:23+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -925,6 +932,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-62",
+   "title": "tide-62",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-23T02:25:23+07:00",
+   "updatedAt": "2026-11-23T02:25:23+07:00"
+  },
   {
    "id": "horizon-15",
    "title": "horizon-15",
