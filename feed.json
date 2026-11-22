@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:40:44+07:00",
+ "updatedAt": "2026-11-22T10:41:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:37:46+07:00",
+   "since": "2026-11-22T10:41:23+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:36:32+07:00",
+   "since": "2026-11-22T10:41:23+07:00",
    "model": "codex",
    "engine": "codex"
   },
