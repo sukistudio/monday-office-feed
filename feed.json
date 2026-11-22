@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T13:25:20+07:00",
+ "updatedAt": "2026-11-22T13:27:44+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-20T13:27:40+07:00",
-   "kind": "qa-fail",
-   "from": "153-plumb",
-   "to": "15-atlas",
-   "brief": "tide-58"
-  },
   {
    "ts": "2026-11-20T13:28:20+07:00",
    "kind": "progress",
@@ -863,7 +856,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-20T13:27:40+07:00",
+   "since": "2026-11-20T13:28:07+07:00",
    "updatedAt": "2026-11-20T14:55:54+07:00"
   },
   {
