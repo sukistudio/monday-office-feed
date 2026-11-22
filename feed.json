@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:53:48+07:00",
+ "updatedAt": "2026-11-23T03:57:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -747,46 +747,11 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-23T03:26:14+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:26:19+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:26:23+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T03:26:32+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-23T03:27:32+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:27:36+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "144-buoy-omx",
-   "brief": ""
   },
   {
    "ts": "2026-11-23T03:27:44+07:00",
