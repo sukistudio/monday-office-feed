@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T15:50:34+07:00",
+ "updatedAt": "2026-11-22T15:53:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-20T15:53:25+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-59"
-  },
   {
    "ts": "2026-11-20T15:53:56+07:00",
    "kind": "progress",
@@ -711,7 +704,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "progress",
-   "since": "2026-11-20T15:53:25+07:00",
+   "since": "2026-11-20T15:53:56+07:00",
    "updatedAt": "2026-11-20T16:09:18+07:00"
   }
  ],
