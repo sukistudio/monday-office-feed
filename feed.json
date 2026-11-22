@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:37:09+07:00",
+ "updatedAt": "2026-11-23T03:39:32+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "horizon-15 · ส่งงาน DONE",
-   "since": "2026-11-23T03:34:00+07:00",
+   "since": "2026-11-23T03:37:49+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -702,20 +702,6 @@
    "kind": "progress",
    "from": "144-buoy-omx",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:07:37+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:07:41+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
    "brief": ""
   },
   {
