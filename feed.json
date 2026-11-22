@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:05:08+07:00",
+ "updatedAt": "2026-11-23T02:05:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -99,7 +99,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "ติด รอช่วย",
+   "task": "ส่ง PROGRESS",
    "since": "2026-11-23T01:52:55+07:00",
    "model": "fable",
    "brief": "horizon-15",
@@ -605,6 +605,13 @@
    "kind": "progress",
    "from": "144-buoy-omx",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:05:16+07:00",
+   "kind": "progress",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
    "brief": ""
   }
  ],
