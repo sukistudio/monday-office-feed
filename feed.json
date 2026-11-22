@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:00:54+07:00",
+ "updatedAt": "2026-11-23T03:01:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -796,6 +796,27 @@
    "from": "14-horizon",
    "to": "144-buoy-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:00:55+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": "horizon-15"
+  },
+  {
+   "ts": "2026-11-23T03:01:00+07:00",
+   "kind": "ack",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:01:13+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-62"
   }
  ],
  "projects": [
@@ -968,17 +989,6 @@
  ],
  "briefs": [
   {
-   "id": "tide-62",
-   "title": "tide-62",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-23T02:48:37+07:00"
-  },
-  {
    "id": "horizon-15",
    "title": "horizon-15",
    "project": null,
@@ -989,7 +999,18 @@
    "qa": null,
    "status": "open",
    "since": "2026-11-23T01:56:20+07:00",
-   "updatedAt": "2026-11-23T02:39:43+07:00"
+   "updatedAt": "2026-11-23T03:00:55+07:00"
+  },
+  {
+   "id": "tide-62",
+   "title": "tide-62",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-23T02:25:23+07:00",
+   "updatedAt": "2026-11-23T02:48:37+07:00"
   },
   {
    "id": "tide-61",
