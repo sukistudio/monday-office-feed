@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T09:55:17+07:00",
+ "updatedAt": "2026-11-22T09:57:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -49,9 +49,9 @@
   },
   {
    "id": "12-beam",
-   "status": "idle",
+   "status": "working",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T09:55:17+07:00",
+   "since": "2026-11-22T09:57:08+07:00",
    "model": "fable",
    "brief": "beam-12",
    "engine": "claude"
@@ -66,9 +66,9 @@
   },
   {
    "id": "123-pulse",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-22T09:54:41+07:00",
+   "since": "2026-11-22T09:57:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -730,6 +730,20 @@
    "kind": "hey",
    "from": "12-beam",
    "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T09:56:58+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T09:57:02+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
