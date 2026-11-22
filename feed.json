@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:09:45+07:00",
+ "updatedAt": "2026-11-22T10:11:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-22T10:09:06+07:00",
+   "since": "2026-11-22T10:10:24+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · รับงาน",
-   "since": "2026-11-22T10:08:32+07:00",
+   "since": "2026-11-22T10:10:58+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -51,7 +51,7 @@
    "id": "12-beam",
    "status": "working",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T10:08:32+07:00",
+   "since": "2026-11-22T10:11:33+07:00",
    "model": "fable",
    "brief": "beam-12",
    "engine": "claude"
@@ -551,34 +551,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-22T09:39:54+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T09:40:55+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T09:41:19+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T09:41:24+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-22T09:42:12+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -934,6 +906,13 @@
    "from": "121-glow",
    "to": "12-beam",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:11:21+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "beam-11"
   }
  ],
  "projects": [
