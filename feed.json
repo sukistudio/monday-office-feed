@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:07:18+07:00",
+ "updatedAt": "2026-11-22T10:09:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-22T10:06:04+07:00",
+   "since": "2026-11-22T10:09:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · รับงาน",
-   "since": "2026-11-22T10:07:18+07:00",
+   "since": "2026-11-22T10:08:32+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -50,26 +50,25 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "beam-11 · รับงาน",
-   "since": "2026-11-22T10:06:39+07:00",
+   "task": "beam-11 · ส่งงาน DONE",
+   "since": "2026-11-22T10:08:32+07:00",
    "model": "fable",
-   "brief": "beam-11",
+   "brief": "beam-12",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T10:07:18+07:00",
+   "since": "2026-11-22T10:09:06+07:00",
    "model": "opus",
-   "brief": "beam-11",
    "engine": "claude"
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-22T10:07:18+07:00",
+   "since": "2026-11-22T10:09:06+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -163,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T09:50:16+07:00",
+   "since": "2026-11-22T10:07:57+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -545,13 +544,6 @@
    "brief": "tide-59b"
   },
   {
-   "ts": "2026-11-22T09:38:55+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-22T09:39:21+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -914,6 +906,27 @@
    "from": "12-beam",
    "to": "121-glow",
    "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T10:08:54+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:08:58+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:09:03+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "beam-11"
   }
  ],
  "projects": [
@@ -1094,9 +1107,9 @@
     "121-glow"
    ],
    "qa": "123-pulse",
-   "status": "open",
+   "status": "done",
    "since": "2026-11-20T12:56:08+07:00",
-   "updatedAt": "2026-11-22T10:07:08+07:00"
+   "updatedAt": "2026-11-22T10:09:03+07:00"
   },
   {
    "id": "tide-60",
