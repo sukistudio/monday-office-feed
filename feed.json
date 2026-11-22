@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:38:08+07:00",
+ "updatedAt": "2026-11-23T02:39:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ตรวจผ่าน",
-   "since": "2026-11-23T02:37:29+07:00",
+   "since": "2026-11-23T02:38:47+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T02:38:08+07:00",
+   "since": "2026-11-23T02:39:56+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
@@ -782,6 +782,34 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-23T02:39:30+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:39:34+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:39:39+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:39:43+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": "horizon-15"
   }
  ],
  "projects": [
@@ -954,6 +982,19 @@
  ],
  "briefs": [
   {
+   "id": "horizon-15",
+   "title": "horizon-15",
+   "project": null,
+   "lead": "14-horizon",
+   "assignees": [
+    "144-buoy-omx"
+   ],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-23T01:56:20+07:00",
+   "updatedAt": "2026-11-23T02:39:43+07:00"
+  },
+  {
    "id": "tide-62",
    "title": "tide-62",
    "project": null,
@@ -974,19 +1015,6 @@
    "status": "done",
    "since": "2026-11-23T02:11:54+07:00",
    "updatedAt": "2026-11-23T02:34:43+07:00"
-  },
-  {
-   "id": "horizon-15",
-   "title": "horizon-15",
-   "project": null,
-   "lead": "14-horizon",
-   "assignees": [
-    "144-buoy-omx"
-   ],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-23T01:56:20+07:00",
-   "updatedAt": "2026-11-23T02:23:59+07:00"
   },
   {
    "id": "beam-11",
