@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T13:19:56+07:00",
+ "updatedAt": "2026-11-22T13:21:11+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-20T13:20:50+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "beam-11"
-  },
   {
    "ts": "2026-11-20T13:27:40+07:00",
    "kind": "qa-fail",
@@ -837,7 +830,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "done",
-   "since": "2026-11-20T13:20:50+07:00",
+   "since": "2026-11-20T13:21:47+07:00",
    "updatedAt": "2026-11-22T10:15:44+07:00"
   },
   {
