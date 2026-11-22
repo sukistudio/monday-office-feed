@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:24:13+07:00",
+ "updatedAt": "2026-11-23T02:24:53+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -747,6 +747,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": "horizon-15"
+  },
+  {
+   "ts": "2026-11-23T02:24:17+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
