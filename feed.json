@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T12:55:26+07:00",
+ "updatedAt": "2026-11-22T12:59:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -988,12 +988,10 @@
    "title": "beam-11",
    "project": null,
    "lead": "12-beam",
-   "assignees": [
-    "121-glow"
-   ],
+   "assignees": [],
    "qa": "123-pulse",
    "status": "done",
-   "since": "2026-11-20T12:56:08+07:00",
+   "since": "2026-11-20T13:00:14+07:00",
    "updatedAt": "2026-11-22T10:15:44+07:00"
   },
   {
@@ -1026,7 +1024,7 @@
    "assignees": [],
    "qa": "153-plumb",
    "status": "done",
-   "since": "2026-11-20T12:58:43+07:00",
+   "since": "2026-11-20T13:01:44+07:00",
    "updatedAt": "2026-11-20T14:55:54+07:00"
   },
   {
