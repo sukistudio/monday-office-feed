@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T13:10:35+07:00",
+ "updatedAt": "2026-11-22T13:11:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -115,7 +115,7 @@
   {
    "id": "142-chart",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-20T13:12:30+07:00",
    "model": "opus",
    "engine": "claude"
@@ -186,20 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-20T13:11:01+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-20T13:11:09+07:00",
-   "kind": "done",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": "beam-11"
-  },
   {
    "ts": "2026-11-20T13:12:16+07:00",
    "kind": "ack",
@@ -914,7 +900,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "done",
-   "since": "2026-11-20T13:11:09+07:00",
+   "since": "2026-11-20T13:12:33+07:00",
    "updatedAt": "2026-11-22T10:15:44+07:00"
   },
   {
