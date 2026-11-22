@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:36:32+07:00",
+ "updatedAt": "2026-11-22T10:38:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:35:53+07:00",
+   "since": "2026-11-22T10:37:46+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -705,39 +705,11 @@
    "brief": "beam-11"
   },
   {
-   "ts": "2026-11-22T10:06:49+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:06:53+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:06:54+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-22T10:07:08+07:00",
    "kind": "ack",
    "from": "12-beam",
    "to": "121-glow",
    "brief": "beam-11"
-  },
-  {
-   "ts": "2026-11-22T10:08:54+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
   },
   {
    "ts": "2026-11-22T10:08:58+07:00",
