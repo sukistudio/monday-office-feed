@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:15:25+07:00",
+ "updatedAt": "2026-11-23T03:16:05+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -929,6 +929,20 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:15:32+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-23T03:15:58+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-62"
   }
  ],
  "projects": [
@@ -1109,7 +1123,7 @@
    "qa": "113-shore",
    "status": "progress",
    "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-23T03:03:15+07:00"
+   "updatedAt": "2026-11-23T03:15:58+07:00"
   },
   {
    "id": "horizon-15",
