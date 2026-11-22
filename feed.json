@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:33:13+07:00",
+ "updatedAt": "2026-11-23T02:33:52+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-60 · ตรวจผ่าน",
+   "task": "tide-61 · ตรวจผ่าน",
    "since": "2026-11-23T02:33:13+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -747,6 +747,13 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:33:38+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-61"
   }
  ],
  "projects": [
