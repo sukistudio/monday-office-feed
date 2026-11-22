@@ -1,24 +1,24 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:02:16+07:00",
+ "updatedAt": "2026-11-22T10:03:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-22T10:00:26+07:00",
+   "since": "2026-11-22T10:03:30+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:01:02+07:00",
+   "since": "2026-11-22T10:03:30+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -50,26 +50,25 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "beam-11 · รับงาน",
+   "task": "beam-11 · ส่งงาน DONE",
    "since": "2026-11-22T10:01:36+07:00",
    "model": "fable",
-   "brief": "beam-11",
+   "brief": "beam-12",
    "engine": "claude"
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T09:59:07+07:00",
+   "since": "2026-11-22T10:02:55+07:00",
    "model": "opus",
-   "brief": "beam-11",
    "engine": "claude"
   },
   {
    "id": "123-pulse",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-22T10:02:16+07:00",
+   "since": "2026-11-22T10:03:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -830,6 +829,20 @@
    "from": "12-beam",
    "to": "121-glow",
    "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T10:03:20+07:00",
+   "kind": "done",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T10:03:24+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1010,9 +1023,9 @@
     "121-glow"
    ],
    "qa": "123-pulse",
-   "status": "open",
+   "status": "done",
    "since": "2026-11-20T12:56:08+07:00",
-   "updatedAt": "2026-11-22T10:01:54+07:00"
+   "updatedAt": "2026-11-22T10:03:20+07:00"
   },
   {
    "id": "tide-60",
