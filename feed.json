@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:28:27+07:00",
+ "updatedAt": "2026-11-23T03:30:15+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-23T03:27:48+07:00",
+   "since": "2026-11-23T03:30:15+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ตรวจผ่าน",
-   "since": "2026-11-23T03:02:13+07:00",
+   "since": "2026-11-23T03:30:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-23T03:26:29+07:00",
+   "since": "2026-11-23T03:29:41+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -637,13 +637,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T03:00:51+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T03:00:55+07:00",
    "kind": "ack",
    "from": "14-horizon",
@@ -1040,6 +1033,13 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:30:13+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
    "brief": ""
   }
  ],
