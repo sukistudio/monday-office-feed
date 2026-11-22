@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:13:32+07:00",
+ "updatedAt": "2026-11-22T10:14:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ตรวจผ่าน",
-   "since": "2026-11-22T10:07:18+07:00",
+   "since": "2026-11-22T10:14:12+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -976,6 +976,20 @@
    "kind": "hey",
    "from": "121-glow",
    "to": "12-beam",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:14:03+07:00",
+   "kind": "done",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T10:14:07+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "123-pulse",
    "brief": ""
   }
  ],
