@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:29:07+07:00",
+ "updatedAt": "2026-11-23T02:33:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
-   "task": "tide-60 · ส่งงาน DONE",
-   "since": "2026-11-23T02:26:44+07:00",
+   "status": "working",
+   "task": "tide-62 · แจกงาน",
+   "since": "2026-11-23T02:33:13+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ตรวจผ่าน",
-   "since": "2026-11-22T10:51:02+07:00",
+   "since": "2026-11-23T02:33:13+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:45:06+07:00",
+   "since": "2026-11-23T02:33:13+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T02:28:33+07:00",
+   "since": "2026-11-23T02:33:13+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
@@ -476,48 +476,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T02:01:15+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:01:19+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:01:23+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:01:30+07:00",
-   "kind": "hey",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:01:34+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:03:09+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T02:03:55+07:00",
    "kind": "stuck",
    "from": "144-buoy-omx",
@@ -761,6 +719,34 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:32:49+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-23T02:32:53+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:32:57+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:32:59+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
@@ -962,7 +948,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-11-23T02:11:54+07:00",
    "updatedAt": "2026-11-23T02:11:54+07:00"
