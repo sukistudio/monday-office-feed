@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:14:28+07:00",
+ "updatedAt": "2026-11-23T02:16:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-23T02:11:19+07:00",
+   "since": "2026-11-23T02:16:17+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -736,6 +736,34 @@
   },
   {
    "ts": "2026-11-23T02:13:49+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:15:00+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:15:04+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:15:33+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:16:09+07:00",
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
