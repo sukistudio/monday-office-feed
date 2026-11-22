@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:24:40+07:00",
+ "updatedAt": "2026-11-23T03:26:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-23T03:11:14+07:00",
+   "since": "2026-11-23T03:26:29+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
@@ -98,18 +98,18 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-23T03:20:29+07:00",
+   "since": "2026-11-23T03:26:29+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-23T03:12:27+07:00",
+   "since": "2026-11-23T03:26:29+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-23T03:18:38+07:00",
+   "since": "2026-11-23T03:26:29+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -630,31 +630,10 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-23T02:56:42+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T02:58:00+07:00",
    "kind": "progress",
    "from": "144-buoy-omx",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:59:21+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:59:25+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -1026,6 +1005,27 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:26:14+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:26:19+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:26:23+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
