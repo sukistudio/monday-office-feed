@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:17:59+07:00",
+ "updatedAt": "2026-11-23T03:19:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-23T03:16:44+07:00",
+   "since": "2026-11-23T03:18:38+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -623,13 +623,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-23T02:48:33+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T02:48:37+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -984,6 +977,34 @@
    "kind": "hey",
    "from": "143-sextant",
    "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:18:06+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:18:11+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:18:49+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:18:53+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
