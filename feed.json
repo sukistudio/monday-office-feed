@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:03:28+07:00",
+ "updatedAt": "2026-11-23T03:04:09+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "horizon-15 · รับงาน",
-   "since": "2026-11-23T03:02:13+07:00",
+   "since": "2026-11-23T03:04:09+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "working",
-   "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T03:02:50+07:00",
+   "status": "idle",
+   "task": "ส่งงาน DONE",
+   "since": "2026-11-23T03:04:09+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
@@ -828,6 +828,27 @@
   {
    "ts": "2026-11-23T03:03:19+07:00",
    "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:03:44+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:03:48+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:03:57+07:00",
+   "kind": "done",
    "from": "144-buoy-omx",
    "to": "14-horizon",
    "brief": ""
