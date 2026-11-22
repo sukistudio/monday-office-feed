@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:17:27+07:00",
+ "updatedAt": "2026-11-22T10:19:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-60 · รับงาน",
-   "since": "2026-11-22T10:16:07+07:00",
+   "since": "2026-11-22T10:19:49+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -1035,6 +1035,13 @@
   },
   {
    "ts": "2026-11-22T10:17:23+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:19:31+07:00",
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
