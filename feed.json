@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:01:33+07:00",
+ "updatedAt": "2026-11-23T03:02:50+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ตรวจผ่าน",
-   "since": "2026-11-23T02:59:40+07:00",
+   "since": "2026-11-23T03:02:13+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "horizon-15 · รับงาน",
-   "since": "2026-11-23T03:00:19+07:00",
+   "since": "2026-11-23T03:02:13+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-23T03:00:19+07:00",
+   "since": "2026-11-23T03:02:13+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-23T03:00:19+07:00",
+   "since": "2026-11-23T03:02:50+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T02:59:40+07:00",
+   "since": "2026-11-23T03:02:50+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
@@ -817,6 +817,13 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-23T03:02:44+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
   }
  ],
  "projects": [
