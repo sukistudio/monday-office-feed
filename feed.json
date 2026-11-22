@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:49:10+07:00",
+ "updatedAt": "2026-11-23T02:51:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T02:39:56+07:00",
+   "since": "2026-11-23T02:50:59+07:00",
    "model": "codex",
    "brief": "horizon-15",
    "engine": "codex"
