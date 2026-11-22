@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:11:19+07:00",
+ "updatedAt": "2026-11-23T02:11:58+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-60 · ส่งงาน DONE",
    "since": "2026-11-23T02:11:19+07:00",
    "model": "fable",
-   "brief": "tide-60",
+   "brief": "tide-61",
    "engine": "claude"
   },
   {
@@ -676,6 +676,20 @@
    "from": "142-chart",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:11:40+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:11:54+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -847,6 +861,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-61",
+   "title": "tide-61",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-23T02:11:54+07:00",
+   "updatedAt": "2026-11-23T02:11:54+07:00"
+  },
   {
    "id": "horizon-15",
    "title": "horizon-15",
