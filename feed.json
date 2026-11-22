@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:06:27+07:00",
+ "updatedAt": "2026-11-23T02:08:50+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-23T01:57:47+07:00",
+   "since": "2026-11-23T02:08:15+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -100,16 +100,16 @@
    "id": "14-horizon",
    "status": "working",
    "task": "ส่ง PROGRESS",
-   "since": "2026-11-23T01:52:55+07:00",
+   "since": "2026-11-23T02:08:50+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-23T02:01:22+07:00",
+   "since": "2026-11-23T02:07:40+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -625,6 +625,13 @@
    "ts": "2026-11-23T02:06:26+07:00",
    "kind": "done",
    "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:08:36+07:00",
+   "kind": "progress",
+   "from": "144-buoy-omx",
    "to": "14-horizon",
    "brief": ""
   }
