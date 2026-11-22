@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T06:29:59+07:00",
+ "updatedAt": "2026-11-23T06:34:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -782,31 +782,24 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-23T06:03:06+07:00",
+   "ts": "2026-11-23T06:04:12+07:00",
    "kind": "hey",
    "from": "141-scout",
    "to": "143-sextant",
    "brief": ""
   },
   {
-   "ts": "2026-11-23T06:03:10+07:00",
+   "ts": "2026-11-23T06:04:16+07:00",
    "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
   },
   {
-   "ts": "2026-11-23T06:03:58+07:00",
+   "ts": "2026-11-23T06:04:23+07:00",
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T06:04:02+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "141-scout",
    "brief": ""
   },
   {
