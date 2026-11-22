@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T01:47:22+07:00",
+ "updatedAt": "2026-11-23T01:48:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่งงาน DONE",
-   "since": "2026-11-23T01:46:47+07:00",
+   "since": "2026-11-23T01:48:36+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -53,6 +53,7 @@
    "task": "beam-11 · ส่งงาน DONE",
    "since": "2026-11-23T01:46:47+07:00",
    "model": "fable",
+   "brief": "beam-11",
    "engine": "claude"
   },
   {
@@ -121,9 +122,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-22T09:42:21+07:00",
+   "since": "2026-11-23T01:48:36+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -485,6 +486,41 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:48:03+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:48:07+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:48:11+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:48:31+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:48:35+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -657,6 +693,17 @@
  ],
  "briefs": [
   {
+   "id": "beam-11",
+   "title": "beam-11",
+   "project": null,
+   "lead": "12-beam",
+   "assignees": [],
+   "qa": "123-pulse",
+   "status": "open",
+   "since": "2026-11-22T09:38:55+07:00",
+   "updatedAt": "2026-11-23T01:48:03+07:00"
+  },
+  {
    "id": "tide-60",
    "title": "tide-60",
    "project": null,
@@ -666,17 +713,6 @@
    "status": "open",
    "since": "2026-11-22T09:41:24+07:00",
    "updatedAt": "2026-11-23T01:47:05+07:00"
-  },
-  {
-   "id": "beam-11",
-   "title": "beam-11",
-   "project": null,
-   "lead": "12-beam",
-   "assignees": [],
-   "qa": "123-pulse",
-   "status": "done",
-   "since": "2026-11-22T09:38:55+07:00",
-   "updatedAt": "2026-11-22T10:15:44+07:00"
   }
  ],
  "warnings": [
