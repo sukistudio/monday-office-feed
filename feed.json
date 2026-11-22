@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:41:23+07:00",
+ "updatedAt": "2026-11-22T10:42:03+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-60 · ตรวจผ่าน",
+   "task": "tide-60 · ตรวจไม่ผ่าน",
    "since": "2026-11-22T10:40:10+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:41:23+07:00",
+   "since": "2026-11-22T10:42:03+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -726,13 +726,6 @@
    "brief": "beam-11"
   },
   {
-   "ts": "2026-11-22T10:11:41+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-22T10:11:55+07:00",
    "kind": "ack",
    "from": "12-beam",
@@ -789,6 +782,13 @@
    "brief": "tide-60"
   },
   {
+   "ts": "2026-11-22T10:13:15+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-22T10:13:20+07:00",
    "kind": "hey",
    "from": "121-glow",
@@ -806,13 +806,6 @@
    "ts": "2026-11-22T10:14:07+07:00",
    "kind": "hey",
    "from": "121-glow",
-   "to": "123-pulse",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:14:23+07:00",
-   "kind": "hey",
-   "from": "12-beam",
    "to": "123-pulse",
    "brief": ""
   },
@@ -835,6 +828,13 @@
    "kind": "hey",
    "from": "12-beam",
    "to": "121-glow",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:15:52+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
    "brief": ""
   },
   {
@@ -933,6 +933,20 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:41:26+07:00",
+   "kind": "qa-fail",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-60"
+  },
+  {
+   "ts": "2026-11-22T10:41:37+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
    "brief": ""
   }
  ],
