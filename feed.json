@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:36:29+07:00",
+ "updatedAt": "2026-11-23T03:37:09+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -99,10 +99,9 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "รับงาน",
+   "task": "horizon-15 · ส่งงาน DONE",
    "since": "2026-11-23T03:34:00+07:00",
    "model": "fable",
-   "brief": "horizon-15",
    "engine": "claude"
   },
   {
@@ -183,7 +182,6 @@
    "task": "ส่ง PROGRESS",
    "since": "2026-11-23T03:35:19+07:00",
    "model": "codex",
-   "brief": "horizon-15",
    "engine": "codex"
   }
  ],
@@ -707,13 +705,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T03:06:53+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T03:07:37+07:00",
    "kind": "hey",
    "from": "14-horizon",
@@ -1027,6 +1018,20 @@
    "from": "14-horizon",
    "to": "144-buoy-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:36:56+07:00",
+   "kind": "done",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": "horizon-15"
+  },
+  {
+   "ts": "2026-11-23T03:37:00+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1199,6 +1204,19 @@
  ],
  "briefs": [
   {
+   "id": "horizon-15",
+   "title": "horizon-15",
+   "project": null,
+   "lead": "14-horizon",
+   "assignees": [
+    "144-buoy-omx"
+   ],
+   "qa": null,
+   "status": "done",
+   "since": "2026-11-23T01:56:20+07:00",
+   "updatedAt": "2026-11-23T03:36:56+07:00"
+  },
+  {
    "id": "tide-62",
    "title": "tide-62",
    "project": null,
@@ -1208,19 +1226,6 @@
    "status": "open",
    "since": "2026-11-23T02:25:23+07:00",
    "updatedAt": "2026-11-23T03:20:08+07:00"
-  },
-  {
-   "id": "horizon-15",
-   "title": "horizon-15",
-   "project": null,
-   "lead": "14-horizon",
-   "assignees": [
-    "144-buoy-omx"
-   ],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-23T01:56:20+07:00",
-   "updatedAt": "2026-11-23T03:00:55+07:00"
   },
   {
    "id": "tide-61",
