@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T01:55:53+07:00",
+ "updatedAt": "2026-11-23T01:56:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-23T01:54:09+07:00",
+   "since": "2026-11-23T01:56:33+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -102,6 +102,7 @@
    "task": "รับงาน",
    "since": "2026-11-23T01:52:55+07:00",
    "model": "fable",
+   "brief": "horizon-15",
    "engine": "claude"
   },
   {
@@ -535,6 +536,13 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-23T01:56:20+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -706,6 +714,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "horizon-15",
+   "title": "horizon-15",
+   "project": null,
+   "lead": "14-horizon",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-23T01:56:20+07:00",
+   "updatedAt": "2026-11-23T01:56:20+07:00"
+  },
   {
    "id": "beam-11",
    "title": "beam-11",
