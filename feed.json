@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T05:58:19+07:00",
+ "updatedAt": "2026-11-23T06:02:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -106,9 +106,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-23T03:35:19+07:00",
+   "since": "2026-11-23T06:02:29+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
