@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T11:20:42+07:00",
+ "updatedAt": "2026-11-22T11:24:51+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -822,27 +822,6 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-60"
-  },
-  {
-   "ts": "2026-11-22T10:53:24+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:54:11+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:54:20+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
   }
  ],
  "projects": [
