@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T03:34:00+07:00",
+ "updatedAt": "2026-11-23T03:34:39+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -180,7 +180,7 @@
   {
    "id": "144-buoy-omx",
    "status": "working",
-   "task": "ส่งงาน DONE",
+   "task": "ส่ง PROGRESS",
    "since": "2026-11-23T03:06:06+07:00",
    "model": "codex",
    "brief": "horizon-15",
@@ -672,27 +672,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T03:04:11+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:04:15+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "144-buoy-omx",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T03:04:24+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T03:04:49+07:00",
    "kind": "ack",
    "from": "142-chart",
@@ -1032,6 +1011,20 @@
    "ts": "2026-11-23T03:33:49+07:00",
    "kind": "hey",
    "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:34:25+07:00",
+   "kind": "progress",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T03:34:35+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
   }
