@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:40:35+07:00",
+ "updatedAt": "2026-11-23T02:42:25+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -107,9 +107,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-23T02:40:35+07:00",
+   "since": "2026-11-23T02:41:50+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -525,52 +525,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-23T02:10:50+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:10:54+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:10:58+07:00",
-   "kind": "hey",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:11:04+07:00",
-   "kind": "hey",
-   "from": "142-chart",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-23T02:11:09+07:00",
    "kind": "done",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:11:40+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-23T02:11:54+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -816,6 +774,34 @@
    "kind": "hey",
    "from": "144-buoy-omx",
    "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:40:38+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:40:42+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:41:30+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:41:34+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
    "brief": ""
   }
  ],
