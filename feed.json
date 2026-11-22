@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:03:30+07:00",
+ "updatedAt": "2026-11-22T10:04:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-60 · ส่ง PROGRESS",
+   "task": "tide-60 · รับงาน",
    "since": "2026-11-22T10:03:30+07:00",
    "model": "fable",
    "brief": "tide-60",
@@ -58,9 +58,9 @@
   },
   {
    "id": "121-glow",
-   "status": "idle",
+   "status": "working",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T10:02:55+07:00",
+   "since": "2026-11-22T10:04:45+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -843,6 +843,20 @@
    "from": "12-beam",
    "to": "121-glow",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:04:18+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T10:04:39+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-60"
   }
  ],
  "projects": [
@@ -1015,6 +1029,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-60",
+   "title": "tide-60",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-22T09:41:24+07:00",
+   "updatedAt": "2026-11-22T10:04:39+07:00"
+  },
+  {
    "id": "beam-11",
    "title": "beam-11",
    "project": null,
@@ -1026,17 +1051,6 @@
    "status": "done",
    "since": "2026-11-20T12:56:08+07:00",
    "updatedAt": "2026-11-22T10:03:20+07:00"
-  },
-  {
-   "id": "tide-60",
-   "title": "tide-60",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "progress",
-   "since": "2026-11-22T09:41:24+07:00",
-   "updatedAt": "2026-11-22T09:58:07+07:00"
   },
   {
    "id": "tide-59b",
