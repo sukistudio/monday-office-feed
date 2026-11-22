@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:04:28+07:00",
+ "updatedAt": "2026-11-23T02:05:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -99,7 +99,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "รับงาน",
+   "task": "ติด รอช่วย",
    "since": "2026-11-23T01:52:55+07:00",
    "model": "fable",
    "brief": "horizon-15",
@@ -179,9 +179,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "stuck",
-   "task": "ติด รอช่วย",
-   "since": "2026-11-23T02:04:28+07:00",
+   "status": "working",
+   "task": "ส่ง PROGRESS",
+   "since": "2026-11-23T02:05:08+07:00",
    "model": "codex",
    "engine": "codex"
   }
@@ -589,6 +589,20 @@
   {
    "ts": "2026-11-23T02:03:55+07:00",
    "kind": "stuck",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:04:40+07:00",
+   "kind": "stuck",
+   "from": "14-horizon",
+   "to": "144-buoy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:04:41+07:00",
+   "kind": "progress",
    "from": "144-buoy-omx",
    "to": "14-horizon",
    "brief": ""
