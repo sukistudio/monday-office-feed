@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T09:50:16+07:00",
+ "updatedAt": "2026-11-22T09:51:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · แจกงาน",
-   "since": "2026-11-22T09:43:34+07:00",
+   "since": "2026-11-22T09:51:30+07:00",
    "model": "fable",
    "brief": "tide-60",
    "engine": "claude"
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "working",
-   "task": "beam-11 · ส่ง PROGRESS",
+   "task": "beam-11 · รับงาน",
    "since": "2026-11-22T09:48:28+07:00",
    "model": "fable",
    "brief": "beam-11",
@@ -58,9 +58,9 @@
   },
   {
    "id": "121-glow",
-   "status": "working",
+   "status": "idle",
    "task": "beam-11 · ส่งงาน DONE",
-   "since": "2026-11-22T09:44:43+07:00",
+   "since": "2026-11-22T09:50:55+07:00",
    "model": "opus",
    "brief": "beam-11",
    "engine": "claude"
@@ -662,6 +662,27 @@
    "from": "114-eddy-omx",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-22T09:51:08+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "123-pulse",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T09:51:12+07:00",
+   "kind": "ack",
+   "from": "12-beam",
+   "to": "121-glow",
+   "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T09:51:16+07:00",
+   "kind": "hey",
+   "from": "12-beam",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -842,9 +863,9 @@
     "121-glow"
    ],
    "qa": "123-pulse",
-   "status": "progress",
+   "status": "open",
    "since": "2026-11-20T12:56:08+07:00",
-   "updatedAt": "2026-11-22T09:48:36+07:00"
+   "updatedAt": "2026-11-22T09:51:12+07:00"
   },
   {
    "id": "tide-60",
