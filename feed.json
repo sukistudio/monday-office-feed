@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T02:02:01+07:00",
+ "updatedAt": "2026-11-23T02:03:49+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -115,9 +115,9 @@
   },
   {
    "id": "142-chart",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-23T02:01:22+07:00",
+   "since": "2026-11-23T02:03:49+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -576,6 +576,13 @@
    "ts": "2026-11-23T02:01:34+07:00",
    "kind": "hey",
    "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T02:03:09+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
    "to": "14-horizon",
    "brief": ""
   }
