@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T14:50:38+07:00",
+ "updatedAt": "2026-11-22T14:52:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -130,7 +130,7 @@
   {
    "id": "15-atlas",
    "status": "idle",
-   "task": "tide-58 · ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-22T14:01:27+07:00",
    "model": "fable",
    "engine": "claude"
@@ -185,13 +185,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-20T14:52:16+07:00",
-   "kind": "done",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": "tide-58"
-  },
   {
    "ts": "2026-11-20T14:55:54+07:00",
    "kind": "done",
@@ -741,9 +734,9 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "153-plumb",
+   "qa": null,
    "status": "done",
-   "since": "2026-11-20T14:51:16+07:00",
+   "since": "2026-11-20T14:55:54+07:00",
    "updatedAt": "2026-11-20T14:55:54+07:00"
   }
  ],
