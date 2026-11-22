@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:09:06+07:00",
+ "updatedAt": "2026-11-22T10:09:45+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -544,13 +544,6 @@
    "brief": "tide-59b"
   },
   {
-   "ts": "2026-11-22T09:39:21+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-22T09:39:25+07:00",
    "kind": "ack",
    "from": "14-horizon",
@@ -562,6 +555,13 @@
    "kind": "hey",
    "from": "143-sextant",
    "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-22T09:40:55+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
    "brief": ""
   },
   {
@@ -927,6 +927,13 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": "beam-11"
+  },
+  {
+   "ts": "2026-11-22T10:09:07+07:00",
+   "kind": "hey",
+   "from": "121-glow",
+   "to": "12-beam",
+   "brief": ""
   }
  ],
  "projects": [
