@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-22T10:44:26+07:00",
+ "updatedAt": "2026-11-22T10:46:51+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
+   "status": "idle",
    "task": "tide-60 · ส่ง PROGRESS",
-   "since": "2026-11-22T10:42:03+07:00",
+   "since": "2026-11-22T10:45:06+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -773,20 +773,6 @@
    "from": "12-beam",
    "to": "10-monday",
    "brief": "beam-11"
-  },
-  {
-   "ts": "2026-11-22T10:15:48+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-22T10:15:52+07:00",
-   "kind": "hey",
-   "from": "12-beam",
-   "to": "123-pulse",
-   "brief": ""
   },
   {
    "ts": "2026-11-22T10:16:34+07:00",
