@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-23T14:02:31+07:00",
+ "updatedAt": "2026-11-23T14:03:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "horizon-15 · ส่งงาน DONE",
-   "since": "2026-11-23T06:51:25+07:00",
+   "since": "2026-11-23T14:03:12+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -784,6 +784,13 @@
   {
    "ts": "2026-11-23T06:06:25+07:00",
    "kind": "done",
+   "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-23T14:02:57+07:00",
+   "kind": "hey",
    "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
