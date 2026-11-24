@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:43:54+07:00",
+ "updatedAt": "2026-11-24T15:44:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,10 +17,10 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-63 · รับงาน",
+   "task": "tide-62 · รับงาน",
    "since": "2026-11-24T15:24:30+07:00",
    "model": "fable",
-   "brief": "tide-63",
+   "brief": "tide-62",
    "engine": "claude"
   },
   {
@@ -686,13 +686,6 @@
    "brief": "tide-64"
   },
   {
-   "ts": "2026-11-24T15:22:02+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:22:07+07:00",
    "kind": "ack",
    "from": "10-monday",
@@ -705,13 +698,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T15:22:36+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T15:22:40+07:00",
@@ -1169,6 +1155,41 @@
    "to": "",
    "brief": "",
    "title": "PR #11 ผังทีม · เปิด PR"
+  },
+  {
+   "ts": "2026-11-24T15:43:57+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:44:00+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:44:04+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "tide-63"
+  },
+  {
+   "ts": "2026-11-24T15:44:04+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:44:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1341,6 +1362,19 @@
  ],
  "briefs": [
   {
+   "id": "tide-62",
+   "title": "tide-62",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-23T02:25:23+07:00",
+   "updatedAt": "2026-11-24T15:44:04+07:00"
+  },
+  {
    "id": "tide-63",
    "title": "tide-63",
    "project": null,
@@ -1352,19 +1386,6 @@
    "status": "open",
    "since": "2026-11-24T14:48:14+07:00",
    "updatedAt": "2026-11-24T15:41:22+07:00"
-  },
-  {
-   "id": "tide-62",
-   "title": "tide-62",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-24T15:36:14+07:00"
   },
   {
    "id": "tide-64",
