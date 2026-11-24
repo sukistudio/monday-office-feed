@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T17:21:55+07:00",
+ "updatedAt": "2026-11-24T17:22:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ส่งงาน DONE",
-   "since": "2026-11-24T17:19:25+07:00",
+   "since": "2026-11-24T17:22:35+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1305,6 +1305,13 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T17:22:01+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-62"
   }
  ],
  "projects": [
@@ -1487,7 +1494,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-24T17:12:14+07:00"
+   "updatedAt": "2026-11-24T17:22:01+07:00"
   },
   {
    "id": "tide-63",
