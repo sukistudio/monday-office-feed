@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T10:13:47+07:00",
+ "updatedAt": "2026-11-24T10:14:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -59,7 +59,7 @@
   {
    "id": "121-glow",
    "status": "idle",
-   "task": "beam-11 · ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-22T10:15:33+07:00",
    "model": "opus",
    "engine": "claude"
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-22T10:14:03+07:00",
-   "kind": "done",
-   "from": "121-glow",
-   "to": "12-beam",
-   "brief": "beam-11"
-  },
   {
    "ts": "2026-11-22T10:14:38+07:00",
    "kind": "ack",
@@ -791,7 +784,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "open",
-   "since": "2026-11-22T10:14:03+07:00",
+   "since": "2026-11-22T10:14:38+07:00",
    "updatedAt": "2026-11-23T01:48:03+07:00"
   },
   {
