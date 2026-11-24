@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T01:45:52+07:00",
+ "updatedAt": "2026-11-25T01:48:21+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -54,7 +54,6 @@
    "task": "",
    "since": "2026-11-24T15:53:35+07:00",
    "model": "fable",
-   "brief": "beam-11",
    "engine": "claude"
   },
   {
@@ -1566,28 +1565,6 @@
    "status": "done",
    "since": "2026-11-23T02:11:54+07:00",
    "updatedAt": "2026-11-23T02:34:43+07:00"
-  },
-  {
-   "id": "beam-11",
-   "title": "beam-11",
-   "project": null,
-   "lead": "12-beam",
-   "assignees": [],
-   "qa": "123-pulse",
-   "status": "open",
-   "since": "2026-11-23T01:48:03+07:00",
-   "updatedAt": "2026-11-23T01:48:03+07:00"
-  },
-  {
-   "id": "tide-60",
-   "title": "tide-60",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-23T01:47:05+07:00",
-   "updatedAt": "2026-11-23T01:47:05+07:00"
   }
  ],
  "warnings": [
