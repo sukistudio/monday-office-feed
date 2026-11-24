@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T14:47:06+07:00",
+ "updatedAt": "2026-11-24T14:48:21+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-62 · รับงาน",
    "since": "2026-11-24T14:38:13+07:00",
    "model": "fable",
-   "brief": "tide-62",
+   "brief": "tide-63",
    "engine": "claude"
   },
   {
@@ -99,16 +99,16 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "horizon-15 · ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-11-24T14:47:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "ส่งงาน DONE",
-   "since": "2026-11-24T14:41:54+07:00",
+   "since": "2026-11-24T14:47:46+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -752,6 +752,20 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:48:11+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:48:15+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "141-scout",
+   "brief": ""
   }
  ],
  "projects": [
@@ -923,6 +937,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-63",
+   "title": "tide-63",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-24T14:48:14+07:00",
+   "updatedAt": "2026-11-24T14:48:14+07:00"
+  },
   {
    "id": "tide-62",
    "title": "tide-62",
