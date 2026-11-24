@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:04:46+07:00",
+ "updatedAt": "2026-11-24T15:05:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "tide-62 · รับงาน",
    "since": "2026-11-24T15:04:12+07:00",
    "model": "fable",
-   "brief": "tide-64",
+   "brief": "tide-62",
    "engine": "claude"
   },
   {
@@ -29,6 +29,7 @@
    "task": "tide-62 · ส่ง PROGRESS",
    "since": "2026-11-24T14:59:08+07:00",
    "model": "opus",
+   "brief": "tide-62",
    "engine": "claude"
   },
   {
@@ -162,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-24T15:04:46+07:00",
+   "since": "2026-11-24T15:05:26+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -506,20 +507,6 @@
    "kind": "done",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:13+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "131-ledger",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:17+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "152-hearth",
    "brief": ""
   },
   {
@@ -885,6 +872,27 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:05:01+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:05:05+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:05:23+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "114-eddy-omx",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1057,6 +1065,19 @@
  ],
  "briefs": [
   {
+   "id": "tide-62",
+   "title": "tide-62",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [
+    "111-ripple"
+   ],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-23T02:25:23+07:00",
+   "updatedAt": "2026-11-24T15:05:05+07:00"
+  },
+  {
    "id": "tide-64",
    "title": "tide-64",
    "project": null,
@@ -1077,17 +1098,6 @@
    "status": "open",
    "since": "2026-11-24T14:48:14+07:00",
    "updatedAt": "2026-11-24T14:48:14+07:00"
-  },
-  {
-   "id": "tide-62",
-   "title": "tide-62",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-24T14:46:24+07:00"
   },
   {
    "id": "horizon-15",
