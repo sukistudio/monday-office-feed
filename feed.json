@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T14:44:57+07:00",
+ "updatedAt": "2026-11-24T14:45:38+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "working",
-   "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-24T14:44:57+07:00",
+   "status": "stuck",
+   "task": "tide-62 · ติด รอช่วย",
+   "since": "2026-11-24T14:45:38+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -681,6 +681,34 @@
    "kind": "brief",
    "from": "11-tide",
    "to": "111-ripple",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T14:44:59+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T14:45:03+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:45:27+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:45:34+07:00",
+   "kind": "stuck",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": "tide-62"
   }
  ],
