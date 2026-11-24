@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T03:34:41+07:00",
+ "updatedAt": "2026-11-25T03:37:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -102,6 +102,7 @@
    "task": "รับงาน",
    "since": "2026-11-24T22:18:41+07:00",
    "model": "fable",
+   "brief": "horizon-15",
    "engine": "claude"
   },
   {
@@ -195,13 +196,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-23T03:36:56+07:00",
-   "kind": "done",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": "horizon-15"
-  },
   {
    "ts": "2026-11-23T03:42:35+07:00",
    "kind": "qa-pass",
@@ -1248,9 +1242,9 @@
    "lead": "14-horizon",
    "assignees": [],
    "qa": null,
-   "status": "done",
-   "since": "2026-11-23T03:36:56+07:00",
-   "updatedAt": "2026-11-23T03:36:56+07:00"
+   "status": "open",
+   "since": "2026-11-24T14:42:40+07:00",
+   "updatedAt": "2026-11-24T14:42:40+07:00"
   }
  ],
  "warnings": [
