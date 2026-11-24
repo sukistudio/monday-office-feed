@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T17:47:14+07:00",
+ "updatedAt": "2026-11-24T17:47:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1139,13 +1139,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T17:17:24+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T17:19:09+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1200,6 +1193,13 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": "tide-63"
+  },
+  {
+   "ts": "2026-11-24T17:47:18+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
   }
  ],
  "projects": [
