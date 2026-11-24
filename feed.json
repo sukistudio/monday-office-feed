@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T16:58:58+07:00",
+ "updatedAt": "2026-11-24T17:00:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T16:58:19+07:00",
+   "since": "2026-11-24T17:00:47+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
@@ -1055,45 +1055,10 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T16:29:54+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T16:29:58+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T16:30:13+07:00",
+   "ts": "2026-11-24T16:30:55+07:00",
    "kind": "hey",
    "from": "111-ripple",
    "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T16:30:18+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T16:30:31+07:00",
-   "kind": "hey",
-   "from": "113-shore",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T16:30:42+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
    "brief": ""
   },
   {
@@ -1125,10 +1090,24 @@
    "brief": ""
   },
   {
+   "ts": "2026-11-24T16:31:25+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
    "ts": "2026-11-24T16:31:28+07:00",
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:31:37+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
    "brief": ""
   },
   {
@@ -1137,6 +1116,13 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T16:32:20+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "111-ripple",
+   "brief": ""
   },
   {
    "ts": "2026-11-24T16:32:37+07:00",
@@ -1347,6 +1333,13 @@
    "from": "11-tide",
    "to": "114-eddy-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T17:00:34+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-62"
   }
  ],
  "projects": [
