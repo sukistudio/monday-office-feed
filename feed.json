@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T10:15:06+07:00",
+ "updatedAt": "2026-11-24T10:15:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -50,7 +50,7 @@
   {
    "id": "12-beam",
    "status": "idle",
-   "task": "beam-11 · ส่งงาน DONE",
+   "task": "",
    "since": "2026-11-23T01:49:51+07:00",
    "model": "fable",
    "brief": "beam-11",
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-22T10:15:44+07:00",
-   "kind": "done",
-   "from": "12-beam",
-   "to": "10-monday",
-   "brief": "beam-11"
-  },
   {
    "ts": "2026-11-22T10:16:34+07:00",
    "kind": "progress",
@@ -777,7 +770,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "open",
-   "since": "2026-11-22T10:15:44+07:00",
+   "since": "2026-11-22T10:15:48+07:00",
    "updatedAt": "2026-11-23T01:48:03+07:00"
   },
   {
