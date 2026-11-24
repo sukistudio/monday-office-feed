@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T19:41:45+07:00",
+ "updatedAt": "2026-11-24T19:45:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1299,20 +1299,6 @@
    "to": "",
    "brief": "",
    "title": "PR #44 ออฟฟิศ 3D · เปิด PR"
-  },
-  {
-   "ts": "2026-11-24T19:13:51+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T19:15:25+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T19:17:36+07:00",
