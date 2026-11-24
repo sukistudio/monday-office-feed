@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T10:11:47+07:00",
+ "updatedAt": "2026-11-24T10:12:26+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-22T10:11:55+07:00",
-   "kind": "ack",
-   "from": "12-beam",
-   "to": "121-glow",
-   "brief": "beam-11"
-  },
   {
    "ts": "2026-11-22T10:12:29+07:00",
    "kind": "progress",
@@ -819,7 +812,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "open",
-   "since": "2026-11-22T10:11:55+07:00",
+   "since": "2026-11-22T10:13:11+07:00",
    "updatedAt": "2026-11-23T01:48:03+07:00"
   },
   {
@@ -830,7 +823,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-22T10:12:12+07:00",
+   "since": "2026-11-22T10:12:29+07:00",
    "updatedAt": "2026-11-23T01:47:05+07:00"
   }
  ],
