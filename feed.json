@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:39:25+07:00",
+ "updatedAt": "2026-11-24T15:40:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-63 · รับงาน",
-   "since": "2026-11-24T15:38:04+07:00",
+   "since": "2026-11-24T15:40:06+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-63 · แจกงาน",
+   "task": "tide-63 · รับงาน",
    "since": "2026-11-24T15:24:30+07:00",
    "model": "fable",
-   "brief": "tide-62",
+   "brief": "tide-63",
    "engine": "claude"
   },
   {
@@ -167,6 +167,7 @@
    "task": "tide-62 · รับงาน",
    "since": "2026-11-24T15:28:18+07:00",
    "model": "codex",
+   "brief": "tide-63",
    "engine": "codex"
   },
   {
@@ -1125,6 +1126,13 @@
    "from": "112-swell",
    "to": "114-eddy-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:39:56+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-63"
   }
  ],
  "projects": [
@@ -1301,11 +1309,13 @@
    "title": "tide-63",
    "project": null,
    "lead": "11-tide",
-   "assignees": [],
+   "assignees": [
+    "114-eddy-omx"
+   ],
    "qa": null,
-   "status": "done",
+   "status": "open",
    "since": "2026-11-24T14:48:14+07:00",
-   "updatedAt": "2026-11-24T15:36:19+07:00"
+   "updatedAt": "2026-11-24T15:39:56+07:00"
   },
   {
    "id": "tide-62",
