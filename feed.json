@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:16:50+07:00",
+ "updatedAt": "2026-11-24T15:17:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-24T15:14:19+07:00",
+   "since": "2026-11-24T15:17:29+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -580,24 +580,10 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T14:55:30+07:00",
-   "kind": "hey",
-   "from": "142-chart",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T14:55:36+07:00",
    "kind": "done",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:59:28+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -954,6 +940,20 @@
    "ts": "2026-11-24T15:15:30+07:00",
    "kind": "hey",
    "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:17:18+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:17:22+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
   }
