@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:47:37+07:00",
+ "updatedAt": "2026-11-24T15:48:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -163,9 +163,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "stuck",
-   "task": "tide-62 · ติด รอช่วย",
-   "since": "2026-11-24T15:43:54+07:00",
+   "status": "working",
+   "task": "tide-64 · ส่ง PROGRESS",
+   "since": "2026-11-24T15:48:17+07:00",
    "model": "codex",
    "brief": "tide-63",
    "engine": "codex"
@@ -714,13 +714,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:25:36+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:25:41+07:00",
    "kind": "hey",
    "from": "114-eddy-omx",
@@ -1190,6 +1183,20 @@
    "from": "112-swell",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:47:44+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:47:59+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-64"
   }
  ],
  "projects": [
