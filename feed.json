@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T18:10:23+07:00",
+ "updatedAt": "2026-11-24T18:12:17+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T18:09:44+07:00",
+   "since": "2026-11-24T18:11:39+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T18:04:56+07:00",
+   "since": "2026-11-24T18:12:17+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1276,6 +1276,20 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T18:11:14+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T18:11:18+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
    "brief": ""
   }
  ],
