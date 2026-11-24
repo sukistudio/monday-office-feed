@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T03:03:37+07:00",
+ "updatedAt": "2026-11-25T03:04:18+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -195,13 +195,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-23T03:03:57+07:00",
-   "kind": "done",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-23T03:04:49+07:00",
    "kind": "ack",
