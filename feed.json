@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:12:27+07:00",
+ "updatedAt": "2026-11-24T15:14:19+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-64 · รับงาน",
-   "since": "2026-11-24T15:10:29+07:00",
+   "since": "2026-11-24T15:13:06+07:00",
    "model": "fable",
    "brief": "tide-64",
    "engine": "claude"
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ตรวจไม่ผ่าน",
-   "since": "2026-11-24T15:09:15+07:00",
+   "since": "2026-11-24T15:14:19+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -125,7 +125,7 @@
    "id": "143-sextant",
    "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-24T15:12:27+07:00",
+   "since": "2026-11-24T15:14:19+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -538,13 +538,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T14:45:27+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T14:45:34+07:00",
    "kind": "stuck",
    "from": "114-eddy-omx",
@@ -552,46 +545,11 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T14:45:45+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:46:20+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "114-eddy-omx",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T14:46:24+07:00",
    "kind": "ack",
    "from": "11-tide",
    "to": "112-swell",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T14:46:42+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:46:46+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:46:50+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T14:48:11+07:00",
@@ -955,6 +913,48 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:12:59+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:13:03+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:13:19+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:13:23+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:13:44+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:14:16+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
    "brief": ""
   }
  ],
