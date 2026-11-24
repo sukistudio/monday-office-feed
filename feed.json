@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T09:36:52+07:00",
+ "updatedAt": "2026-11-24T09:39:53+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -186,13 +186,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-22T09:39:25+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
   {
    "ts": "2026-11-22T09:44:17+07:00",
    "kind": "brief",
@@ -1001,7 +994,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "open",
-   "since": "2026-11-22T09:38:55+07:00",
+   "since": "2026-11-22T09:41:19+07:00",
    "updatedAt": "2026-11-23T01:48:03+07:00"
   },
   {
