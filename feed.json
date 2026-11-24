@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T03:32:15+07:00",
+ "updatedAt": "2026-11-25T03:34:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -180,7 +180,7 @@
   {
    "id": "144-buoy-omx",
    "status": "idle",
-   "task": "ส่ง PROGRESS",
+   "task": "",
    "since": "2026-11-24T15:53:35+07:00",
    "model": "codex",
    "engine": "codex"
@@ -195,13 +195,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-23T03:34:25+07:00",
-   "kind": "progress",
-   "from": "144-buoy-omx",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-23T03:36:56+07:00",
    "kind": "done",
