@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:28:53+07:00",
+ "updatedAt": "2026-11-24T15:29:34+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -164,7 +164,7 @@
   {
    "id": "114-eddy-omx",
    "status": "working",
-   "task": "tide-62 · ส่ง PROGRESS",
+   "task": "tide-62 · รับงาน",
    "since": "2026-11-24T15:28:18+07:00",
    "model": "codex",
    "engine": "codex"
@@ -1019,6 +1019,13 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:29:06+07:00",
+   "kind": "ack",
+   "from": "114-eddy-omx",
+   "to": "111-ripple",
+   "brief": "tide-62"
   }
  ],
  "projects": [
