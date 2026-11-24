@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T18:57:20+07:00",
+ "updatedAt": "2026-11-24T19:01:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1214,13 +1214,6 @@
    "from": "112-swell",
    "to": "11-tide",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T18:27:45+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T18:34:06+07:00",
