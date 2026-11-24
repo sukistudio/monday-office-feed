@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T10:53:50+07:00",
+ "updatedAt": "2026-11-24T10:57:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -721,7 +721,7 @@
    "assignees": [],
    "qa": "123-pulse",
    "status": "open",
-   "since": "2026-11-22T10:54:11+07:00",
+   "since": "2026-11-23T01:48:03+07:00",
    "updatedAt": "2026-11-23T01:48:03+07:00"
   },
   {
@@ -732,7 +732,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-22T10:54:20+07:00",
+   "since": "2026-11-23T01:47:05+07:00",
    "updatedAt": "2026-11-23T01:47:05+07:00"
   }
  ],
