@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T16:06:15+07:00",
+ "updatedAt": "2026-11-24T16:08:04+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-64 · ตรวจผ่าน",
-   "since": "2026-11-24T16:04:22+07:00",
+   "since": "2026-11-24T16:08:04+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-24T15:53:35+07:00",
+   "since": "2026-11-24T16:07:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -906,13 +906,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:44:00+07:00",
-   "kind": "hey",
-   "from": "111-ripple",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:44:04+07:00",
    "kind": "done",
    "from": "111-ripple",
@@ -925,27 +918,6 @@
    "from": "11-tide",
    "to": "112-swell",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T15:44:31+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:46:03+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:46:07+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T15:46:11+07:00",
@@ -1290,6 +1262,34 @@
    "kind": "hey",
    "from": "10-monday",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:07:21+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:07:30+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:07:34+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:08:03+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
