@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:59:20+07:00",
+ "updatedAt": "2026-11-24T16:01:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,16 +18,16 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T15:58:01+07:00",
+   "since": "2026-11-24T16:01:12+07:00",
    "model": "fable",
    "brief": "tide-62",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-63 · ส่งงาน DONE",
-   "since": "2026-11-24T15:56:07+07:00",
+   "since": "2026-11-24T16:00:01+07:00",
    "model": "opus",
    "brief": "tide-62",
    "engine": "claude"
@@ -842,13 +842,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:37:37+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "111-ripple",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:37:42+07:00",
    "kind": "ack",
    "from": "111-ripple",
@@ -861,34 +854,6 @@
    "from": "11-tide",
    "to": "111-ripple",
    "brief": "tide-63"
-  },
-  {
-   "ts": "2026-11-24T15:38:28+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:38:30+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:38:32+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:38:39+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
   },
   {
    "ts": "2026-11-24T15:38:44+07:00",
@@ -1283,6 +1248,41 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:59:30+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:00:48+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:00:53+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:00:59+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:01:03+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "112-swell",
    "brief": ""
   }
  ],
