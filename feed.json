@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:35:13+07:00",
+ "updatedAt": "2026-11-24T15:35:52+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -35,7 +35,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-62 · รับงาน",
+   "task": "tide-62 · ส่ง PROGRESS",
    "since": "2026-11-24T15:26:24+07:00",
    "model": "opus",
    "engine": "claude"
@@ -1061,6 +1061,28 @@
    "from": "111-ripple",
    "to": "112-swell",
    "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:35:18+07:00",
+   "kind": "ack",
+   "from": "111-ripple",
+   "to": "112-swell",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:35:39+07:00",
+   "kind": "progress",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:35:43+07:00",
+   "kind": "pr-open",
+   "from": "",
+   "to": "",
+   "brief": "",
+   "title": "PR #43 ออฟฟิศ 3D · เปิด PR"
   }
  ],
  "projects": [
