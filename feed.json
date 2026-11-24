@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:21:14+07:00",
+ "updatedAt": "2026-11-24T15:22:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "working",
-   "task": "",
+   "task": "tide-64 · รับงาน",
    "since": "2026-11-24T15:19:18+07:00",
    "model": "fable",
    "engine": "claude"
@@ -34,16 +34,16 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-64 · ส่งงาน DONE",
-   "since": "2026-11-24T15:02:55+07:00",
+   "since": "2026-11-24T15:21:54+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-64 · ตรวจผ่าน",
+   "task": "tide-62 · ตรวจผ่าน",
    "since": "2026-11-24T15:19:57+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-24T15:20:36+07:00",
+   "since": "2026-11-24T15:21:54+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -601,20 +601,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:03:18+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T15:03:48+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:04:23+07:00",
    "kind": "progress",
    "from": "114-eddy-omx",
@@ -963,6 +949,34 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-64"
+  },
+  {
+   "ts": "2026-11-24T15:21:47+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:22:02+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:22:07+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": "tide-64"
+  },
+  {
+   "ts": "2026-11-24T15:22:22+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-62"
   }
  ],
  "projects": [
