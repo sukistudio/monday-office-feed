@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T02:11:32+07:00",
+ "updatedAt": "2026-11-25T02:13:58+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -195,13 +195,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-23T02:13:44+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": "horizon-15"
-  },
   {
    "ts": "2026-11-23T02:16:59+07:00",
    "kind": "done",
@@ -1484,12 +1477,10 @@
    "title": "horizon-15",
    "project": null,
    "lead": "14-horizon",
-   "assignees": [
-    "144-buoy-omx"
-   ],
+   "assignees": [],
    "qa": null,
    "status": "done",
-   "since": "2026-11-23T02:12:51+07:00",
+   "since": "2026-11-23T02:14:22+07:00",
    "updatedAt": "2026-11-23T03:36:56+07:00"
   },
   {
@@ -1500,7 +1491,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "done",
-   "since": "2026-11-23T02:11:54+07:00",
+   "since": "2026-11-23T02:32:53+07:00",
    "updatedAt": "2026-11-23T02:34:43+07:00"
   }
  ],
