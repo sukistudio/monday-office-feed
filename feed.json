@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T16:51:38+07:00",
+ "updatedAt": "2026-11-24T16:53:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -1360,6 +1360,13 @@
    "kind": "hey",
    "from": "114-eddy-omx",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T16:53:01+07:00",
+   "kind": "hey",
+   "from": "113-shore",
+   "to": "111-ripple",
    "brief": ""
   }
  ],
