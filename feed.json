@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T14:43:08+07:00",
+ "updatedAt": "2026-11-24T14:44:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-62 · รับงาน",
+   "task": "tide-62 · แจกงาน",
    "since": "2026-11-24T14:38:13+07:00",
    "model": "fable",
    "brief": "tide-62",
@@ -25,17 +25,17 @@
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-17T17:27:54+07:00",
+   "since": "2026-11-24T14:44:57+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-17T15:41:44+07:00",
+   "since": "2026-11-24T14:44:57+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -74,9 +74,9 @@
   },
   {
    "id": "13-harbor",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-24T14:40:37+07:00",
+   "since": "2026-11-24T14:44:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "horizon-15 · ส่งงาน DONE",
-   "since": "2026-11-24T14:40:37+07:00",
+   "since": "2026-11-24T14:44:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -122,9 +122,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-24T14:41:54+07:00",
+   "since": "2026-11-24T14:43:48+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -162,9 +162,9 @@
   },
   {
    "id": "114-eddy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-23T03:30:55+07:00",
+   "since": "2026-11-24T14:44:57+07:00",
    "model": "codex",
    "engine": "codex"
   },
@@ -668,6 +668,20 @@
    "from": "13-harbor",
    "to": "131-ledger",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:44:50+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T14:44:55+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-62"
   }
  ],
  "projects": [
