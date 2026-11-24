@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:56:07+07:00",
+ "updatedAt": "2026-11-24T15:56:47+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -43,7 +43,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "tide-63 · ตรวจผ่าน",
+   "task": "tide-62 · ตรวจผ่าน",
    "since": "2026-11-24T15:54:17+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -764,13 +764,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:31:27+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:31:32+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -1270,6 +1263,27 @@
    "from": "113-shore",
    "to": "111-ripple",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:56:10+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:56:15+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:56:44+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1452,7 +1466,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-24T15:52:12+07:00"
+   "updatedAt": "2026-11-24T15:56:15+07:00"
   },
   {
    "id": "tide-63",
