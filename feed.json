@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:10:29+07:00",
+ "updatedAt": "2026-11-24T15:11:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-24T15:09:54+07:00",
+   "since": "2026-11-24T15:11:08+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -123,9 +123,9 @@
   },
   {
    "id": "143-sextant",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-24T15:02:15+07:00",
+   "since": "2026-11-24T15:11:08+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -507,20 +507,6 @@
    "kind": "done",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:32+07:00",
-   "kind": "hey",
-   "from": "152-hearth",
-   "to": "15-atlas",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:38+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
    "brief": ""
   },
   {
@@ -941,6 +927,27 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:10:36+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:10:55+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:10:59+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "142-chart",
    "brief": ""
   }
  ],
