@@ -1,33 +1,33 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:09:15+07:00",
+ "updatedAt": "2026-11-24T15:10:29+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-24T15:01:41+07:00",
+   "since": "2026-11-24T15:09:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-64 · รับงาน",
-   "since": "2026-11-24T15:06:44+07:00",
+   "since": "2026-11-24T15:10:29+07:00",
    "model": "fable",
    "brief": "tide-64",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-24T15:08:39+07:00",
+   "since": "2026-11-24T15:10:29+07:00",
    "model": "opus",
    "brief": "tide-62",
    "engine": "claude"
@@ -99,9 +99,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-24T15:04:46+07:00",
+   "since": "2026-11-24T15:09:54+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -507,13 +507,6 @@
    "kind": "done",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:27+07:00",
-   "kind": "hey",
-   "from": "153-plumb",
-   "to": "15-atlas",
    "brief": ""
   },
   {
@@ -935,6 +928,20 @@
    "from": "111-ripple",
    "to": "114-eddy-omx",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:10:14+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-64"
+  },
+  {
+   "ts": "2026-11-24T15:10:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1115,7 +1122,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-11-24T14:59:28+07:00",
-   "updatedAt": "2026-11-24T15:07:05+07:00"
+   "updatedAt": "2026-11-24T15:10:14+07:00"
   },
   {
    "id": "tide-62",
