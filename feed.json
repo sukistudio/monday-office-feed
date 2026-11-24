@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T23:52:03+07:00",
+ "updatedAt": "2026-11-24T23:56:18+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -806,14 +806,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:35:43+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #43 ออฟฟิศ 3D · เปิด PR"
-  },
-  {
    "ts": "2026-11-24T15:36:14+07:00",
    "kind": "ack",
    "from": "11-tide",
@@ -953,14 +945,6 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T15:52:29+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #43 ออฟฟิศ 3D · MERGED"
   },
   {
    "ts": "2026-11-24T15:53:23+07:00",
@@ -1291,22 +1275,6 @@
    "from": "11-tide",
    "to": "113-shore",
    "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T19:11:44+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #44 ออฟฟิศ 3D · เปิด PR"
-  },
-  {
-   "ts": "2026-11-24T19:17:36+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #44 ออฟฟิศ 3D · MERGED"
   },
   {
    "ts": "2026-11-24T19:18:21+07:00",
