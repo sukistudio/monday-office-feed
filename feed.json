@@ -1,23 +1,23 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:35:52+07:00",
+ "updatedAt": "2026-11-24T15:36:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T15:32:51+07:00",
+   "since": "2026-11-24T15:36:40+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-62 · รับงาน",
+   "task": "tide-63 · ส่งงาน DONE",
    "since": "2026-11-24T15:24:30+07:00",
    "model": "fable",
    "brief": "tide-62",
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · รับงาน",
-   "since": "2026-11-24T15:35:13+07:00",
+   "since": "2026-11-24T15:36:40+07:00",
    "model": "opus",
    "brief": "tide-62",
    "engine": "claude"
@@ -42,9 +42,9 @@
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ตรวจไม่ผ่าน",
-   "since": "2026-11-24T15:25:09+07:00",
+   "since": "2026-11-24T15:36:40+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -678,13 +678,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:14:20+07:00",
-   "kind": "hey",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T15:15:30+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -1083,6 +1076,27 @@
    "to": "",
    "brief": "",
    "title": "PR #43 ออฟฟิศ 3D · เปิด PR"
+  },
+  {
+   "ts": "2026-11-24T15:36:09+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "114-eddy-omx",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:36:14+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:36:19+07:00",
+   "kind": "done",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-63"
   }
  ],
  "projects": [
@@ -1255,6 +1269,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-63",
+   "title": "tide-63",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "done",
+   "since": "2026-11-24T14:48:14+07:00",
+   "updatedAt": "2026-11-24T15:36:19+07:00"
+  },
+  {
    "id": "tide-62",
    "title": "tide-62",
    "project": null,
@@ -1265,7 +1290,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-11-23T02:25:23+07:00",
-   "updatedAt": "2026-11-24T15:31:32+07:00"
+   "updatedAt": "2026-11-24T15:36:14+07:00"
   },
   {
    "id": "tide-64",
@@ -1277,17 +1302,6 @@
    "status": "open",
    "since": "2026-11-24T14:59:28+07:00",
    "updatedAt": "2026-11-24T15:22:44+07:00"
-  },
-  {
-   "id": "tide-63",
-   "title": "tide-63",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": null,
-   "status": "open",
-   "since": "2026-11-24T14:48:14+07:00",
-   "updatedAt": "2026-11-24T14:48:14+07:00"
   },
   {
    "id": "horizon-15",
