@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:07:24+07:00",
+ "updatedAt": "2026-11-24T15:09:15+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-62 · ส่ง PROGRESS",
-   "since": "2026-11-24T14:59:08+07:00",
+   "since": "2026-11-24T15:08:39+07:00",
    "model": "opus",
    "brief": "tide-62",
    "engine": "claude"
@@ -35,16 +35,16 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "tide-64 · ส่ง PROGRESS",
+   "task": "tide-64 · ส่งงาน DONE",
    "since": "2026-11-24T15:02:55+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-62 · ตรวจไม่ผ่าน",
-   "since": "2026-11-24T15:01:06+07:00",
+   "since": "2026-11-24T15:09:15+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -510,27 +510,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-24T14:41:21+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "153-plumb",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:25+07:00",
-   "kind": "hey",
-   "from": "13-harbor",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:26+07:00",
-   "kind": "hey",
-   "from": "15-atlas",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T14:41:27+07:00",
    "kind": "hey",
    "from": "153-plumb",
@@ -921,6 +900,41 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:09:03+07:00",
+   "kind": "hey",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:09:08+07:00",
+   "kind": "done",
+   "from": "112-swell",
+   "to": "113-shore",
+   "brief": "tide-64"
+  },
+  {
+   "ts": "2026-11-24T15:09:09+07:00",
+   "kind": "hey",
+   "from": "114-eddy-omx",
+   "to": "111-ripple",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:09:14+07:00",
+   "kind": "progress",
+   "from": "114-eddy-omx",
+   "to": "11-tide",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:09:15+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "114-eddy-omx",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1098,7 +1112,7 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": null,
+   "qa": "113-shore",
    "status": "open",
    "since": "2026-11-24T14:59:28+07:00",
    "updatedAt": "2026-11-24T15:07:05+07:00"
