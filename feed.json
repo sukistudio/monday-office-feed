@@ -1,16 +1,16 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-24T15:11:08+07:00",
+ "updatedAt": "2026-11-24T15:11:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-24T15:11:08+07:00",
+   "since": "2026-11-24T15:11:48+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "tide-62 · ส่ง PROGRESS",
+   "task": "tide-62 · ส่งงาน DONE",
    "since": "2026-11-24T15:10:29+07:00",
    "model": "opus",
    "brief": "tide-62",
@@ -510,48 +510,6 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-24T14:41:42+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:46+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:50+07:00",
-   "kind": "hey",
-   "from": "141-scout",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:51+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:56+07:00",
-   "kind": "hey",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-24T14:41:58+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-24T14:42:32+07:00",
    "kind": "hey",
    "from": "141-scout",
@@ -563,6 +521,20 @@
    "kind": "ack",
    "from": "13-harbor",
    "to": "131-ledger",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:42:40+07:00",
+   "kind": "hey",
+   "from": "14-horizon",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T14:42:43+07:00",
+   "kind": "hey",
+   "from": "13-harbor",
+   "to": "10-monday",
    "brief": ""
   },
   {
@@ -948,6 +920,41 @@
    "kind": "hey",
    "from": "14-horizon",
    "to": "142-chart",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:11:19+07:00",
+   "kind": "hey",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:11:19+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:11:23+07:00",
+   "kind": "done",
+   "from": "111-ripple",
+   "to": "113-shore",
+   "brief": "tide-62"
+  },
+  {
+   "ts": "2026-11-24T15:11:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-24T15:11:36+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
    "brief": ""
   }
  ],
