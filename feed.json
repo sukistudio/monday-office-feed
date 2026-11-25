@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T07:20:00+07:00",
+ "updatedAt": "2026-11-25T07:22:54+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -569,14 +569,6 @@
    "brief": "tide-62"
   },
   {
-   "ts": "2026-11-24T15:43:49+07:00",
-   "kind": "pr-open",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #11 ผังทีม · เปิด PR"
-  },
-  {
    "ts": "2026-11-24T15:43:57+07:00",
    "kind": "progress",
    "from": "112-swell",
@@ -646,14 +638,6 @@
    "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-63"
-  },
-  {
-   "ts": "2026-11-24T15:53:32+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #11 ผังทีม · MERGED"
   },
   {
    "ts": "2026-11-24T15:54:46+07:00",
