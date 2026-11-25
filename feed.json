@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T06:07:09+07:00",
+ "updatedAt": "2026-11-26T06:07:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "working",
+   "status": "idle",
    "task": "tide-65 · รับงาน",
-   "since": "2026-11-26T06:05:11+07:00",
+   "since": "2026-11-26T06:07:48+07:00",
    "model": "fable",
    "brief": "tide-65",
    "engine": "claude"
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-65 · ส่ง PROGRESS",
-   "since": "2026-11-26T06:06:31+07:00",
+   "since": "2026-11-26T06:07:48+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -99,7 +99,7 @@
   {
    "id": "14-horizon",
    "status": "working",
-   "task": "horizon-15 · รับงาน",
+   "task": "รับงาน",
    "since": "2026-11-26T06:03:18+07:00",
    "model": "fable",
    "brief": "horizon-15",
@@ -1244,6 +1244,20 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": "horizon-15"
+  },
+  {
+   "ts": "2026-11-26T06:07:14+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T06:07:30+07:00",
+   "kind": "ack",
+   "from": "14-horizon",
+   "to": "143-sextant",
+   "brief": ""
   }
  ],
  "projects": [
