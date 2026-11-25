@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-25T22:06:25+07:00",
+ "updatedAt": "2026-11-25T22:07:40+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -115,9 +115,9 @@
   },
   {
    "id": "142-chart",
-   "status": "idle",
+   "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-24T22:16:51+07:00",
+   "since": "2026-11-25T22:07:40+07:00",
    "model": "opus",
    "engine": "claude"
   },
