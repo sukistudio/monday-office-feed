@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T00:54:50+07:00",
+ "updatedAt": "2026-11-26T00:55:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-65 · รับงาน",
+   "task": "tide-65 · ส่ง PROGRESS",
    "since": "2026-11-26T00:54:50+07:00",
    "model": "fable",
    "brief": "tide-65",
@@ -34,17 +34,17 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-65 · ส่ง PROGRESS",
-   "since": "2026-11-26T00:51:08+07:00",
+   "since": "2026-11-26T00:55:30+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "working",
+   "status": "idle",
    "task": "tide-65 · ตรวจผ่าน",
-   "since": "2026-11-26T00:46:46+07:00",
+   "since": "2026-11-26T00:55:30+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1071,13 +1071,6 @@
    "brief": "tide-65"
   },
   {
-   "ts": "2026-11-26T00:25:16+07:00",
-   "kind": "hey",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-26T00:35:25+07:00",
    "kind": "progress",
    "from": "112-swell",
@@ -1180,6 +1173,27 @@
    "kind": "qa-pass",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": "tide-65"
+  },
+  {
+   "ts": "2026-11-26T00:55:04+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T00:55:08+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": "tide-65"
+  },
+  {
+   "ts": "2026-11-26T00:55:12+07:00",
+   "kind": "progress",
+   "from": "11-tide",
+   "to": "10-monday",
    "brief": "tide-65"
   }
  ],
@@ -1359,9 +1373,9 @@
    "lead": "11-tide",
    "assignees": [],
    "qa": "113-shore",
-   "status": "open",
+   "status": "progress",
    "since": "2026-11-26T00:07:17+07:00",
-   "updatedAt": "2026-11-26T00:50:50+07:00"
+   "updatedAt": "2026-11-26T00:55:12+07:00"
   },
   {
    "id": "tide-62",
