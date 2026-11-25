@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T00:05:19+07:00",
+ "updatedAt": "2026-11-26T00:07:57+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -20,7 +20,7 @@
    "task": "ส่งงาน DONE",
    "since": "2026-11-26T00:04:03+07:00",
    "model": "fable",
-   "brief": "tide-62",
+   "brief": "tide-65",
    "engine": "claude"
   },
   {
@@ -125,7 +125,7 @@
    "id": "143-sextant",
    "status": "working",
    "task": "",
-   "since": "2026-11-26T00:04:38+07:00",
+   "since": "2026-11-26T00:07:09+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -1048,6 +1048,27 @@
    "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-26T00:05:54+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T00:07:17+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T00:07:55+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
+   "to": "14-horizon",
+   "brief": ""
   }
  ],
  "projects": [
@@ -1219,6 +1240,17 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-65",
+   "title": "tide-65",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-26T00:07:17+07:00",
+   "updatedAt": "2026-11-26T00:07:17+07:00"
+  },
   {
    "id": "tide-62",
    "title": "tide-62",
