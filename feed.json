@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T01:11:07+07:00",
+ "updatedAt": "2026-11-26T01:13:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,9 +34,9 @@
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "tide-65 · ส่ง PROGRESS",
-   "since": "2026-11-26T01:02:13+07:00",
+   "since": "2026-11-26T01:13:31+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -1078,20 +1078,6 @@
    "brief": "tide-65"
   },
   {
-   "ts": "2026-11-26T00:42:07+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T00:42:11+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-26T00:42:15+07:00",
    "kind": "progress",
    "from": "11-tide",
@@ -1215,6 +1201,13 @@
    "kind": "hey",
    "from": "11-tide",
    "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T01:13:31+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
    "brief": ""
   }
  ],
