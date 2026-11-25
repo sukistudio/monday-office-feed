@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T00:35:58+07:00",
+ "updatedAt": "2026-11-26T00:40:06+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-65 · รับงาน",
-   "since": "2026-11-26T00:35:23+07:00",
+   "since": "2026-11-26T00:38:22+07:00",
    "model": "fable",
    "brief": "tide-65",
    "engine": "claude"
@@ -1026,34 +1026,6 @@
    "kind": "ack",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T00:07:17+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T00:07:55+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T00:08:52+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "112-swell",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T00:09:08+07:00",
-   "kind": "hey",
-   "from": "112-swell",
-   "to": "11-tide",
    "brief": ""
   },
   {
