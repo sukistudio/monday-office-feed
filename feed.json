@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T22:11:20+07:00",
+ "updatedAt": "2026-11-26T22:12:35+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -106,9 +106,9 @@
   },
   {
    "id": "141-scout",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-26T22:04:12+07:00",
+   "since": "2026-11-26T22:12:00+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T22:12:15+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-24T22:17:15+07:00",
    "kind": "ack",
