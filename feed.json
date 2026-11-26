@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T15:42:56+07:00",
+ "updatedAt": "2026-11-26T15:43:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -195,13 +195,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T15:43:19+07:00",
-   "kind": "stuck",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-62"
-  },
   {
    "ts": "2026-11-24T15:43:49+07:00",
    "kind": "pr-open",
@@ -1060,7 +1053,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T15:43:00+07:00",
+   "since": "2026-11-24T15:43:57+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
