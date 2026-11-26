@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T16:00:31+07:00",
+ "updatedAt": "2026-11-26T16:03:30+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T16:03:29+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-64"
-  },
   {
    "ts": "2026-11-24T16:14:30+07:00",
    "kind": "qa-pass",
@@ -935,7 +928,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T16:00:59+07:00",
+   "since": "2026-11-24T16:05:26+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
@@ -955,10 +948,10 @@
    "project": null,
    "lead": "11-tide",
    "assignees": [],
-   "qa": "113-shore",
+   "qa": null,
    "status": "open",
-   "since": "2026-11-24T16:00:48+07:00",
-   "updatedAt": "2026-11-24T16:00:48+07:00"
+   "since": "2026-11-24T16:05:02+07:00",
+   "updatedAt": "2026-11-24T16:05:02+07:00"
   }
  ],
  "warnings": [
