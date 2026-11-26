@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T14:53:13+07:00",
+ "updatedAt": "2026-11-26T14:55:02+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -196,13 +196,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T14:54:57+07:00",
-   "kind": "progress",
-   "from": "114-eddy-omx",
-   "to": "11-tide",
-   "brief": "tide-62"
-  },
   {
    "ts": "2026-11-24T14:55:10+07:00",
    "kind": "done",
@@ -1370,7 +1363,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T14:54:57+07:00",
+   "since": "2026-11-24T14:55:05+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
