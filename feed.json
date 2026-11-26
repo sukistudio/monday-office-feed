@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T14:55:02+07:00",
+ "updatedAt": "2026-11-26T14:55:42+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -196,20 +196,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T14:55:10+07:00",
-   "kind": "done",
-   "from": "112-swell",
-   "to": "113-shore",
-   "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T14:55:36+07:00",
-   "kind": "done",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-24T14:59:47+07:00",
    "kind": "qa-fail",
@@ -1363,7 +1349,7 @@
    ],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T14:55:05+07:00",
+   "since": "2026-11-24T14:59:47+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
