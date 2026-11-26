@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T15:52:02+07:00",
+ "updatedAt": "2026-11-26T15:52:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -29,7 +29,6 @@
    "task": "",
    "since": "2026-11-24T16:39:20+07:00",
    "model": "opus",
-   "brief": "tide-62",
    "engine": "claude"
   },
   {
@@ -195,21 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T15:52:12+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-62"
-  },
-  {
-   "ts": "2026-11-24T15:52:29+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #43 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-11-24T15:53:23+07:00",
    "kind": "qa-pass",
@@ -991,12 +975,10 @@
    "title": "tide-62",
    "project": null,
    "lead": "11-tide",
-   "assignees": [
-    "111-ripple"
-   ],
+   "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T15:52:04+07:00",
+   "since": "2026-11-24T15:52:47+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
