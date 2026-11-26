@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T14:15:15+07:00",
+ "updatedAt": "2026-11-26T14:15:56+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -98,9 +98,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "idle",
+   "status": "working",
    "task": "แจกงาน",
-   "since": "2026-11-26T14:11:41+07:00",
+   "since": "2026-11-26T14:15:56+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -1234,6 +1234,27 @@
   {
    "ts": "2026-11-26T14:10:20+07:00",
    "kind": "progress",
+   "from": "144-buoy-omx",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T14:15:23+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T14:15:28+07:00",
+   "kind": "hey",
+   "from": "144-buoy-omx",
+   "to": "141-scout",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T14:15:32+07:00",
+   "kind": "hey",
    "from": "144-buoy-omx",
    "to": "14-horizon",
    "brief": ""
