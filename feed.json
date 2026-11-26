@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T22:15:38+07:00",
+ "updatedAt": "2026-11-26T22:17:27+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T22:17:15+07:00",
-   "kind": "ack",
-   "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
   {
    "ts": "2026-11-25T22:13:05+07:00",
    "kind": "done",
