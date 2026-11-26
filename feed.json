@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T15:52:41+07:00",
+ "updatedAt": "2026-11-26T15:53:55+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,21 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T15:53:23+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-63"
-  },
-  {
-   "ts": "2026-11-24T15:53:32+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #11 ผังทีม · MERGED"
-  },
   {
    "ts": "2026-11-24T15:54:46+07:00",
    "kind": "done",
@@ -978,7 +963,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T15:52:47+07:00",
+   "since": "2026-11-24T15:54:42+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
@@ -989,7 +974,7 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-24T15:53:23+07:00",
+   "since": "2026-11-24T15:54:42+07:00",
    "updatedAt": "2026-11-24T17:10:18+07:00"
   },
   {
