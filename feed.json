@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T14:00:06+07:00",
+ "updatedAt": "2026-11-26T14:02:31+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -107,9 +107,9 @@
   },
   {
    "id": "141-scout",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-26T06:04:36+07:00",
+   "since": "2026-11-26T14:02:31+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -131,9 +131,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "working",
+   "status": "idle",
    "task": "",
-   "since": "2026-11-26T14:00:06+07:00",
+   "since": "2026-11-26T14:01:22+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -180,9 +180,9 @@
   },
   {
    "id": "144-buoy-omx",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-24T15:53:35+07:00",
+   "since": "2026-11-26T14:02:31+07:00",
    "model": "codex",
    "engine": "codex"
   },
