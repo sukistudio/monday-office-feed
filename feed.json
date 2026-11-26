@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-27T06:37:11+07:00",
+ "updatedAt": "2026-11-27T06:39:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-27T06:03:59+07:00",
+   "since": "2026-11-27T06:38:24+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
