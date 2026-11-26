@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T22:29:33+07:00",
+ "updatedAt": "2026-11-26T22:30:12+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -115,7 +115,7 @@
   {
    "id": "142-chart",
    "status": "idle",
-   "task": "ส่งงาน DONE",
+   "task": "รับงาน",
    "since": "2026-11-26T22:24:05+07:00",
    "model": "opus",
    "engine": "claude"
@@ -486,6 +486,13 @@
    "kind": "ack",
    "from": "14-horizon",
    "to": "143-sextant",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-26T22:29:34+07:00",
+   "kind": "ack",
+   "from": "142-chart",
+   "to": "14-horizon",
    "brief": ""
   }
  ],
