@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T16:24:18+07:00",
+ "updatedAt": "2026-11-26T16:26:42+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T16:26:13+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-62"
-  },
   {
    "ts": "2026-11-24T16:27:13+07:00",
    "kind": "ack",
@@ -914,7 +907,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-24T16:26:13+07:00",
+   "since": "2026-11-24T16:26:45+07:00",
    "updatedAt": "2026-11-24T19:08:28+07:00"
   },
   {
