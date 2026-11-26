@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T14:38:41+07:00",
+ "updatedAt": "2026-11-26T14:42:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -75,7 +75,7 @@
   {
    "id": "13-harbor",
    "status": "idle",
-   "task": "รับงาน",
+   "task": "",
    "since": "2026-11-24T15:53:35+07:00",
    "model": "fable",
    "engine": "claude"
@@ -196,13 +196,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T14:42:36+07:00",
-   "kind": "ack",
-   "from": "13-harbor",
-   "to": "131-ledger",
-   "brief": ""
-  },
   {
    "ts": "2026-11-24T14:44:50+07:00",
    "kind": "brief",
@@ -1451,7 +1444,7 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-24T14:42:40+07:00",
+   "since": "2026-11-24T15:03:18+07:00",
    "updatedAt": "2026-11-26T06:06:42+07:00"
   },
   {
