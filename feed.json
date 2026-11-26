@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T19:16:14+07:00",
+ "updatedAt": "2026-11-26T19:18:03+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,14 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-24T19:17:36+07:00",
-   "kind": "merged",
-   "from": "",
-   "to": "",
-   "brief": "",
-   "title": "PR #44 ออฟฟิศ 3D · MERGED"
-  },
   {
    "ts": "2026-11-24T19:18:21+07:00",
    "kind": "done",
