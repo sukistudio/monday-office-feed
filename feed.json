@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-26T22:49:12+07:00",
+ "updatedAt": "2026-11-26T22:53:22+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -409,13 +409,6 @@
    "kind": "ack",
    "from": "141-scout",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T22:23:12+07:00",
-   "kind": "hey",
-   "from": "142-chart",
-   "to": "143-sextant",
    "brief": ""
   },
   {
