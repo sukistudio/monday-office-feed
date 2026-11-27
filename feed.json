@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T06:07:34+07:00",
+ "updatedAt": "2026-11-28T06:08:48+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -193,13 +193,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T06:08:19+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
   {
    "ts": "2026-11-26T14:03:43+07:00",
    "kind": "ack",
@@ -525,8 +518,8 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-26T06:08:14+07:00",
-   "updatedAt": "2026-11-26T06:08:14+07:00"
+   "since": "2026-11-26T22:29:21+07:00",
+   "updatedAt": "2026-11-26T22:29:21+07:00"
   }
  ],
  "warnings": [
