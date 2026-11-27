@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T00:54:34+07:00",
+ "updatedAt": "2026-11-28T00:55:13+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -194,20 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T00:55:08+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "tide-65"
-  },
-  {
-   "ts": "2026-11-26T00:55:12+07:00",
-   "kind": "progress",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-65"
-  },
   {
    "ts": "2026-11-26T01:13:39+07:00",
    "kind": "progress",
@@ -579,7 +565,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T00:55:04+07:00",
+   "since": "2026-11-26T01:00:43+07:00",
    "updatedAt": "2026-11-26T01:44:41+07:00"
   }
  ],
