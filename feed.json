@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T00:34:18+07:00",
+ "updatedAt": "2026-11-28T00:35:33+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -34,7 +34,7 @@
   {
    "id": "112-swell",
    "status": "idle",
-   "task": "tide-65 · ส่ง PROGRESS",
+   "task": "",
    "since": "2026-11-26T06:07:48+07:00",
    "model": "opus",
    "engine": "claude"
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T00:35:25+07:00",
-   "kind": "progress",
-   "from": "112-swell",
-   "to": "11-tide",
-   "brief": "tide-65"
-  },
   {
    "ts": "2026-11-26T00:42:15+07:00",
    "kind": "progress",
@@ -614,7 +607,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T00:35:25+07:00",
+   "since": "2026-11-26T00:35:48+07:00",
    "updatedAt": "2026-11-26T01:44:41+07:00"
   }
  ],
