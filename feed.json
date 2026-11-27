@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T00:04:26+07:00",
+ "updatedAt": "2026-11-28T00:08:36+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -645,7 +645,7 @@
    "assignees": [],
    "qa": null,
    "status": "open",
-   "since": "2026-11-26T00:05:54+07:00",
+   "since": "2026-11-26T00:10:40+07:00",
    "updatedAt": "2026-11-26T06:06:42+07:00"
   },
   {
@@ -656,7 +656,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T00:07:17+07:00",
+   "since": "2026-11-26T00:08:52+07:00",
    "updatedAt": "2026-11-26T01:44:41+07:00"
   }
  ],
