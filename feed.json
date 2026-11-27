@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T01:43:14+07:00",
+ "updatedAt": "2026-11-28T01:45:04+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "idle",
-   "task": "tide-65 · รับงาน",
+   "task": "",
    "since": "2026-11-26T06:07:48+07:00",
    "model": "fable",
    "brief": "tide-65",
@@ -194,20 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T01:44:33+07:00",
-   "kind": "done",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": "tide-65"
-  },
-  {
-   "ts": "2026-11-26T01:44:41+07:00",
-   "kind": "ack",
-   "from": "11-tide",
-   "to": "113-shore",
-   "brief": "tide-65"
-  },
   {
    "ts": "2026-11-26T06:04:55+07:00",
    "kind": "ack",
@@ -544,8 +530,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T01:44:33+07:00",
-   "updatedAt": "2026-11-26T01:44:41+07:00"
+   "since": "2026-11-26T06:04:58+07:00",
+   "updatedAt": "2026-11-26T06:04:58+07:00"
   }
  ],
  "warnings": [
