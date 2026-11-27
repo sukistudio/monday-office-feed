@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T06:04:29+07:00",
+ "updatedAt": "2026-11-28T06:05:08+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -9,7 +9,7 @@
   {
    "id": "10-monday",
    "status": "idle",
-   "task": "tide-65 · รับงาน",
+   "task": "",
    "since": "2026-11-27T06:46:20+07:00",
    "model": "fable",
    "engine": "claude"
@@ -195,20 +195,6 @@
  ],
  "events": [
   {
-   "ts": "2026-11-26T06:04:55+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-26T06:04:58+07:00",
-   "kind": "ack",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": "tide-65"
-  },
-  {
    "ts": "2026-11-26T06:06:42+07:00",
    "kind": "ack",
    "from": "14-horizon",
@@ -352,6 +338,13 @@
    "ts": "2026-11-28T06:04:01+07:00",
    "kind": "hey",
    "from": "141-scout",
+   "to": "14-horizon",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T06:05:07+07:00",
+   "kind": "hey",
+   "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
   }
@@ -544,8 +537,8 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T06:04:58+07:00",
-   "updatedAt": "2026-11-26T06:04:58+07:00"
+   "since": "2026-11-26T06:06:22+07:00",
+   "updatedAt": "2026-11-26T06:06:22+07:00"
   }
  ],
  "warnings": [
