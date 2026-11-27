@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T01:42:00+07:00",
+ "updatedAt": "2026-11-28T01:43:14+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "idle",
-   "task": "tide-65 · ตรวจผ่าน",
+   "task": "",
    "since": "2026-11-26T01:43:38+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T01:42:54+07:00",
-   "kind": "qa-pass",
-   "from": "113-shore",
-   "to": "11-tide",
-   "brief": "tide-65"
-  },
   {
    "ts": "2026-11-26T01:44:33+07:00",
    "kind": "done",
@@ -551,7 +544,7 @@
    "assignees": [],
    "qa": "113-shore",
    "status": "open",
-   "since": "2026-11-26T01:42:54+07:00",
+   "since": "2026-11-26T01:44:33+07:00",
    "updatedAt": "2026-11-26T01:44:41+07:00"
   }
  ],
