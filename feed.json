@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:47:46+07:00",
+ "updatedAt": "2026-11-28T22:50:11+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -18,7 +18,7 @@
    "id": "11-tide",
    "status": "working",
    "task": "tide-67 · ส่ง PROGRESS",
-   "since": "2026-11-28T22:45:19+07:00",
+   "since": "2026-11-28T22:50:11+07:00",
    "model": "fable",
    "brief": "tide-67",
    "engine": "claude"
@@ -42,7 +42,7 @@
   {
    "id": "113-shore",
    "status": "working",
-   "task": "",
+   "task": "tide-66 · ตรวจผ่าน",
    "since": "2026-11-28T22:47:07+07:00",
    "model": "sonnet",
    "engine": "claude"
@@ -272,45 +272,10 @@
    "brief": ""
   },
   {
-   "ts": "2026-11-28T22:17:55+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:17:59+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "142-chart",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:18:03+07:00",
-   "kind": "hey",
-   "from": "14-horizon",
-   "to": "141-scout",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-28T22:18:07+07:00",
    "kind": "ack",
    "from": "142-chart",
    "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:18:28+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:19:58+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
    "brief": ""
   },
   {
@@ -660,6 +625,13 @@
    "ts": "2026-11-28T22:47:33+07:00",
    "kind": "ack",
    "from": "10-monday",
+   "to": "11-tide",
+   "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:49:47+07:00",
+   "kind": "qa-pass",
+   "from": "113-shore",
    "to": "11-tide",
    "brief": "tide-66"
   }
