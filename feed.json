@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:42:46+07:00",
+ "updatedAt": "2026-11-28T22:43:25+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -16,9 +16,9 @@
   },
   {
    "id": "11-tide",
-   "status": "idle",
+   "status": "working",
    "task": "tide-66 · ส่ง PROGRESS",
-   "since": "2026-11-28T22:41:03+07:00",
+   "since": "2026-11-28T22:43:25+07:00",
    "model": "fable",
    "brief": "tide-66",
    "engine": "claude"
@@ -26,7 +26,7 @@
   {
    "id": "111-ripple",
    "status": "working",
-   "task": "",
+   "task": "tide-67 · ส่ง PROGRESS",
    "since": "2026-11-28T22:26:23+07:00",
    "model": "opus",
    "engine": "claude"
@@ -627,6 +627,13 @@
    "from": "11-tide",
    "to": "10-monday",
    "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:43:09+07:00",
+   "kind": "progress",
+   "from": "111-ripple",
+   "to": "11-tide",
+   "brief": "tide-67"
   }
  ],
  "projects": [
