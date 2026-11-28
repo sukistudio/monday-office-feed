@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:34:15+07:00",
+ "updatedAt": "2026-11-28T22:36:03+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -10,7 +10,7 @@
    "id": "10-monday",
    "status": "working",
    "task": "รับงาน",
-   "since": "2026-11-28T22:33:35+07:00",
+   "since": "2026-11-28T22:35:29+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -130,9 +130,9 @@
   },
   {
    "id": "15-atlas",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-28T14:01:53+07:00",
+   "since": "2026-11-28T22:36:03+07:00",
    "model": "fable",
    "engine": "claude"
   },
@@ -233,13 +233,6 @@
    "ts": "2026-11-27T22:20:35+07:00",
    "kind": "ack",
    "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:04:43+07:00",
-   "kind": "hey",
-   "from": "141-scout",
    "to": "14-horizon",
    "brief": ""
   },
@@ -591,6 +584,27 @@
    "kind": "hey",
    "from": "112-swell",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:35:29+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:35:48+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:35:59+07:00",
+   "kind": "hey",
+   "from": "10-monday",
+   "to": "15-atlas",
    "brief": ""
   }
  ],
