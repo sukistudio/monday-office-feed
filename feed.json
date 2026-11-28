@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:57:29+07:00",
+ "updatedAt": "2026-11-28T22:58:09+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -25,9 +25,9 @@
   },
   {
    "id": "111-ripple",
-   "status": "working",
+   "status": "idle",
    "task": "tide-67 · ส่งงาน DONE",
-   "since": "2026-11-28T22:26:23+07:00",
+   "since": "2026-11-28T22:58:09+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -41,9 +41,9 @@
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "tide-66 · ตรวจผ่าน",
-   "since": "2026-11-28T22:50:50+07:00",
+   "since": "2026-11-28T22:58:09+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -328,20 +328,6 @@
    "brief": "tide-67"
   },
   {
-   "ts": "2026-11-28T22:27:32+07:00",
-   "kind": "hey",
-   "from": "11-tide",
-   "to": "10-monday",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:27:55+07:00",
-   "kind": "hey",
-   "from": "10-monday",
-   "to": "11-tide",
-   "brief": ""
-  },
-  {
    "ts": "2026-11-28T22:28:33+07:00",
    "kind": "hey",
    "from": "11-tide",
@@ -619,6 +605,13 @@
    "kind": "hey",
    "from": "113-shore",
    "to": "11-tide",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:57:49+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
    "brief": ""
   }
  ],
