@@ -1,41 +1,41 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:25:43+07:00",
+ "updatedAt": "2026-11-28T22:26:23+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "idle",
+   "status": "working",
    "task": "horizon-15 · รับงาน",
-   "since": "2026-11-28T22:21:33+07:00",
+   "since": "2026-11-28T22:26:23+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "",
+   "task": "tide-67 · แจกงาน",
    "since": "2026-11-28T22:20:13+07:00",
    "model": "fable",
-   "brief": "tide-62",
+   "brief": "tide-67",
    "engine": "claude"
   },
   {
    "id": "111-ripple",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-24T16:39:20+07:00",
+   "since": "2026-11-28T22:26:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "112-swell",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-26T06:07:48+07:00",
+   "since": "2026-11-28T22:26:23+07:00",
    "model": "opus",
    "engine": "claude"
   },
@@ -194,13 +194,6 @@
   }
  ],
  "events": [
-  {
-   "ts": "2026-11-26T22:25:52+07:00",
-   "kind": "ack",
-   "from": "14-horizon",
-   "to": "143-sextant",
-   "brief": ""
-  },
   {
    "ts": "2026-11-26T22:29:29+07:00",
    "kind": "ack",
@@ -438,6 +431,34 @@
    "from": "14-horizon",
    "to": "10-monday",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:26:06+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:26:10+07:00",
+   "kind": "brief",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-67"
+  },
+  {
+   "ts": "2026-11-28T22:26:15+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "113-shore",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:26:19+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": ""
   }
  ],
  "projects": [
@@ -609,6 +630,28 @@
   }
  ],
  "briefs": [
+  {
+   "id": "tide-67",
+   "title": "tide-67",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": null,
+   "status": "open",
+   "since": "2026-11-28T22:26:10+07:00",
+   "updatedAt": "2026-11-28T22:26:10+07:00"
+  },
+  {
+   "id": "tide-66",
+   "title": "tide-66",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-28T22:26:06+07:00",
+   "updatedAt": "2026-11-28T22:26:06+07:00"
+  },
   {
    "id": "tide-62",
    "title": "tide-62",
