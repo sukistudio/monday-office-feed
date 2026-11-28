@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:27:02+07:00",
+ "updatedAt": "2026-11-28T22:27:41+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -17,7 +17,7 @@
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-67 · แจกงาน",
+   "task": "tide-67 · รับงาน",
    "since": "2026-11-28T22:20:13+07:00",
    "model": "fable",
    "brief": "tide-67",
@@ -97,9 +97,9 @@
   },
   {
    "id": "14-horizon",
-   "status": "working",
+   "status": "idle",
    "task": "รับงาน",
-   "since": "2026-11-28T22:15:17+07:00",
+   "since": "2026-11-28T22:27:41+07:00",
    "model": "fable",
    "brief": "horizon-15",
    "engine": "claude"
@@ -487,6 +487,20 @@
    "from": "10-monday",
    "to": "14-horizon",
    "brief": "horizon-15"
+  },
+  {
+   "ts": "2026-11-28T22:27:23+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:27:28+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "111-ripple",
+   "brief": "tide-67"
   }
  ],
  "projects": [
@@ -667,7 +681,7 @@
    "qa": null,
    "status": "open",
    "since": "2026-11-28T22:26:10+07:00",
-   "updatedAt": "2026-11-28T22:26:10+07:00"
+   "updatedAt": "2026-11-28T22:27:28+07:00"
   },
   {
    "id": "tide-66",
@@ -678,7 +692,7 @@
    "qa": "113-shore",
    "status": "open",
    "since": "2026-11-28T22:26:06+07:00",
-   "updatedAt": "2026-11-28T22:26:06+07:00"
+   "updatedAt": "2026-11-28T22:27:23+07:00"
   },
   {
    "id": "tide-62",
