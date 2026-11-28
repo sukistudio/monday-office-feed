@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:45:19+07:00",
+ "updatedAt": "2026-11-28T22:47:07+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
@@ -33,17 +33,17 @@
   },
   {
    "id": "112-swell",
-   "status": "working",
+   "status": "idle",
    "task": "tide-66 · ส่ง PROGRESS",
-   "since": "2026-11-28T22:26:23+07:00",
+   "since": "2026-11-28T22:47:07+07:00",
    "model": "opus",
    "engine": "claude"
   },
   {
    "id": "113-shore",
-   "status": "idle",
+   "status": "working",
    "task": "",
-   "since": "2026-11-26T01:43:38+07:00",
+   "since": "2026-11-28T22:47:07+07:00",
    "model": "sonnet",
    "engine": "claude"
   },
@@ -268,13 +268,6 @@
    "ts": "2026-11-28T22:11:53+07:00",
    "kind": "ack",
    "from": "142-chart",
-   "to": "14-horizon",
-   "brief": ""
-  },
-  {
-   "ts": "2026-11-28T22:15:56+07:00",
-   "kind": "hey",
-   "from": "143-sextant",
    "to": "14-horizon",
    "brief": ""
   },
