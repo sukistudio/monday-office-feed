@@ -1,26 +1,26 @@
 {
  "schemaVersion": 3,
  "source": "live",
- "updatedAt": "2026-11-28T22:28:21+07:00",
+ "updatedAt": "2026-11-28T22:28:59+07:00",
  "pending": 15,
  "pendingNow": 10,
  "pendingLater": 5,
  "members": [
   {
    "id": "10-monday",
-   "status": "working",
-   "task": "horizon-15 · รับงาน",
-   "since": "2026-11-28T22:26:23+07:00",
+   "status": "idle",
+   "task": "tide-66 · รับงาน",
+   "since": "2026-11-28T22:28:59+07:00",
    "model": "fable",
    "engine": "claude"
   },
   {
    "id": "11-tide",
    "status": "working",
-   "task": "tide-67 · รับงาน",
+   "task": "tide-66 · รับงาน",
    "since": "2026-11-28T22:20:13+07:00",
    "model": "fable",
-   "brief": "tide-67",
+   "brief": "tide-66",
    "engine": "claude"
   },
   {
@@ -34,7 +34,7 @@
   {
    "id": "112-swell",
    "status": "working",
-   "task": "",
+   "task": "tide-66 · รับงาน",
    "since": "2026-11-28T22:26:23+07:00",
    "model": "opus",
    "engine": "claude"
@@ -508,6 +508,34 @@
    "from": "10-monday",
    "to": "11-tide",
    "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:28:33+07:00",
+   "kind": "hey",
+   "from": "11-tide",
+   "to": "112-swell",
+   "brief": ""
+  },
+  {
+   "ts": "2026-11-28T22:28:38+07:00",
+   "kind": "ack",
+   "from": "11-tide",
+   "to": "10-monday",
+   "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:28:46+07:00",
+   "kind": "ack",
+   "from": "112-swell",
+   "to": "11-tide",
+   "brief": "tide-66"
+  },
+  {
+   "ts": "2026-11-28T22:28:50+07:00",
+   "kind": "ack",
+   "from": "10-monday",
+   "to": "11-tide",
+   "brief": "tide-66"
   }
  ],
  "projects": [
@@ -680,6 +708,17 @@
  ],
  "briefs": [
   {
+   "id": "tide-66",
+   "title": "tide-66",
+   "project": null,
+   "lead": "11-tide",
+   "assignees": [],
+   "qa": "113-shore",
+   "status": "open",
+   "since": "2026-11-28T22:26:06+07:00",
+   "updatedAt": "2026-11-28T22:28:38+07:00"
+  },
+  {
    "id": "tide-67",
    "title": "tide-67",
    "project": null,
@@ -689,17 +728,6 @@
    "status": "open",
    "since": "2026-11-28T22:26:10+07:00",
    "updatedAt": "2026-11-28T22:27:28+07:00"
-  },
-  {
-   "id": "tide-66",
-   "title": "tide-66",
-   "project": null,
-   "lead": "11-tide",
-   "assignees": [],
-   "qa": "113-shore",
-   "status": "open",
-   "since": "2026-11-28T22:26:06+07:00",
-   "updatedAt": "2026-11-28T22:27:23+07:00"
   },
   {
    "id": "tide-62",
